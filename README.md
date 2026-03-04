@@ -2,19 +2,30 @@
 
 AI agent skills for Israeli education, Bagrut exam preparation, and university admissions.
 
-Part of [Skills IL](https://github.com/skills-il) - curated AI agent skills for Israeli developers.
+Part of [Skills IL](https://github.com/skills-il) — curated AI agent skills for Israeli developers.
 
-## Structure
+## Skills
 
-Each subdirectory is a self-contained skill following the open [Agent Skills](https://github.com/anthropics/agent-skills) standard.
+*Coming soon — skills for Bagrut preparation, psychometric test practice, Israeli university admissions, and more.*
 
-## Adding Skills
+## Install
 
-1. Create a new directory with your skill name (kebab-case)
-2. Add `SKILL.md` with required frontmatter and instructions
-3. Add `SKILL_HE.md` with Hebrew content
-4. Open a PR - CI will validate your skill automatically
+```bash
+# Claude Code - install a specific skill
+claude install github:skills-il/education/<skill-name>
+
+# Or clone the full repo
+git clone https://github.com/skills-il/education.git
+```
+
+## Contributing
+
+See the org-level [Contributing Guide](https://github.com/skills-il/.github/blob/main/CONTRIBUTING.md).
 
 ## License
 
 MIT
+
+---
+
+Built with care in Israel.
