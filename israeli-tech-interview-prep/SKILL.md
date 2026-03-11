@@ -2,46 +2,57 @@
 name: israeli-tech-interview-prep
 description: >-
   Prepare for technical interviews at Israeli tech companies with company-specific
-  processes, question patterns, and Hebrew technical vocabulary. Use when getting ready
-  for interviews at Israeli startups, enterprises, or multinational R&D centers, practicing
-  system design questions relevant to Israeli tech products, or learning Hebrew terms used
-  in technical discussions. Covers interview rounds, coding challenges, behavioral questions,
-  and company culture expectations. Do NOT use for non-technical roles, academic interviews,
-  or interviews at companies outside Israel.
+  processes, question patterns, and Hebrew technical vocabulary. Use when getting
+  ready for interviews at Israeli startups, enterprises, or multinational R&D centers,
+  practicing system design questions relevant to Israeli tech products, or learning
+  Hebrew terms used in technical discussions. Covers interview rounds, coding challenges,
+  behavioral questions, and company culture expectations. Do NOT use for non-technical
+  roles, academic interviews, or interviews at companies outside Israel.
 license: MIT
-allowed-tools: "Bash(python:*) Read"
-compatibility: "Requires Claude Code or compatible AI coding agent"
+allowed-tools: Bash(python:*) Read
+compatibility: Requires Claude Code or compatible AI coding agent
 metadata:
   author: skills-il
   version: 1.0.0
   category: education
   tags:
     he:
-      - הכנה-לראיון
-      - ראיונות-הייטק
-      - קריירה
-      - תרגול-קוד
-      - עיצוב-מערכות
+    - הכנה-לראיון
+    - ראיונות-הייטק
+    - קריירה
+    - תרגול-קוד
+    - עיצוב-מערכות
     en:
-      - interview-prep
-      - tech-interviews
-      - career
-      - coding-practice
-      - system-design
+    - interview-prep
+    - tech-interviews
+    - career
+    - coding-practice
+    - system-design
   display_name:
-    he: "הכנה לראיונות הייטק ישראליים"
-    en: "Israeli Tech Interview Prep"
+    he: הכנה לראיונות הייטק ישראליים
+    en: Israeli Tech Interview Prep
   display_description:
-    he: "הכנה ממוקדת לראיונות טכניים בחברות הייטק ישראליות, כולל תהליכי גיוס, שאלות נפוצות ומונחים טכניים בעברית"
-    en: "Targeted preparation for technical interviews at Israeli tech companies, including hiring processes, common questions, and Hebrew technical terms"
+    he: >-
+      הכנה ממוקדת לראיונות טכניים בחברות הייטק ישראליות, כולל תהליכי גיוס, שאלות נפוצות
+      ומונחים טכניים בעברית
+    en: >-
+      Prepare for technical interviews at Israeli tech companies with company-specific
+      processes, question patterns, and Hebrew technical vocabulary. Use when getting
+      ready for interviews at Israeli startups, enterprises, or multinational R&D
+      centers, practicing system design questions relevant to Israeli tech products,
+      or learning Hebrew terms used in technical discussions. Covers interview rounds,
+      coding challenges, behavioral questions, and company culture expectations. Do
+      NOT use for non-technical roles, academic interviews, or interviews at companies
+      outside Israel.
   supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
+  - claude-code
+  - cursor
+  - github-copilot
+  - windsurf
+  - opencode
+  - codex
 ---
+
 
 # Israeli Tech Interview Prep
 
