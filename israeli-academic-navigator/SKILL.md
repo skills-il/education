@@ -1,14 +1,13 @@
 ---
 name: israeli-academic-navigator
 description: >-
-  Guide users through Israel's higher education system, university admissions,
-  scholarships, and student rights. Use when user asks about university
-  admission requirements, sekher calculation, scholarship options (milgot),
-  Perach tutoring program, student union (aguda) rights, comparing universities
-  vs colleges (michlalot), or navigating the Council for Higher Education (CHE)
-  system. Covers application timelines, financial aid, special accommodations
-  for soldiers and olim, and institutional comparisons. Do NOT use for Bagrut
-  exam preparation or psychometric test strategies.
+  Guide users through Israel's higher education system, university admissions, scholarships,
+  and student rights. Use when user asks about university admission requirements,
+  sekher calculation, scholarship options (milgot), Perach tutoring program, student
+  union (aguda) rights, comparing universities vs colleges (michlalot), or navigating
+  the Council for Higher Education (CHE) system. Covers application timelines, financial
+  aid, special accommodations for soldiers and olim, and institutional comparisons.
+  Do NOT use for Bagrut exam preparation or psychometric test strategies.
 license: MIT
 compatibility: No network required. Works offline with reference data.
 metadata:
@@ -17,36 +16,43 @@ metadata:
   category: education
   tags:
     he:
-      - אוניברסיטה
-      - קבלה
-      - מלגה
-      - זכויות-סטודנטים
-      - השכלה-גבוהה
-      - ישראל
+    - אוניברסיטה
+    - קבלה
+    - מלגה
+    - זכויות-סטודנטים
+    - השכלה-גבוהה
+    - ישראל
     en:
-      - university
-      - admission
-      - scholarship
-      - student-rights
-      - higher-education
-      - israel
+    - university
+    - admission
+    - scholarship
+    - student-rights
+    - higher-education
+    - israel
   display_name:
     he: ניווט אקדמי ישראלי
     en: Israeli Academic Navigator
   display_description:
     he: מדריך לקבלה לאוניברסיטאות, מלגות וזכויות סטודנטים בישראל
     en: >-
-      Guide to Israeli university admissions, scholarships (milgot), student
-      rights, and navigating the higher education system.
+      Guide users through Israel's higher education system, university admissions,
+      scholarships, and student rights. Use when user asks about university admission
+      requirements, sekher calculation, scholarship options (milgot), Perach tutoring
+      program, student union (aguda) rights, comparing universities vs colleges (michlalot),
+      or navigating the Council for Higher Education (CHE) system. Covers application
+      timelines, financial aid, special accommodations for soldiers and olim, and
+      institutional comparisons. Do NOT use for Bagrut exam preparation or psychometric
+      test strategies.
   supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
+  - claude-code
+  - cursor
+  - github-copilot
+  - windsurf
+  - opencode
+  - codex
+  - antigravity
 ---
+
 
 # Israeli Academic Navigator
 
