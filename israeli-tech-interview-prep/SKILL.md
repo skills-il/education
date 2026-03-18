@@ -13,7 +13,7 @@ allowed-tools: Bash(python:*) Read
 compatibility: Requires Claude Code or compatible AI coding agent
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: education
   tags:
     he:
@@ -208,6 +208,14 @@ Result: A tailored prep plan including 5 easy-to-medium coding problems with sec
 ### References
 - `references/israeli-tech-companies.md` - Interview processes for top 20+ Israeli tech companies including typical rounds, question types, tech stacks, and culture expectations. Consult when preparing for a specific company interview.
 - `references/hebrew-tech-vocabulary.md` - Hebrew technical terms commonly used in Israeli tech interviews with English equivalents. Consult when a user wants to prepare for Hebrew-language technical discussions.
+
+## Gotchas
+
+- Israeli tech interviews are typically 3-4 stages, not the 5-7 stage US FAANG process. Agents trained on US interview norms will over-prepare candidates for stages that do not exist at most Israeli companies.
+- Military service (especially in tech units like 8200, Mamram, or Unit 81) is commonly discussed in Israeli interviews, but agents should not coach candidates to fabricate or embellish military backgrounds. Interviewers from these units will immediately detect inaccuracies.
+- Israeli tech culture values directness ("chutzpah") and constructive disagreement. Agents trained on US behavioral interview norms (STAR method, diplomatic phrasing) may coach candidates to be overly polished, which can come across as inauthentic in Israeli interviews.
+- Home assignments are far more common at Israeli startups than at US companies. Agents may skip preparation for take-home projects or underestimate their weight in the evaluation. These assignments often carry more weight than a single coding round.
+- Salary negotiation in Israel is done in gross NIS monthly (not annual), and the total compensation package includes mandatory pension (6.5% employer), Keren Hishtalmut (7.5%), and Dmei Havra'a. Agents using US-style annual salary frameworks will miscalculate the true compensation value.
 
 ## Troubleshooting
 

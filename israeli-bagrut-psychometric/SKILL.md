@@ -16,7 +16,7 @@ allowed-tools: Bash(python:*) Read
 compatibility: Requires Claude Code or compatible AI coding agent
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: education
   tags:
     he:
@@ -287,6 +287,14 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 ### References
 - `references/bagrut-subjects-and-units.md` - Complete list of Bagrut subjects with available unit levels, mandatory vs. elective status, and bonus point rules. Consult when helping students plan their subject selections.
 - `references/university-admission-guide.md` - Overview of admission requirements and sekhem calculation methods for major Israeli universities. Consult when estimating admission chances or comparing programs.
+
+## Gotchas
+
+- The Israeli academic year runs October-July, not September-June (US) or September-July (UK). Agents may give incorrect advice about exam scheduling, application deadlines, and academic calendar planning.
+- The Psychometric Entrance Test (PET) scoring scale is 200-800, not 200-1600 like the US SAT. Agents may confuse the two scales, leading to wildly inaccurate score comparisons or admission estimates.
+- Bagrut bonus points for 5-unit subjects use three tiers (56-69: +10, 70-84: +12.5, 85-100: +20), not a flat bonus. Agents may apply a single bonus value or miss the tiered structure entirely.
+- Each Israeli university calculates the sekhem (admission score) using its own proprietary formula. Agents that assume a universal formula will produce inaccurate admission estimates. Always direct users to the specific university's calculator.
+- The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
 
 ## Troubleshooting
 
