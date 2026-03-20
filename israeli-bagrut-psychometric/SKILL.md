@@ -166,7 +166,7 @@ Exact dates vary each year. Check the official NITE website for current dates: `
 
 1. Register online at the NITE website (`https://www.nite.org.il`)
 2. Registration opens approximately 2-3 months before each test date
-3. Fee: approximately 580 NIS (may change; check NITE for current fee)
+3. Fee: 450 NIS (may change; check NITE for current fee)
 4. Test is offered in Hebrew, Arabic, Russian, French, Spanish, and combined Hebrew-English
 5. Results are available on the NITE website within 45 days of the test
 
