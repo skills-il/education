@@ -51,19 +51,20 @@ Each subject is studied at a level measured in study units (1-5 units). More uni
 **Minimum requirements for a Bagrut certificate:**
 - Mandatory subjects: Hebrew (5 units), English (3-5 units), Mathematics (3-5 units), History/Civics, Bible (Tanakh), Hebrew Literature
 - Minimum total: 21 study units
-- Passing grade: 56 in each subject
+- Passing grade: 55 in each subject
 
 #### Bonus Points for 5-Unit Subjects
 
-Students who take subjects at 5-unit level receive bonus points on their Bagrut average:
+Students who take subjects at 5-unit level receive bonus points on their Bagrut average. Bonuses are flat per subject (not tiered by score), but require a minimum grade of 60. Each university sets its own bonus amounts. Common values:
 
-| Score Range | Bonus Points |
-|-------------|-------------|
-| 56-69 | +10 |
-| 70-84 | +12.5 |
-| 85-100 | +20 |
+| Subject (5 units) | Typical Bonus |
+|-------------------|--------------|
+| Mathematics | +25 to +35 |
+| Physics, Chemistry, Biology, Computer Science | +20 to +25 |
+| English | +12.5 to +20 |
+| History, Literature, Bible, other subjects | +12.5 to +20 |
 
-These bonus points are added to the subject grade when calculating the Bagrut weighted average.
+**Important:** These bonus amounts vary by university. For example, the Technion awards +30 for Math and Physics, while other universities may use different values. Always check the target university's admissions page for exact bonus tables. The bonus is added to the subject grade when calculating the Bagrut weighted average.
 
 Use `scripts/bagrut-calculator.py` to compute grades:
 
@@ -106,19 +107,15 @@ The Psychometric Entrance Test (מבחן פסיכומטרי, or "Psychometri") i
 
 #### Test Dates
 
-NITE offers the PET approximately **4 times per year**:
-- April (אפריל)
-- July (יולי)
-- September (ספטמבר)
-- December (דצמבר)
+NITE offers the PET **multiple times per year** (typically 4-6 administrations). Common months include January, April, July, September, October, and December, but the exact schedule changes annually. Test dates may also be postponed due to security situations or holidays.
 
-Exact dates vary each year. Check the official NITE website for current dates: `https://www.nite.org.il`
+Always check the official NITE website for the current year's schedule: `https://www.nite.org.il/test-dates-and-prices/`
 
 #### Registration
 
 1. Register online at the NITE website (`https://www.nite.org.il`)
 2. Registration opens approximately 2-3 months before each test date
-3. Fee: 450 NIS (may change; check NITE for current fee)
+3. Fee: 665 NIS as of 2026 (may change; check NITE for current fee)
 4. Test is offered in Hebrew, Arabic, Russian, French, Spanish, and combined Hebrew-English
 5. Results are available on the NITE website within 45 days of the test
 
@@ -159,7 +156,7 @@ To maximize the sekhem:
 1. **Bagrut optimization:**
    - Take as many 5-unit subjects as possible for bonus points
    - Focus on magen grades (they are 30% of each subject grade)
-   - Score above 85 in 5-unit subjects for maximum +20 bonus
+   - Score above 60 in 5-unit subjects to qualify for bonus points
 
 2. **Psychometric optimization:**
    - Can retake the PET multiple times (universities use the best score)
@@ -202,10 +199,10 @@ User says: "I got 78 on my math Bagrut exam and my magen is 85. What's my final 
 
 Actions:
 1. Apply the formula: (78 x 0.7) + (85 x 0.3) = 54.6 + 25.5 = 80.1
-2. Since math is typically 5 units and the grade is 80.1 (in the 70-84 range), add 12.5 bonus points for the Bagrut average calculation
+2. Since math is typically 5 units and the grade is above 60, bonus points apply. The exact bonus depends on the target university (typically +25 to +35 for 5-unit math).
 3. Run: `python scripts/bagrut-calculator.py --mode subject --exam 78 --magen 85`
 
-Result: Final subject grade is 80.1. When calculating the Bagrut weighted average, this subject contributes 92.6 (80.1 + 12.5 bonus) if taken at 5 units.
+Result: Final subject grade is 80.1. When calculating the Bagrut weighted average for university admission, this subject receives a bonus (e.g., 80.1 + 25 = 105.1 at universities that award +25 for 5-unit math). Check the target university's bonus table for the exact value.
 
 ### Example 2: Plan Psychometric Preparation
 
@@ -244,7 +241,7 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 
 - The Israeli academic year runs October-July, not September-June (US) or September-July (UK). Agents may give incorrect advice about exam scheduling, application deadlines, and academic calendar planning.
 - The Psychometric Entrance Test (PET) scoring scale is 200-800, not 200-1600 like the US SAT. Agents may confuse the two scales, leading to wildly inaccurate score comparisons or admission estimates.
-- Bagrut bonus points for 5-unit subjects use three tiers (56-69: +10, 70-84: +12.5, 85-100: +20), not a flat bonus. Agents may apply a single bonus value or miss the tiered structure entirely.
+- Bagrut bonus points for 5-unit subjects are flat per subject (not tiered by score range), but the amount varies by university and subject. Agents may invent a tiered bonus system or use a single universal value. Always direct users to check their target university's specific bonus table.
 - Each Israeli university calculates the sekhem (admission score) using its own proprietary formula. Agents that assume a universal formula will produce inaccurate admission estimates. Always direct users to the specific university's calculator.
 - The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
 
