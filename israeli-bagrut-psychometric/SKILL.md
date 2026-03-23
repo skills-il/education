@@ -1,57 +1,9 @@
 ---
 name: israeli-bagrut-psychometric
-description: >-
-  Guide users through Israel's Bagrut matriculation exams and Psychometric
-  entrance test (PET) system. Use when user asks about bagrut study units,
-  psychometric scores, exam structure, university entrance requirements,
-  sekher calculation, or study planning. Covers the Bagrut grading formula
-  (70% exam + 30% magen), PET scoring (200-800), NITE registration, test
-  dates, and strategies for maximizing combined admission scores (sekhem).
-  Prevents confusion between the many overlapping terms and formulas in the
-  Israeli higher-education admissions process. Do NOT use for university-specific
-  admission thresholds, post-secondary academic advising, or non-Israeli
-  education systems.
+description: Guide users through Israel's Bagrut matriculation exams and Psychometric entrance test (PET) system. Use when user asks about bagrut study units, psychometric scores, exam structure, university entrance requirements, sekher calculation, or study planning. Covers the Bagrut grading formula (70% exam + 30% magen), PET scoring (200-800), NITE registration, test dates, and strategies for maximizing combined admission scores (sekhem). Prevents confusion between the many overlapping terms and formulas in the Israeli higher-education admissions process. Do NOT use for university-specific admission thresholds, post-secondary academic advising, or non-Israeli education systems.
 license: MIT
 allowed-tools: Bash(python:*) Read
 compatibility: Requires Claude Code or compatible AI coding agent
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: education
-  tags:
-    he:
-    - בגרות
-    - פסיכומטרי
-    - חינוך
-    - אוניברסיטה
-    - בחינות
-    - סכם
-    en:
-    - bagrut
-    - psychometric
-    - education
-    - university
-    - exams
-    - sekhem
-  display_name:
-    he: בגרות ופסיכומטרי
-    en: Israeli Bagrut & Psychometric
-  display_description:
-    he: >-
-      מדריך מקיף לבחינות הבגרות ולמבחן הפסיכומטרי בישראל, כולל נוסחאות חישוב
-      ציונים, מבנה הבחינות, הרשמה למאל"ב, ואסטרטגיות למיקסום ציון הסכם לקבלה
-      לאוניברסיטה
-    en: >-
-      Comprehensive guide to Israel's Bagrut matriculation exams and Psychometric
-      entrance test (PET), including grade calculation formulas, exam structure,
-      NITE registration, and strategies for maximizing university admission scores
-  supported_agents:
-  - claude-code
-  - cursor
-  - github-copilot
-  - windsurf
-  - opencode
-  - codex
 ---
 
 

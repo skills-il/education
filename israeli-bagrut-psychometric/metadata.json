@@ -1,0 +1,39 @@
+{
+  "author": "skills-il",
+  "version": "1.0.1",
+  "category": "education",
+  "tags": {
+    "he": [
+      "בגרות",
+      "פסיכומטרי",
+      "חינוך",
+      "אוניברסיטה",
+      "בחינות",
+      "סכם"
+    ],
+    "en": [
+      "bagrut",
+      "psychometric",
+      "education",
+      "university",
+      "exams",
+      "sekhem"
+    ]
+  },
+  "display_name": {
+    "he": "בגרות ופסיכומטרי",
+    "en": "Israeli Bagrut & Psychometric"
+  },
+  "display_description": {
+    "he": "מדריך מקיף לבחינות הבגרות ולמבחן הפסיכומטרי בישראל, כולל נוסחאות חישוב ציונים, מבנה הבחינות, הרשמה למאל\"ב, ואסטרטגיות למיקסום ציון הסכם לקבלה לאוניברסיטה",
+    "en": "Comprehensive guide to Israel's Bagrut matriculation exams and Psychometric entrance test (PET), including grade calculation formulas, exam structure, NITE registration, and strategies for maximizing university admission scores"
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex"
+  ]
+}
