@@ -1,0 +1,21 @@
+{
+  "display_name": {
+    "he": "חוקר גנאלוגיה ישראלית",
+    "en": "Israeli Genealogy Researcher"
+  },
+  "display_description": {
+    "he": "מדריך לחקר שורשים משפחתיים דרך מקורות מידע גנאלוגיים ישראליים ויהודיים. השתמשו כשאתם רוצים לאתר רשומות משפחתיות, לפענח מסמכים בעברית, לחקור שורשים בתקופה העות'מאנית, המנדט הבריטי או ישראל המודרנית, או לבנות עץ משפחה ממקורות ישראליים. הסקיל מכסה את IGRA, ארכיון המדינה, הספרייה הלאומית, הרבנות ומאגרים מוניציפליים ויוצר תוכניות מחקר מובנות. אל תשתמשו לחיפוש שמות קורבנות שואה ביד ושם, פענוח DNA, או גנאלוגיה שלא קשורה לישראל.",
+    "en": "Guide family history research using Israeli and Jewish genealogical data sources. Use when tracing Israeli or Jewish roots, finding family records, researching ancestors in Ottoman Palestine, British Mandate, or modern Israel, decoding Hebrew historical documents, or building a family tree from Israeli records. Covers IGRA, State Archives, NLI, rabbinate, and municipal records with structured research plans. Do NOT use for Yad Vashem Holocaust victim name searches, DNA ancestry interpretation, or non-Israeli genealogy."
+  },
+  "tags": {
+    "he": ["גנאלוגיה", "שורשים", "משפחה", "ארכיון", "עלייה", "רשומות", "עברית", "ישראל"],
+    "en": ["genealogy", "family-history", "ancestry", "archive", "immigration", "records", "hebrew", "israel"]
+  },
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "education",
+  "supported_agents": ["claude-code", "openclaw", "cursor", "windsurf", "copilot", "opencode"],
+  "openclaw": {
+    "install_command": "openclaw install @skills-il/israeli-genealogy-researcher"
+  }
+}
