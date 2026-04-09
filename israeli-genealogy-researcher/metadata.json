@@ -8,13 +8,39 @@
     "en": "Guide family history research using Israeli and Jewish genealogical data sources. Use when tracing Israeli or Jewish roots, finding family records, researching ancestors in Ottoman Palestine, British Mandate, or modern Israel, decoding Hebrew historical documents, or building a family tree from Israeli records. Covers IGRA, State Archives, NLI, rabbinate, and municipal records with structured research plans. Do NOT use for Yad Vashem Holocaust victim name searches, DNA ancestry interpretation, or non-Israeli genealogy."
   },
   "tags": {
-    "he": ["גנאלוגיה", "שורשים", "משפחה", "ארכיון", "עלייה", "רשומות", "עברית", "ישראל"],
-    "en": ["genealogy", "family-history", "ancestry", "archive", "immigration", "records", "hebrew", "israel"]
+    "he": [
+      "גנאלוגיה",
+      "שורשים",
+      "משפחה",
+      "ארכיון",
+      "עלייה",
+      "רשומות",
+      "עברית",
+      "ישראל"
+    ],
+    "en": [
+      "genealogy",
+      "family-history",
+      "ancestry",
+      "archive",
+      "immigration",
+      "records",
+      "hebrew",
+      "israel"
+    ]
   },
   "author": "skills-il",
   "version": "1.0.0",
   "category": "education",
-  "supported_agents": ["claude-code", "openclaw", "cursor", "windsurf", "copilot", "opencode"],
+  "supported_agents": [
+    "claude-code",
+    "openclaw",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "opencode",
+    "gemini-cli"
+  ],
   "openclaw": {
     "install_command": "openclaw install @skills-il/israeli-genealogy-researcher"
   }
