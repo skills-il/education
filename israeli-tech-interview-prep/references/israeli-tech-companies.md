@@ -2,7 +2,7 @@
 
 Detailed interview processes for top Israeli tech companies. Includes typical rounds, question types, tech stacks, and cultural expectations.
 
-**Last updated**: Q1 2026
+**Last updated**: Q2 2026
 
 ---
 
@@ -66,7 +66,7 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
 - **What they look for**: Security awareness, Windows/AD knowledge (for some roles), solid engineering fundamentals
 - **Tips**: If interviewing for a security-focused role, prepare for questions about authentication, authorization, privilege escalation, and identity management.
 
-### Mobileye (Intel)
+### Mobileye (NASDAQ: MBLY, majority-owned by Intel)
 
 - **HQ**: Jerusalem
 - **Focus**: Autonomous driving, ADAS, computer vision

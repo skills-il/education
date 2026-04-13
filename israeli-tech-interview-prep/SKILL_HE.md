@@ -10,36 +10,6 @@ description: >-
 license: MIT
 allowed-tools: "Bash(python:*) Read"
 compatibility: "דורש Claude Code או סוכן AI תואם"
-metadata:
-  author: skills-il
-  version: 1.0.0
-  category: education
-  tags:
-    he:
-      - הכנה-לראיון
-      - ראיונות-הייטק
-      - קריירה
-      - תרגול-קוד
-      - עיצוב-מערכות
-    en:
-      - interview-prep
-      - tech-interviews
-      - career
-      - coding-practice
-      - system-design
-  display_name:
-    he: "הכנה לראיונות הייטק ישראליים"
-    en: "Israeli Tech Interview Prep"
-  display_description:
-    he: "הכנה ממוקדת לראיונות טכניים בחברות הייטק ישראליות, כולל תהליכי גיוס, שאלות נפוצות ומונחים טכניים בעברית"
-    en: "Targeted preparation for technical interviews at Israeli tech companies, including hiring processes, common questions, and Hebrew technical terms"
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
 ---
 
 # הכנה לראיונות הייטק ישראליים
@@ -204,6 +174,17 @@ python scripts/interview-question-generator.py --role fullstack --difficulty har
 - תרבות ההייטק הישראלית מעריכה ישירות ("חוצפה") ומחלוקות בונות. סוכנים שהתאמנו על נורמות ראיונות התנהגותיים אמריקאיים (שיטת STAR, ניסוח דיפלומטי) עלולים לאמן מועמדים להיות מלוטשים מדי, מה שעלול להיתפס כלא אותנטי בראיונות ישראליים.
 - מטלות בית נפוצות הרבה יותר בסטארטאפים ישראליים מאשר בחברות אמריקאיות. סוכנים עלולים לדלג על הכנה לפרויקטים שנלקחים הביתה או לזלזל במשקלם בהערכה. מטלות אלו לעיתים קרובות שוקלות יותר מסבב קוד בודד.
 - משא ומתן על שכר בישראל נעשה בברוטו חודשי בש"ח (לא שנתי), וחבילת התגמול הכוללת כוללת פנסיה חובה (6.5% מעסיק), קרן השתלמות (7.5%) ודמי הבראה. סוכנים שמשתמשים במסגרת שכר שנתי בסגנון אמריקאי יחשבו את ערך התגמול האמיתי בצורה שגויה.
+
+## קישורי עזר
+
+| מקור | קישור | מה לבדוק |
+|------|-------|----------|
+| Glassdoor | https://www.glassdoor.com | שאלות ראיון ותהליכים שדווחו על ידי מועמדים בחברות ישראליות ספציפיות (חיפוש לפי שם חברה) |
+| LinkedIn Jobs ישראל | https://www.linkedin.com/jobs/search/?geoId=101620260 | משרות פעילות בהייטק הישראלי, גודל חברות, פרופילים של עובדים ויעדי נטוורקינג |
+| Ethka (שקיפות שכר) | https://www.ethka.com | שכר אמיתי בהייטק הישראלי לפי חברה, תפקיד ורמת ותק, לצורך הכנה למשא ומתן |
+| AllJobs Hi-Tech | https://www.alljobs.co.il/hitech/ | משרות פעילות בהייטק הישראלי עם דרישות התפקיד ופרטי הסטאק |
+| כלכליסט טק | https://www.calcalist.co.il/home/0,7340,L-3671,00.html | חדשות טק בעברית, רכישות חברות והודעות גיוס |
+| Geektime | https://www.geektime.com | כיסוי של אקוסיסטם ההייטק הישראלי, סבבי גיוס וסקירות מעמיקות של חברות |
 
 ## פתרון בעיות
 

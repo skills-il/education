@@ -170,6 +170,17 @@ Result: A tailored prep plan including 5 easy-to-medium coding problems with sec
 - Home assignments are far more common at Israeli startups than at US companies. Agents may skip preparation for take-home projects or underestimate their weight in the evaluation. These assignments often carry more weight than a single coding round.
 - Salary negotiation in Israel is done in gross NIS monthly (not annual), and the total compensation package includes mandatory pension (6.5% employer), Keren Hishtalmut (7.5%), and Dmei Havra'a. Agents using US-style annual salary frameworks will miscalculate the true compensation value.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Glassdoor | https://www.glassdoor.com | Candidate-reported interview questions and processes for specific Israeli companies (search by company name) |
+| LinkedIn Jobs Israel | https://www.linkedin.com/jobs/search/?geoId=101620260 | Current Israeli tech job listings, company sizes, employee profiles, and networking targets |
+| Ethka (wage transparency) | https://www.ethka.com | Actual Israeli tech salaries by company, role, and seniority for negotiation preparation |
+| AllJobs Tech | https://www.alljobs.co.il/hitech/ | Active Israeli tech job listings with role requirements and tech stack details |
+| Calcalist Tech | https://www.calcalist.co.il/home/0,7340,L-3671,00.html | Hebrew-language tech news, company acquisitions, and hiring announcements |
+| Geektime | https://www.geektime.com | Israeli tech ecosystem coverage, funding rounds, and company deep-dives |
+
 ## Troubleshooting
 
 ### Error: "The company I'm interviewing at is not in the reference data"

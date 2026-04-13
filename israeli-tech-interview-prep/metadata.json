@@ -1,6 +1,6 @@
 {
   "author": "skills-il",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "category": "education",
   "tags": {
     "he": [
@@ -23,7 +23,7 @@
     "en": "Israeli Tech Interview Prep"
   },
   "display_description": {
-    "he": "הכנה ממוקדת לראיונות טכניים בחברות הייטק ישראליות, כולל תהליכי גיוס, שאלות נפוצות ומונחים טכניים בעברית",
+    "he": "הכנה לראיונות טכניים בחברות הייטק ישראליות עם תהליכי גיוס ייחודיים לכל חברה, דפוסי שאלות נפוצים ומונחים טכניים בעברית. השתמש כשמתכוננים לראיון בסטארטאפ ישראלי, חברה גדולה, או מרכז פיתוח של חברה בינלאומית, מתרגלים עיצוב מערכות שרלוונטי למוצרים ישראליים, או לומדים מונחים טכניים בעברית לפני דיון טכני. מכסה סבבי ראיון, אתגרי קוד, שאלות התנהגותיות וציפיות תרבות ארגונית. אל תשתמש לתפקידים לא טכניים, ראיונות אקדמיים, או ראיונות בחברות מחוץ לישראל.",
     "en": "Prepare for technical interviews at Israeli tech companies with company-specific processes, question patterns, and Hebrew technical vocabulary. Use when getting ready for interviews at Israeli startups, enterprises, or multinational R&D centers, practicing system design questions relevant to Israeli tech products, or learning Hebrew terms used in technical discussions. Covers interview rounds, coding challenges, behavioral questions, and company culture expectations. Do NOT use for non-technical roles, academic interviews, or interviews at companies outside Israel."
   },
   "supported_agents": [
