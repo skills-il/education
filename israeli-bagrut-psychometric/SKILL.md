@@ -245,6 +245,17 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 - Each Israeli university calculates the sekhem (admission score) using its own proprietary formula. Agents that assume a universal formula will produce inaccurate admission estimates. Always direct users to the specific university's calculator.
 - The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
 
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Education - Bagrut | https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx | Official bagrut exam schedule, subject weights, grading |
+| NITE (Psychometric Entrance Test) | https://www.nite.org.il/en | Official psychometric test dates, registration, preparation materials |
+| NITE - sample questions | https://www.nite.org.il/practice-tests/?lang=en | Practice psychometric tests with answer keys |
+| Council for Higher Education | https://che.org.il/en/ | University admission thresholds, accredited degree programs |
+| Kol Zchut - bagrut rights | https://www.kolzchut.org.il/he/בחינות_בגרות | Accommodations, retake rights, recognition of foreign diplomas |
+
 ## Troubleshooting
 
 ### Error: "My calculated Bagrut average doesn't match my school's number"
