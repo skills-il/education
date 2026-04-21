@@ -37,9 +37,13 @@
     "openclaw",
     "cursor",
     "windsurf",
-    "copilot",
+    "github-copilot",
     "opencode",
-    "gemini-cli"
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
   ],
   "openclaw": {
     "install_command": "openclaw install @skills-il/israeli-genealogy-researcher"
