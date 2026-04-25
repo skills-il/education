@@ -29,7 +29,7 @@ If a specific company is named, consult `references/israeli-tech-companies.md` f
 Based on the target company and role, outline the typical interview process:
 
 1. **Phone screen / HR call** (20-30 minutes): Motivation, salary expectations, availability. In Israel, this is often very casual and in Hebrew.
-2. **Technical phone screen** (45-60 minutes): Usually one coding question, sometimes via CoderPad or similar. Medium difficulty.
+2. **Technical phone screen** (45-60 minutes): Usually one coding question via a shared code-pair platform (CoderPad, HackerRank, CodeSignal, or sometimes a plain Google Doc at smaller startups). Medium difficulty.
 3. **Home assignment** (common at Israeli startups, less so at multinationals): Typically 4-8 hours of work, due within 3-7 days. Often a small project or system design document.
 4. **On-site / virtual day** (3-5 hours): Multiple rounds including coding, system design, and behavioral/cultural fit.
 5. **Final round** (Senior+ roles): Architecture discussion, leadership assessment, or meeting with VP/CTO.
@@ -85,7 +85,21 @@ Consult `references/hebrew-tech-vocabulary.md` for Hebrew terms commonly used in
 
 While most technical interviews in Israel are conducted in a mix of Hebrew and English, being comfortable with Hebrew technical terms shows cultural fit and comfort.
 
-### Step 6: Prepare for Cultural Fit / Behavioral Questions
+### Step 6: Prepare for AI Engineering Questions (2026)
+
+As of 2026, AI engineering questions are standard across most Israeli tech roles, not just ML-specialized teams. Even backend, frontend, and platform candidates are commonly asked about LLM integration patterns. Prepare for:
+
+1. **LLM integration basics**: How to wrap an LLM call with retries, timeouts, structured output (JSON mode, tool calls), and cost controls. Be able to explain token-based pricing and how to estimate spend.
+2. **RAG (Retrieval-Augmented Generation)**: When to use RAG vs. fine-tuning vs. prompt engineering. Components: chunking strategy, embedding model choice, vector store (pgvector, Pinecone, Weaviate, Qdrant), retrieval (top-k, hybrid BM25+vector, reranking), context assembly.
+3. **Vector databases**: Tradeoffs between pgvector (Postgres-native, simple), Pinecone (managed, scalable), and self-hosted options. Index types (HNSW vs. IVF) and recall vs. latency tradeoffs.
+4. **Prompt engineering basics**: System vs. user messages, few-shot examples, chain-of-thought, structured outputs, why prompt injection matters and how to mitigate it (input sanitization, output guardrails, role separation).
+5. **Evaluation**: How to evaluate an LLM feature without ground truth (LLM-as-judge, golden sets, regression tests, A/B testing). Israeli candidates are often asked to design an eval harness for a fictional product feature.
+6. **Agents and tool use**: When to use a single LLM call vs. an agent loop, the cost/latency/reliability tradeoffs of multi-step agents, and how to bound cost (max steps, budget caps).
+7. **Hebrew-language considerations**: Most general-purpose LLMs are weaker in Hebrew than English. Candidates may be asked how they would build a product that works well in Hebrew (model choice, RTL handling, tokenization quirks, evaluation in Hebrew).
+
+This section is now a near-universal expectation at Israeli AI-forward companies (AI21 Labs, Lightricks, Run:ai, Tabnine), at the multinational R&D centers (Google, Microsoft, Meta, Apple), and at most growth-stage startups that have shipped any LLM-powered feature.
+
+### Step 7: Prepare for Cultural Fit / Behavioral Questions
 
 Israeli tech interviews include behavioral components that differ from US-style interviews:
 
@@ -101,7 +115,7 @@ Common behavioral questions in Israeli interviews:
 - "How do you handle a situation where you think the team's approach is wrong?"
 - "Tell me about your military/national service" (for Israeli candidates)
 
-### Step 7: Run Mock Interview Sessions
+### Step 8: Run Mock Interview Sessions
 
 Conduct practice interview sessions with the user:
 
@@ -169,17 +183,23 @@ Result: A tailored prep plan including 5 easy-to-medium coding problems with sec
 - Israeli tech culture values directness ("chutzpah") and constructive disagreement. Agents trained on US behavioral interview norms (STAR method, diplomatic phrasing) may coach candidates to be overly polished, which can come across as inauthentic in Israeli interviews.
 - Home assignments are far more common at Israeli startups than at US companies. Agents may skip preparation for take-home projects or underestimate their weight in the evaluation. These assignments often carry more weight than a single coding round.
 - Salary negotiation in Israel is done in gross NIS monthly (not annual), and the total compensation package includes mandatory pension (6.5% employer), Keren Hishtalmut (7.5%), and Dmei Havra'a. Agents using US-style annual salary frameworks will miscalculate the true compensation value.
+- 2026 salary bands (gross monthly NIS, software engineering): junior 22-32K, mid-level 32-50K, senior 50-75K, staff/principal 75-110K+. Multinational R&D centers (Google, Meta, Apple) sit at the top of each band and add meaningful RSU equity; startups offer wider stock-option grants but with higher dilution risk. Always cross-check with levels.fyi Israel and Ethka before naming a number.
+- The Israeli tech market post-October 2023 had a wave of layoffs and restructuring (Wix, Riskified, Lightricks, several cybersecurity firms), so candidates may be asked about company financial health and runway. It is reasonable for candidates to ask interviewers about cash position, recent funding, and headcount trajectory.
+- Many Israeli companies now require AI engineering literacy even for non-ML roles. Treat "have you shipped a feature using an LLM?" as a near-default question in 2026, comparable to "have you used Git?" a decade ago.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | Glassdoor | https://www.glassdoor.com | Candidate-reported interview questions and processes for specific Israeli companies (search by company name) |
+| levels.fyi Israel | https://www.levels.fyi/?country=105 | Self-reported total compensation by level for Israeli tech roles (base, equity, bonus); useful for multinational R&D centers in particular |
 | LinkedIn Jobs Israel | https://www.linkedin.com/jobs/search/?geoId=101620260 | Current Israeli tech job listings, company sizes, employee profiles, and networking targets |
 | Ethka (wage transparency) | https://www.ethka.com | Actual Israeli tech salaries by company, role, and seniority for negotiation preparation |
 | AllJobs Tech | https://www.alljobs.co.il/hitech/ | Active Israeli tech job listings with role requirements and tech stack details |
-| Calcalist Tech | https://www.calcalist.co.il/home/0,7340,L-3671,00.html | Hebrew-language tech news, company acquisitions, and hiring announcements |
+| Calcalist Tech | https://www.calcalist.co.il/home/0,7340,L-3671,00.html | Hebrew-language tech news, company acquisitions, layoffs, and hiring announcements |
 | Geektime | https://www.geektime.com | Israeli tech ecosystem coverage, funding rounds, and company deep-dives |
+| TheMarker Tech | https://www.themarker.com/technation | Hebrew-language Israeli tech business coverage, useful for company financial-health context before negotiation |
+| Glassdoor Israel salaries | https://www.glassdoor.com/Salaries/israel-software-engineer-salary-SRCH_IL.0,6_IN119_KO7,24.htm | Aggregate base salary data by role for Israeli software engineers |
 
 ## Troubleshooting
 
