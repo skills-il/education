@@ -94,12 +94,26 @@ Monthly amounts (2026):
 
 - Paid on the 20th of each month, automatically
 - No application needed (starts automatically after birth registration)
+- Amounts are CPI-adjusted each January, always confirm against the Bituach Leumi rates page for the current year
 
 **Child Savings Plan (Chisachon LeKol Yeled):**
 - Bituach Leumi deposits 58 NIS/month per child into a savings plan
 - Parents can opt to add another 58 NIS/month from the child allowance (total 116 NIS/month)
 - Money is available to the child at age 18
 - Parents choose between bank deposit or provident fund (kupat gemel) via the Bituach Leumi website
+
+### Step 5b: Income Tax Credit Points (Nekudot Zikui) for Parents
+
+Working parents receive additional tax credit points (nekudat zikui) per child. This is a tax benefit, not a direct payment, and reduces the parent's monthly income tax. Each credit point in 2026 is worth approximately 242 NIS/month.
+
+**Mother's credit points per child (typical structure):**
+- Child age 0 (year of birth): 1.5 points
+- Child ages 1-5: 2.5 points
+- Child ages 6-12: 1 point (resumes for working mother of children up to age 18 in some cases)
+
+**Father's credit points per child:** 1 point per child up to age 5 if both parents claim, or transferable in single-parent families.
+
+Single parents (hore yachid) receive additional points beyond the standard split. Always verify the current point allocation and the per-point shekel value via the Israel Tax Authority (`https://www.gov.il/he/departments/israel_tax_authority`) before quoting an exact monthly tax saving.
 
 ### Step 6: Special Education (Chinuch Meyuchad) -- Ages 3-18
 
@@ -159,6 +173,15 @@ This is an external government body (not school-based) that determines:
 - Pull-out enrichment programs typically 1 day/week
 - Full-time gifted classes exist in some cities (Tel Aviv, Jerusalem, Haifa)
 
+### Step 8: Helpline and Government Information
+
+When parents need to talk to a human or escalate, point them to these official entry points:
+
+- **Helpline 8255 (asterisk-8255 / *8255):** the unified Ministry of Welfare and Social Affairs hotline for childcare, daycare subsidies, social services, and family welfare. One short Hebrew number, replaces the old separate ministry numbers.
+- **Misrad HaCalcala (Ministry of Economy and Industry), Working Parents Hotline:** for questions about subsidized daycare placements (ma'on yom) and the recognized facilities list.
+- **Ministry of Welfare daycare portal:** `https://www.gov.il/he/departments/topics/childcare_subsidy` for subsidy eligibility, online applications, and the recognized facility lookup.
+- **Kol Zchut (childcare entitlements portal):** `https://www.kolzchut.org.il/he/ילדים_ומשפחה` for plain-language summaries of every benefit, with appeal templates and recent updates.
+
 ## Examples
 
 ### Example 1: First-time Parent with Newborn
@@ -195,6 +218,19 @@ Result: Parent understands the process, their rights, and how to prepare.
 ### References
 - `references/childcare-timeline.md` -- Complete timeline of registrations, deadlines, and milestones from birth to age 12. Consult when creating a personalized plan for parents.
 - `references/special-education-rights.md` -- Detailed guide to the Va'ada process, parental rights, appeal procedures, and available services. Consult when advising on special education.
+
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|---------------|
+| Ministry of Welfare - Childcare Subsidy | https://www.gov.il/he/departments/topics/childcare_subsidy | Daycare subsidy eligibility, recognized facilities, online application |
+| Ministry of Welfare daycare portal (employment.molsa) | https://employment.molsa.gov.il | Ma'on yom subsidy applications and status |
+| Bituach Leumi - Child Allowance | https://www.btl.gov.il/benefits/children/Pages/default.aspx | Current monthly amounts, payment schedule, savings plan options |
+| Israel Tax Authority - Credit Points | https://www.gov.il/he/departments/israel_tax_authority | Annual nekudat zikui value and per-child allocation |
+| Ministry of Education - Gan Registration | https://edu.gov.il/owlheb/preschool/Pages/preschool.aspx | Compulsory education ages, registration calendar, religious streams |
+| Ministry of Education - Special Education | https://edu.gov.il/special/Pages/main.aspx | Va'adat Zakaut V'Iyun procedures, parental rights, service basket |
+| Kol Zchut - Children and Family | https://www.kolzchut.org.il/he/ילדים_ומשפחה | Plain-language entitlements, appeal templates, recent updates |
+| Helpline *8255 (Ministry of Welfare) | https://www.gov.il/he/departments/general/molsa-call-center | Unified hotline for daycare, social services, family welfare |
 
 ## Gotchas
 
