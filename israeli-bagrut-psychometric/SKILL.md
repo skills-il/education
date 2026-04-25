@@ -26,6 +26,17 @@ Ask clarifying questions if the goal is unclear. A student planning their Bagrut
 
 The Bagrut (בגרות) is Israel's national matriculation exam system administered by the Ministry of Education. Students take exams during grades 10-12.
 
+#### Recent Reform (2024-25)
+
+The Bagrut underwent significant changes during the 2024-25 school year (תשפ"ה). Key shifts students should be aware of:
+
+- **English Bagrut "matzav 2"** continues as the standard format, with the modular structure (oral, listening, reading, writing) replacing the older single-exam approach. Students assemble units across grades 10-12.
+- **5-yedaot (5-unit) requirements** were partially relaxed for select subjects following pandemic-era and wartime adjustments. Some subjects now allow alternative magen pathways or project-based components in place of part of the external exam. Always verify per-subject rules on the Ministry of Education's current-year exam page (`https://edu.gov.il/mazkirut_pedagogit/BagrutExams`).
+- **Oral and project components** count toward more subjects, not only languages. The 70/30 exam-to-magen split still applies to the headline number, but the "exam" component is increasingly a portfolio of mini-exams + project work in subjects like history, civics, and computer science.
+- **Wartime and emergency accommodations** introduced in 2023-24 (extended deadlines, oral substitutions for written exams, makeup sessions) carried into 2024-25 for students from evacuated communities or with reservist parents. Students should ask their school counselor whether they qualify.
+
+When in doubt, treat the formula and unit numbers in this skill as the standard baseline and direct the student to the Ministry's current-year subject page for any subject-specific deviations.
+
 #### Bagrut Grade Formula
 
 Each subject's final Bagrut grade is calculated as:
@@ -107,7 +118,7 @@ The Psychometric Entrance Test (מבחן פסיכומטרי, or "Psychometri") i
 
 #### Test Dates
 
-NITE offers the PET **multiple times per year** (typically 4-6 administrations). Common months include January, April, July, September, October, and December, but the exact schedule changes annually. Test dates may also be postponed due to security situations or holidays.
+NITE offers the PET **multiple times per year** (typically 4-6 administrations). Common months include January, April, July, September, October, and December, but the exact schedule changes annually. Test dates may also be postponed due to security situations or holidays. The 2026 cycle continues to follow this pattern, but specific dates are announced 6-9 months in advance and shift year-over-year.
 
 Always check the official NITE website for the current year's schedule: `https://www.nite.org.il/test-dates-and-prices/`
 
@@ -115,9 +126,10 @@ Always check the official NITE website for the current year's schedule: `https:/
 
 1. Register online at the NITE website (`https://www.nite.org.il`)
 2. Registration opens approximately 2-3 months before each test date
-3. Fee: 665 NIS as of 2026 (may change; check NITE for current fee)
+3. Fee: approximately 665 NIS as of 2026 (subject to annual NITE updates; always confirm on the test-dates-and-prices page above)
 4. Test is offered in Hebrew, Arabic, Russian, French, Spanish, and combined Hebrew-English
 5. Results are available on the NITE website within 45 days of the test
+6. Late registration carries an additional surcharge; early-registration discounts may apply for some sittings
 
 #### Available Languages
 
