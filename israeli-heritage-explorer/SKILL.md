@@ -39,7 +39,7 @@ https://api.nli.org.il/openlibrary/search
 
 | MCP Server | What it provides |
 |------------|-----------------|
-| [nli-search](https://agentskills.co.il/he/mcps/nli-search) | Natural language search, image retrieval via IIIF, media streaming, batch result processing |
+| [nli-search](https://agentskills.co.il/he/mcp/nli-search) | Natural language search, image retrieval via IIIF, media streaming, batch result processing |
 
 ### Search Parameters
 

@@ -39,7 +39,7 @@ https://api.nli.org.il/openlibrary/search
 
 | שרת MCP | מה הוא נותן |
 |---------|------------|
-| [nli-search](https://agentskills.co.il/he/mcps/nli-search) | חיפוש בשפה טבעית, שליפת תמונות IIIF, סטרימינג מדיה, עיבוד תוצאות בקבוצות |
+| [nli-search](https://agentskills.co.il/he/mcp/nli-search) | חיפוש בשפה טבעית, שליפת תמונות IIIF, סטרימינג מדיה, עיבוד תוצאות בקבוצות |
 
 ### פרמטרים לחיפוש
 
