@@ -38,7 +38,7 @@
 
 ## Central Zionist Archives
 
-- **URL:** https://www.czarchives.org.il/
+- **URL:** http://www.zionistarchives.org.il
 - **Records:** Jewish Agency files, aliyah records, kibbutz records, organizational records
 - **Access:** Free online catalog, reading room by appointment
 - **Strengths:** Best source for pre-state immigration records and Zionist organization files
@@ -68,14 +68,27 @@ Major city archives:
 
 ## IDF Archives (Ministry of Defense)
 
-- **URL:** https://www.archives.mod.gov.il/
+- **URL:** https://archives.mod.gov.il/sites/English/Pages/default.aspx
 - **Records:** Military service records
 - **Access:** Restricted; family members can submit formal requests
 - **Limitations:** Long processing times; some records permanently classified
 
+## Cemetery and Gravestone Records
+
+- **JOWBR (JewishGen Online Worldwide Burial Registry):** https://www.jewishgen.org/databases/cemetery/ (free; worldwide Jewish burial records including many Israeli cemeteries)
+- **JewishGen "Locating Burial Records in Israel" InfoFile:** https://www.jewishgen.org/infofiles/il-burial_records.htm (guide to which Israeli cemetery is indexed where)
+- **BillionGraves:** https://billiongraves.com/ (crowd-sourced GPS-tagged headstone photos and transcriptions)
+- **Chevra Kadisha cemetery databases:** burial-society plot registers; many large Israeli chevra kadisha bodies publish online plot lookups, others answer by phone request
+
+## Genealogy Organizations and Family-Name Databases
+
+- **IGS (Israel Genealogical Society):** https://www.igs.org.il/ (membership organization with regional branches; distinct from IGRA)
+- **Beit Hatfutsot / ANU - Museum of the Jewish People:** Jewish family-name and genealogy databases (formerly the Douglas E. Goldman Jewish Genealogy Center)
+
 ## Additional Resources
 
-- **Yad Vashem Names Database:** https://yvng.yadvashem.org/ (Holocaust victims)
 - **MyHeritage:** https://www.myheritage.com/ (Israeli-founded, large database)
 - **Geni:** https://www.geni.com/ (collaborative family trees)
 - **FamilySearch:** https://www.familysearch.org/ (LDS Church, includes some Israeli records)
+
+Note: This skill does not cover Yad Vashem Holocaust victim name searches. For Holocaust victim research, use Yad Vashem's Central Database of Shoah Victims' Names directly.
