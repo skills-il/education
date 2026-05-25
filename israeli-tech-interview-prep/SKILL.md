@@ -97,7 +97,7 @@ As of 2026, AI engineering questions are standard across most Israeli tech roles
 6. **Agents and tool use**: When to use a single LLM call vs. an agent loop, the cost/latency/reliability tradeoffs of multi-step agents, and how to bound cost (max steps, budget caps).
 7. **Hebrew-language considerations**: Most general-purpose LLMs are weaker in Hebrew than English. Candidates may be asked how they would build a product that works well in Hebrew (model choice, RTL handling, tokenization quirks, evaluation in Hebrew).
 
-This section is now a near-universal expectation at Israeli AI-forward companies (AI21 Labs, Lightricks, Run:ai, Tabnine), at the multinational R&D centers (Google, Microsoft, Meta, Apple), and at most growth-stage startups that have shipped any LLM-powered feature.
+This section is now a near-universal expectation at Israeli AI-forward companies (AI21 Labs, Lightricks, Run:ai now under Nvidia, Tabnine, D-ID, Pendo's Israeli R&D, Hour One), at the multinational R&D centers (Google, Microsoft, Meta, Apple, Nvidia's expanded Israel ops post-Run:ai), and at most growth-stage startups that have shipped any LLM-powered feature.
 
 ### Step 7: Prepare for Cultural Fit / Behavioral Questions
 
@@ -184,7 +184,9 @@ Result: A tailored prep plan including 5 easy-to-medium coding problems with sec
 - Home assignments are far more common at Israeli startups than at US companies. Agents may skip preparation for take-home projects or underestimate their weight in the evaluation. These assignments often carry more weight than a single coding round.
 - Salary negotiation in Israel is done in gross NIS monthly (not annual), and the total compensation package includes mandatory pension (6.5% employer), Keren Hishtalmut (7.5%), and Dmei Havra'a. Agents using US-style annual salary frameworks will miscalculate the true compensation value.
 - 2026 salary bands (gross monthly NIS, software engineering): junior 22-32K, mid-level 32-50K, senior 50-75K, staff/principal 75-110K+. Multinational R&D centers (Google, Meta, Apple) sit at the top of each band and add meaningful RSU equity; startups offer wider stock-option grants but with higher dilution risk. Always cross-check with levels.fyi Israel and Ethka before naming a number.
-- The Israeli tech market post-October 2023 had a wave of layoffs and restructuring (Wix, Riskified, Lightricks, several cybersecurity firms), so candidates may be asked about company financial health and runway. It is reasonable for candidates to ask interviewers about cash position, recent funding, and headcount trajectory.
+- The Israeli tech market post-October 2023 had a wave of layoffs and restructuring (Wix, Riskified, Lightricks, AI21 Labs, several cybersecurity firms), and the 2024-2025 partial recovery has been uneven. Candidates may be asked about company financial health and runway. It is reasonable for candidates to ask interviewers about cash position, recent funding round date+size, and headcount trajectory. Calcalist Tech and Geektime track the Israeli layoff cycle in near real time.
+
+- Reserve duty (miluim) under the Iron Swords war is a real interview-scheduling factor in 2026. Candidates returning from miluim should expect interviewers to ask "when are you fully available" or "are you still on stand-by". Israeli employers must accommodate miluim by law (Defense Service Law), but startups with tight timelines may delay start dates around it. It is fair game to ask about a company's experience employing miluimnikim and any flexibility on Israeli holidays around the war calendar.
 - Many Israeli companies now require AI engineering literacy even for non-ML roles. Treat "have you shipped a feature using an LLM?" as a near-default question in 2026, comparable to "have you used Git?" a decade ago.
 
 ## Reference Links
@@ -197,6 +199,7 @@ Result: A tailored prep plan including 5 easy-to-medium coding problems with sec
 | Ethka (wage transparency) | https://www.ethka.com | Actual Israeli tech salaries by company, role, and seniority for negotiation preparation |
 | AllJobs Tech | https://www.alljobs.co.il/hitech/ | Active Israeli tech job listings with role requirements and tech stack details |
 | Calcalist Tech | https://www.calcalist.co.il/home/0,7340,L-3671,00.html | Hebrew-language tech news, company acquisitions, layoffs, and hiring announcements |
+| CTech (Calcalist English) | https://www.calcalistech.com/ctechnews | English Israeli tech ecosystem coverage, useful when researching multinational R&D moves |
 | Geektime | https://www.geektime.com | Israeli tech ecosystem coverage, funding rounds, and company deep-dives |
 | TheMarker Tech | https://www.themarker.com/technation | Hebrew-language Israeli tech business coverage, useful for company financial-health context before negotiation |
 | Glassdoor Israel salaries | https://www.glassdoor.com/Salaries/israel-software-engineer-salary-SRCH_IL.0,6_IN119_KO7,24.htm | Aggregate base salary data by role for Israeli software engineers |
