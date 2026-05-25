@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-childcare-navigator",
+  "generated_at": "2026-05-25T19:15:00Z",
+  "claims": [
+    {
+      "claim_id": "child-allowance-2026",
+      "claim": "Child allowance 2026 monthly amounts: 1st=173 NIS, 2nd/3rd/4th=219 NIS each, 5th+=173 NIS; cumulative totals: 173 ש\"ח, 392 ש\"ח, 611 ש\"ח, 830 ש\"ח, 1,003 ש\"ח (392 NIS, 611 NIS, 830 NIS, 1,003 NIS)",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
+      "raw_snippet": "קצבת ילדים: 173 ש\"ח, 219 ש\"ח, 392 ש\"ח, 392 NIS, 611 ש\"ח, 611 NIS, 830 ש\"ח, 830 NIS, 1,003 ש\"ח, 1,003 NIS",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "daycare-subsidy-min-income",
+      "claim": "Ma'on yom subsidy minimum income: 3,333 NIS/month (couple), 2,778 NIS/month (single parent)",
+      "source_url": "https://www.gov.il/he/service/daycare-registration",
+      "raw_snippet": "מעון יום: 3,333 ש\"ח לחודש (זוג), 2,778 ש\"ח לחודש (הורה יחיד)",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "credit-point-value-2026",
+      "claim": "Tax credit point (nekudat zikui) value in 2026 is approximately 242 NIS/month, 2,904 NIS/year",
+      "source_url": "https://www.kolzchut.org.il/he/נקודת_זיכוי",
+      "raw_snippet": "נקודת זיכוי: 242 ש\"ח לחודש",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "special-ed-amendment-11-2018",
+      "claim": "Special Education Law Amendment 11 (July 2018, effective school year 2019-20) renamed Va'adat Hashama to Va'adat Zakaut V'Iyun and gave parents the right to choose the educational framework",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education",
+      "raw_snippet": "תיקון 11",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "chisachon-lekol-yeled",
+      "claim": "Chisachon LeKol Yeled: Bituach Leumi deposits 58 NIS/month; parents can opt to add 58 NIS from allowance for 116 NIS total; ~582 NIS bonus if no withdrawal before age 21",
+      "source_url": "https://www.btl.gov.il/benefits/children/HisahoLayeled/Pages/default.aspx",
+      "raw_snippet": "חיסכון לכל ילד: 58 ש\"ח אוטומטית, 58 ש\"ח אופציונלי, סה\"כ 116 ש\"ח. בונוס 582 ש\"ח בגיל 21",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "free-preschool-amendment-9",
+      "claim": "Free preschool for ages 3-4 was enacted via Amendment 9 to the Compulsory Education Law (Trachtenberg recommendations approved 2012, universal coverage effective school year 2015-16)",
+      "source_url": "https://he.wikipedia.org/wiki/חוק_לימוד_חובה",
+      "raw_snippet": "חינוך חובה",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ministry-labor-daycare-hotline",
+      "claim": "Ministry of Labor daycare hotline number is *2969 (not *8255)",
+      "source_url": "https://www.gov.il/he/service/daycare-registration",
+      "raw_snippet": "*2969",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "welfare-hotline-118",
+      "claim": "Ministry of Welfare general hotline is 118 (24/7 multilingual)",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
+      "raw_snippet": "118",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "btl-hotline-6050",
+      "claim": "Bituach Leumi general hotline is *6050",
+      "source_url": "https://www.btl.gov.il/About/Pages/contact.aspx",
+      "raw_snippet": "*6050",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "child-protection-105",
+      "claim": "Israel national online child-protection hotline is 105 (MAOR)",
+      "source_url": "https://www.gov.il/he/departments/general/105_maor",
+      "raw_snippet": "105",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "disabled-child-allowance-2026",
+      "claim": "Disabled child allowance (kiztavat yeled nechet) 2026: roughly 1,910-3,820 NIS/month for most disability levels, up to 10,774 NIS/month for ventilator-dependent. Form 7821",
+      "raw_snippet": "קצבת ילד נכה: 1,910-3,820 ש\"ח לחודש, עד 10,774 ש\"ח לתלויי הנשמה. טופס 7821",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "psychoeducational-eval-cost-2026",
+      "claim": "Private psychoeducational evaluation cost in 2026: 2,500-4,500 NIS depending on region and depth (legacy range cited in skill examples: 2,000-5,000)",
+      "source_url": "https://www.kolzchut.org.il/he/אבחון_פסיכודידקטי",
+      "raw_snippet": "אבחון פסיכודידקטי: 2,500-4,500 ש\"ח. דוגמאות ישנות 2,000-5,000 NIS.",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-btl-children",
+      "claim": "Bituach Leumi children benefits portal",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
+      "raw_snippet": "קצבת ילדים",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-tax-authority",
+      "claim": "Israel Tax Authority portal",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-education-ministry",
+      "claim": "Ministry of Education portal",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education",
+      "raw_snippet": "משרד החינוך",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-kolzchut-children",
+      "claim": "Kol Zchut children and youth portal",
+      "source_url": "https://www.kolzchut.org.il/he/ילדים_ונוער",
+      "raw_snippet": "ילדים ונוער",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "ref-welfare-ministry",
+      "claim": "Ministry of Welfare portal",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
+      "raw_snippet": "משרד הרווחה",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "gan-fee-range-2026",
+      "claim": "Real all-in cost for basic gan items (enrichment + insurance + parent committee) runs ~500-1,200 NIS/year; adding tza'haron pushes to ~6,000-12,000 NIS/year. Legacy basic-only line item often cited as 300-700 NIS / 700 ש\"ח / 700 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלומי_הורים_במערכת_החינוך",
+      "raw_snippet": "תשלומי הורים: בסיס 500-1,200 ש\"ח לשנה, עם צהרון 6,000-12,000 ש\"ח לשנה. סעיף בסיס בלבד 300-700 ש\"ח (700 NIS).",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "testing-accommodations-extended-time",
+      "claim": "Standard extended-time accommodations for students with documented learning needs: 25% or 50% additional time, per Ministry of Education guidelines",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education",
+      "raw_snippet": "הארכת זמן 25% ו-50% במבחנים, בהתאם לאבחון",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "registration-window-feb-mar",
+      "claim": "Gan registration window is February-March each year, with exact dates varying by municipality",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education",
+      "raw_snippet": "רישום לגן",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    }
+  ]
+}

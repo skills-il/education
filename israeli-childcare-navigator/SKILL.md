@@ -23,6 +23,16 @@ Determine which stage and need applies:
 | Elementary | 6-12 | School registration, tza'haronim, special education, gifted programs |
 | Cross-cutting | 0-18 | Child allowance (kiztavat yeladim), child savings plan (chisachon), special education |
 
+### Step 1.5: After-Birth Registration Logistics
+
+Before any benefits flow, several registration steps happen in the first few weeks. Cover these for any "I just had a baby" question:
+
+1. **Birth registration**: most hospitals submit the registration directly to Misrad HaPnim (Ministry of Interior), but you must confirm and request the newborn's TZ (Israeli ID number). It's printed on the parent's TZ after the next update.
+2. **Kupat cholim registration**: the newborn must be enrolled in a kupat cholim (HMO) within ~24 hours of hospital discharge to maintain coverage. Choose the kupa via Bituach Leumi (you can stay or switch from the parent's kupa) and notify the chosen HMO.
+3. **Tipat Chalav (well-baby clinic)**: enroll the newborn in the local tipat chalav clinic for routine immunizations, growth monitoring, and developmental checkups in the first 6 years.
+4. **Maternity grant (mae'nak leida)**: a one-time Bituach Leumi grant paid automatically when the hospital reports the birth. Amounts vary by birth order (highest for the first child). This is distinct from `dmei leida` (maternity-leave wages); the grant covers the equipment of the newborn (crib, layette).
+5. **Child allowance kicks in automatically** after birth registration; see Step 5.
+
 ### Step 2: Daycare Subsidies (Ma'on Yom) -- Ages 0-3
 
 Daycare subsidies are handled by the **Ministry of Labor, Social Affairs and Social Services** (Misrad HaAvoda), NOT the Ministry of Economy or Education.
@@ -34,7 +44,7 @@ Daycare subsidies are handled by the **Ministry of Labor, Social Affairs and Soc
 
 **Application process:**
 1. Verify the daycare is recognized by the Ministry (misrad haavoda registry)
-2. Apply via the Ministry's app or website: https://employment.molsa.gov.il
+2. Apply via the Ministry's online service: https://www.gov.il/he/service/daycare-registration
 3. Required documents: income verification, employment letter, identity documents
 4. Subsidy amount depends on income tier and family size (means-tested)
 
@@ -52,8 +62,8 @@ Municipal preschool registration is handled by the local **Education Department 
 
 | Level | Hebrew Name | Age | Compulsory |
 |-------|-------------|-----|------------|
-| Trom-Trom Chova | טרום-טרום חובה | Turning 3 | No (free since 2012) |
-| Trom-Chova | טרום חובה | Turning 4 | No (free since 2012) |
+| Trom-Trom Chova | טרום-טרום חובה | Turning 3 | No (free since 2015-16 under Compulsory Education Law Amendment 9) |
+| Trom-Chova | טרום חובה | Turning 4 | No (free since 2015-16 under Compulsory Education Law Amendment 9) |
 | Gan Chova | גן חובה | Turning 5 | Yes (Compulsory Education Law) |
 
 **Registration timeline:**
@@ -101,6 +111,18 @@ Monthly amounts (2026):
 - Parents can opt to add another 58 NIS/month from the child allowance (total 116 NIS/month)
 - Money is available to the child at age 18
 - Parents choose between bank deposit or provident fund (kupat gemel) via the Bituach Leumi website
+- One-time bonus of ~582 NIS added by Bituach Leumi if the child does not withdraw before age 21
+
+### Step 5a: Disabled Child Allowance (Kiztavat Yeled Nechet)
+
+If a child has a recognized disability (developmental, physical, sensory, or psychiatric), the family is entitled to a separate disabled child allowance, distinct from regular kiztavat yeladim.
+
+- Amounts (2026 ranges): roughly 1,910-3,820 NIS/month for most disability levels, scaling with the assessed severity; up to 10,774 NIS/month for ventilator-dependent children.
+- Eligibility is determined by a medical committee (Bituach Leumi) and depends on the disability type and severity, NOT means-tested on parental income.
+- Application: submit Bituach Leumi form 7821 with medical documentation. Initial decisions take 60-90 days.
+- The allowance is paid alongside the standard child allowance and the child savings plan continues.
+- For developmental-delay diagnoses surfaced via the Va'ada (Step 6), ask Bituach Leumi to assess eligibility for kiztavat yeled nechet as a separate track; the Va'ada itself does not trigger this benefit.
+- Always confirm current 2026 amounts at the Bituach Leumi disabled-child page before quoting figures to a parent.
 
 ### Step 5b: Income Tax Credit Points (Nekudot Zikui) for Parents
 
@@ -135,7 +157,7 @@ This is an external government body (not school-based) that determines:
 **Process timeline:**
 1. School-based intervention and identification (3-6 months)
 2. Referral to Va'ada with documentation
-3. Psychoeducational evaluation (2,000-5,000 NIS if done privately)
+3. Psychoeducational evaluation (2,500-4,500 NIS if done privately in 2026; price varies by region and depth)
 4. Committee meeting (2-4 months after referral)
 5. Decision issued (2-4 weeks post-meeting)
 6. Service implementation (2-3 months)
@@ -177,10 +199,12 @@ This is an external government body (not school-based) that determines:
 
 When parents need to talk to a human or escalate, point them to these official entry points:
 
-- **Helpline 8255 (asterisk-8255 / *8255):** the unified Ministry of Welfare and Social Affairs hotline for childcare, daycare subsidies, social services, and family welfare. One short Hebrew number, replaces the old separate ministry numbers.
-- **Misrad HaCalcala (Ministry of Economy and Industry), Working Parents Hotline:** for questions about subsidized daycare placements (ma'on yom) and the recognized facilities list.
-- **Ministry of Welfare daycare portal:** `https://www.gov.il/he/departments/topics/childcare_subsidy` for subsidy eligibility, online applications, and the recognized facility lookup.
-- **Kol Zchut (childcare entitlements portal):** `https://www.kolzchut.org.il/he/ילדים_ומשפחה` for plain-language summaries of every benefit, with appeal templates and recent updates.
+- **`*2969` (Ministry of Labor daycare hotline):** the dedicated hotline for ma'on yom subsidies, recognized-facility lookup, and ma'on application status. This is the number parents actually need for daycare subsidy questions.
+- **`118` (Ministry of Welfare general hotline):** 24/7 multilingual hotline for general social services, family welfare, and child protection questions that fall outside the daycare-subsidy track.
+- **`*6050` (Bituach Leumi):** for child allowance (kiztavat yeladim), Chisachon LeKol Yeled, and disabled child allowance (kiztavat nechut).
+- **`105` (MAOR):** national child-protection online hotline for online harm and abuse reports.
+- **Ministry of Welfare daycare portal:** `https://www.gov.il/he/service/daycare-registration` for subsidy eligibility, online applications, and the recognized facility lookup.
+- **Kol Zchut (childcare entitlements portal):** `https://www.kolzchut.org.il/he/ילדים_ונוער` for plain-language summaries of every benefit, with appeal templates and recent updates.
 
 ## Examples
 
@@ -188,8 +212,9 @@ When parents need to talk to a human or escalate, point them to these official e
 User says: "I just had a baby, what benefits and registrations should I know about?"
 Actions:
 1. Explain child allowance starts automatically after birth registration (173 NIS/month for first child)
-2. Recommend choosing savings plan option (bank vs. kupat gemel) via Bituach Leumi website
-3. If both parents work, guide through daycare subsidy application (Step 2)
+2. Walk through after-birth registration logistics: confirm birth registration + newborn TZ, enroll in kupat cholim within 24h of discharge, enroll in tipat chalav, confirm mae'nak leida grant (Step 1.5)
+3. Recommend choosing savings plan option (bank vs. kupat gemel) via Bituach Leumi website
+4. If both parents work, guide through daycare subsidy application (Step 2)
 4. Note the gan registration timeline (February-March when child turns 3)
 Result: Parent has a clear timeline and action list from birth through preschool.
 
@@ -209,7 +234,7 @@ Actions:
 1. Explain the Va'adat Hashama process and timeline
 2. Clarify the placement continuum (inclusion in regular class is an option)
 3. Note parental rights (attend meeting, bring advocate, appeal)
-4. Advise on psychoeducational evaluation (can be done privately for 2,000-5,000 NIS for faster results)
+4. Advise on psychoeducational evaluation (can be done privately for 2,500-4,500 NIS in 2026 for faster results)
 5. Emphasize: request in writing, keep copies of all documents
 Result: Parent understands the process, their rights, and how to prepare.
 
@@ -223,14 +248,14 @@ Result: Parent understands the process, their rights, and how to prepare.
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Ministry of Welfare - Childcare Subsidy | https://www.gov.il/he/departments/topics/childcare_subsidy | Daycare subsidy eligibility, recognized facilities, online application |
-| Ministry of Welfare daycare portal (employment.molsa) | https://employment.molsa.gov.il | Ma'on yom subsidy applications and status |
+| Ministry of Labor - Daycare Subsidy | https://www.gov.il/he/service/daycare-registration | Ma'on yom subsidy eligibility, recognized facilities, online application |
 | Bituach Leumi - Child Allowance | https://www.btl.gov.il/benefits/children/Pages/default.aspx | Current monthly amounts, payment schedule, savings plan options |
+| Bituach Leumi - Disabled Child Allowance | https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx | Eligibility, amounts, form 7821 |
 | Israel Tax Authority - Credit Points | https://www.gov.il/he/departments/israel_tax_authority | Annual nekudat zikui value and per-child allocation |
-| Ministry of Education - Gan Registration | https://edu.gov.il/owlheb/preschool/Pages/preschool.aspx | Compulsory education ages, registration calendar, religious streams |
-| Ministry of Education - Special Education | https://edu.gov.il/special/Pages/main.aspx | Va'adat Zakaut V'Iyun procedures, parental rights, service basket |
-| Kol Zchut - Children and Family | https://www.kolzchut.org.il/he/ילדים_ומשפחה | Plain-language entitlements, appeal templates, recent updates |
-| Helpline *8255 (Ministry of Welfare) | https://www.gov.il/he/departments/general/molsa-call-center | Unified hotline for daycare, social services, family welfare |
+| Ministry of Education - Preschool | https://www.gov.il/he/departments/ministry-of-education | Compulsory education ages, registration calendar, religious streams (navigate to preschool/early-childhood section) |
+| Kol Zchut - Children and Youth | https://www.kolzchut.org.il/he/ילדים_ונוער | Plain-language entitlements, appeal templates, recent updates |
+| Helpline *2969 (Ministry of Labor daycare hotline) | https://www.gov.il/he/service/daycare-registration | Direct hotline for ma'on yom subsidy and facility list |
+| Helpline 118 (Ministry of Welfare general hotline) | https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs | Social services, family welfare, child protection |
 
 ## Gotchas
 
@@ -242,7 +267,11 @@ Result: Parent understands the process, their rights, and how to prepare.
 
 4. **The committee was renamed in 2018.** Amendment 11 renamed "ועדת השמה" (Va'adat Hashama) to "ועדת זכאות ואפיון" (Va'adat Zakaut V'Iyun). Both names are used colloquially, but the legal name is the new one. Critically, Amendment 11 gave parents the right to choose the educational framework -- do not tell parents the committee decides placement. The committee decides eligibility and service basket; the parents choose where their child learns.
 
-5. **Free education does not mean zero cost.** While gan is tuition-free from age 3, municipalities charge 300-700 NIS/year for enrichment and insurance. Tza'haronim cost extra. Agents should not tell parents "gan is completely free."
+5. **Free education does not mean zero cost.** While gan tuition is covered from age 3 (under Amendment 9, since school year 2015-16), municipalities charge for enrichment, insurance, and the parent committee (vaad horim). Real all-in cost for the basic line items runs ~500-1,200 NIS/year, and adding a tza'haron pushes the family bill to ~6,000-12,000 NIS/year. Agents should never tell parents "gan is completely free."
+
+6. **Major cities have moved gan registration online.** First-time municipal registration in Tel Aviv, Jerusalem, Haifa, Rishon LeZion, Petach Tikva and several others is digital-first since ~2023. In-person Agaf Chinuch visits are now exceptions for missing documents or special cases, not the default. Always ask which city; recommend the municipal portal first.
+
+7. **Disabled child allowance is a separate Bituach Leumi track.** If the Va'ada (Step 6) surfaces a developmental delay, parents must apply for kiztavat yeled nechet separately (Bituach Leumi form 7821). The Va'ada itself does not trigger this allowance. Missing this leaves up to thousands of shekels/month on the table for eligible families.
 
 ## Troubleshooting
 
