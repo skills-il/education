@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-bagrut-psychometric",
+  "generated_at": "2026-05-28T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "bagrut-formula-and-pet-weights",
+      "claim": "Each Bagrut subject grade is 70% external exam + 30% magen (a 2026 wartime option allows 60% exam / 40% magen when it raises the grade). The Psychometric test weights Quantitative 40%, Verbal 40%, English 20% through autumn 2026; from December 2026 it becomes Quantitative 50% + Verbal 50% with the verbal writing task about 20%. Universities typically weight the sekhem about 40% Bagrut and 60% Psychometric (varies by program). The PET standard deviation is about 100, with roughly 68% of test-takers scoring between 430 and 630.",
+      "source_url": "https://cms.education.gov.il/EducationCMS/Units/HighSchool/IsraelOlaKita/Ekaron30_70.htm",
+      "raw_snippet": "במקצועות שבהם משקל הבחינה הוא 70% והמגן 30%, היחס ישתנה ל-60% בחינה ו-40% מגן במידה והדבר יעלה את הציון הסופי",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "pet-dec-2026-reform",
+      "claim": "From the December 2026 (winter תשפ\"ז) session, English is removed from the psychometric test and assessed separately via NITE's computerized English test (AMIRNET, part of the AMIR family); the general score becomes Quantitative 50% + Verbal 50%. Scale stays 200-800; older three-domain scores remain valid 7 years.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-test/general-information/",
+      "raw_snippet": "החל ממועד חורף (דצמבר) 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית ... https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "pet-fee-665",
+      "claim": "The Psychometric Entrance Test registration fee is about 665 NIS / 665 ש\"ח as of 2026 (confirm on the NITE price page).",
+      "source_url": "https://www.nite.org.il/test-dates-and-prices/?lang=en",
+      "raw_snippet": "₪665",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bagrut-passing-grade-55",
+      "claim": "The Bagrut passing grade is 55; a grade of 45-54 is failing. A full certificate requires at least 21 study units. Universities award flat per-subject 5-unit bonuses only when the subject grade is at least 60 (Technion: math +30, sciences +25, humanities/English +20; Tel Aviv University: math +35).",
+      "source_url": "https://admissions.technion.ac.il/calculation-of-the-median-grade/",
+      "raw_snippet": "הטכניון מעניק את מקדם ההטבה לציון 60 ומעלה",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md", "scripts/bagrut-calculator.py"]
+    },
+    {
+      "claim_id": "oleh-bagrut-bonus",
+      "claim": "New immigrants receive a Hebrew-level bonus on Bagrut exams: +10 points at basic level (alef) or +15 points at levels bet/gimel, for 10 years from aliyah or until age 23 (whichever is later); Ethiopian immigrants get 12 years.",
+      "source_url": "https://www.kolzchut.org.il/he/התאמות_בבחינות_הבגרות_לתלמידים_עולים",
+      "raw_snippet": "ברמה א' תינתן תוספת של 10 נקודות, וברמות ב' ו-ג' תינתן תוספת של 15 נקודות ... 10 שנים או עד גיל 23",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md"]
+    },
+    {
+      "claim_id": "pet-scoring-scale",
+      "claim": "PET scale is 200-800, mean about 530, section scores 50-150, valid 7 years. Offered in Hebrew, Arabic, Russian, French, Spanish, and combined.",
+      "source_url": "https://www.nite.org.il/test-dates-and-prices/",
+      "raw_snippet": "המבחן הפסיכומטרי",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "bagrut-rights-kolzchut",
+      "claim": "Bagrut retakes (moed bet, grade improvement), school-grade appeals, learning-disability accommodations, and reserve-duty accommodations are administered per Ministry of Education rules and summarized on Kol Zchut.",
+      "source_url": "https://www.kolzchut.org.il/he/בחינות_בגרות",
+      "raw_snippet": "בחינות בגרות",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "reference-urls",
+      "claim": "Authoritative and reference URLs used by this skill (Ministry of Education, NITE, Council for Higher Education, and the six universities).",
+      "source_url": "https://www.nite.org.il/en",
+      "raw_snippet": "Reference URLs: https://edu.gov.il https://edu.gov.il/mazkirut_pedagogit/BagrutExams https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx https://www.nite.org.il https://www.nite.org.il/en https://www.nite.org.il/practice-tests/ https://www.nite.org.il/practice-tests/?lang=en https://www.nite.org.il/other-tests/amir-amiram/ https://www.nite.org.il/other-tests/amir-amiram/?lang=en https://che.org.il https://che.org.il/en/ https://new.huji.ac.il https://www.tau.ac.il https://www.technion.ac.il https://www.bgu.ac.il https://www.biu.ac.il https://www.haifa.ac.il https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md", "references/university-admission-guide.md"]
+    }
+  ]
+}

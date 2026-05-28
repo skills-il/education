@@ -2,17 +2,17 @@
 
 ## Mandatory Subjects
 
-Every student must take the following subjects to receive a Bagrut certificate:
+Every student must take the following core subjects to receive a Bagrut certificate. The exact unit counts vary by education sector (state, state-religious, Arab, Druze) and year, so confirm per-sector counts on the Ministry of Education site. Typical counts:
 
-| Subject | Required Units | Notes |
+| Subject | Typical Units | Notes |
 |---------|---------------|-------|
-| Hebrew Language (לשון עברית) | 2 units | Language skills and grammar |
-| Hebrew Literature (ספרות עברית) | 2 units | Literary analysis |
+| Hebrew language and expression (לשון והבעה) | ~2 units | Grammar, comprehension, and written expression (in the Arab/Druze sector, Arabic is the language of instruction) |
+| Hebrew Literature (ספרות) | 2 units | Literary analysis |
+| Bible / Tanakh (תנ"ך) | 2 units | Biblical texts and commentary |
+| History (היסטוריה) | 2 units | Israel and world history |
+| Civics (אזרחות) | 1-2 units | Civic studies |
 | English | 3-5 units | Can be taken at higher levels for bonus |
 | Mathematics | 3-5 units | Can be taken at higher levels for bonus |
-| History / Civics (היסטוריה / אזרחות) | 2 units | Israel and world history, civic studies |
-| Bible (תנ"ך) | 2 units | Biblical texts and commentary |
-| Hebrew Composition (הבעה עברית) | 5 units | Hebrew writing and expression |
 
 ## Common Elective Subjects (5-Unit Options)
 
@@ -33,35 +33,39 @@ Every student must take the following subjects to receive a Bagrut certificate:
 
 ## Bonus Points System
 
-Bonus points apply ONLY to subjects taken at the 5-unit level:
+University bonus points apply ONLY to subjects taken at the 5-unit level (and partially to 4-unit English and math). The bonus is a FLAT per-subject amount set by each university, NOT tiered by your score. It is awarded only if the subject grade is at least 60.
 
-| Score Range | Bonus Points Added |
-|-------------|-------------------|
-| 56-69 | +10 |
-| 70-84 | +12.5 |
-| 85-100 | +20 |
+Representative 5-unit bonus values (always confirm on the target university's page):
+
+| Subject (5 units) | Typical Bonus |
+|-------------------|--------------|
+| Mathematics | +30 (Technion) to +35 (Tel Aviv University) |
+| Physics, Chemistry, Biology, Computer Science | +25 |
+| English | +20 to +25 (4-unit English: +12.5) |
+| History, Literature, Bible, foreign languages, other | +20 |
 
 ### How Bonus Points Work
 
 1. Calculate the final subject grade (70% exam + 30% magen)
-2. If the subject is 5 units, add the bonus based on the score range
+2. If the subject is 5 units and the grade is at least 60, add the flat bonus your target university assigns to that subject
 3. Use the grade WITH bonus for calculating the Bagrut weighted average
-4. The bonus does NOT appear on the Bagrut certificate itself
+4. The bonus does NOT appear on the Bagrut certificate itself; each university applies its own table
 
 ### Example Calculation
 
-A student with the following 5-unit math grade:
+A student with the following 5-unit math grade, applying at the Technion (math bonus +30):
 - Exam score: 88
 - Magen score: 92
 - Final grade: (88 x 0.7) + (92 x 0.3) = 61.6 + 27.6 = 89.2
-- Bonus: +20 (score is in 85-100 range)
-- Grade for average calculation: 89.2 + 20 = 109.2
+- Grade is at least 60, so the +30 Technion math bonus applies
+- Grade for average calculation: 89.2 + 30 = 119.2
+- At Tel Aviv University the same subject would get +35 instead
 
 ## Minimum Requirements for Bagrut Certificate
 
 - At least 21 study units total
-- Passing grade (56) in all mandatory subjects
-- At least one subject at 5-unit level (typically Hebrew Composition)
+- Passing grade (55) in all mandatory subjects
+- At least one subject at the 5-unit (moogbar) level (typically math, English, or a science)
 - Some schools require additional subjects based on their track (megama)
 
 ## Special Tracks (Megamot)
@@ -80,12 +84,11 @@ Israeli high schools offer specialized tracks:
 ## New Immigrant (Oleh Chadash) Benefits
 
 Students who made Aliyah receive the following accommodations:
-- **+15 bonus points** on the magen grade of each subject
-- Exception: English magen bonus not given to students from English-speaking countries
-- Extended time on exams (up to 50% additional time in first 4 years)
-- Simplified Hebrew language in exam questions (first 4 years)
+- **Hebrew-level bonus** on Bagrut exams: +10 points at basic Hebrew level (alef) or +15 points at levels bet/gimel
+- Extended time on exams
+- Adapted / simplified Hebrew language in exam questions
 - Use of a dictionary during exams
-- Benefits duration: up to 4 years from date of Aliyah (10 years for Ethiopian immigrants)
+- Benefits duration: 10 years from the date of Aliyah, or until age 23, whichever is later (Ethiopian immigrants: 12 years). The separate 4-year figure refers to returning-resident (toshav chozer) status, not the new-immigrant bonus.
 
 ## Sources
 

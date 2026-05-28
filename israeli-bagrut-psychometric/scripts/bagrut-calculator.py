@@ -21,16 +21,36 @@ def calculate_subject_grade(exam_score: float, magen_score: float) -> float:
     return round(exam_score * 0.7 + magen_score * 0.3, 1)
 
 
-def get_bonus_points(grade: float) -> float:
-    """Get bonus points for a 5-unit subject based on grade range."""
-    if grade < 56:
+# Representative flat 5-unit bonus by subject (varies by university; these are
+# typical values). University bonuses are NOT tiered by score; they are a flat
+# per-subject amount awarded only when the subject grade is at least 60.
+DEFAULT_BONUS_5U = {
+    "math": 30,
+    "mathematics": 30,
+    "physics": 25,
+    "chemistry": 25,
+    "biology": 25,
+    "computer science": 25,
+    "cs": 25,
+    "english": 20,
+}
+DEFAULT_BONUS_5U_OTHER = 20
+MIN_GRADE_FOR_BONUS = 60
+
+
+def get_bonus_points(grade: float, units: int, subject: str = "", override=None) -> float:
+    """Flat per-subject 5-unit bonus, gated at grade >= 60.
+
+    Bonuses apply to 5-unit subjects (4-unit math/English get smaller bonuses at
+    most universities, not modeled here). If `override` is given it is used as the
+    university's exact bonus for this subject. Otherwise a representative typical
+    value is used. The bonus is NOT tiered by score.
+    """
+    if units != 5 or grade < MIN_GRADE_FOR_BONUS:
         return 0
-    elif grade <= 69:
-        return 10
-    elif grade <= 84:
-        return 12.5
-    else:
-        return 20
+    if override is not None:
+        return override
+    return DEFAULT_BONUS_5U.get(subject.strip().lower(), DEFAULT_BONUS_5U_OTHER)
 
 
 def calculate_weighted_average(subjects: list[dict]) -> dict:
@@ -48,7 +68,7 @@ def calculate_weighted_average(subjects: list[dict]) -> dict:
         name = subj["name"]
         units = subj["units"]
         grade = subj["grade"]
-        bonus = get_bonus_points(grade) if units == 5 else 0
+        bonus = get_bonus_points(grade, units, name, subj.get("bonus"))
         grade_with_bonus = grade + bonus
 
         total_weighted += grade_with_bonus * units
@@ -101,17 +121,23 @@ def calculate_sekhem(
 
 
 def parse_subjects(subjects_str: str) -> list[dict]:
-    """Parse subjects string like 'math:5:88,english:5:92,history:3:78'."""
+    """Parse subjects like 'math:5:88,english:5:92:25,history:3:78'.
+
+    Format: name:units:grade[:bonus]. The optional 4th field is the exact
+    university bonus for that 5-unit subject; if omitted, a representative
+    typical value is used.
+    """
     subjects = []
     for item in subjects_str.split(","):
         parts = item.strip().split(":")
-        if len(parts) != 3:
-            print(f"Error: Invalid subject format '{item}'. Use name:units:grade")
+        if len(parts) not in (3, 4):
+            print(f"Error: Invalid subject format '{item}'. Use name:units:grade[:bonus]")
             sys.exit(1)
         subjects.append({
             "name": parts[0],
             "units": int(parts[1]),
             "grade": float(parts[2]),
+            "bonus": float(parts[3]) if len(parts) == 4 else None,
         })
     return subjects
 
@@ -169,6 +195,8 @@ Examples:
     )
     parser.add_argument("--grade", type=float, help="Grade (for bonus mode)")
     parser.add_argument("--units", type=int, help="Study units (for bonus mode)")
+    parser.add_argument("--subject", type=str, help="Subject name (for bonus mode, picks the typical bonus)")
+    parser.add_argument("--bonus", type=float, help="Exact university bonus for the subject (overrides the typical value)")
 
     args = parser.parse_args()
 
@@ -233,18 +261,24 @@ Examples:
         if args.grade is None or args.units is None:
             parser.error("--grade and --units are required for bonus mode")
         if args.units == 5:
-            bonus = get_bonus_points(args.grade)
+            bonus = get_bonus_points(args.grade, args.units, args.subject or "", args.bonus)
             print(f"\nBonus Points Calculation")
             print(f"{'='*40}")
             print(f"Grade:           {args.grade}")
             print(f"Units:           {args.units}")
+            print(f"Subject:         {args.subject or '(generic)'}")
             print(f"Bonus points:    +{bonus}")
             print(f"Grade for avg:   {args.grade + bonus}")
+            if args.grade < MIN_GRADE_FOR_BONUS:
+                print(f"\nNote: grade is below {MIN_GRADE_FOR_BONUS}, so no bonus is awarded.")
+            if args.bonus is None:
+                print("\nNote: bonuses are flat per subject and vary by university.")
+                print("Pass --bonus to use your target university's exact value.")
         else:
             print(
                 f"\nNo bonus points for {args.units}-unit subjects."
             )
-            print("Bonus points are only awarded for 5-unit subjects.")
+            print("University bonus points are awarded for 5-unit subjects (and partial for 4-unit math/English).")
 
 
 if __name__ == "__main__":

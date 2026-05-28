@@ -32,7 +32,7 @@ The Bagrut underwent significant changes during the 2024-25 school year (תשפ"
 
 - **English Bagrut "matzav 2"** continues as the standard format, with the modular structure (oral, listening, reading, writing) replacing the older single-exam approach. Students assemble units across grades 10-12.
 - **5-yedaot (5-unit) requirements** were partially relaxed for select subjects following pandemic-era and wartime adjustments. Some subjects now allow alternative magen pathways or project-based components in place of part of the external exam. Always verify per-subject rules on the Ministry of Education's current-year exam page (`https://edu.gov.il/mazkirut_pedagogit/BagrutExams`).
-- **Oral and project components** count toward more subjects, not only languages. The 70/30 exam-to-magen split still applies to the headline number, but the "exam" component is increasingly a portfolio of mini-exams + project work in subjects like history, civics, and computer science.
+- **Oral and project components** count toward more subjects, not only languages. The 70/30 exam-to-magen split is the standard baseline (with a 2026 wartime 60/40 option, see the formula section), but the "exam" component is increasingly a portfolio of mini-exams + project work in subjects like history, civics, and computer science.
 - **Wartime and emergency accommodations** introduced in 2023-24 (extended deadlines, oral substitutions for written exams, makeup sessions) carried into 2024-25 for students from evacuated communities or with reservist parents. Students should ask their school counselor whether they qualify.
 
 When in doubt, treat the formula and unit numbers in this skill as the standard baseline and direct the student to the Ministry's current-year subject page for any subject-specific deviations.
@@ -48,6 +48,8 @@ Each subject's final Bagrut grade is calculated as:
 
 **Final Subject Grade** = (Exam Score x 0.7) + (Magen Score x 0.3)
 
+**Wartime accommodation (2026):** for cohorts affected by the war, the Ministry of Education allows a 60% exam / 40% magen split (instead of 70/30) when it raises the final grade, plus other flexible-Bagrut options. Check the current-year directive for which subjects and students qualify.
+
 #### Study Units (יחידות לימוד)
 
 Each subject is studied at a level measured in study units (1-5 units). More units = deeper study.
@@ -60,8 +62,8 @@ Each subject is studied at a level measured in study units (1-5 units). More uni
 | 5 units | Advanced | Highest level, required for competitive university programs |
 
 **Minimum requirements for a Bagrut certificate:**
-- Mandatory subjects: Hebrew (5 units), English (3-5 units), Mathematics (3-5 units), History/Civics, Bible (Tanakh), Hebrew Literature
-- Minimum total: 21 study units
+- Mandatory core subjects: Hebrew language and expression (lashon/hava'a), Hebrew Literature, Bible (Tanakh), History, Civics, English (3-5 units), Mathematics (3-5 units). Exact unit counts for the cores vary by education sector (state, state-religious, Arab, Druze) and year, so verify per-sector counts on the Ministry of Education site.
+- Minimum total: 21 study units, including at least one subject at the 5-unit (moogbar) level
 - Passing grade: 55 in each subject
 
 #### Bonus Points for 5-Unit Subjects
@@ -70,12 +72,12 @@ Students who take subjects at 5-unit level receive bonus points on their Bagrut 
 
 | Subject (5 units) | Typical Bonus |
 |-------------------|--------------|
-| Mathematics | +25 to +35 |
-| Physics, Chemistry, Biology, Computer Science | +20 to +25 |
-| English | +12.5 to +20 |
-| History, Literature, Bible, other subjects | +12.5 to +20 |
+| Mathematics | +30 to +35 (Technion +30, Tel Aviv University +35) |
+| Physics, Chemistry, Biology, Computer Science | +25 |
+| English | +20 to +25 (4-unit English is typically +12.5) |
+| History, Literature, Bible, other subjects | +20 |
 
-**Important:** These bonus amounts vary by university. For example, the Technion awards +30 for Math and Physics, while other universities may use different values. Always check the target university's admissions page for exact bonus tables. The bonus is added to the subject grade when calculating the Bagrut weighted average.
+**Important:** The bonus is a flat per-subject amount set by each university (it is NOT tiered by your score). It is awarded only if the subject grade is at least 60. The amount varies by university and subject: for example, the Technion awards +30 for 5-unit Math and +25 for the sciences, while Tel Aviv University awards +35 for 5-unit Math. Always check the target university's admissions page for its exact bonus table. The bonus is added to the subject grade when calculating the Bagrut weighted average.
 
 Use `scripts/bagrut-calculator.py` to compute grades:
 
@@ -93,8 +95,8 @@ The magen (מגן) grade is determined by the school and considers:
 - Teacher's overall assessment
 
 **Special provisions:**
-- New immigrants (olim chadashim) receive 15 bonus points on the magen of each subject (excluding English if from an English-speaking country)
-- Students with learning disabilities may receive testing accommodations (extra time, oral exams)
+- New immigrants (olim chadashim) receive a Hebrew-proficiency-based bonus when sitting the standard Hebrew written Bagrut exam: +10 points at basic Hebrew level (alef) or +15 points at levels bet/gimel. The bonus is not added on top of an adapted oleh question paper, a bilingual exam, or an oral substitute, so a student chooses one accommodation track. The benefit lasts 10 years from the date of aliyah or until age 23, whichever is later; Ethiopian immigrants are entitled for 12 years. (Do not confuse the 10-year window with the separate 4-year continuous-absence rule that defines returning-resident status.)
+- Students with learning disabilities may receive testing accommodations (extra time, oral exams) following a recognized diagnosis (see Step 5)
 
 ### Step 3: Psychometric Entrance Test (PET)
 
@@ -108,11 +110,13 @@ The Psychometric Entrance Test (מבחן פסיכומטרי, or "Psychometri") i
 | Verbal Reasoning (חשיבה מילולית) | Reading comprehension, analogies, sentence completion | 40% |
 | English (אנגלית) | Reading comprehension, vocabulary, sentence completion | 20% |
 
+**Major change from the December 2026 session (winter, תשפ"ז):** English is removed from the psychometric test and assessed separately through NITE's standalone computerized English test (AMIRNET, part of NITE's AMIR English-test family), offered year-round. The psychometric general score becomes two-domain: Quantitative Reasoning 50% + Verbal Reasoning 50% (within the verbal domain, the writing task is about 20%). The overall scale stays 200-800. Scores from the older three-domain format remain valid for their full 7 years. From this session the "combined Hebrew-English" version is also affected. Confirm the exact structure for your test date on the NITE site.
+
 #### Scoring
 
 - Scale: **200-800** (multiscale scoring)
 - Mean score: approximately 530
-- Standard deviation: approximately 90
+- Standard deviation: approximately 100 (about 68% of test-takers score between 430 and 630)
 - Each section also receives its own score on the 50-150 scale
 - Scores are valid for university admission for **7 years** from the test date
 
@@ -161,6 +165,8 @@ Each university uses its own weighting formula. Common patterns:
 
 **Note:** These are approximate general weights. Specific programs (medicine, law, engineering, computer science) often have different weights, additional requirements, or minimum score thresholds. Always check the specific program's admissions page.
 
+**Exemptions and the new English test:** Many universities exempt older applicants (commonly age 27-30+) and holders of a prior academic degree from the psychometric, admitting on the Bagrut alone. Faculties may also use a domain-weighted psychometric score (favoring quantitative or verbal) rather than the general score. From December 2026, the separate AMIRNET English score (not the psychometric) determines a student's university English placement and exemption level (patur). Confirm the rules with each institution.
+
 #### Sekhem Optimization Strategy
 
 To maximize the sekhem:
@@ -186,7 +192,22 @@ Use `scripts/bagrut-calculator.py` to estimate the sekhem:
 python scripts/bagrut-calculator.py --mode sekhem --bagrut-avg 95.5 --psychometric 680 --bagrut-weight 40 --psychometric-weight 60
 ```
 
-### Step 5: Key Terms Reference
+### Step 5: Rights, Retakes, and Accommodations
+
+Beyond grades and scores, students have a layer of statutory rights administered by the Ministry of Education. These are commonly needed and easy to miss.
+
+| Right | Details |
+|-------|---------|
+| Retake / grade improvement (moed bet, mo'ed meyuchad) | A student can re-sit a Bagrut exam to improve a grade; the higher grade counts. Special sessions exist for students who missed an exam for an approved reason (illness, bereavement, reserve duty). Improvement re-sits are available even after finishing school (as an external examinee). |
+| Appeal a school (magen) grade | A student may appeal the summary school grade (irur al tziun beit-sifri mesakem) through the school and district, within the published window. |
+| Appeal / exam-integrity review | Separate procedures exist if a student is suspected of an exam-integrity violation, with a right to a hearing. |
+| Learning-disability accommodations | Students with a recognized diagnosis (ikui lemida) can receive accommodations: extra time, separate room, oral exam, reader/scribe, spelling leniency. Funding support for the diagnosis itself may be available. Apply through the school well before the exam. |
+| Reserve-duty (miluim) accommodations | A special exceptions committee sets accommodations (extended deadlines, special sessions, magen adjustments) for students or those whose parents served, scaled by service length and proximity to the exam. War-period frameworks expand these. |
+| New-immigrant / returning-resident adaptations | Beyond the Hebrew-level bonus, olim get adapted exam papers, extra time, and dictionary use for a defined period (see Step 2). |
+
+When advising a student, always check the Ministry of Education student portal and Kol Zchut for the current-year deadlines and forms, since these accommodations are time-bound.
+
+### Step 6: Key Terms Reference
 
 | Hebrew Term | Transliteration | English |
 |-------------|----------------|---------|
@@ -211,10 +232,10 @@ User says: "I got 78 on my math Bagrut exam and my magen is 85. What's my final 
 
 Actions:
 1. Apply the formula: (78 x 0.7) + (85 x 0.3) = 54.6 + 25.5 = 80.1
-2. Since math is typically 5 units and the grade is above 60, bonus points apply. The exact bonus depends on the target university (typically +25 to +35 for 5-unit math).
+2. Since math is typically 5 units and the grade is above 60, the flat bonus applies. The exact bonus depends on the target university (typically +30 at the Technion, +35 at Tel Aviv University for 5-unit math).
 3. Run: `python scripts/bagrut-calculator.py --mode subject --exam 78 --magen 85`
 
-Result: Final subject grade is 80.1. When calculating the Bagrut weighted average for university admission, this subject receives a bonus (e.g., 80.1 + 25 = 105.1 at universities that award +25 for 5-unit math). Check the target university's bonus table for the exact value.
+Result: Final subject grade is 80.1. When calculating the Bagrut weighted average for university admission, this subject receives the university's flat bonus (e.g., 80.1 + 30 = 110.1 at the Technion). Check the target university's bonus table for the exact value.
 
 ### Example 2: Plan Psychometric Preparation
 
@@ -222,7 +243,7 @@ User says: "I'm taking the psychometric in July. My practice test scores are: Qu
 
 Actions:
 1. Convert section scores to identify weak areas. On the 50-150 scale, Verbal at 105 is the weakest section.
-2. Calculate approximate composite: Quantitative and Verbal are 40% each, English is 20%. The user's overall is approximately (130 x 0.4) + (105 x 0.4) + (120 x 0.2) = 52 + 42 + 24 = 118, which maps to roughly 620-640 on the 200-800 scale.
+2. Calculate approximate composite using the pre-December-2026 three-section weights (Quantitative and Verbal 40% each, English 20%): approximately (130 x 0.4) + (105 x 0.4) + (120 x 0.2) = 52 + 42 + 24 = 118, which maps to roughly 620-640 on the 200-800 scale. For test dates from December 2026 onward, use the two-domain weighting (Quantitative 50% + Verbal 50%) since English is scored separately.
 3. Recommend focusing study time on Verbal Reasoning (biggest potential improvement) while maintaining Quantitative and English.
 4. Suggest a 3-month preparation plan with emphasis on Hebrew reading comprehension and vocabulary.
 
@@ -256,6 +277,9 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 - Bagrut bonus points for 5-unit subjects are flat per subject (not tiered by score range), but the amount varies by university and subject. Agents may invent a tiered bonus system or use a single universal value. Always direct users to check their target university's specific bonus table.
 - Each Israeli university calculates the sekhem (admission score) using its own proprietary formula. Agents that assume a universal formula will produce inaccurate admission estimates. Always direct users to the specific university's calculator.
 - The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
+- From the December 2026 (winter תשפ"ז) session, English is removed from the psychometric and tested separately via NITE's computerized English test (AMIRNET), and the general score becomes Quantitative 50% + Verbal 50%. Agents trained on the older three-section (40/40/20) structure will describe the wrong test for students sitting from that date onward. Older three-domain scores remain valid for 7 years.
+- The Bagrut passing grade is 55, not 56 or 60. The minimum grade to earn a university 5-unit bonus is a separate threshold (around 60). Agents conflate these two numbers.
+- The new-immigrant Bagrut benefit lasts 10 years from aliyah (or until age 23, whichever is later; 12 years for Ethiopian immigrants), and the bonus is +10 or +15 by Hebrew level, not a flat +15. The 4-year figure belongs to returning-resident status, a different entitlement.
 
 
 ## Reference Links
@@ -265,8 +289,10 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 | Ministry of Education - Bagrut | https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx | Official bagrut exam schedule, subject weights, grading |
 | NITE (Psychometric Entrance Test) | https://www.nite.org.il/en | Official psychometric test dates, registration, preparation materials |
 | NITE - sample questions | https://www.nite.org.il/practice-tests/?lang=en | Practice psychometric tests with answer keys |
+| NITE - two-domain psychometric (Dec 2026) | https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en | The Dec-2026 reform: English split out, two-domain (Quant + Verbal) score |
 | Council for Higher Education | https://che.org.il/en/ | University admission thresholds, accredited degree programs |
-| Kol Zchut - bagrut rights | https://www.kolzchut.org.il/he/בחינות_בגרות | Accommodations, retake rights, recognition of foreign diplomas |
+| Kol Zchut - bagrut rights | https://www.kolzchut.org.il/he/בחינות_בגרות | Retake rights, grade appeals, accommodations, recognition of foreign diplomas |
+| Ministry of Education - olim accommodations | https://www.kolzchut.org.il/he/התאמות_בבחינות_הבגרות_לתלמידים_עולים | New-immigrant exam adaptations and Hebrew-level bonus |
 
 ## Troubleshooting
 
