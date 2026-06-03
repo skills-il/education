@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-heritage-explorer",
+  "generated_at": "2026-06-04T00:55:00Z",
+  "claims": [
+    {
+      "claim_id": "base-endpoint-apikey",
+      "claim": "The NLI OpenLibrary search API base endpoint is https://api.nli.org.il/openlibrary/search and api_key is a mandatory GET query parameter.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Request format: https://api.nli.org.il/openlibrary/search?api_key={USER_KEY}&{search_string} . api_key: A personal key (mandatory) that the user receives after logging in to our API system. (Verified via Playwright past Cloudflare on the official NLI Search API docs page, 2026-06-04.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md"]
+    },
+    {
+      "claim_id": "multi-clause-connector",
+      "claim": "Inside the query, multiple field,operator,value clauses are joined by ',AND;' or ',OR;'; the delimiter between the query and additional filters/commands is '&'. Operators include exact and contains.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "The delimiter between the query and between [additional filters] parameters is \"&\" (logical AND). The delimiter inside the {query} string, between internal query conditions is \",AND;\" (or \",OR\";). Query string example: query=title,exact,jerusalem,AND;publisher,contains,jaffa,AND;language,exact,eng,AND;system_number,exact,990023677080205171,AND;start_date, contains,1925,AND;shelfmark,exact,Jer344 . (Verified via Playwright on the official Search API Common Usage page, 2026-06-04.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md"]
+    },
+    {
+      "claim_id": "language-and-date-are-clauses",
+      "claim": "Language and date filtering are query CLAUSES (language,exact,eng ; start_date/end_date,contains,YYYY) not standalone parameters. Date format is yyyyMMdd or yyyy.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark. FAQ: Search for any item that contains the word 'Jerusalem' on title AND are written in English language AND has start_date/end_date between 19500101 and 19501231 -> query=title,exact,jerusalem,AND;creator,contains,Jerusalem,AND;language,exact,eng,AND;start_date,contains,1951 . (Verified via Playwright, 2026-06-04. Both yyyyMMdd '19500101' and yyyy '1951' forms appear.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "material-type-values",
+      "claim": "Valid material_type values are: books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. audio/videos/articles/rareBooks are NOT valid.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Filters and Commands Valid Values: material_type -> books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. FAQ: How do I search for Newspaper items on Jpress collection -> material_type=NEWSPAPER . (Verified via Playwright on the official user-help page, 2026-06-04.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "availability-type-values",
+      "claim": "Valid availability_type values are: online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "availability_type -> online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access. (Verified via Playwright on the official user-help page, 2026-06-04.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md"]
+    },
+    {
+      "claim_id": "pagination-items-per-page-result-page",
+      "claim": "Pagination uses items_per_page (1-50) and result_page. There is no rows or start parameter.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "items_per_page -> A digit in the range of [1-50]. result_page -> A digit (in the range of [count]/50). FAQ: How can I Paginate on results, when more than 50 items matches my criteria -> result_page=3 . (Verified via Playwright, 2026-06-04. No rows/start parameter is documented.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "sort-field-and-output-format",
+      "claim": "sort_field (values title, creator, date_desc, date_asc) and output_format (json default, xml) are documented standalone commands; count_mode is true/false.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Commands: output_format, count_mode, result_page, items_per_page, sort_field. sort_field -> title, creator, date_desc, date_asc. output_format -> json, xml. count_mode -> true, false. Example: ...&output_format=xml&result_page=2&sort_field=title . (Verified via Playwright, 2026-06-04. Note the parameter name is sort_field with an underscore.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "unknown-params-silently-ignored",
+      "claim": "Unknown / invalid non-mandatory parameters are silently ignored (request still returns results, unfiltered) with the skipped condition reported in an Errors response header.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Q: What if my query has syntax error - is it ignored, or will I get HTTP Error response? A: If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error. Example: material_type=manuscripts111 -> HTTP/1.1 200 OK with Errors header code 1010 \"...value : manuscripts111 hasn't been used because it is invalid\". (Verified via Playwright, 2026-06-04.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "guest-key-exists",
+      "claim": "A guest user API key exists for trial access with limited query counts; full access requires signing up. The api2 docs cover api-key usage.",
+      "source_url": "https://api2.nli.org.il/docs/api-key/",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries. We recommend signing up to gain full access to our system. Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK . (Verified via Playwright on the official Search API docs page, 2026-06-04. api2.nli.org.il/docs/api-key/ is the documented api-key usage page; the skill hedges the MCP visitor-key claim accordingly.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "signup-url",
+      "claim": "A free NLI API key is obtained at the signup URL.",
+      "source_url": "https://api2.nli.org.il/signup/",
+      "raw_snippet": "National Library of Israel API site signup page. Free signup: https://api2.nli.org.il/signup/ (host reachable; account-creation page for a free api_key).",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "millions-of-items",
+      "claim": "The National Library of Israel holds millions of items (more than 5 million books, plus periodicals, manuscripts, maps, recordings, and digital materials).",
+      "source_url": "https://en.wikipedia.org/wiki/National_Library_of_Israel",
+      "raw_snippet": "The library holds more than 5 million books, and is located in the Government complex (Kiryat HaMemshala) near the Knesset. (Secondary source; the NLI open-library / collections marketing pages are Cloudflare-blocked from datacenter IPs.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "iiif-host-and-linktomarc",
+      "claim": "IIIF resources are served from iiif.nli.org.il; the linkToMarc / manifest form is lowercase IIIFv21/marc/bib/{docid}. Prefer the returned @id/linkToMarc over hand-building URLs.",
+      "source_url": "https://iiif.nli.org.il/IIIFv21/marc/bib/990000681800205171",
+      "raw_snippet": "Live IIIF resource on host iiif.nli.org.il confirming the lowercase linkToMarc form: https://iiif.nli.org.il/IIIFv21/marc/bib/990000681800205171 . Single-image API form: https://iiif.nli.org.il/IIIFv21/{identifier}/full/max/0/default.jpg . The shorthand manifest template is https://iiif.nli.org.il/IIIFv21/marc/bib/{docid} (also seen as https://iiif.nli.org.il/IIIFv21/marc/bib/997 placeholder). NLI also exposes a separate Presentation (Manifest) API documented at https://www.nli.org.il/en/research-and-teach/open-library/presentation-api .",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/nli-api-reference.md", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "permalink-form",
+      "claim": "Each result carries an @id permalink in the NNL_ALEPH form on www.nli.org.il; use the returned @id rather than hand-constructing URLs.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Permalink template (illustrative): https://www.nli.org.il/<lang>/<type>/NNL_ALEPH<system-number> and concrete illustrative example https://www.nli.org.il/en/books/NNL_ALEPH990012345670205171/NLI . The digits are placeholders; use the actual @id returned per result. (NNL_ALEPH permalink form is the NLI Aleph record id convention.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["references/nli-api-reference.md", "references/domain-checklist.md"]
+    },
+    {
+      "claim_id": "dublin-core-response-fields",
+      "claim": "NLI search results are JSON-LD using Dublin Core element URIs for each metadata field.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Results are JSON-LD using Dublin Core (DCMI) elements, each keyed by its purl.org URI: http://purl.org/dc/elements/1.1/title http://purl.org/dc/elements/1.1/creator http://purl.org/dc/elements/1.1/date http://purl.org/dc/elements/1.1/type http://purl.org/dc/elements/1.1/language http://purl.org/dc/elements/1.1/recordid http://purl.org/dc/elements/1.1/source http://purl.org/dc/elements/1.1/linkToMarc and the generic form http://purl.org/dc/elements/1.1/{field} . (Dublin Core element namespace is a stable, well-known DCMI standard.)",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["references/nli-api-reference.md", "scripts/nli-search-example.py"]
+    },
+    {
+      "claim_id": "example-query-urls",
+      "claim": "Worked example query URLs against the NLI search endpoint using clause-form filtering plus material_type/items_per_page/sort_field/output_format.",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "Example calls built from the verified parameter set (base https://api.nli.org.il/openlibrary/search ): https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Palestine,AND;start_date,contains,1920&material_type=images&items_per_page=10&output_format=json https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Kabbalah,AND;language,exact,heb&material_type=manuscripts&items_per_page=20&output_format=json https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Jerusalem&material_type=maps&items_per_page=10&sort_field=title&output_format=json . Parameter forms verified via Playwright on the official user-help page, 2026-06-04; the api.nli.org.il host returns HTTP 403 to datacenter-IP fetches but the documented contract is authoritative.",
+      "fetched_at": "2026-06-04T00:55:00Z",
+      "appears_in": ["references/nli-api-reference.md"]
+    }
+  ]
+}

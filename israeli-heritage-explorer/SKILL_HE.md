@@ -33,7 +33,7 @@ license: MIT
 https://api.nli.org.il/openlibrary/search
 ```
 
-**אימות:** צריך מפתח API שמועבר כפרמטר `api_key`. אפשר לקבל מפתח חינמי ב-https://api2.nli.org.il/signup/. שרת ה-MCP של `nli-search` מגיע עם מפתח מבקרים ברירת מחדל.
+**אימות:** צריך מפתח API שמועבר כפרמטר `api_key`. אפשר לקבל מפתח חינמי ב-https://api2.nli.org.il/signup/. ייתכן ששרת ה-MCP של `nli-search` כולל מפתח מבקרים לגישה בסיסית (כדאי לוודא מול ה-MCP).
 
 **שרת MCP מומלץ:** תתקינו את `nli-search` לגישה ישירה ל-API עם שאילתות בשפה טבעית, שליפת תמונות IIIF וסטרימינג מדיה.
 
@@ -43,18 +43,35 @@ https://api.nli.org.il/openlibrary/search
 
 ### פרמטרים לחיפוש
 
-ה-API מקבל שאילתות מובנות בפורמט `field,operator,value`:
+בקשה היא `query={סעיפים}` בתוספת פילטרים ופקודות אופציונליים, מחוברים ב-`&`. רוב הסינון נעשה בתוך ה-`query` כסעיפים בפורמט `field,operator,value` (זה המנגנון המתועד). סינון לפי שפה ותאריך הוא סעיף בתוך ה-query, ולא פרמטר עצמאי.
 
-| פרמטר | תיאור | דוגמה |
-|--------|-------|-------|
-| `query` | חיפוש ראשי (field,operator,value) | `subject,contains,Tel Aviv history` |
-| `material_type` | סינון לפי סוג | `books`, `images`, `manuscripts`, `maps`, `audio`, `videos`, `articles`, `journals`, `rareBooks` |
-| `language` | סינון לפי שפה | `heb`, `eng`, `ara`, `yid`, `lad` |
-| `creator` | סינון לפי יוצר | `creator,contains,Ben Gurion` |
-| `subject` | סינון לפי נושא | `subject,contains,Zionism` |
-| `publication_year_from` / `publication_year_to` | טווח תאריכים | `1920` עד `1948` |
-| `rows` | תוצאות לעמוד (מקס' 500) | `50` |
-| `output_format` | פורמט תשובה | `json` או `xml` |
+מאפייני ה-query (המשמשים כ-`field` בסעיף):
+
+| מאפיין | תיאור | דוגמת סעיף |
+|--------|-------|-----------|
+| `title` | כותרת הפריט | `title,exact,jerusalem` |
+| `creator` | יוצר, צלם, אמן | `creator,contains,Ben Gurion` |
+| `subject` | כותר נושא (נושאי, גאוגרפי, אישי) | `subject,contains,Zionism` |
+| `publisher` | גוף מפרסם | `publisher,contains,jaffa` |
+| `language` | שפת התוכן (כסעיף) | `language,exact,eng` |
+| `start_date` / `end_date` | סינון תאריך (פורמט `yyyyMMdd` או `yyyy`) | `start_date,contains,1951` |
+| `system_number` | מספר מערכת מדויק של הספרייה | `system_number,exact,990023677080205171` |
+
+אופרטורים: `contains` (התאמה חלקית, הנפוץ ביותר) ו-`exact`.
+
+פילטרים ופקודות עצמאיים (מתווספים ב-`&`, מחוץ ל-`query`):
+
+| פרמטר | סוג | ערכים |
+|--------|-----|-------|
+| `material_type` | פילטר | `books`, `journals`, `images`, `audio_video`, `scores`, `maps`, `archives`, `sheets`, `dissertations`, `manuscripts`, `media`, `databases`, `NEWSPAPER`, `Identity` |
+| `availability_type` | פילטר | `online_access`, `all_items`, `online_and_api_access`, `online_access_no_api`, `online_in_library_only`, `no_online_access` |
+| `sort_field` | פקודה | `title`, `creator`, `date_desc`, `date_asc` |
+| `items_per_page` | פקודה | מספר בטווח 1-50 |
+| `result_page` | פקודה | מספר עמוד (סך הפריטים חלקי 50) |
+| `output_format` | פקודה | `json` (ברירת מחדל) או `xml` |
+| `count_mode` | פקודה | `true` או `false` (החזרת מספר התאמות בלבד) |
+
+פרמטרים לא מוכרים (כמו `rows`, `start`, `publication_year_from/_to` הישנים) מתעלמים מהם בשקט: הבקשה עדיין מחזירה תוצאות, רק ללא סינון, והתנאי שדולג עליו מופיע בכותרת `Errors` בתשובה. תמיד סננו דרך המאפיינים המתועדים למעלה.
 
 ### תהליך מחקר
 
@@ -68,18 +85,27 @@ https://api.nli.org.il/openlibrary/search
 
 **שלב 2: חיפוש ב-API**
 
-תבנו שאילתות ממוקדות. לתוצאות הכי טובות, תשלבו חיפוש נושא עם סינון סוג חומר ותאריכים:
+תבנו שאילתות ממוקדות. סננו לפי שפה ותאריך בתוך ה-`query` כסעיפים, והשתמשו ב-`material_type` וב-`availability_type` כפילטרים עצמאיים עם `&`. מחברים בין כמה סעיפים בעזרת נקודה-פסיק ומחבר מפורש (`,AND;` או `,OR;`); המחבר שייך לסעיף שהוא בא אחריו, ולסעיף האחרון אין מחבר בסופו. הפורמט:
 
 ```
-# תצלומים היסטוריים של יפו בתקופת המנדט
-query=subject,contains,Jaffa&material_type=images&publication_year_from=1917&publication_year_to=1948
-
-# כתבי יד בעברית על ירושלים
-query=subject,contains,Jerusalem&material_type=manuscripts&language=heb
-
-# כתבי דוד בן-גוריון
-query=creator,contains,Ben Gurion&material_type=books&language=heb
+query=field,operator,value,AND;field,operator,value&material_type=...
 ```
+
+```
+# תצלומים היסטוריים של יפו בתקופת המנדט (תאריך כסעיף, סוג כפילטר)
+query=subject,contains,Jaffa,AND;start_date,contains,1917&material_type=images
+
+# כתבי יד בעברית על ירושלים (שפה כסעיף)
+query=subject,contains,Jerusalem,AND;language,exact,heb&material_type=manuscripts
+
+# כתבי דוד בן-גוריון בעברית
+query=creator,contains,Ben Gurion,AND;language,exact,heb&material_type=books
+
+# תצלומים של American Colony מירושלים באנגלית
+query=title,exact,jerusalem,AND;creator,contains,American Colony,AND;language,exact,eng&material_type=images
+```
+
+אפשר להשתמש ב-`,OR;` כדי להרחיב במקום לצמצם. כדי לדפדף מעבר ל-50 תוצאות הוסיפו `&result_page=2`; כדי לשנות מיון הוסיפו `&sort_field=date_asc`. אל תשתמשו בערכים ישנים כמו `photos` או `videos` ב-`material_type`; רק הערכים מטבלת הפרמטרים תקפים (ערך לא תקין מושמט בשקט).
 
 **שלב 3: עיבוד תוצאות**
 
@@ -108,6 +134,14 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
    - שפה: [עברית/אנגלית/וכו']
    - קישור לספרייה הלאומית: [URL ישיר]
    - רלוונטיות: [משפט-שניים על חשיבות המקור]
+
+2. ...
+
+### מקורות משניים
+...
+
+### הצעות להמשך מחקר
+- [נושאים או אוספים קשורים שכדאי לחקור]
 ```
 
 **דוח מחקרי:**
@@ -125,6 +159,9 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
 
 ### ציר זמן
 [רשימה כרונולוגית של אירועים מרכזיים עם ציטוטי מקור]
+
+### רשימת מקורות
+[רשימת ציטוטים מלאה]
 ```
 
 ### אוספים מרכזיים בספרייה הלאומית
@@ -133,19 +170,19 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
 |-------|-------|------------|
 | אוסף מפות ערן לאור | 30,000+ מפות היסטוריות של ארץ ישראל | `material_type=maps` + מונחים גאוגרפיים |
 | אוסף דיוקנאות שוודרון | דיוקנאות היסטוריים של אישים יהודיים | `subject,contains,Schwadron` + `material_type=images` |
-| הארכיון הלאומי לקול | מוזיקה, עדויות בעל-פה, שידורי רדיו | `material_type=audio` |
+| הארכיון הלאומי לקול | מוזיקה, עדויות בעל-פה, שידורי רדיו | `material_type=audio_video` |
 | מכון כתבי היד | כתבי יד בעברית, ערבית ושפות נוספות | `material_type=manuscripts` |
-| אוסף שאפל | מסמכים מתקופת השלטון העות'מאני והמנדט הבריטי | `subject,contains,Palestine` + טווח תאריכים |
-| אוספי עיתונות | עיתונים היסטוריים בעברית | `material_type=journals` |
+| אוסף שאפל | מסמכים מתקופת השלטון העות'מאני והמנדט הבריטי | `subject,contains,Palestine,AND;start_date,contains,1920` |
+| אוספי עיתונות | עיתונים היסטוריים בעברית | `material_type=NEWSPAPER` |
 
 ### גישה לתמונות IIIF
 
 לחומרים חזותיים, הספרייה הלאומית נותנת נקודות קצה IIIF:
 
 - **Image API:** `https://iiif.nli.org.il/IIIFv21/{identifier}/full/max/0/default.jpg`
-- **Manifest API:** `https://iiif.nli.org.il/IIIFv21/MARC/{recordid}/manifest`
+- **קישור manifest (linkToMarc):** `https://iiif.nli.org.il/IIIFv21/marc/bib/{docid}` (באותיות קטנות `marc/bib`)
 
-השתמשו ב-manifest כדי לקבל את כל התמונות הזמינות לפריט מרובה דפים (כתב יד, ספר, עיתון).
+עדיף להשתמש בערך `linkToMarc` / `@id` שמוחזר בכל תוצאה במקום לבנות את הכתובת ידנית. השתמשו ב-manifest כדי לקבל את כל התמונות הזמינות לפריט מרובה דפים (כתב יד, ספר, עיתון).
 
 ### טיפים למחקר לפי תקופה
 
@@ -167,6 +204,12 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
 - הקלטות עדויות בעל-פה, צילום עכשווי
 - מחקר אקדמי, תיעוד תרבותי
 
+## משאבים מצורפים
+
+תעיינו בתיקיית `references/` עבור:
+- קובץ `nli-api-reference.md` עם מדריך מלא לפרמטרים של ה-API עם דוגמאות
+- קובץ `historical-periods.md` עם פירוט התקופות ההיסטוריות בישראל ומונחי חיפוש מרכזיים
+
 ## מלכודות נפוצות
 
 1. **אורך שאילתה מינימלי:** ה-API דורש מונחי חיפוש ארוכים מ-2 תווים. אותיות בודדות או מילים קצרות מאוד מחזירות שגיאה. השתמשו במונחי נושא מתארים.
@@ -175,9 +218,11 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
 
 3. **פורמט תאריכים לא אחיד:** שדה `date` בתוצאות משתמש בפורמטים שונים: חלק מהפריטים בפורמט `YYYYMMDD`, אחרים בפורמט `YYYY`, וחלק בטקסט חופשי כמו `[circa 1930]` או `תרצ"ב`. תנתחו תאריכים בזהירות.
 
-4. **סינון סוג חומר:** הפרמטר `material_type` מחמיר. שימוש ב-`photos` במקום `images` מחזיר אפס תוצאות. תמיד השתמשו בערכים המדויקים: `books`, `images`, `manuscripts`, `maps`, `audio`, `videos`, `articles`, `journals`, `rareBooks`.
+4. **ערכי סוג חומר הם רשימה קבועה:** הערכים התקפים ל-`material_type` הם `books`, `journals`, `images`, `audio_video`, `scores`, `maps`, `archives`, `sheets`, `dissertations`, `manuscripts`, `media`, `databases`, `NEWSPAPER`, `Identity`. אין `audio`, `videos`, `articles` או `rareBooks` (השתמשו ב-`audio_video`, `NEWSPAPER` וכו'). ערך לא תקין מושמט בשקט (הבקשה מחזירה תוצאות לא מסוננות, לא אפס תוצאות), והתנאי שדולג עליו מצוין בכותרת `Errors` בתשובה. עיתונים משתמשים ב-`NEWSPAPER` באותיות גדולות.
 
-5. **הגנת Cloudflare:** ה-API מוגן על ידי Cloudflare. בקשות מכתובות IP של שרתי ענן עלולות להיחסם. ה-API עובד באופן אמין מכתובות IP ביתיות וסביבות פיתוח מקומיות.
+5. **פרמטרים לא מוכרים מתעלמים מהם, לא דוחים אותם:** העברת פרמטר שה-API לא מכיר (למשל `rows`, `start`, `publication_year_from` הישנים) לא מחזירה שגיאה: התנאי מדולג בשקט ומקבלים תוצאות לא מסוננות. סננו שפה ותאריכים כסעיפי query (`language,exact,eng`, `start_date,contains,1951`), לא כפרמטרים עצמאיים.
+
+6. **הגנת Cloudflare:** ה-API מוגן על ידי Cloudflare. בקשות מכתובות IP של שרתי ענן עלולות להיחסם. ה-API עובד באופן אמין מכתובות IP ביתיות וסביבות פיתוח מקומיות.
 
 ## פתרון בעיות
 
@@ -193,3 +238,6 @@ query=creator,contains,Ben Gurion&material_type=books&language=heb
 
 ### תשובת 403 Forbidden
 מפתח ה-API לא תקין או פג תוקף. תקבלו מפתח חינמי חדש ב-https://api2.nli.org.il/signup/.
+
+### תמונת IIIF לא נטענת
+חלק מהפריטים בגישה מוגבלת. בדקו את שדה `accessRights` בתוצאת החיפוש. פריטים שמסומנים `online_resources_nli` עשויים לדרוש חברות בספרייה הלאומית לגישה מלאה.
