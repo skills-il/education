@@ -52,21 +52,22 @@ If the user served in the IDF or Sherut Leumi:
 | Track | Eligibility | What it pays |
 |---|---|---|
 | Pikadon Hayashi | Any discharged soldier or Sherut Leumi alum, within the post-discharge window (5 years for most; verify current window for active reservists/lone soldiers on hachvana.mod.gov.il, as windows have been extended in some tracks since Oct 2023) | Personal deposit (the user's own money), usable for tuition at MALAG-recognized institutions and for psychometric prep, mechina, vocational training, or ישיבה גבוהה |
-| MoD periphery scholarship (אזורי עדיפות לאומית) | Lived in a national-priority-area yishuv 5 of 6 years before studies | Up to 100% of first-year BA tuition (cap was ~NIS 11,653 in 2025). Cannot stack with other periphery scholarships. |
-| Mimadim LiLimudim | Combat-veteran cohort + special populations; ~3,230 fellows in תשפ"ו. Eligibility window: 5 years post-discharge (regular service), extendable to 6-8 years for those completing preparatory studies or career-service paths. תשפ"ו application: opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026. | NOT flat 100%. Graduated funding: up to 85% of actual courses studied in Years 1-2, with a final-year top-up bringing total to 100% of tuition paid. Annual cap NIS 10,214.45 (less than the NIS 12,017 baseline). A first-year combat veteran will pay 15% of tuition out of pocket up front, recovered only at graduation. |
+| MoD periphery scholarship (אזורי עדיפות לאומית) | Lived in a national-priority-area yishuv 5 of 6 years before studies, AND within the post-discharge window: 5 years standard, extended to 10 years for active reservists and lone soldiers | Up to 100% of first-year BA tuition (cap ~NIS 11,653, תשפ"ה/2025; refreshes for תשפ"ז). Cannot stack with other periphery scholarships. |
+| Mimadim LiLimudim | Combat-veteran cohort + special populations (a large annual cohort). Eligibility window: 5 years post-discharge (regular service), extendable to 6-7 years for those completing preparatory studies or career-service paths. תשפ"ו application: opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026. | NOT flat 100%. Graduated funding: up to 85% of actual courses studied in Years 1-2, with a final-year top-up bringing total to 100% of tuition paid. Annual cap NIS 10,214.45 (less than the NIS 12,017 baseline). A first-year combat veteran will pay 15% of tuition out of pocket up front, recovered only at graduation. |
 | Atid Foundation tracks | Combat veterans (foundation track, distinct from MoD) | Per-track grant; check current cycle |
+| IMPACT! (FIDF) | Former combat / combat-support soldiers from low-income backgrounds | USD 4,000/year for up to 4 years; requires ~130 community-service hours/year plus two donor thank-you letters/year. The best-known privately-funded combat-veteran academic fellowship. |
 
 The Pikadon comes first chronologically, direct the user to use their own deposit before tapping external scholarships, but stress the MoD periphery scholarship cannot stack with other periphery scholarships, and stress Mimadim's graduated model so the user budgets correctly for Year 1.
 
 ### Step 4: Run the Iron Swords reservist checks (if served reserve duty since 7.10.2023)
 
-This is the single largest active funding pool in Israel today and the skill's #1 routing target for any user who served reserve duty since October 2023. The framework is set by the Council for Higher Education (CHE/המל"ג) for academic years תשפ"ה through תשפ"ז and is operated jointly with the MoD. Approximately 40,000 reservist students were covered in תשפ"ו.
+This is the single largest active funding pool in Israel today and the skill's #1 routing target for any user who served reserve duty since October 2023. The framework is set by the Council for Higher Education (CHE/המל"ג) for academic years תשפ"ה through תשפ"ז and is operated jointly with the MoD, covering tens of thousands of reservist students.
 
 | Threshold | What it pays | Notes |
 |---|---|---|
-| 8+ cumulative reserve days since 7.10.2023 | One-time NIS 1,100 grant | Universal floor — every reservist who hits 8 days qualifies |
+| 8+ cumulative reserve days since 7.10.2023 | One-time NIS 1,100 grant | Universal floor - every reservist who hits 8 days qualifies |
 | Reservist parent of children under 14 | Additional one-time NIS 2,000 grant | Stacks on top of the NIS 1,100 |
-| 50+ days reserve service under Order 8 | One-time tuition assistance toward MALAG-recognized institutions | Track for rear-service reservists; check che.org.il/war/ for current cohort percentage |
+| 50+ days reserve service under Order 8 | One-time tuition grant up to ~NIS 11,653 (combat array, 2025 cohort qualifying window 27.10.2024-30.9.2025) | Check che.org.il/war/ for the current cohort's amount and qualifying window |
 | Combat-track reservists with extended service | Higher-tier tuition support up to full tuition | Subject to current CHE framework, direct the user to che.org.il/war/ for the active cohort terms |
 | 61-99 reserve days | 8 credit-unit exemption (electives + general courses) | Academic accommodation, not money, but materially reduces course load |
 | 100+ reserve days | 10 credit-unit exemption | Same |
@@ -118,7 +119,7 @@ ISEF specifically targets first-generation / underserved students with strong ac
 
 | Scholarship | Stage | Terms |
 |---|---|---|
-| Adams Fellowship (Israel Academy of Sciences and Humanities) | 2nd-year PhDs in **exact sciences, mathematics, and life sciences only** (NOT humanities, NOT social sciences, despite the institution's name including "humanities") | Full tuition + NIS 100,000/year stipend + USD 3,000/year travel; up to 4 years |
+| Adams Fellowship (Israel Academy of Sciences and Humanities) | 2nd-year PhDs in **exact sciences, mathematics, and life sciences only** (NOT humanities, NOT social sciences, despite the institution's name including "humanities") | Full tuition + NIS 100,000/year stipend + USD 3,000/year travel; 3 years base, extendable by up to 1 more (4 max) |
 | Aharon Katzir Postdoctoral Fellowship (Israel Academy of Sciences) | Postdoctoral, humanities and social sciences focus (the natural complement to Adams for humanities/social-sciences PhDs) | Multi-year postdoc-abroad track via the Academy |
 | PBC / MALAG outstanding-doctoral-from-periphery | PhDs from periphery yishuvim | Council for Higher Education direct track |
 | Maof program (PBC / MALAG) | Outstanding young scientists from Arab community | Faculty-integration pipeline |
@@ -130,11 +131,11 @@ The Adams Fellowship application window is unusual, it opens in October-November
 
 Surface only if the profile matches:
 
-- **Women in CS/Math at HUJI** — free first-year tuition.
-- **Weizmann promotes-women-in-science** — aggregates national doctoral + postdoctoral-abroad fellowships (about 10 doctoral seats per year).
-- **Mifal HaPais athlete track** — for athletes on the Israeli national representative team.
-- **University faculty-specific awards** — pattern only; instruct the user to check the target faculty's scholarships page after applying for institutional awards.
-- **PEREACH miluim supplement** — for PEREACH recipients who served reserve duty during the academic year, additional grant on top of the base; stacks with the Iron Swords NIS 1,100 floor.
+- **Women in CS/Math at HUJI** - free first-year tuition.
+- **Weizmann promotes-women-in-science** - aggregates national doctoral + postdoctoral-abroad fellowships (about 10 doctoral seats per year).
+- **Mifal HaPais athlete track** - for athletes on the Israeli national representative team.
+- **University faculty-specific awards** - pattern only; instruct the user to check the target faculty's scholarships page after applying for institutional awards.
+- **PEREACH miluim supplement** - for PEREACH recipients who served reserve duty during the academic year, additional grant on top of the base; stacks with the Iron Swords NIS 1,100 floor.
 
 ### Step 10: Rank by deadline and recommend an application order
 
@@ -231,7 +232,7 @@ Some foundations cap stacked grant value to a percentage of tuition. Surface thi
 
 ## Bundled Resources
 
-- `references/domain-checklist.md` — coverage map for fact-check / future updates
-- `references/scholarship-table.md` — quick-reference table of all major Israeli scholarships
-- `references/profile-questionnaire.md` — structured intake questions for matching
-- `scripts/match_scholarships.py` — reference implementation of the eligibility-filter logic
+- `references/domain-checklist.md` - coverage map for fact-check / future updates
+- `references/scholarship-table.md` - quick-reference table of all major Israeli scholarships
+- `references/profile-questionnaire.md` - structured intake questions for matching
+- `scripts/match_scholarships.py` - reference implementation of the eligibility-filter logic

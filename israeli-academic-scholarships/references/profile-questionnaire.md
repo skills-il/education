@@ -1,13 +1,13 @@
-# Profile Questionnaire — Scholarship Matching
+# Profile Questionnaire - Scholarship Matching
 
 Structured intake the skill should run before recommending. Ask in a single batched prompt rather than one-at-a-time.
 
 ## Core profile
 
-1. **Degree level** — BA / MA / PhD / postdoc?
-2. **Institution** — which university or college? (HUJI / TAU / Technion / BIU / BGU / OpenU / Reichman / Ariel / college / מכינה / הנדסאי)
-3. **Year of study** — incoming freshman / second-year / completing / graduate-level?
-4. **Faculty / field** — CS / Math / Engineering / Medicine / Humanities / Social Sciences / Other?
+1. **Degree level** - BA / MA / PhD / postdoc?
+2. **Institution** - which university or college? (HUJI / TAU / Technion / BIU / BGU / OpenU / Reichman / Ariel / college / מכינה / הנדסאי)
+3. **Year of study** - incoming freshman / second-year / completing / graduate-level?
+4. **Faculty / field** - CS / Math / Engineering / Medicine / Humanities / Social Sciences / Other?
 
 ## Service status
 
@@ -20,9 +20,9 @@ Structured intake the skill should run before recommending. Ask in a single batc
 
 ## Background
 
-8. **Aliyah status** — born in Israel / oleh chadash within last 10 years / toshav chozer? If oleh, aliyah date and country of origin.
-9. **Residence history** — where did you live for most of the 6 years before starting your degree? Specifically, were you in a national-priority-area yishuv for 5 of those 6 years?
-10. **Household socioeconomic status** — single-parent / large family (4+ children) / working but below median income / first-generation in higher education / ultra-Orthodox / Arab-Israeli / Ethiopian-Israeli / Mizrahi / Bedouin / Druze / etc.
+8. **Aliyah status** - born in Israel / oleh chadash within last 10 years / toshav chozer? If oleh, aliyah date and country of origin.
+9. **Residence history** - where did you live for most of the 6 years before starting your degree? Specifically, were you in a national-priority-area yishuv for 5 of those 6 years?
+10. **Household socioeconomic status** - single-parent / large family (4+ children) / working but below median income / first-generation in higher education / ultra-Orthodox / Arab-Israeli / Ethiopian-Israeli / Mizrahi / Bedouin / Druze / etc.
 
 ## Academic record
 

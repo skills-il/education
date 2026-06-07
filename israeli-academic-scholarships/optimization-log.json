@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-07",
+      "lessons": [
+        "Facts were strong (Mimadim graduated model, Adams field scope, Iron Swords thresholds all verified). Fixed: MoD periphery post-discharge window (added the 10-year extension for active reservists / lone soldiers, was missing from SKILL + script), the Iron Swords 50+ day grant now has a concrete figure (up to ~NIS 11,653, 2025 cohort), and Adams duration framed as 3 years + up to 1 extension (not flat 'up to 4').",
+        "Built evidence.json from scratch (legacy skill). Stripped 10 em-dashes from SKILL.md (HE was already clean).",
+        "Deferred MINOR: MoD periphery cap labeled תשפ\"ה/2025 will refresh for תשפ\"ז (skill hedges); Mifal HaPais funding-source pointer (it funds the enhanced PEREACH track) could be a one-liner next cycle.",
+        "Unverified-but-not-refuted: Student Authority exact תשפ\"ו deadlines and the Rothschild USD 75,000 ceiling could not be confirmed on bot-blocked official pages; kept with verify-before-relying framing.",
+        "match_scholarships.py still gates periphery only on is_periphery_resident_5_of_6 with no discharge-window field; surfaced the 5/10-year rule in the notes string this cycle, consider adding a real field next cycle."
+      ]
+    }
+  ]
+}

@@ -15,9 +15,10 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 | Scholarship | Profile filter | Typical grant | Application timing |
 |---|---|---|---|
 | Pikadon Hayashi | Discharged soldier or Sherut Leumi alum, within post-discharge window (5 years for most; verify current window for active reservists/lone soldiers) | The user's own deposit | Anytime within window |
-| MoD periphery scholarship | Lived in priority-area yishuv 5 of 6 years before studies | Up to 100% first-year BA tuition (~NIS 11,653 in 2025) | Annual; cannot stack with other periphery |
-| Mimadim LiLimudim | Combat veterans + special populations; ~3,230 fellows in תשפ"ו | **GRADUATED**: 85% Years 1-2, top-up to 100% in final year, capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | תשפ"ו: opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026 |
+| MoD periphery scholarship | Lived in priority-area yishuv 5 of 6 years before studies, within the post-discharge window (5 years standard, 10 years for active reservists / lone soldiers) | Up to 100% first-year BA tuition (~NIS 11,653, תשפ"ה/2025) | Annual; cannot stack with other periphery |
+| Mimadim LiLimudim | Combat veterans + special populations (large annual cohort) | **GRADUATED**: 85% Years 1-2, top-up to 100% in final year, capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | תשפ"ו: opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026 |
 | Atid Foundation | Combat veterans (foundation track) | Per-track grant | Check current cycle |
+| IMPACT! (FIDF) | Former combat / combat-support soldiers from low-income backgrounds | USD 4,000/year for up to 4 years; ~130 community-service hours/year + 2 donor letters/year | Annual; apply via FIDF |
 
 ## Iron Swords reservist framework (CHE + MoD, תשפ"ה-תשפ"ז)
 
@@ -25,7 +26,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 |---|---|---|---|
 | 8+ cumulative reserve days from 7.10.2023 | Any reservist student | NIS 1,100 one-time | Universal floor |
 | Reservist parent of children under 14 | Any reservist student with eligible children | NIS 2,000 one-time | Stacks on top of NIS 1,100 |
-| 50+ days reserve service under Order 8 | Rear-service reservist students | One-time tuition assistance | Check che.org.il/war/ for current cohort percentage |
+| 50+ days reserve service under Order 8 | Reservist students (combat array) | One-time tuition grant up to ~NIS 11,653 (2025 cohort) | Check che.org.il/war/ for current cohort amount + window |
 | Combat-track extended reserve service | Combat reservists | Higher-tier tuition support, up to full tuition | Cannot stack with Mimadim LiLimudim same year |
 | 61-99 reserve days | Any reservist student | 8 credit-unit exemption (electives + general) | Academic accommodation |
 | 100+ reserve days | Any reservist student | 10 credit-unit exemption | Same |
@@ -59,7 +60,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 
 | Scholarship | Profile filter | Typical grant | Application timing |
 |---|---|---|---|
-| Adams Fellowship | 2nd-year PhDs in **exact sciences, mathematics, life sciences ONLY** (NOT humanities/social sciences) | Full tuition + NIS 100,000/year + USD 3,000/year travel; up to 4 years | Opens October-November, closes early January for following year |
+| Adams Fellowship | 2nd-year PhDs in **exact sciences, mathematics, life sciences ONLY** (NOT humanities/social sciences) | Full tuition + NIS 100,000/year + USD 3,000/year travel; 3 years base + up to 1 extension | Opens October-November, closes early January for following year |
 | Aharon Katzir Postdoctoral Fellowship | Postdoc in humanities or social sciences | Multi-year postdoc-abroad track via Israel Academy of Sciences | Per-cycle; check academy.ac.il |
 | PBC / MALAG outstanding-doctoral-from-periphery | PhDs from periphery yishuvim | Council for Higher Education direct track | Per-cohort |
 | Maof program (PBC/MALAG) | Outstanding young scientists from Arab community | Faculty-integration pipeline | Per-cohort |

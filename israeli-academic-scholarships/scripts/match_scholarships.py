@@ -122,9 +122,9 @@ def match_post_service(profile: StudentProfile) -> List[ScholarshipMatch]:
             matches.append(ScholarshipMatch(
                 name="MoD periphery scholarship",
                 track="Periphery (אזורי עדיפות לאומית)",
-                typical_grant="Up to 100% first-year BA tuition (~NIS 11,653 in 2025)",
+                typical_grant="Up to 100% first-year BA tuition (~NIS 11,653, taf-shin-peh-heh/2025)",
                 deadline_window="Annual; check hachvana.mod.gov.il",
-                notes="EXCLUSIVE, cannot stack with other periphery scholarships",
+                notes="EXCLUSIVE, cannot stack with other periphery scholarships. Post-discharge window: 5 years standard, 10 years for active reservists / lone soldiers",
             ))
     if profile.is_combat_veteran:
         matches.append(ScholarshipMatch(

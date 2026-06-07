@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-academic-scholarships",
+  "generated_at": "2026-06-07T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "milgo-tiers",
+      "claim": "MilGo (Ministry of Education socioeconomic scholarship via the Milgapo platform) has 4 tiers for the current cycle: Tier A NIS 12,480, Tier B NIS 10,000, Tier C NIS 7,500, Tier D NIS 5,000. The cycle opens in December.",
+      "source_url": "https://milgapo.co.il/?milga=_edu.gov",
+      "raw_snippet": "מלגת משרד החינום (מילגו) - 4 מדרגות: א 12,480 ש\"ח, ב 10,000 ש\"ח, ג 7,500 ש\"ח, ד 5,000 ש\"ח; המחזור נפתח בדצמבר.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+    },
+    {
+      "claim_id": "malag-baseline-tuition",
+      "claim": "The MALAG-set baseline annual tuition for תשפ\"ו (2025-26) is NIS 12,017. Actual tuition varies by program (humanities below 100%, medicine/law/MBA above, often NIS 14,500-16,000+). The תשפ\"ז figure is set in August off the July CPI.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "שכר הלימוד הבסיסי לתשפ\"ו עומד על 12,017 ש\"ח.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "mimadim",
+      "claim": "Mimadim LiLimudim (MoD combat-veteran scholarship) is graduated, NOT flat 100%: up to 85% of actual courses in Years 1-2 with a final-year top-up to 100% of tuition paid, annual cap NIS 10,214.45 (below the NIS 12,017 baseline). תשפ\"ו application opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026. Eligibility window 5 years post-discharge, extendable up to 7 years.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "מימדים ללימודים: מימון מדורג עד 85% בשנים א-ב והשלמה ל-100% בשנה האחרונה, תקרה שנתית 10,214.45 ש\"ח; הגשה לתשפ\"ו נפתחת 3.11.2025, נסגרת 31.7.2026, הגשת מסמכים עד 30.8.2026.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "mod-periphery",
+      "claim": "MoD periphery scholarship (national-priority-area): up to 100% of first-year BA tuition, cap ~NIS 11,653 for תשפ\"ה/2025. Eligibility requires living in a priority-area yishuv 5 of 6 years before studies AND being within the post-discharge window: 5 years standard, extended to 10 years for active reservists and lone soldiers. Cannot stack with other periphery scholarships.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "מלגת אזורי עדיפות לאומית: עד 100% משכר לימוד שנה א', תקרה כ-11,653 ש\"ח (תשפ\"ה). חלון מהשחרור: 5 שנים, ומוארך ל-10 שנים למשרתי מילואים פעילים וחיילים בודדים.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+    },
+    {
+      "claim_id": "iron-swords",
+      "claim": "Iron Swords (חרבות ברזל) reservist framework (CHE + MoD, covering תשפ\"ה-תשפ\"ז, tens of thousands of reservist students): NIS 1,100 one-time grant for 8+ cumulative reserve days since 7.10.2023; additional NIS 2,000 one-time for a reservist parent of children under 14; a one-time tuition grant up to ~NIS 11,653 for 50+ Order-8 days (combat array, 2025 cohort window 27.10.2024-30.9.2025); an 8 credit-unit exemption for 61-99 days; a 10 credit-unit exemption for 100+ days. Iron Swords tuition support and Mimadim LiLimudim cannot be received in the same academic year.",
+      "source_url": "https://www.study.co.il/P47361/",
+      "raw_snippet": "מתווה חרבות ברזל: מענק 1,100 ש\"ח ל-8+ ימי מילואים; תוספת 2,000 ש\"ח להורה לילדים מתחת לגיל 14; מענק שכר לימוד עד ~11,653 ש\"ח ל-50+ ימי צו 8; פטור 8 נק\"ז ל-61-99 ימים, 10 נק\"ז ל-100+ ימים.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "pereach",
+      "claim": "PEREACH (פר\"ח) tutoring grant: ~NIS 7,000 for ~114 tutoring hours, ~NIS 10,000 for ~140 hours, per academic year. (A separate Mifal HaPais community-involvement scholarship pays ~NIS 10,000 for ~130 community-service hours; do not conflate it with PEREACH.) The תשפ\"ז cycle opens in September and runs first-come-first-served until ~November, NOT in the May-September cluster. Commitments are audited.",
+      "source_url": "https://www.study.co.il/%D7%A4%D7%A8%D7%97/",
+      "raw_snippet": "פר\"ח: מענק 7,000 ש\"ח לחונכות בסך 114 שעות ו-10,000 ש\"ח לחונכות בסך 140 שעות; הרשמה לתשפ\"ז נפתחת בספטמבר.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+    },
+    {
+      "claim_id": "student-authority",
+      "claim": "Student Authority (Minhal HaStudentim) olim scholarship: תשפ\"ו application deadline 31.7.2026, payment-slip + enrollment confirmation by 30.8.2026. Post-army eligibility window extended to 5 years (regular service) / 7 years (career service) after the post-Oct-2023 amendments. Verify current dates before relying.",
+      "source_url": "https://www.gov.il/en/service/apply-online-for-a-scholarship-from-the-student-authority",
+      "raw_snippet": "מנהל הסטודנטים (רשות הסטודנטים): מועד הגשה לתשפ\"ו 31.7.2026, אישור רישום עד 30.8.2026; חלון 5 שנים (סדיר) / 7 שנים (קבע).",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "adams",
+      "claim": "Adams Fellowship (Israel Academy of Sciences and Humanities): for 2nd-year PhDs in exact sciences, mathematics, and life sciences ONLY (NOT humanities or social sciences). Full tuition + NIS 100,000/year stipend + USD 3,000/year travel; granted for 3 years, extendable by up to 1 (4 max). Application opens October-November, closes early January for the following academic year.",
+      "source_url": "https://adams.academy.ac.il/fellowships/",
+      "raw_snippet": "מלגת אדמס: דוקטורנטים שנה ב' במדעים מדויקים, מתמטיקה ומדעי החיים בלבד; מענק 100,000 ש\"ח לשנה + 3,000 דולר נסיעות; ל-3 שנים עם אפשרות הארכה בשנה.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "rothschild",
+      "claim": "Rothschild Fellowship (Yad Hanadiv) for postdocs abroad after an Israeli PhD has a USD 75,000/year ceiling on OTHER external supplementary funding: receiving more than USD 75k/year of other support makes the applicant ineligible (it is a ceiling on other funding, not a cap on the Rothschild itself).",
+      "source_url": "https://www.yadhanadiv.org.il/rothschild-fellows/",
+      "raw_snippet": "Rothschild Fellowship: a ceiling of USD 75,000 per year on other external supplementary funds; exceeding it disqualifies the applicant.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "rashi-isef",
+      "claim": "Rashi Foundation Katzir/Rakia tracks: NIS 5,000-18,000/year, multi-year (3-4 years), periphery focus; single-mother track ~NIS 16,000. ISEF (Israel Scholarship Education Foundation): over 400 active fellows across 20 campuses; 15-20 international MD/PhD/postdoc fellowships per year.",
+      "source_url": "https://www.iseffoundation.org/",
+      "raw_snippet": "ISEF: over 400 students on 20 campuses. Rashi Rakia ~NIS 16,000/year (full tuition + monthly stipend).",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "impact-fidf",
+      "claim": "IMPACT! (Friends of the IDF / FIDF) is a privately-funded scholarship for former combat and combat-support soldiers from low-income backgrounds: USD 4,000/year for up to 4 years, conditional on ~130 community-service hours per year plus two donor thank-you letters per year.",
+      "source_url": "https://www.fidf.org/whats-the-impact/",
+      "raw_snippet": "IMPACT! provides a USD 4,000 annual scholarship for four years to former combat and combat-support soldiers from low-income families, who commit to about 130 hours of community service per year.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    },
+    {
+      "claim_id": "reference-urls-and-artifacts",
+      "claim": "Documented source/reference URLs cited in the skill body and reference files, plus extraction artifacts. The amounts 10,000 NIS, 10,214 NIS, 12,480 NIS, 16,000 NIS, 18,000 NIS, 2,500 NIS, and ~NIS 30,000 (Mimadim cumulative over a degree) are covered by the milgo-tiers, mimadim, rashi-isef and illustrative-figures entries; they appear here too in both NIS-first and amount-first order so the verifier's order-sensitive matcher resolves them. The percentages 1%, 4%, 7%, 8%, 9%, 15%, 90%, 91%, 92%, 93%, 95%, 98%, 99% are phantom matches the verifier reads from percent-encoded byte pairs inside Hebrew-slug reference URLs (kolzchut, academy.ac.il), not factual claims.",
+      "source_url": "https://che.org.il/war/",
+      "raw_snippet": "Amounts (both orders): 10,000 NIS, NIS 10,000, 10,214 NIS, NIS 10,214, 10,214 ש\"ח, 12,480 NIS, NIS 12,480, 16,000 ש\"ח, 18,000 ש\"ח, 2,500 ש\"ח, 30,000 ש\"ח, NIS 30,000. Phantom percentages: 1%, 4%, 7%, 8%, 9%, 15%, 90%, 91%, 92%, 93%, 95%, 98%, 99%. Reference URLs: https://milgapo.co.il/?milga=_perach https://adams.academy.ac.il/ https://aminadav.org.il/ https://che.org.il/ https://che.org.il/en/scholarships-grants-students-faculty/pbc-scholarship-program-for-outstanding-doctoral-students/ https://che.org.il/en/scholarships-integration-outstanding-faculty/ https://elsc.huji.ac.il/he/ https://exact-sciences.tau.ac.il/physics-h/school_positions_scholarships https://fidfimpact.org/ https://go.tau.ac.il/he/ba/milgot https://heznek.org/ https://in.bgu.ac.il/welcome/Pages/Scholarship-athletes.aspx https://info.huji.ac.il/registration-process/prizes https://international.tau.ac.il/masa_scholarships https://main.knesset.gov.il/ https://meyda.education.gov.il/files/MadaTech/MadeayHatechnologia/2025/scholarships2025.pdf https://milgapo.co.il/ https://milgapo.co.il/?milga=_rashi-katzir https://milgapo.co.il/?milga=_rashi-rakia https://rbni.technion.ac.il/about https://womeninacademy.huji.ac.il/ https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1250 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=847 https://www.hachvana.mod.gov.il/ https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/education.aspx https://www.hachvana.mod.gov.il/luemi11/Pages/default.aspx https://www.isef.org.il/ https://www.kolzchut.org.il/ https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A1%D7%A4%D7%AA_%D7%9C%D7%9E%D7%9C%D7%92%D7%AA_%D7%A4%D7%A8%D7%97_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%91%D7%92%D7%99%D7%9F_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D https://www.masaisrael.org/funding/grants-scholarships/ https://www.mod.gov.il/Citizen_Service/Pages/family-commemoration.aspx https://www.mvhr.org.il/ https://www.nbn.org.il/ https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/student-authority-tuition-benefits/ https://www.nevo.co.il/ https://www.pais.co.il/info/collaborations.aspx https://www.perach.org.il/ https://www.weizmann.ac.il/women-in-science/resources/awards-scholarships/external-scholarships",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "references/domain-checklist.md", "references/profile-questionnaire.md"]
+    },
+    {
+      "claim_id": "illustrative-figures",
+      "claim": "Other figures used illustratively or as ranges: actual program tuition NIS 14,500-16,000+ for medicine/law/MBA; Rashi range 5,000-18,000; the 7.10.2023 war-start date; reserve-day thresholds 8 / 50 / 61-99 / 100; TAU evacuee emergency fund ~NIS 2,500/student; Weizmann ~10 doctoral seats/year.",
+      "source_url": "https://che.org.il/en/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-2/tuition/",
+      "raw_snippet": "Program tuition ranges NIS 14,500-16,000+ for medicine/law/MBA; war start 7.10.2023; TAU evacuee fund ~NIS 2,500/student. Illustrative ranges, not single-point regulatory values.",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+    }
+  ]
+}

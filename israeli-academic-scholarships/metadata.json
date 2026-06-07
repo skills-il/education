@@ -38,7 +38,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "education",
   "supported_agents": [
     "claude-code",
@@ -52,15 +52,51 @@
   "openclaw": true,
   "volatility": "annual",
   "authoritative_sources": [
-    { "url": "https://www.perach.org.il/", "type": "regulator", "language": "he" },
-    { "url": "https://www.hachvana.mod.gov.il/", "type": "regulator", "language": "he" },
-    { "url": "https://www.nbn.org.il/", "type": "knowledge-base", "language": "en" },
-    { "url": "https://www.iseffoundation.org/", "type": "foundation", "language": "en" },
-    { "url": "https://milgapo.co.il/", "type": "knowledge-base", "language": "he" },
-    { "url": "https://che.org.il/", "type": "regulator", "language": "he" },
-    { "url": "https://che.org.il/war/", "type": "regulator", "language": "he" },
-    { "url": "https://adams.academy.ac.il/", "type": "regulator", "language": "he" },
-    { "url": "https://heznek.org/", "type": "foundation", "language": "he" }
+    {
+      "url": "https://www.perach.org.il/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hachvana.mod.gov.il/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nbn.org.il/",
+      "type": "knowledge-base",
+      "language": "en"
+    },
+    {
+      "url": "https://www.iseffoundation.org/",
+      "type": "foundation",
+      "language": "en"
+    },
+    {
+      "url": "https://milgapo.co.il/",
+      "type": "knowledge-base",
+      "language": "he"
+    },
+    {
+      "url": "https://che.org.il/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://che.org.il/war/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://adams.academy.ac.il/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://heznek.org/",
+      "type": "foundation",
+      "language": "he"
+    }
   ],
   "domain_checklist_version": 2
 }
