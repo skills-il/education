@@ -29,7 +29,7 @@ This skill helps users research family history using Israeli and Jewish genealog
 
 | Source | What It Contains | URL | Access |
 |--------|-----------------|-----|--------|
-| **IGRA** (Israel Genealogy Research Association) | 3.9M+ records: birth, marriage, death, immigration, voter rolls | https://genealogy.org.il/AID/ | Free search, membership for full access |
+| **IGRA** (Israel Genealogy Research Association) | 4M+ records (May 2026): birth, marriage, death, immigration, voter rolls | https://genealogy.org.il/AID/ | Free search, membership for full access |
 | **JewishGen** | Global Jewish genealogy hub, community databases, Yizkor books | https://www.jewishgen.org/ | Free registration |
 | **NLI Archives** (via nli-search MCP) | Historical documents, manuscripts, photographs, newspapers | https://www.nli.org.il/ | Free API (key required) |
 | **Israel State Archives** | Government records, immigration files, land documents | https://www.archives.gov.il/ | Free online access to digitized materials |
@@ -42,7 +42,7 @@ This skill helps users research family history using Israeli and Jewish genealog
 **Genealogy organizations and family-name databases:**
 - **IGRA** (Israel Genealogy Research Association): runs the All Israel Database described above.
 - **IGS** (Israel Genealogical Society): a separate membership organization from IGRA, with regional branches, lectures, and research help. The two are distinct, do not confuse them.
-- **Beit Hatfutsot / ANU - Museum of the Jewish People**: hosts Jewish family-name and genealogy databases (the former Douglas E. Goldman Jewish Genealogy Center), useful for the meaning and distribution of a surname.
+- **Beit Hatfutsot / ANU - Museum of the Jewish People**: hosts free Jewish family-name and genealogy databases (the former Douglas E. Goldman Jewish Genealogy Center), useful for the meaning and distribution of a surname. Search the Memi De-Shalit Database of Jewish Family Names at https://dbs.anumuseum.org.il/skn/en/c6/BH and explore the collaborative family-tree platform at https://geni.anumuseum.org.il/.
 
 ### Research Strategy by Period
 
@@ -259,7 +259,7 @@ See the `references/` directory for:
 
 3. **Assuming records are centralized:** There is no single Israeli genealogy database. Records are split across IGRA, State Archives, NLI, rabbinate offices, municipal archives, and dozens of smaller collections. Each has different access methods.
 
-4. **Privacy restrictions on recent records:** Israeli privacy law restricts access to vital records less than 70 years old (births) or 50 years old (marriages/deaths) unless the requester can prove a direct family relationship. Don't assume all records are publicly searchable.
+4. **Privacy restrictions on recent records:** Israeli privacy law closes all personal vital records (birth, marriage, and death) for 70 years; only first-degree relatives can request a record inside that window. The separate 50-year rule applies to IDF and defence-establishment records, not to marriages or deaths. Don't assume all records are publicly searchable.
 
 5. **Confusing kibbutz records:** Kibbutz members often appear in kibbutz internal records (pinkas) rather than municipal records. For kibbutz families, contact the kibbutz archive directly or check the Central Zionist Archives.
 

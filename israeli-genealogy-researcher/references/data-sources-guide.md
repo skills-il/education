@@ -3,7 +3,7 @@
 ## IGRA - Israel Genealogy Research Association
 
 - **URL:** https://genealogy.org.il/AID/
-- **Records:** 3.9M+ records (as of Feb 2026)
+- **Records:** 4M+ records (as of May 2026)
 - **Coverage:** Birth, marriage, death, immigration, voter rolls, professional registers
 - **Access:** Free basic search, full membership for detailed records
 - **Strengths:** Largest single Israeli genealogy database, fuzzy name matching, Palestine Gazette index
@@ -53,9 +53,9 @@
 
 ## Population Registry (Ministry of Interior)
 
-- **Access:** Form 1404 submission with ID and relationship proof
+- **Access:** Submit the current Population Registry request form with ID and relationship proof (verify the exact form number on gov.il, since form numbers change)
 - **Records:** Birth, death, marriage certificates (from 1948)
-- **Limitations:** Privacy restrictions on records less than 70 years old (births) or 50 years old (marriages/deaths)
+- **Limitations:** All personal vital records (birth, marriage, and death) are closed for 70 years; only first-degree relatives can request a record inside that window. The separate 50-year rule applies to IDF and defence-establishment records.
 
 ## Municipal Archives
 
@@ -82,8 +82,8 @@ Major city archives:
 
 ## Genealogy Organizations and Family-Name Databases
 
-- **IGS (Israel Genealogical Society):** https://www.igs.org.il/ (membership organization with regional branches; distinct from IGRA)
-- **Beit Hatfutsot / ANU - Museum of the Jewish People:** Jewish family-name and genealogy databases (formerly the Douglas E. Goldman Jewish Genealogy Center)
+- **IGS (Israel Genealogical Society):** membership organization with regional branches, lectures, and research help; distinct from IGRA. Search for the current society site on gov.il or a genealogy portal, since the organization's web address has changed over time.
+- **Beit Hatfutsot / ANU - Museum of the Jewish People:** free Jewish family-name and genealogy databases (formerly the Douglas E. Goldman Jewish Genealogy Center). Database of Jewish Family Names (Memi De-Shalit): https://dbs.anumuseum.org.il/skn/en/c6/BH . Collaborative family-tree platform: https://geni.anumuseum.org.il/
 
 ## Additional Resources
 
@@ -91,4 +91,4 @@ Major city archives:
 - **Geni:** https://www.geni.com/ (collaborative family trees)
 - **FamilySearch:** https://www.familysearch.org/ (LDS Church, includes some Israeli records)
 
-Note: This skill does not cover Yad Vashem Holocaust victim name searches. For Holocaust victim research, use Yad Vashem's Central Database of Shoah Victims' Names directly.
+Note: This skill does not cover Yad Vashem Holocaust victim name searches. For Holocaust victim research, use Yad Vashem's Central Database of Shoah Victims' Names directly at https://yvng.yadvashem.org/.

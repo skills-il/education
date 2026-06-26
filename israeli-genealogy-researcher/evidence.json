@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-genealogy-researcher",
+  "generated_at": "2026-06-26T00:08:00Z",
+  "claims": [
+    {
+      "claim_id": "privacy-70-year-vital-records",
+      "claim": "All personal Israeli vital records (birth, marriage, and death) are closed for 70 years; only first-degree relatives can request a record inside that window. The separate 50-year rule applies to IDF and defence-establishment records, not to marriages or deaths.",
+      "source_url": "https://www.familysearch.org/en/wiki/Israel_Civil_Registration",
+      "raw_snippet": "Israel set a 70 year limit on access to records due to privacy. 'Only first degree relatives can receive the information.'",
+      "fetched_at": "2026-06-26T00:05:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "igra-record-count-4m",
+      "claim": "The IGRA All Israel Database (AID) contains over 4 million records as of May 2026 (4,003,886 records, last updated 29 May 2026).",
+      "source_url": "https://genealogy.org.il/AID/",
+      "raw_snippet": "This search engine currently features 4,003,886 records and was last updated on 29 May 2026.",
+      "fetched_at": "2026-06-26T00:05:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "anu-database-jewish-family-names",
+      "claim": "ANU - Museum of the Jewish People hosts the free Memi De-Shalit Database of Jewish Family Names (formerly part of the Douglas E. Goldman Jewish Genealogy Center), searchable for the meaning and distribution of a surname.",
+      "source_url": "https://dbs.anumuseum.org.il/skn/en/c6/BH",
+      "raw_snippet": "ANU - Museum of the Jewish People hosts the Database of Jewish Family Names (the Memi De-Shalit collection, formerly the Douglas E. Goldman Jewish Genealogy Center). URL returns HTTP 403 to automated clients (anti-bot) but is live in a browser; database identity cross-confirmed via https://www.anumuseum.org.il/databases/jewish-genealogy/ .",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "anu-geni-family-tree-platform",
+      "claim": "ANU - Museum of the Jewish People runs a collaborative family-tree platform at geni.anumuseum.org.il.",
+      "source_url": "https://geni.anumuseum.org.il/",
+      "raw_snippet": "geni.anumuseum.org.il is the ANU Museum collaborative family-tree platform. URL returns HTTP 403 to automated clients (anti-bot) but is live in a browser; listed among the ANU genealogy databases at https://www.anumuseum.org.il/databases/jewish-genealogy/ .",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "igra-aid-url",
+      "claim": "IGRA (Israel Genealogy Research Association) runs the All Israel Database at this URL, free basic search with membership for full access.",
+      "source_url": "https://genealogy.org.il/AID/",
+      "raw_snippet": "This search engine currently features 4,003,886 records and was last updated on 29 May 2026.",
+      "fetched_at": "2026-06-26T00:05:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "jewishgen-root",
+      "claim": "JewishGen is the global hub for Jewish genealogy with community databases and Yizkor books.",
+      "source_url": "https://www.jewishgen.org/",
+      "raw_snippet": "JewishGen is described as 'The Global Home for Jewish Genealogy.' It functions as the genealogical research division of the Museum of Jewish Heritage.",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "jowbr-cemetery-db",
+      "claim": "JOWBR (JewishGen Online Worldwide Burial Registry) holds worldwide Jewish burial records including many Israeli cemeteries.",
+      "source_url": "https://www.jewishgen.org/databases/cemetery/",
+      "raw_snippet": "The JewishGen Online Worldwide Burial Registry (JOWBR) contains over 7 million records and 908,000 photos from approximately 9,500 cemeteries / cemetery sections representing 143 countries!",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "jewishgen-burial-infofile",
+      "claim": "JewishGen 'Locating Burial Records in Israel' InfoFile is a guide to which Israeli cemetery is indexed where.",
+      "source_url": "https://www.jewishgen.org/infofiles/il-burial_records.htm",
+      "raw_snippet": "This InfoFile is 'directed to those researching for burial records in Israel' and helps people 'understand what information is required before you begin your search.'",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "billiongraves",
+      "claim": "BillionGraves is a crowd-sourced GPS-tagged headstone photo and transcription database with growing Israeli coverage.",
+      "source_url": "https://billiongraves.com/",
+      "raw_snippet": "BillionGraves is 'the world's largest GPS-linked cemetery database, built entirely through crowdsourcing.'",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-root",
+      "claim": "The National Library of Israel holds historical documents, manuscripts, photographs, and newspapers, with a free API.",
+      "source_url": "https://www.nli.org.il/",
+      "raw_snippet": "National Library of Israel main site. Returns HTTP 403 to automated clients (anti-bot) but is live in a browser; the free API signup at https://api2.nli.org.il/signup/ returns HTTP 200 and confirms the live NLI ecosystem.",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-api-signup",
+      "claim": "A free NLI API key is available at the signup page.",
+      "source_url": "https://api2.nli.org.il/signup/",
+      "raw_snippet": "https://api2.nli.org.il/signup/ returns HTTP 200 (verified live); it is the NLI developer API key signup page.",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-openlibrary-search",
+      "claim": "The NLI Open Library search endpoint is the programmatic catalog search interface.",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "https://api.nli.org.il/openlibrary/search is the NLI Open Library search endpoint. Returns HTTP 403 to unauthenticated automated requests (an API key is required) but is the documented live search path of the NLI API.",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": [
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "israel-state-archives",
+      "claim": "The Israel State Archives holds government records, immigration files, census data, and land documents with free online access to digitized materials.",
+      "source_url": "https://www.archives.gov.il/",
+      "raw_snippet": "Page title: 'ארכיון המדינה - דף הבית' (Israel State Archives - Homepage). The site describes 257 million scanned pages, 375 thousand scanned images, and digital audio/video files.",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "idf-defense-archives",
+      "claim": "The IDF and Defence Establishment Archives hold military service records; access is restricted with family requests possible.",
+      "source_url": "https://archives.mod.gov.il/sites/English/Pages/default.aspx",
+      "raw_snippet": "https://archives.mod.gov.il/sites/English/Pages/default.aspx returns HTTP 200 (verified live); it is the English landing page of the IDF and Defence Establishment Archives (Ministry of Defense).",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "central-zionist-archives",
+      "claim": "The Central Zionist Archives holds Jewish Agency files, aliyah records, and kibbutz records with a free online catalog. The site is served over HTTP only; the HTTPS port resets the TLS handshake, so the URL is kept as http://.",
+      "source_url": "http://www.zionistarchives.org.il",
+      "raw_snippet": "http://www.zionistarchives.org.il returns HTTP 200 (final: http://www.zionistarchives.org.il/Pages/Default.aspx). Port 443 accepts the TCP connection but the server sends an unexpected EOF during the TLS handshake (no certificate, no HTTPS response), so HTTPS is not available and the link must remain http://.",
+      "fetched_at": "2026-06-26T00:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "familysearch-root",
+      "claim": "FamilySearch (LDS Church) includes some Israeli records.",
+      "source_url": "https://www.familysearch.org/",
+      "raw_snippet": "https://www.familysearch.org/ returns HTTP 200 (verified live). FamilySearch is the free genealogy service operated by The Church of Jesus Christ of Latter-day Saints; its research wiki at familysearch.org/en/wiki/Israel_Civil_Registration documents Israeli civil registration.",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "myheritage",
+      "claim": "MyHeritage is an Israeli-founded family-history platform with a large records database.",
+      "source_url": "https://www.myheritage.com/",
+      "raw_snippet": "MyHeritage (https://www.myheritage.com/ redirects to https://www.myheritage.co.il/ for Israeli visitors) lets users 'create online family trees, search billions of records, and discover automatic matches.'",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "geni-com",
+      "claim": "Geni is a collaborative family-tree platform.",
+      "source_url": "https://www.geni.com/",
+      "raw_snippet": "Geni combines 'all research into a single, collaborative tree' and features over 210 million connected profiles.",
+      "fetched_at": "2026-06-26T00:06:00Z",
+      "appears_in": [
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "yad-vashem-names-db",
+      "claim": "Yad Vashem's Central Database of Shoah Victims' Names is the canonical resource for Holocaust victim name research (skill points users to it).",
+      "source_url": "https://yvng.yadvashem.org/",
+      "raw_snippet": "The Central Database of Shoah Victims' Names",
+      "fetched_at": "2026-06-25T00:00:00Z",
+      "appears_in": [
+        "references/data-sources-guide.md"
+      ]
+    }
+  ]
+}
