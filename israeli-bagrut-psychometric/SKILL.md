@@ -95,7 +95,7 @@ The magen (מגן) grade is determined by the school and considers:
 - Teacher's overall assessment
 
 **Special provisions:**
-- New immigrants (olim chadashim) receive a Hebrew-proficiency-based bonus when sitting the standard Hebrew written Bagrut exam: +10 points at basic Hebrew level (alef) or +15 points at levels bet/gimel. The bonus is not added on top of an adapted oleh question paper, a bilingual exam, or an oral substitute, so a student chooses one accommodation track. The benefit lasts 10 years from the date of aliyah or until age 23, whichever is later; Ethiopian immigrants are entitled for 12 years. (Do not confuse the 10-year window with the separate 4-year continuous-absence rule that defines returning-resident status.)
+- New immigrants (olim chadashim) receive a Hebrew-proficiency-based bonus when sitting the standard Hebrew written Bagrut exam: +10 points at basic Hebrew level (alef) or +15 points at levels bet/gimel. The bonus is not added on top of an adapted oleh question paper, a bilingual exam, or an oral substitute, so a student chooses one accommodation track. The benefit lasts 10 years from the date of aliyah or until age 23, whichever is later; Ethiopian immigrants are entitled for 12 years or until age 25, whichever is later. (Do not confuse the 10-year window with the separate 4-year continuous-absence rule that defines returning-resident status.)
 - Students with learning disabilities may receive testing accommodations (extra time, oral exams) following a recognized diagnosis (see Step 5)
 
 ### Step 3: Psychometric Entrance Test (PET)
@@ -279,7 +279,7 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 - The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
 - From the December 2026 (winter תשפ"ז) session, English is removed from the psychometric and tested separately via NITE's computerized English test (AMIRNET), and the general score becomes Quantitative 50% + Verbal 50%. Agents trained on the older three-section (40/40/20) structure will describe the wrong test for students sitting from that date onward. Older three-domain scores remain valid for 7 years.
 - The Bagrut passing grade is 55, not 56 or 60. The minimum grade to earn a university 5-unit bonus is a separate threshold (around 60). Agents conflate these two numbers.
-- The new-immigrant Bagrut benefit lasts 10 years from aliyah (or until age 23, whichever is later; 12 years for Ethiopian immigrants), and the bonus is +10 or +15 by Hebrew level, not a flat +15. The 4-year figure belongs to returning-resident status, a different entitlement.
+- The new-immigrant Bagrut benefit lasts 10 years from aliyah (or until age 23, whichever is later; 12 years or until age 25 for Ethiopian immigrants), and the bonus is +10 or +15 by Hebrew level, not a flat +15. The 4-year figure belongs to returning-resident status, a different entitlement.
 
 
 ## Reference Links
