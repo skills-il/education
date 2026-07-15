@@ -29,10 +29,18 @@
     },
     {
       "claim_id": "special-ed-amendment-11-2018",
-      "claim": "Special Education Law Amendment 11 (July 2018, effective school year 2019-20) renamed Va'adat Hashama to Va'adat Zakaut V'Iyun and gave parents the right to choose the educational framework",
+      "claim": "Special Education Law Amendment 11 (July 2018, effective school year 2019-20) renamed Va'adat Hashama to Va'adat Zakaut ve-Ipyun and gave parents the right to choose the educational framework",
       "source_url": "https://www.gov.il/he/departments/ministry-of-education",
       "raw_snippet": "תיקון 11",
       "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "integration-law-2002",
+      "claim": "The Integration Law (chok hashiluv) is Amendment 7 to the Special Education Law, enacted 2002 (התשס\"ב-2002); it weights inclusion of special-needs students in mainstream education",
+      "source_url": "https://fs.knesset.gov.il/15/law/15_lsr_300594.pdf",
+      "raw_snippet": "חוק חינוך מיוחד (תיקון מס' 7), התשס\"ב-2002",
+      "fetched_at": "2026-07-15T16:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {
@@ -85,10 +93,18 @@
     },
     {
       "claim_id": "disabled-child-allowance-2026",
-      "claim": "Disabled child allowance (kiztavat yeled nechet) 2026: roughly 1,910-3,820 NIS/month for most disability levels, up to 10,774 NIS/month for ventilator-dependent. Form 7821",
-      "raw_snippet": "קצבת ילד נכה: 1,910-3,820 ש\"ח לחודש, עד 10,774 ש\"ח לתלויי הנשמה. טופס 7821",
+      "claim": "Disabled child allowance (kiztavat yeled nechet) 2026: base levels from 1,943 NIS/month (50% level) to 9,126 NIS/month (235% level); ventilator-dependent get an additional 10,774 NIS/month supplement on top of the base. Form 7821 (טופס 7821)",
+      "raw_snippet": "1,943 ש\"ח ... 9,126 ש\"ח ... 10,774 ש\"ח ... טופס 7821",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+    },
+    {
+      "claim_id": "disabled-child-allowance-page",
+      "claim": "Bituach Leumi disabled-child allowance information page (kiztavat yeled nechet) cited in the skill's Reference Links",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
-      "fetched_at": "2026-05-25T19:15:00Z",
+      "raw_snippet": "קצבת ילד נכה",
+      "fetched_at": "2026-07-15T16:00:00Z",
       "appears_in": ["SKILL.md", "SKILL_HE.md"]
     },
     {

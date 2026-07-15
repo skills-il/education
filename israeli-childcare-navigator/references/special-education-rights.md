@@ -9,9 +9,9 @@
 | Pupils' Rights Law | 2000 | General student protections |
 | Amendment 11 to Special Education Law | 2018 | Major reform: renamed committee, gave parents framework choice, updated terminology |
 
-## Va'adat Zakaut V'Iyun (Eligibility and Characterization Committee)
+## Va'adat Zakaut ve-Ipyun (Eligibility and Characterization Committee)
 
-Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "Va'adat Zakaut V'Iyun". The colloquial name "va'adat hashama" is still widely used.
+Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "Va'adat Zakaut ve-Ipyun". The colloquial name "va'adat hashama" is still widely used.
 
 ### Who's on the committee
 - Ministry of Education official with special education expertise (chair)
@@ -43,7 +43,9 @@ Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "
 
 ## Support Hours by Severity
 
-| Severity Level | Weekly Hours | Examples |
+The committee sets the exact service-hour basket (sal sherutim) individually per child. The bands below are illustrative typical ranges, not a fixed statutory schedule, use them to set expectations, not as an entitlement calculation.
+
+| Severity Level | Typical Weekly Hours | Examples |
 |---------------|--------------|---------|
 | Light | 3-5 | Learning disabilities, mild speech delays |
 | Moderate | 6-12 | Autism spectrum (level 1), ADHD with comorbidities |
@@ -88,7 +90,7 @@ Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "
 
 Amendment 11 changed the terminology from "erer" (appeal) to "hashaga" (objection).
 
-1. **First objection:** Regional committee (within 21 days of receiving decision)
+1. **First objection:** Regional committee (file within the deadline stated in the committee's decision notice; confirm the current statutory window with the Ministry of Education, it is short, on the order of a few weeks)
 2. **Second objection:** National committee (if regional objection denied)
 3. **Legal action:** Administrative court (as last resort)
 
@@ -143,7 +145,7 @@ Service quality varies significantly:
 
 ## Financial Support
 
-Bituach Leumi provides disability allowance for children:
-- Monthly stipend ranges from approximately 500-3,000+ NIS based on severity
-- Separate application from the Va'ada process
-- Based on medical diagnosis, not educational placement
+Bituach Leumi provides a disabled-child allowance (kiztavat yeled nechet):
+- 2026 base levels range from approximately 1,943 NIS/month (50% level) to 9,126 NIS/month (235% level), by assessed severity; ventilator-dependent (monsham) children receive an additional ~10,774 NIS/month supplement on top of the base (see Step 5a of the skill for the current figures)
+- Separate application (form 7821) from the Va'ada process
+- Based on medical diagnosis, not educational placement, and not means-tested on parental income

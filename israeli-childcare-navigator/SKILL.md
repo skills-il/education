@@ -117,7 +117,7 @@ Monthly amounts (2026):
 
 If a child has a recognized disability (developmental, physical, sensory, or psychiatric), the family is entitled to a separate disabled child allowance, distinct from regular kiztavat yeladim.
 
-- Amounts (2026 ranges): roughly 1,910-3,820 NIS/month for most disability levels, scaling with the assessed severity; up to 10,774 NIS/month for ventilator-dependent children.
+- Amounts (2026): base levels range from 1,943 NIS/month (50% level) to 9,126 NIS/month (235% level), set by the assessed severity. Ventilator-dependent (monsham) children receive an additional 10,774 NIS/month supplement on top of the base level.
 - Eligibility is determined by a medical committee (Bituach Leumi) and depends on the disability type and severity, NOT means-tested on parental income.
 - Application: submit Bituach Leumi form 7821 with medical documentation. Initial decisions take 60-90 days.
 - The allowance is paid alongside the standard child allowance and the child savings plan continues.
@@ -141,9 +141,9 @@ Single parents (hore yachid) receive additional points beyond the standard split
 
 Governed by the **Special Education Law 1988**, significantly reformed by **Amendment 11 (2018)**.
 
-**The Va'adat Zakaut V'Iyun (Eligibility and Characterization Committee):**
+**The Va'adat Zakaut ve-Ipyun (Eligibility and Characterization Committee):**
 
-Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "Va'adat Zakaut V'Iyun" (eligibility and characterization committee). The colloquial name "va'adat hashama" is still widely used.
+Amendment 11 (2018) renamed the old "Va'adat Hashama" (placement committee) to "Va'adat Zakaut ve-Ipyun" (eligibility and characterization committee). The colloquial name "va'adat hashama" is still widely used.
 
 This is an external government body (not school-based) that determines:
 - Eligibility for special education services
@@ -265,7 +265,7 @@ Result: Parent understands the process, their rights, and how to prepare.
 
 3. **Child allowance amounts change annually.** The 2026 amounts (173/219 NIS per child) are CPI-adjusted each January. Do not use previous year's figures. Always specify the year when stating amounts.
 
-4. **The committee was renamed in 2018.** Amendment 11 renamed "ועדת השמה" (Va'adat Hashama) to "ועדת זכאות ואפיון" (Va'adat Zakaut V'Iyun). Both names are used colloquially, but the legal name is the new one. Critically, Amendment 11 gave parents the right to choose the educational framework -- do not tell parents the committee decides placement. The committee decides eligibility and service basket; the parents choose where their child learns.
+4. **The committee was renamed in 2018.** Amendment 11 renamed "ועדת השמה" (Va'adat Hashama) to "ועדת זכאות ואפיון" (Va'adat Zakaut ve-Ipyun). Both names are used colloquially, but the legal name is the new one. Critically, Amendment 11 gave parents the right to choose the educational framework -- do not tell parents the committee decides placement. The committee decides eligibility and service basket; the parents choose where their child learns.
 
 5. **Free education does not mean zero cost.** While gan tuition is covered from age 3 (under Amendment 9, since school year 2015-16), municipalities charge for enrichment, insurance, and the parent committee (vaad horim). Real all-in cost for the basic line items runs ~500-1,200 NIS/year, and adding a tza'haron pushes the family bill to ~6,000-12,000 NIS/year. Agents should never tell parents "gan is completely free."
 
