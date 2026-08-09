@@ -9,7 +9,10 @@
       "source_url": "https://www.levels.fyi/?country=105",
       "raw_snippet": "ranges 22-32K, 32-50K, 50-75K, 75-110K",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "pension-contribution-mandatory",
@@ -17,7 +20,10 @@
       "source_url": "https://www.kolzchut.org.il/he/פנסיה_חובה",
       "raw_snippet": "פנסיה חובה: מעסיק 6.5%, עובד 6%, פיצויים 6%",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "keren-hishtalmut-contribution",
@@ -25,7 +31,10 @@
       "source_url": "https://www.kolzchut.org.il/he/קרן_השתלמות",
       "raw_snippet": "קרן השתלמות: מעסיק 7.5%, עובד 2.5%",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "run-ai-nvidia-acquisition",
@@ -33,7 +42,10 @@
       "source_url": "https://www.calcalistech.com/ctechnews",
       "raw_snippet": "Nvidia Run:ai",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "miluim-defense-service-law",
@@ -41,15 +53,21 @@
       "source_url": "https://www.kolzchut.org.il/he/זכויות_עובדים_בתקופת_שירות_מילואים",
       "raw_snippet": "מילואים, חוק שירות הביטחון",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ai-engineering-default-2026",
-      "claim": "AI engineering literacy (LLM integration, RAG, vector DBs, evals) is a near-universal interview expectation at Israeli companies in 2026, including non-ML roles",
-      "source_url": "https://www.calcalist.co.il/home/0,7340,L-3671,00.html",
-      "raw_snippet": "AI engineering",
+      "claim": "AI engineering literacy (LLM integration, RAG, vector DBs, evals) is increasingly expected at Israeli tech companies in 2026, including for non-ML roles. This is an observed market pattern, not a figure published by a primary source.",
+      "source_url": "https://www.calcalistech.com/ctechnews",
+      "raw_snippet": "CTech - Israeli Tech and Start up News",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-glassdoor",
@@ -57,7 +75,10 @@
       "source_url": "https://www.glassdoor.com",
       "raw_snippet": "Glassdoor",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-glassdoor-il-salaries",
@@ -65,23 +86,32 @@
       "source_url": "https://www.glassdoor.com/Salaries/israel-software-engineer-salary-SRCH_IL.0,6_IN119_KO7,24.htm",
       "raw_snippet": "Glassdoor IL salary",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-levels-fyi-il",
-      "claim": "levels.fyi Israel country code 105",
+      "claim": "levels.fyi publishes self-reported compensation data by company, job title, career level and location; the Israel view is at ?country=105.",
       "source_url": "https://www.levels.fyi/?country=105",
-      "raw_snippet": "levels.fyi",
+      "raw_snippet": "Search 1M+ data points for different companies, job titles, career levels, and locations.",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-linkedin-il-jobs",
-      "claim": "LinkedIn Jobs Israel geoId 101620260",
+      "claim": "LinkedIn Jobs geoId 101620260 is the Israel jobs view.",
       "source_url": "https://www.linkedin.com/jobs/search/?geoId=101620260",
-      "raw_snippet": "LinkedIn Jobs IL",
+      "raw_snippet": "Today&#39;s top 1,000+ Jobs jobs in Israel.",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-ethka",
@@ -89,7 +119,10 @@
       "source_url": "https://www.ethka.com",
       "raw_snippet": "Ethka",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-alljobs",
@@ -97,7 +130,10 @@
       "source_url": "https://www.alljobs.co.il/hitech/",
       "raw_snippet": "AllJobs",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-calcalist-tech",
@@ -105,7 +141,10 @@
       "source_url": "https://www.calcalist.co.il/home/0,7340,L-3671,00.html",
       "raw_snippet": "Calcalist",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-ctech",
@@ -113,7 +152,10 @@
       "source_url": "https://www.calcalistech.com/ctechnews",
       "raw_snippet": "CTech",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-geektime",
@@ -121,7 +163,10 @@
       "source_url": "https://www.geektime.com",
       "raw_snippet": "Geektime",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "script-incidental-3-percent",
@@ -129,7 +174,9 @@
       "source_url": "https://github.com/skills-il/education/tree/master/israeli-tech-interview-prep",
       "raw_snippet": "3 %",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["scripts/interview-question-generator.py"]
+      "appears_in": [
+        "scripts/interview-question-generator.py"
+      ]
     },
     {
       "claim_id": "ref-themarker-tech",
@@ -137,7 +184,10 @@
       "source_url": "https://www.themarker.com/technation",
       "raw_snippet": "TheMarker",
       "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
