@@ -9,23 +9,43 @@
       "source_url": "https://cms.education.gov.il/EducationCMS/Units/HighSchool/IsraelOlaKita/Ekaron30_70.htm",
       "raw_snippet": "במקצועות שבהם משקל הבחינה הוא 70% והמגן 30%, היחס ישתנה ל-60% בחינה ו-40% מגן במידה והדבר יעלה את הציון הסופי",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
-      "claim_id": "pet-dec-2026-reform",
-      "claim": "From the December 2026 (winter תשפ\"ז) session, English is removed from the psychometric test and assessed separately via NITE's computerized English test (AMIRNET, part of the AMIR family); the general score becomes Quantitative 50% + Verbal 50%. Scale stays 200-800; older three-domain scores remain valid 7 years.",
+      "claim_id": "pet-dec-2026-reform-a",
+      "claim": "From the December 2026 winter session the English domain is separated out of the psychometric test, which then covers only verbal and quantitative reasoning; English is assessed solely by the AMIRNET test. English version of the same NITE page: https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
       "source_url": "https://www.nite.org.il/two-domain-psychometric-test/general-information/",
-      "raw_snippet": "החל ממועד חורף (דצמבר) 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית ... https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
+      "raw_snippet": "החל ממועד חורף (דצמבר) 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית, והבחינה הפסיכומטרית תכלול שני תחומים בלבד: חשיבה מילולית וחשיבה כמותית. רמת האנגלית של המועמדים תיבחן אך ורק בבחינת אמירנט.",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pet-dec-2026-reform-b",
+      "claim": "Scores from the current three-domain psychometric format stay valid after the change, for at least seven years.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
+      "raw_snippet": "PET scores (before and after the change) are valid for at least seven years, notwithstanding which format was used.",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "pet-fee-665",
-      "claim": "The Psychometric Entrance Test registration fee is about 665 NIS / 665 ש\"ח as of 2026 (confirm on the NITE price page).",
-      "source_url": "https://www.nite.org.il/test-dates-and-prices/?lang=en",
-      "raw_snippet": "₪665",
+      "claim": "The Psychometric Entrance Test registration fee for the September 2026 session is 665 NIS, per NITE's test-dates-and-prices table. (665 ש\"ח)",
+      "source_url": "https://www.nite.org.il/test-dates-and-prices/",
+      "raw_snippet": "פסיכומטרית 2-3.9.2026 כ׳-כ״א אלול תשפ״ו אילת, דרום, ירושלים, מרכז, צפון עברית, ערבית 8.7.2026 8.7.2026 18.10.2026 ₪ 665",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bagrut-passing-grade-55",
@@ -33,23 +53,47 @@
       "source_url": "https://admissions.technion.ac.il/calculation-of-the-median-grade/",
       "raw_snippet": "הטכניון מעניק את מקדם ההטבה לציון 60 ומעלה",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md", "scripts/bagrut-calculator.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md",
+        "scripts/bagrut-calculator.py"
+      ]
     },
     {
-      "claim_id": "oleh-bagrut-bonus",
-      "claim": "New immigrants receive a Hebrew-level bonus on Bagrut exams: +10 points at basic level (alef) or +15 points at levels bet/gimel, for 10 years from aliyah or until age 23 (whichever is later); Ethiopian immigrants get 12 years or until age 25 (whichever is later).",
+      "claim_id": "oleh-bagrut-bonus-points",
+      "claim": "New-immigrant students receive a Hebrew-level bonus on bagrut grades: 10 points at level alef and 15 points at levels bet and gimel.",
       "source_url": "https://www.kolzchut.org.il/he/התאמות_בבחינות_הבגרות_לתלמידים_עולים",
-      "raw_snippet": "ברמה א' תינתן תוספת של 10 נקודות, וברמות ב' ו-ג' תינתן תוספת של 15 נקודות ... 10 שנים או עד גיל 23",
+      "raw_snippet": "תוספת הנקודות תינתן בהתאם לרמת הזכאות: זכאות ברמה א': 10 נקודות. זכאות ברמה ב' ו-ג': 15 נקודות.",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md"
+      ]
+    },
+    {
+      "claim_id": "oleh-bagrut-bonus-duration",
+      "claim": "Immigrant students from Ethiopia are entitled to the accommodations for 12 years or until age 25 (whichever is later); students from other countries for 10 years or until age 23 (whichever is later).",
+      "source_url": "https://www.kolzchut.org.il/he/התאמות_בבחינות_הבגרות_לתלמידים_עולים",
+      "raw_snippet": "תלמידים שעלו מאתיופיה יהיו זכאים להקלות למשך 12 שנים, או עד גיל 25 (לפי המאוחר מביניהם). תלמידים שעלו משאר המדינות יהיו זכאים להקלות למשך 10 שנים, או עד גיל 23 (לפי המאוחר מביניהם).",
+      "fetched_at": "2026-05-28T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md"
+      ]
     },
     {
       "claim_id": "pet-scoring-scale",
-      "claim": "PET scale is 200-800, mean about 530, section scores 50-150, valid 7 years. Offered in Hebrew, Arabic, Russian, French, Spanish, and combined.",
-      "source_url": "https://www.nite.org.il/test-dates-and-prices/",
-      "raw_snippet": "המבחן הפסיכומטרי",
+      "claim": "Each of the psychometric domain scores runs from 50 to 150, and each general psychometric score runs from 200 to 800. The verbal-domain score includes the writing task at 25% weight.",
+      "source_url": "https://www.nite.org.il/psychometric-entrance-test/scores/calculation/",
+      "raw_snippet": "סולם הציונים בכל אחד מהציונים הפסיכומטריים הכלליים הוא מ-200 עד 800",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "bagrut-rights-kolzchut",
@@ -57,7 +101,10 @@
       "source_url": "https://www.kolzchut.org.il/he/בחינות_בגרות",
       "raw_snippet": "בחינות בגרות",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "reference-urls",
@@ -65,7 +112,34 @@
       "source_url": "https://www.nite.org.il/en",
       "raw_snippet": "Reference URLs: https://edu.gov.il https://edu.gov.il/mazkirut_pedagogit/BagrutExams https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx https://www.nite.org.il https://www.nite.org.il/en https://www.nite.org.il/practice-tests/ https://www.nite.org.il/practice-tests/?lang=en https://www.nite.org.il/other-tests/amir-amiram/ https://www.nite.org.il/other-tests/amir-amiram/?lang=en https://che.org.il https://che.org.il/en/ https://new.huji.ac.il https://www.tau.ac.il https://www.technion.ac.il https://www.bgu.ac.il https://www.biu.ac.il https://www.haifa.ac.il https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
       "fetched_at": "2026-05-28T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/bagrut-subjects-and-units.md", "references/university-admission-guide.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md",
+        "references/university-admission-guide.md"
+      ]
+    },
+    {
+      "claim_id": "pet-writing-task-weight",
+      "claim": "The writing task counts for 25% of the verbal-reasoning domain score.",
+      "source_url": "https://www.nite.org.il/psychometric-entrance-test/scores/calculation/",
+      "raw_snippet": "הציון בתחום החשיבה המילולית כולל את הציון במטלת הכתיבה במשקל 25%.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pet-domain-scale-50-150",
+      "claim": "Each of the three psychometric domain scores runs on a 50 to 150 scale.",
+      "source_url": "https://www.nite.org.il/psychometric-entrance-test/scores/calculation/",
+      "raw_snippet": "סולם הציונים בכל אחד משלושת התחומים הוא מ-50 עד 150.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }

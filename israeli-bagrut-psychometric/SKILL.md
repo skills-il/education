@@ -110,7 +110,7 @@ The Psychometric Entrance Test (מבחן פסיכומטרי, or "Psychometri") i
 | Verbal Reasoning (חשיבה מילולית) | Reading comprehension, analogies, sentence completion | 40% |
 | English (אנגלית) | Reading comprehension, vocabulary, sentence completion | 20% |
 
-**Major change from the December 2026 session (winter, תשפ"ז):** English is removed from the psychometric test and assessed separately through NITE's standalone computerized English test (AMIRNET, part of NITE's AMIR English-test family), offered year-round. The psychometric general score becomes two-domain: Quantitative Reasoning 50% + Verbal Reasoning 50% (within the verbal domain, the writing task is about 20%). The overall scale stays 200-800. Scores from the older three-domain format remain valid for their full 7 years. From this session the "combined Hebrew-English" version is also affected. Confirm the exact structure for your test date on the NITE site.
+**Major change from the December 2026 session (winter, תשפ"ז):** English is removed from the psychometric test and assessed separately through NITE's standalone computerized English test (AMIRNET, part of NITE's AMIR English-test family), offered year-round. The psychometric general score becomes two-domain: Quantitative Reasoning and Verbal Reasoning only (within the verbal domain, the writing task counts for 25%). NITE has not yet published the weighting between the two remaining domains. The overall scale stays 200-800. Scores from the older three-domain format remain valid for their full 7 years. From this session the "combined Hebrew-English" version is also affected. Confirm the exact structure for your test date on the NITE site.
 
 #### Scoring
 
@@ -243,7 +243,7 @@ User says: "I'm taking the psychometric in July. My practice test scores are: Qu
 
 Actions:
 1. Convert section scores to identify weak areas. On the 50-150 scale, Verbal at 105 is the weakest section.
-2. Calculate approximate composite using the pre-December-2026 three-section weights (Quantitative and Verbal 40% each, English 20%): approximately (130 x 0.4) + (105 x 0.4) + (120 x 0.2) = 52 + 42 + 24 = 118, which maps to roughly 620-640 on the 200-800 scale. For test dates from December 2026 onward, use the two-domain weighting (Quantitative 50% + Verbal 50%) since English is scored separately.
+2. Calculate approximate composite using the pre-December-2026 three-section weights (Quantitative and Verbal 40% each, English 20%): approximately (130 x 0.4) + (105 x 0.4) + (120 x 0.2) = 52 + 42 + 24 = 118, which maps to roughly 620-640 on the 200-800 scale. For test dates from December 2026 onward, only the quantitative and verbal domains count, since English is scored separately; NITE has not yet published the new weighting between them.
 3. Recommend focusing study time on Verbal Reasoning (biggest potential improvement) while maintaining Quantitative and English.
 4. Suggest a 3-month preparation plan with emphasis on Hebrew reading comprehension and vocabulary.
 
@@ -277,7 +277,7 @@ Result: Estimated sekhem of ~93.2. This is in the competitive range for Technion
 - Bagrut bonus points for 5-unit subjects are flat per subject (not tiered by score range), but the amount varies by university and subject. Agents may invent a tiered bonus system or use a single universal value. Always direct users to check their target university's specific bonus table.
 - Each Israeli university calculates the sekhem (admission score) using its own proprietary formula. Agents that assume a universal formula will produce inaccurate admission estimates. Always direct users to the specific university's calculator.
 - The Psychometric test fee, NITE registration dates, and section weights are updated periodically. Agents using stale data from their training corpus may provide outdated registration information or incorrect scoring breakdowns.
-- From the December 2026 (winter תשפ"ז) session, English is removed from the psychometric and tested separately via NITE's computerized English test (AMIRNET), and the general score becomes Quantitative 50% + Verbal 50%. Agents trained on the older three-section (40/40/20) structure will describe the wrong test for students sitting from that date onward. Older three-domain scores remain valid for 7 years.
+- From the December 2026 (winter תשפ"ז) session, English is removed from the psychometric and tested separately via NITE's computerized English test (AMIRNET), and the general score is based on the quantitative and verbal domains only. Agents trained on the older three-section (40/40/20) structure will describe the wrong test for students sitting from that date onward. Older three-domain scores remain valid for 7 years.
 - The Bagrut passing grade is 55, not 56 or 60. The minimum grade to earn a university 5-unit bonus is a separate threshold (around 60). Agents conflate these two numbers.
 - The new-immigrant Bagrut benefit lasts 10 years from aliyah (or until age 23, whichever is later; 12 years or until age 25 for Ethiopian immigrants), and the bonus is +10 or +15 by Hebrew level, not a flat +15. The 4-year figure belongs to returning-resident status, a different entitlement.
 
