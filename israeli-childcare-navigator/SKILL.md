@@ -255,7 +255,7 @@ Result: Parent understands the process, their rights, and how to prepare.
 | Ministry of Education - Preschool | https://www.gov.il/he/departments/ministry-of-education | Compulsory education ages, registration calendar, religious streams (navigate to preschool/early-childhood section) |
 | Kol Zchut - Children and Youth | https://www.kolzchut.org.il/he/ילדים_ונוער | Plain-language entitlements, appeal templates, recent updates |
 | Helpline *2969 (Ministry of Labor daycare hotline) | https://www.gov.il/he/service/daycare-registration | Direct hotline for ma'on yom subsidy and facility list |
-| Helpline 118 (Ministry of Welfare general hotline) | https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs | Social services, family welfare, child protection |
+| Helpline 118 (Ministry of Welfare general hotline) | https://www.gov.il/he/departments/molsa | Social services, family welfare, child protection |
 
 ## Gotchas
 

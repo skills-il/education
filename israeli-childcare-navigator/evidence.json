@@ -84,7 +84,7 @@
       "claim_id": "ministry-labor-daycare-hotline",
       "claim": "Ministry of Labor daycare hotline number is *2969 (not *8255)",
       "source_url": "https://www.gov.il/he/service/daycare-registration",
-      "raw_snippet": "*2969",
+      "raw_snippet": "ניתן לפנות גם באמצעות המוקד הטלפוני: 2969* או 073-2458356",
       "fetched_at": "2026-05-25T19:15:00Z",
       "appears_in": [
         "SKILL.md",
@@ -93,9 +93,9 @@
     },
     {
       "claim_id": "welfare-hotline-118",
-      "claim": "Ministry of Welfare general hotline is 118 (24/7 multilingual)",
-      "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
-      "raw_snippet": "118",
+      "claim": "The Ministry of Welfare information and assistance hotline is 118, answered 24 hours a day, 7 days a week (except Yom Kippur).",
+      "source_url": "https://www.gov.il/he/departments/molsa",
+      "raw_snippet": "מוקד מידע וסיוע 118",
       "fetched_at": "2026-05-25T19:15:00Z",
       "appears_in": [
         "SKILL.md",
@@ -105,8 +105,8 @@
     {
       "claim_id": "btl-hotline-6050",
       "claim": "Bituach Leumi general hotline is *6050",
-      "source_url": "https://www.btl.gov.il/About/Pages/contact.aspx",
-      "raw_snippet": "*6050",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
       "fetched_at": "2026-05-25T19:15:00Z",
       "appears_in": [
         "SKILL.md",
@@ -115,9 +115,9 @@
     },
     {
       "claim_id": "child-protection-105",
-      "claim": "Israel national online child-protection hotline is 105 (MAOR)",
-      "source_url": "https://www.gov.il/he/departments/general/105_maor",
-      "raw_snippet": "105",
+      "claim": "Israel's national online child-protection hotline is 105, operated by the National Headquarters for Child Online Protection, available 24/7.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%95%D7%A7%D7%93_105_%D7%9C%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%95%D7%9E%D7%AA%D7%9F_%D7%9E%D7%A2%D7%A0%D7%94_%D7%91%D7%A0%D7%95%D7%92%D7%A2_%D7%9C%D7%A4%D7%92%D7%99%D7%A2%D7%95%D7%AA%2C_%D7%90%D7%9C%D7%99%D7%9E%D7%95%D7%AA_%D7%95%D7%A4%D7%A9%D7%99%D7%A2%D7%94_%D7%A0%D7%92%D7%93_%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%A0%D7%95%D7%A2%D7%A8_%D7%91%D7%A8%D7%A9%D7%AA",
+      "raw_snippet": "ניתן לפנות למוקד בחיוג למספר 105 שפועל 24 שעות ביממה, 7 ימים בשבוע",
       "fetched_at": "2026-05-25T19:15:00Z",
       "appears_in": [
         "SKILL.md",
@@ -125,10 +125,32 @@
       ]
     },
     {
-      "claim_id": "disabled-child-allowance-2026",
-      "claim": "Disabled child allowance (kiztavat yeled nechet) 2026: base levels from 1,943 NIS/month (50% level) to 9,126 NIS/month (235% level); ventilator-dependent get an additional 10,774 NIS/month supplement on top of the base. Form 7821 (טופס 7821)",
-      "raw_snippet": "1,943 ש\"ח ... 9,126 ש\"ח ... 10,774 ש\"ח ... טופס 7821",
+      "claim_id": "disabled-child-allowance-2026-levels",
+      "claim": "Disabled-child allowance from 01.01.2026: five entitlement levels from 1,943 NIS (50%) to 9,126 NIS (235%) a month.",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הוא 9,126 ש\"ח .",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-ventilator-supplement",
+      "claim": "A ventilator-dependent child entitled at 100%, 112% or 188% receives an additional 10,774 NIS a month on top of the allowance.",
+      "raw_snippet": "לילד מונשם שנקבעה זכאות בשיעור 100%, 112% או 188% - משולמת תוספת לקצבה בסך 10,774 ש\"ח .",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-form-7821",
+      "claim": "The disabled-child allowance claim is filed on Bituach Leumi form 7821, linked from the benefit page as the online claim form (https://govforms.gov.il/mw/forms/T7821@btl.gov.il). בעברית: טופס 7821 של המוסד לביטוח לאומי.",
+      "raw_snippet": "להגשת תביעה בצירוף המסמכים הנדרשים לחצו כאן",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
       "fetched_at": "2026-07-15T16:00:00Z",
       "appears_in": [
         "SKILL.md",

@@ -246,7 +246,7 @@ license: MIT
 | משרד החינוך - גיל הרך | https://www.gov.il/he/departments/ministry-of-education | חינוך חובה, לוח זמני רישום, זרמים חינוכיים (נווטו לחלק של גיל רך) |
 | כל זכות - ילדים ונוער | https://www.kolzchut.org.il/he/ילדים_ונוער | זכויות בשפה פשוטה, תבניות ערעור, עדכונים אחרונים |
 | מוקד *2969 (משרד העבודה - מעונות) | https://www.gov.il/he/service/daycare-registration | מוקד ייעודי לסבסוד מעון יום ורשימת מוכרים |
-| מוקד 118 (משרד הרווחה הכללי) | https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs | שירותים חברתיים, רווחת המשפחה, הגנת ילד |
+| מוקד 118 (משרד הרווחה הכללי) | https://www.gov.il/he/departments/molsa | שירותים חברתיים, רווחת המשפחה, הגנת ילד |
 
 ## מלכודות נפוצות
 
