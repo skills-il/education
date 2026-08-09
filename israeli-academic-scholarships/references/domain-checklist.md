@@ -28,7 +28,7 @@ This file is the contract the skill is judged against. Every "Must cover" item m
 
 - [x] **Rashi Foundation - Katzir + Rakia tracks** - Privately-funded foundation co-founded by Edmond J. Safra et al. NIS 5,000–18,000/year, multi-year (3-4 years), periphery focus. Katzir track for university/college students; Rakia track for additional periphery/excellence. Single-mother track ~NIS 16,000. - source: https://milgapo.co.il/?milga=_rashi-katzir + https://milgapo.co.il/?milga=_rashi-rakia - why core: largest privately-funded scholarship in Israel by reach; the canonical foundation grant for periphery / socioeconomic-disadvantaged users.
 
-- [x] **ISEF Foundation (Israel Scholarship Education Foundation)** - Active in 2026 as a separate entity (NOT merged). ~450 BA-to-PhD scholarships in Israel + ~20 international MD/PhD/postdoc fellowships. Targets underserved-background students with strong academic merit; multi-year mentorship + leadership program in addition to financial grant. - source: https://www.iseffoundation.org/ + https://www.isef.org.il/ - why core: distinct active entity, routinely matched to periphery + first-generation + Mizrahi/Sephardi students; user-profile filter for "low-income with strong academics" maps here.
+- [x] **ISEF Foundation (Israel Scholarship Education Foundation)** - Active in 2026 as a separate entity (NOT merged). ~450 BA-to-PhD scholarships in Israel + ~20 international MD/PhD/postdoc fellowships. Targets underserved-background students with strong academic merit; multi-year mentorship + leadership program in addition to financial grant. - source: https://www.iseffoundation.org/edmond-j-safra-scholarships/ + https://www.isef.org.il/ - why core: distinct active entity, routinely matched to periphery + first-generation + Mizrahi/Sephardi students; user-profile filter for "low-income with strong academics" maps here.
 
 - [x] **University excellence scholarships for incoming freshmen** - Pattern across all major institutions: HUJI, TAU (up to NIS 5,000 one-time gift), BIU, BGU, Technion, etc. award merit scholarships at admission based on bagrut + psychometric scores. תשפ"ו tuition baseline: NIS 12,017 (set by MALAG). - source: https://go.tau.ac.il/he/ba/milgot + https://info.huji.ac.il/registration-process/prizes - why core: every incoming freshman should be checked against their target institution's automatic merit scholarship; pattern, not exhaustive list.
 
@@ -98,7 +98,7 @@ This file is the contract the skill is judged against. Every "Must cover" item m
 - https://fidfimpact.org/ - IMPACT! / FIDF combat-veteran fellowship cohort and amount.
 - https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ - NBN consolidated higher-ed scholarship portal for olim.
 - https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/student-authority-tuition-benefits/ - Student Authority (Minhal HaStudentim) eligibility for olim.
-- https://www.iseffoundation.org/ - ISEF active 2026 scholarship roster.
+- https://www.iseffoundation.org/edmond-j-safra-scholarships/ - ISEF active 2026 scholarship roster.
 - https://www.isef.org.il/ - ISEF Hebrew portal (cross-reference).
 - https://milgapo.co.il/?milga=_edu.gov - Ministry of Education socioeconomic scholarship (current product branding).
 - https://milgapo.co.il/?milga=_rashi-katzir - Rashi Foundation Katzir track.

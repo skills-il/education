@@ -108,10 +108,10 @@ Surface these to any user with strong academic record OR socioeconomic need OR p
 
 | Foundation | Track | Range |
 |---|---|---|
-| Rashi Foundation | Katzir + Rakia | NIS 5,000-18,000/year, multi-year (3-4 years), periphery focus |
-| Rashi Foundation | Single-mother track | ~NIS 16,000 |
-| ISEF (Israel Scholarship Education Foundation) | BA-to-PhD in Israel | Over 400 active fellows across 20 campuses; multi-year mentorship + leadership program included |
-| ISEF | International MD/PhD/postdoc | 15-20 fellowships/year |
+| Rashi Foundation | Katzir + Rakia | Tuition scholarship plus a living stipend and personal mentoring; Rashi does not publish per-track amounts, so ask the foundation |
+| Rashi Foundation | Single-mother track | Amount not published; apply through Rashi's Katzir program |
+| ISEF (Israel Scholarship Education Foundation) | BA-to-PhD in Israel | 400-500 Edmond J. Safra scholarships a year on 20 campuses across Israel; multi-year mentorship + leadership program included |
+| ISEF | International MD/PhD/postdoc | International Fellows program for doctoral and postdoctoral study abroad; cohort size varies by year |
 
 ISEF specifically targets first-generation / underserved students with strong academic merit, a common match for periphery + Mizrahi/Sephardi profiles.
 
@@ -182,7 +182,7 @@ A few rules cut across multiple tracks. Surface them before the user applies:
 | Sherut Leumi-Ezrachi rights portal | https://www.hachvana.mod.gov.il/luemi11/Pages/default.aspx | Pikadon and periphery eligibility for Sherut Leumi alumni |
 | CHE Iron Swords framework | https://che.org.il/war/ | Current cohort tuition support tiers for combat / rear-service reservists, credit-unit exemption thresholds |
 | NBN scholarships portal | https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ | Current routing for olim |
-| ISEF Foundation | https://www.iseffoundation.org/ | Application cycles, eligibility, current fellow count |
+| ISEF Foundation | https://www.iseffoundation.org/edmond-j-safra-scholarships/ | Application cycles, eligibility, current fellow count |
 | Milgapo (MoE socioeconomic + Rashi) | https://milgapo.co.il/ | Current scholarship branding, MilGo tier amounts |
 | Adams Fellowship | https://adams.academy.ac.il/fellowships/ | Doctoral fellowship terms, application window, **eligible fields** |
 | Aharon Katzir Postdoctoral Fellowship (humanities/social sciences) | https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1250 | Postdoc-abroad track for humanities/social-sciences PhDs |

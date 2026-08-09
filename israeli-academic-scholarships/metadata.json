@@ -38,7 +38,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "category": "education",
   "supported_agents": [
     "claude-code",
@@ -68,7 +68,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.iseffoundation.org/",
+      "url": "https://www.iseffoundation.org/edmond-j-safra-scholarships/",
       "type": "foundation",
       "language": "en"
     },

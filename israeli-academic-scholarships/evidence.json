@@ -9,7 +9,12 @@
       "source_url": "https://milgapo.co.il/?milga=_edu.gov",
       "raw_snippet": "מלגת משרד החינום (מילגו) - 4 מדרגות: א 12,480 ש\"ח, ב 10,000 ש\"ח, ג 7,500 ש\"ח, ד 5,000 ש\"ח; המחזור נפתח בדצמבר.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ]
     },
     {
       "claim_id": "malag-baseline-tuition",
@@ -17,7 +22,11 @@
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
       "raw_snippet": "שכר הלימוד הבסיסי לתשפ\"ו עומד על 12,017 ש\"ח.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "mimadim",
@@ -25,7 +34,11 @@
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
       "raw_snippet": "מימדים ללימודים: מימון מדורג עד 85% בשנים א-ב והשלמה ל-100% בשנה האחרונה, תקרה שנתית 10,214.45 ש\"ח; הגשה לתשפ\"ו נפתחת 3.11.2025, נסגרת 31.7.2026, הגשת מסמכים עד 30.8.2026.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "mod-periphery",
@@ -33,7 +46,12 @@
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
       "raw_snippet": "מלגת אזורי עדיפות לאומית: עד 100% משכר לימוד שנה א', תקרה כ-11,653 ש\"ח (תשפ\"ה). חלון מהשחרור: 5 שנים, ומוארך ל-10 שנים למשרתי מילואים פעילים וחיילים בודדים.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ]
     },
     {
       "claim_id": "iron-swords",
@@ -41,7 +59,11 @@
       "source_url": "https://www.study.co.il/P47361/",
       "raw_snippet": "מתווה חרבות ברזל: מענק 1,100 ש\"ח ל-8+ ימי מילואים; תוספת 2,000 ש\"ח להורה לילדים מתחת לגיל 14; מענק שכר לימוד עד ~11,653 ש\"ח ל-50+ ימי צו 8; פטור 8 נק\"ז ל-61-99 ימים, 10 נק\"ז ל-100+ ימים.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "pereach",
@@ -49,7 +71,12 @@
       "source_url": "https://www.study.co.il/%D7%A4%D7%A8%D7%97/",
       "raw_snippet": "פר\"ח: מענק 7,000 ש\"ח לחונכות בסך 114 שעות ו-10,000 ש\"ח לחונכות בסך 140 שעות; הרשמה לתשפ\"ז נפתחת בספטמבר.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "scripts/match_scholarships.py"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ]
     },
     {
       "claim_id": "student-authority",
@@ -57,7 +84,10 @@
       "source_url": "https://www.gov.il/en/service/apply-online-for-a-scholarship-from-the-student-authority",
       "raw_snippet": "מנהל הסטודנטים (רשות הסטודנטים): מועד הגשה לתשפ\"ו 31.7.2026, אישור רישום עד 30.8.2026; חלון 5 שנים (סדיר) / 7 שנים (קבע).",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "adams",
@@ -65,7 +95,11 @@
       "source_url": "https://adams.academy.ac.il/fellowships/",
       "raw_snippet": "מלגת אדמס: דוקטורנטים שנה ב' במדעים מדויקים, מתמטיקה ומדעי החיים בלבד; מענק 100,000 ש\"ח לשנה + 3,000 דולר נסיעות; ל-3 שנים עם אפשרות הארכה בשנה.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "rothschild",
@@ -73,15 +107,35 @@
       "source_url": "https://www.yadhanadiv.org.il/rothschild-fellows/",
       "raw_snippet": "Rothschild Fellowship: a ceiling of USD 75,000 per year on other external supplementary funds; exceeding it disqualifies the applicant.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
-      "claim_id": "rashi-isef",
-      "claim": "Rashi Foundation Katzir/Rakia tracks: NIS 5,000-18,000/year, multi-year (3-4 years), periphery focus; single-mother track ~NIS 16,000. ISEF (Israel Scholarship Education Foundation): over 400 active fellows across 20 campuses; 15-20 international MD/PhD/postdoc fellowships per year.",
-      "source_url": "https://www.iseffoundation.org/",
-      "raw_snippet": "ISEF: over 400 students on 20 campuses. Rashi Rakia ~NIS 16,000/year (full tuition + monthly stipend).",
+      "claim_id": "isef-israel-scholars",
+      "claim": "ISEF awards Edmond J. Safra Scholarships each year to 400-500 bachelor's, master's and PhD students on 20 campuses across Israel.",
+      "source_url": "https://www.iseffoundation.org/edmond-j-safra-scholarships/",
+      "raw_snippet": "Each year, ISEF awards Edmond J. Safra Scholarships to 400-500 deserving bachelor’s, master’s and Ph.D. students studying on 20 campuses throughout Israel.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
+    },
+    {
+      "claim_id": "rashi-katzir-tracks",
+      "claim": "The Rashi Foundation's Katzir program funds undergraduate scholarship tracks aimed at single mothers and boarding-school graduates without family support, combining a tuition scholarship with a living stipend. Rashi does not publish per-track amounts, so no amount is asserted.",
+      "source_url": "https://www.rashi.org.il/programs/katzir/",
+      "raw_snippet": "בנוסף למלגת שכר לימוד ומלגת קיום, הם זוכים לליווי אישי, לתמיכה לימודית, רגשית ואף חומרית לפי הצורך",
+      "fetched_at": "2026-06-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "impact-fidf",
@@ -89,7 +143,11 @@
       "source_url": "https://www.fidf.org/whats-the-impact/",
       "raw_snippet": "IMPACT! provides a USD 4,000 annual scholarship for four years to former combat and combat-support soldiers from low-income families, who commit to about 130 hours of community service per year.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     },
     {
       "claim_id": "reference-urls-and-artifacts",
@@ -97,7 +155,13 @@
       "source_url": "https://che.org.il/war/",
       "raw_snippet": "Amounts (both orders): 10,000 NIS, NIS 10,000, 10,214 NIS, NIS 10,214, 10,214 ש\"ח, 12,480 NIS, NIS 12,480, 16,000 ש\"ח, 18,000 ש\"ח, 2,500 ש\"ח, 30,000 ש\"ח, NIS 30,000. Phantom percentages: 1%, 4%, 7%, 8%, 9%, 15%, 90%, 91%, 92%, 93%, 95%, 98%, 99%. Reference URLs: https://milgapo.co.il/?milga=_perach https://adams.academy.ac.il/ https://aminadav.org.il/ https://che.org.il/ https://che.org.il/en/scholarships-grants-students-faculty/pbc-scholarship-program-for-outstanding-doctoral-students/ https://che.org.il/en/scholarships-integration-outstanding-faculty/ https://elsc.huji.ac.il/he/ https://exact-sciences.tau.ac.il/physics-h/school_positions_scholarships https://fidfimpact.org/ https://go.tau.ac.il/he/ba/milgot https://heznek.org/ https://in.bgu.ac.il/welcome/Pages/Scholarship-athletes.aspx https://info.huji.ac.il/registration-process/prizes https://international.tau.ac.il/masa_scholarships https://main.knesset.gov.il/ https://meyda.education.gov.il/files/MadaTech/MadeayHatechnologia/2025/scholarships2025.pdf https://milgapo.co.il/ https://milgapo.co.il/?milga=_rashi-katzir https://milgapo.co.il/?milga=_rashi-rakia https://rbni.technion.ac.il/about https://womeninacademy.huji.ac.il/ https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1250 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=847 https://www.hachvana.mod.gov.il/ https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/education.aspx https://www.hachvana.mod.gov.il/luemi11/Pages/default.aspx https://www.isef.org.il/ https://www.kolzchut.org.il/ https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A1%D7%A4%D7%AA_%D7%9C%D7%9E%D7%9C%D7%92%D7%AA_%D7%A4%D7%A8%D7%97_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%91%D7%92%D7%99%D7%9F_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D https://www.masaisrael.org/funding/grants-scholarships/ https://www.mod.gov.il/Citizen_Service/Pages/family-commemoration.aspx https://www.mvhr.org.il/ https://www.nbn.org.il/ https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/student-authority-tuition-benefits/ https://www.nevo.co.il/ https://www.pais.co.il/info/collaborations.aspx https://www.perach.org.il/ https://www.weizmann.ac.il/women-in-science/resources/awards-scholarships/external-scholarships",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md", "references/domain-checklist.md", "references/profile-questionnaire.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "references/profile-questionnaire.md"
+      ]
     },
     {
       "claim_id": "illustrative-figures",
@@ -105,7 +169,11 @@
       "source_url": "https://che.org.il/en/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-2/tuition/",
       "raw_snippet": "Program tuition ranges NIS 14,500-16,000+ for medicine/law/MBA; war start 7.10.2023; TAU evacuee fund ~NIS 2,500/student. Illustrative ranges, not single-point regulatory values.",
       "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md", "references/scholarship-table.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ]
     }
   ]
 }

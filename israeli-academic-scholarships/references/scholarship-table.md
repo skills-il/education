@@ -50,11 +50,11 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 
 | Scholarship | Profile filter | Typical grant | Application timing |
 |---|---|---|---|
-| Rashi Foundation Katzir | University/college students, periphery focus | NIS 5,000-18,000/year, 3-4 years | Annual |
-| Rashi Foundation Rakia | Periphery + excellence | NIS 5,000-18,000/year | Annual |
-| Rashi single-mother track | Single mothers | ~NIS 16,000 | Annual |
-| ISEF (in Israel) | Underserved-background, strong academics | Over 400 active fellows across 20 campuses | Annual |
-| ISEF (international) | MD/PhD/postdoc abroad | 15-20 fellowships/year | Annual |
+| Rashi Foundation Katzir | University/college students, periphery focus | Tuition scholarship + living stipend; amount not published | Annual |
+| Rashi Foundation Rakia | Periphery + excellence | Amount not published | Annual |
+| Rashi single-mother track | Single mothers | Amount not published | Annual |
+| ISEF (in Israel) | Underserved-background, strong academics | 400-500 scholarships a year on 20 campuses | Annual |
+| ISEF (international) | MD/PhD/postdoc abroad | Cohort size varies by year | Annual |
 
 ## Graduate-level (MA / PhD / postdoc)
 
