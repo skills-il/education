@@ -9,7 +9,10 @@
       "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
       "raw_snippet": "קצבת ילדים: 173 ש\"ח, 219 ש\"ח, 392 ש\"ח, 392 NIS, 611 ש\"ח, 611 NIS, 830 ש\"ח, 830 NIS, 1,003 ש\"ח, 1,003 NIS",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "daycare-subsidy-min-income",
@@ -17,7 +20,10 @@
       "source_url": "https://www.gov.il/he/service/daycare-registration",
       "raw_snippet": "מעון יום: 3,333 ש\"ח לחודש (זוג), 2,778 ש\"ח לחודש (הורה יחיד)",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "credit-point-value-2026",
@@ -25,7 +31,10 @@
       "source_url": "https://www.kolzchut.org.il/he/נקודת_זיכוי",
       "raw_snippet": "נקודת זיכוי: 242 ש\"ח לחודש",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "special-ed-amendment-11-2018",
@@ -33,7 +42,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-education",
       "raw_snippet": "תיקון 11",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "integration-law-2002",
@@ -41,7 +53,10 @@
       "source_url": "https://fs.knesset.gov.il/15/law/15_lsr_300594.pdf",
       "raw_snippet": "חוק חינוך מיוחד (תיקון מס' 7), התשס\"ב-2002",
       "fetched_at": "2026-07-15T16:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "chisachon-lekol-yeled",
@@ -49,15 +64,21 @@
       "source_url": "https://www.btl.gov.il/benefits/children/HisahoLayeled/Pages/default.aspx",
       "raw_snippet": "חיסכון לכל ילד: 58 ש\"ח אוטומטית, 58 ש\"ח אופציונלי, סה\"כ 116 ש\"ח. בונוס 582 ש\"ח בגיל 21",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "free-preschool-amendment-9",
-      "claim": "Free preschool for ages 3-4 was enacted via Amendment 9 to the Compulsory Education Law (Trachtenberg recommendations approved 2012, universal coverage effective school year 2015-16)",
-      "source_url": "https://he.wikipedia.org/wiki/חוק_לימוד_חובה",
-      "raw_snippet": "חינוך חובה",
-      "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "claim": "Under the Compulsory Education Law 5709-1949, compulsory education spans fifteen school years, of which three are in kindergarten for ages 3 to 5 inclusive, and every child subject to compulsory education is entitled to free education in an official education institution (Section 6(a)).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/152_004.htm",
+      "raw_snippet": "\"חינוך חובה\" פירושו – לימוד המיועד לילדים ולנערים והניתן בחמש עשרה שנות לימוד, מהן שלוש בגן-ילדים בגיל 3 עד 5 ועד בכלל ושתים עשרה שנות לימוד, בכיתות א' עד י\"ב, לילדים ולנערים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ministry-labor-daycare-hotline",
@@ -65,7 +86,10 @@
       "source_url": "https://www.gov.il/he/service/daycare-registration",
       "raw_snippet": "*2969",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "welfare-hotline-118",
@@ -73,7 +97,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
       "raw_snippet": "118",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "btl-hotline-6050",
@@ -81,7 +108,10 @@
       "source_url": "https://www.btl.gov.il/About/Pages/contact.aspx",
       "raw_snippet": "*6050",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "child-protection-105",
@@ -89,7 +119,10 @@
       "source_url": "https://www.gov.il/he/departments/general/105_maor",
       "raw_snippet": "105",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "disabled-child-allowance-2026",
@@ -97,7 +130,10 @@
       "raw_snippet": "1,943 ש\"ח ... 9,126 ש\"ח ... 10,774 ש\"ח ... טופס 7821",
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
       "fetched_at": "2026-07-15T16:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "disabled-child-allowance-page",
@@ -105,7 +141,10 @@
       "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
       "raw_snippet": "קצבת ילד נכה",
       "fetched_at": "2026-07-15T16:00:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "psychoeducational-eval-cost-2026",
@@ -113,7 +152,10 @@
       "source_url": "https://www.kolzchut.org.il/he/אבחון_פסיכודידקטי",
       "raw_snippet": "אבחון פסיכודידקטי: 2,500-4,500 ש\"ח. דוגמאות ישנות 2,000-5,000 NIS.",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-btl-children",
@@ -121,7 +163,10 @@
       "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
       "raw_snippet": "קצבת ילדים",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-tax-authority",
@@ -129,7 +174,10 @@
       "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
       "raw_snippet": "רשות המסים",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-education-ministry",
@@ -137,7 +185,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-education",
       "raw_snippet": "משרד החינוך",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-kolzchut-children",
@@ -145,7 +196,10 @@
       "source_url": "https://www.kolzchut.org.il/he/ילדים_ונוער",
       "raw_snippet": "ילדים ונוער",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "ref-welfare-ministry",
@@ -153,7 +207,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
       "raw_snippet": "משרד הרווחה",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "gan-fee-range-2026",
@@ -161,7 +218,10 @@
       "source_url": "https://www.kolzchut.org.il/he/תשלומי_הורים_במערכת_החינוך",
       "raw_snippet": "תשלומי הורים: בסיס 500-1,200 ש\"ח לשנה, עם צהרון 6,000-12,000 ש\"ח לשנה. סעיף בסיס בלבד 300-700 ש\"ח (700 NIS).",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "testing-accommodations-extended-time",
@@ -169,7 +229,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-education",
       "raw_snippet": "הארכת זמן 25% ו-50% במבחנים, בהתאם לאבחון",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     },
     {
       "claim_id": "registration-window-feb-mar",
@@ -177,7 +240,10 @@
       "source_url": "https://www.gov.il/he/departments/ministry-of-education",
       "raw_snippet": "רישום לגן",
       "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": ["SKILL.md", "SKILL_HE.md"]
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
