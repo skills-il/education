@@ -38,7 +38,7 @@ Before any benefits flow, several registration steps happen in the first few wee
 Daycare subsidies are handled by the **Ministry of Labor, Social Affairs and Social Services** (Misrad HaAvoda), NOT the Ministry of Economy or Education.
 
 **Eligibility criteria (both parents must meet at least one):**
-- Working 24+ hours/week with minimum gross income of 3,333 NIS/month (couple) or 2,778 NIS/month (single parent)
+- Working 24+ hours/week with minimum gross income of 3,333 NIS/month (couple) or 2,778 NIS/month (single parents and parents of three children)
 - Enrolled in recognized studies 24+ hours/week (20 hours for single parents)
 - Registered as unemployed with the Employment Service
 

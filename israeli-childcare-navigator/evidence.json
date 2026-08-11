@@ -280,6 +280,19 @@
       "raw_snippet": "שלבים לרישום למעון יום שלב ראשון: זיהוי משתמש",
       "fetched_at": "2026-08-11",
       "claim": "Registration for a ma'on yom is done through the gov.il online daycare-registration service, which begins with user identification via the national personal area."
+    },
+    {
+      "claim_id": "daycare-lower-income-floor-scope",
+      "claim": "The lower minimum-income threshold of 2,778 NIS for a daycare subsidy rating applies to single parents AND to parents of three children, not to single parents alone. The standard threshold is 3,333 NIS per parent.",
+      "source_url": "https://www.gov.il/he/pages/daycare-subsidie",
+      "raw_snippet": "תנאי סף נמוך יותר מיועד להורים יחידים והורים עם שלושה ילדים במעונות יום/משפחתונים. הורים אלה נדרשים להציג הכנסה חודשית ממוצעת נמוכה יותר, בגובה 2,778 ש\"ח לפחות.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
     }
   ]
 }
