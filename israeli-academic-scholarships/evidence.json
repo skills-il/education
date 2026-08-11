@@ -18,10 +18,10 @@
     },
     {
       "claim_id": "malag-baseline-tuition",
-      "claim": "The MALAG-set baseline annual tuition for תשפ\"ו (2025-26) is NIS 12,017. Actual tuition varies by program (humanities below 100%, medicine/law/MBA above, often NIS 14,500-16,000+). The תשפ\"ז figure is set in August off the July CPI.",
+      "claim": "The MALAG-set university tuition ceiling used by the MoD Mimadim LiLimudim scholarship for תשפ\"ו is NIS 12,017; where a student's institution charges more than the ceiling, the scholarship covers only up to that ceiling.",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "שכר הלימוד הבסיסי לתשפ\"ו עומד על 12,017 ש\"ח.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "ועד לתקרת שכר הלימוד האוניברסיטאי (12,017 ₪)",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -30,10 +30,10 @@
     },
     {
       "claim_id": "mimadim",
-      "claim": "Mimadim LiLimudim (MoD combat-veteran scholarship) is graduated, NOT flat 100%: up to 85% of actual courses in Years 1-2 with a final-year top-up to 100% of tuition paid, annual cap NIS 10,214.45 (below the NIS 12,017 baseline). תשפ\"ו application opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026. Eligibility window 5 years post-discharge, extendable up to 7 years.",
+      "claim": "Mimadim LiLimudim is graduated, not a flat 100% each year: in every year except the last the student is reimbursed up to 85% of tuition actually paid, capped at the university tuition ceiling (NIS 10,214.45 in תשפ\"ו), and in the final year the balance is topped up to 100% of tuition actually paid. The תשפ\"ו cycle opens 3.11.25, closes for registration 31.7.26, and documents must be uploaded by 31.8.26.",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "מימדים ללימודים: מימון מדורג עד 85% בשנים א-ב והשלמה ל-100% בשנה האחרונה, תקרה שנתית 10,214.45 ש\"ח; הגשה לתשפ\"ו נפתחת 3.11.2025, נסגרת 31.7.2026, הגשת מסמכים עד 30.8.2026.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ו 10,214.45 ₪). •​ השלמת שכר לימוד - בשנת הלימודים האחרונה תבוצע השלמה ל-100% מימון משכר הלימוד האוניברסיטאי ששולם בפועל.",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -80,10 +80,10 @@
     },
     {
       "claim_id": "student-authority",
-      "claim": "Student Authority (Minhal HaStudentim) olim scholarship: תשפ\"ו application deadline 31.7.2026, payment-slip + enrollment confirmation by 30.8.2026. Post-army eligibility window extended to 5 years (regular service) / 7 years (career service) after the post-Oct-2023 amendments. Verify current dates before relying.",
+      "claim": "The Student Authority (Ministry of Aliyah and Integration) oleh-student scholarship must be applied for online for every new school year, and its submission dates are fixed calendar dates that repeat every year: new first-semester students until 10 November, continuing students until 1 October, second-semester students until 1 April, and summer-semester students until 15 August.",
       "source_url": "https://www.gov.il/en/service/apply-online-for-a-scholarship-from-the-student-authority",
-      "raw_snippet": "מנהל הסטודנטים (רשות הסטודנטים): מועד הגשה לתשפ\"ו 31.7.2026, אישור רישום עד 30.8.2026; חלון 5 שנים (סדיר) / 7 שנים (קבע).",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "Dates of submitting the request Students beginning studies during the first semester: New students – until November 10th – every year* Continuing students – until October 1st - every year Students beginning studies during the second semester: Until April 1st – every year Students beginning studies during the Summer semester: Until August 15th - every year",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"

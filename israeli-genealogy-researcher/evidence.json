@@ -147,27 +147,31 @@
     },
     {
       "claim_id": "israel-state-archives",
-      "claim": "The Israel State Archives holds government records, immigration files, census data, and land documents with free online access to digitized materials.",
+      "claim": "The Israel State Archives (Arkhion HaMedina) runs a public website whose collections search covers government records; the site's own headline counters (scanned pages, scanned images, digital audio and video files) render as animated values and could not be read as fixed numbers, so no figure is asserted here.",
       "source_url": "https://www.archives.gov.il/",
-      "raw_snippet": "Page title: 'ארכיון המדינה - דף הבית' (Israel State Archives - Homepage). The site describes 257 million scanned pages, 375 thousand scanned images, and digital audio/video files.",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "ארכיון המדינה - דף הבית",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "idf-defense-archives",
-      "claim": "The IDF and Defence Establishment Archives hold military service records; access is restricted with family requests possible.",
+      "claim": "The IDF and Defence Establishment Archives (Ministry of Defense) publishes an English landing page at archives.mod.gov.il. Its holdings of military service records are access-restricted; this entry records only that the archive and its portal exist.",
       "source_url": "https://archives.mod.gov.il/sites/English/Pages/default.aspx",
-      "raw_snippet": "https://archives.mod.gov.il/sites/English/Pages/default.aspx returns HTTP 200 (verified live); it is the English landing page of the IDF and Defence Establishment Archives (Ministry of Defense).",
-      "fetched_at": "2026-06-26T00:07:00Z",
+      "raw_snippet": "Archives",
+      "fetched_at": "2026-08-11T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11T00:00:00Z"
     },
     {
       "claim_id": "central-zionist-archives",
