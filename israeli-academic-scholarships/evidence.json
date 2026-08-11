@@ -174,6 +174,43 @@
         "SKILL_HE.md",
         "references/scholarship-table.md"
       ]
+    },
+    {
+      "claim_id": "mimadim-85pct-each-year",
+      "claim": "Mimadim LiLimudim pays up to 85% of university tuition in each year of study (10,214.45 NIS in תשפ\"ו), with a top-up in the FINAL year of study bringing the total to 100% of tuition actually paid. It is not limited to years 1-2.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ו 10,214.45 ₪).",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "mimadim-window-up-to-8-years",
+      "claim": "The Mimadim eligibility window is 5 years from discharge, extended by 1 year (to 6) for bagrut completion, mechina or psychometric within those 5 years; by 2 years (to 7) for continuous career service of a year or more; and by 3 years (to 8) for both.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "הארכה בשנתיים (עד 7 שנים מהשחרור): למי שהמשיכו לשירות קבע רציף של שנה ומעלה מיום השחרור משירות חובה",
+      "fetched_at": "2026-08-11",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "student-authority-fixed-deadlines",
+      "claim": "Student Authority scholarship deadlines are fixed recurring dates every year: new students starting semester A by 10 November, continuing students by 1 October, semester B by 1 April, summer semester by 15 August.",
+      "source_url": "https://www.gov.il/he/service/apply-online-for-a-scholarship-from-the-student-authority",
+      "raw_snippet": "מועדי הגשת הבקשה לסטודנטים המתחילים ללמוד בסמסטר א' סטודנטים חדשים – עד ל- 10 בנובמבר. סטודנטים ממשיכים - עד ל- 1 באוקטובר. לסטודנטים המתחילים ללמוד בסמסטר ב' עד ל- 1 באפריל בכל שנה. לסטודנטים המתחילים ללמוד בסמסטר קיץ עד ל- 15 באוגוסט בכל שנה.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md"
+      ]
     }
   ]
 }
