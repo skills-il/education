@@ -67,13 +67,15 @@
       "claim_id": "jewishgen-root",
       "claim": "JewishGen is the global hub for Jewish genealogy with community databases and Yizkor books.",
       "source_url": "https://www.jewishgen.org/",
-      "raw_snippet": "JewishGen is described as 'The Global Home for Jewish Genealogy.' It functions as the genealogical research division of the Museum of Jewish Heritage.",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "There are numerous opportunities to get involved yourself! Research Search All Records Country & Topical Databases Holocaust Database Burial Registry (JOWBR) Cemetery Discovery Project Memorial & Plaques Database Shul Records America Family Trees (FTJP) Sephardic Text Search Search millions of records from around the globe, including more than 4 million records related to the Holocaust, and more than 4.2 million burial records.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 13 of 16 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"databases\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "jowbr-cemetery-db",
