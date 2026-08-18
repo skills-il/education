@@ -1,0 +1,11 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-06-04",
+      "lessons": [
+        "Verify material_type / availability_type / publication_year_from params against a live residential-IP NLI call next cycle (NLI docs are Cloudflare-blocked from datacenter IPs)."
+      ]
+    }
+  ]
+}

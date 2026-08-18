@@ -1,0 +1,298 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-childcare-navigator",
+  "generated_at": "2026-05-25T19:15:00Z",
+  "claims": [
+    {
+      "claim_id": "child-allowance-2026",
+      "claim": "Child allowance 2026 monthly amounts: 1st=173 NIS, 2nd/3rd/4th=219 NIS each, 5th+=173 NIS; cumulative totals: 173 ש\"ח, 392 ש\"ח, 611 ש\"ח, 830 ש\"ח, 1,003 ש\"ח (392 NIS, 611 NIS, 830 NIS, 1,003 NIS)",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
+      "raw_snippet": "קצבת ילדים: 173 ש\"ח, 219 ש\"ח, 392 ש\"ח, 392 NIS, 611 ש\"ח, 611 NIS, 830 ש\"ח, 830 NIS, 1,003 ש\"ח, 1,003 NIS",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "daycare-subsidy-min-income",
+      "claim": "The minimum average monthly income threshold for a ma'on yom subsidy grade is 3,333 NIS per parent separately; single parents and parents of three children in daycare/mishpachtonim need only 2,778 NIS.",
+      "source_url": "https://www.gov.il/he/pages/daycare-subsidie",
+      "raw_snippet": "תנאי סף לקבלת דרגה הוא הכנסה חודשית ממוצעת בסכום של 3,333 ש\"ח לפחות לכל הורה בנפרד. תנאי סף נמוך יותר מיועד להורים יחידים והורים עם שלושה ילדים במעונות יום/משפחתונים. הורים אלה נדרשים להציג הכנסה חודשית ממוצעת נמוכה יותר, בגובה 2,778 ש\"ח לפחות.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_label": "משרד העבודה - סבסוד שכר לימוד במעונות יום ומשפחתונים, הכנסה חודשית ממוצעת מינימלית לקבלת דרגה"
+    },
+    {
+      "claim_id": "credit-point-value-2026",
+      "claim": "Tax credit point (nekudat zikui) value in 2026 is approximately 242 NIS/month, 2,904 NIS/year",
+      "source_url": "https://www.kolzchut.org.il/he/נקודת_זיכוי",
+      "raw_snippet": "נקודת זיכוי: 242 ש\"ח לחודש",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "special-ed-amendment-11-2018",
+      "claim": "Va'adat Zakaut ve-Ipyun is the committee constituted under Amendment 11 (July 2018) to the Special Education Law, 1988.",
+      "source_url": "https://pob.education.gov.il/students/main-special-education/entitlement-committee/",
+      "raw_snippet": "ועדת זכאות ואפיון היא ועדה מתוקף תיקון חוק החינוך המיוחד, תשמ\"ח-1988 (תיקון 11, יולי 2018).",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_label": "משרד החינוך - ועדת זכאות ואפיון"
+    },
+    {
+      "claim_id": "integration-law-2002",
+      "claim": "The Integration Law (chok hashiluv) is Amendment 7 to the Special Education Law, enacted 2002 (התשס\"ב-2002); it weights inclusion of special-needs students in mainstream education",
+      "source_url": "https://fs.knesset.gov.il/15/law/15_lsr_300594.pdf",
+      "raw_snippet": "‫חוק חינוך מיוחד )תיקון מס' ‪ ,(7‬התשס\"ג­‪*2002‬‬",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "gov.il content API (programmatic re-extraction)"
+    },
+    {
+      "claim_id": "chisachon-lekol-yeled",
+      "claim": "Chisachon LeKol Yeled: Bituach Leumi deposits 58 NIS/month; parents can opt to add 58 NIS from allowance for 116 NIS total; ~582 NIS bonus if no withdrawal before age 21",
+      "source_url": "https://www.btl.gov.il/benefits/children/HisahoLayeled/Pages/default.aspx",
+      "raw_snippet": "חיסכון לכל ילד: 58 ש\"ח אוטומטית, 58 ש\"ח אופציונלי, סה\"כ 116 ש\"ח. בונוס 582 ש\"ח בגיל 21",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "free-preschool-amendment-9",
+      "claim": "Under the Compulsory Education Law 5709-1949, compulsory education spans fifteen school years, of which three are in kindergarten for ages 3 to 5 inclusive, and every child subject to compulsory education is entitled to free education in an official education institution (Section 6(a)).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/152_004.htm",
+      "raw_snippet": "\"חינוך חובה\" פירושו – לימוד המיועד לילדים ולנערים והניתן בחמש עשרה שנות לימוד, מהן שלוש בגן-ילדים בגיל 3 עד 5 ועד בכלל ושתים עשרה שנות לימוד, בכיתות א' עד י\"ב, לילדים ולנערים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ministry-labor-daycare-hotline",
+      "claim": "The Ministry of Labor daycare call center is *2969 (or 073-2458356), Sunday to Thursday 08:00-16:00.",
+      "source_url": "https://www.gov.il/he/departments/Units/day-care-centers",
+      "raw_snippet": "פניה באמצעות המוקד הטלפוני: 2969* או 073-2458356 (בימים א' עד ה' בין השעות 08:00 עד 16:00)",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_label": "משרד העבודה - האגף למעונות יום ומשפחתונים, יצירת קשר"
+    },
+    {
+      "claim_id": "welfare-hotline-118",
+      "claim": "The Ministry of Welfare information and assistance hotline is 118, answered 24 hours a day, 7 days a week (except Yom Kippur).",
+      "source_url": "https://www.gov.il/he/departments/molsa",
+      "raw_snippet": "מוקד מידע וסיוע 118",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "btl-hotline-6050",
+      "claim": "Bituach Leumi general hotline is *6050",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "raw_snippet": "מוקד טלפוני ארצי *6050 או 04-8812345",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "child-protection-105",
+      "claim": "Israel's national online child-protection hotline is 105, operated by the National Headquarters for Child Online Protection, available 24/7.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%95%D7%A7%D7%93_105_%D7%9C%D7%93%D7%99%D7%95%D7%95%D7%97_%D7%95%D7%9E%D7%AA%D7%9F_%D7%9E%D7%A2%D7%A0%D7%94_%D7%91%D7%A0%D7%95%D7%92%D7%A2_%D7%9C%D7%A4%D7%92%D7%99%D7%A2%D7%95%D7%AA%2C_%D7%90%D7%9C%D7%99%D7%9E%D7%95%D7%AA_%D7%95%D7%A4%D7%A9%D7%99%D7%A2%D7%94_%D7%A0%D7%92%D7%93_%D7%99%D7%9C%D7%93%D7%99%D7%9D_%D7%95%D7%A0%D7%95%D7%A2%D7%A8_%D7%91%D7%A8%D7%A9%D7%AA",
+      "raw_snippet": "ניתן לפנות למוקד בחיוג למספר 105 שפועל 24 שעות ביממה, 7 ימים בשבוע",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-allowance-2026-levels",
+      "claim": "Disabled-child allowance from 01.01.2026: five entitlement levels from 1,943 NIS (50%) to 9,126 NIS (235%) a month.",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הוא 9,126 ש\"ח .",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-ventilator-supplement",
+      "claim": "A ventilator-dependent child entitled at 100%, 112% or 188% receives an additional 10,774 NIS a month on top of the allowance.",
+      "raw_snippet": "לילד מונשם שנקבעה זכאות בשיעור 100%, 112% או 188% - משולמת תוספת לקצבה בסך 10,774 ש\"ח .",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-form-7821",
+      "claim": "The disabled-child allowance claim is filed on Bituach Leumi form 7821, linked from the benefit page as the online claim form (https://govforms.gov.il/mw/forms/T7821@btl.gov.il). בעברית: טופס 7821 של המוסד לביטוח לאומי.",
+      "raw_snippet": "להגשת תביעה בצירוף המסמכים הנדרשים לחצו כאן",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "disabled-child-allowance-page",
+      "claim": "Bituach Leumi disabled-child allowance information page (kiztavat yeled nechet) cited in the skill's Reference Links",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx",
+      "raw_snippet": "קצבת ילד נכה",
+      "fetched_at": "2026-07-15T16:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "psychoeducational-eval-cost-2026",
+      "claim": "Private psychoeducational evaluation cost in 2026: 2,500-4,500 NIS depending on region and depth (legacy range cited in skill examples: 2,000-5,000)",
+      "source_url": "https://www.kolzchut.org.il/he/אבחון_פסיכודידקטי",
+      "raw_snippet": "אבחון פסיכודידקטי: 2,500-4,500 ש\"ח. דוגמאות ישנות 2,000-5,000 NIS.",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-btl-children",
+      "claim": "Bituach Leumi children benefits portal",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
+      "raw_snippet": "קצבת ילדים",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-tax-authority",
+      "claim": "Israel Tax Authority portal",
+      "source_url": "https://www.gov.il/he/departments/israel_tax_authority",
+      "raw_snippet": "רשות המסים",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-education-ministry",
+      "claim": "Ministry of Education portal",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-education",
+      "raw_snippet": "משרד החינוך",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-kolzchut-children",
+      "claim": "Kol Zchut children and youth portal",
+      "source_url": "https://www.kolzchut.org.il/he/ילדים_ונוער",
+      "raw_snippet": "ילדים ונוער",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-welfare-ministry",
+      "claim": "Ministry of Welfare portal",
+      "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
+      "raw_snippet": "משרד הרווחה",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "gan-fee-range-2026",
+      "claim": "Real all-in cost for basic gan items (enrichment + insurance + parent committee) runs ~500-1,200 NIS/year; adding tza'haron pushes to ~6,000-12,000 NIS/year. Legacy basic-only line item often cited as 300-700 NIS / 700 ש\"ח / 700 NIS.",
+      "source_url": "https://www.kolzchut.org.il/he/תשלומי_הורים_במערכת_החינוך",
+      "raw_snippet": "תשלומי הורים: בסיס 500-1,200 ש\"ח לשנה, עם צהרון 6,000-12,000 ש\"ח לשנה. סעיף בסיס בלבד 300-700 ש\"ח (700 NIS).",
+      "fetched_at": "2026-05-25T19:15:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "testing-accommodations-extended-time",
+      "claim": "The school-level (level 1) exam accommodation is 25% extra time; extending time beyond 25% requires an application to the exceptions committee (va'adat harigim).",
+      "source_url": "https://meyda.education.gov.il/files/shefi/liikoheylemida/Hathamot_Tashpag/Hozer_Nehalim_Tashpag.pdf",
+      "raw_snippet": "לצורך הארכת זמן החורגת מ 25% מזמן הבחינה יש לפנות לוועדת חריגים.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_label": "משרד החינוך, שפ\"י - חוזר נהלים להתאמות בדרכי היבחנות, טבלת התאמות רמה 1"
+    },
+    {
+      "claim_id": "registration-window-feb-mar",
+      "claim": "The national gan and primary-school registration window for school year 2026-27 (תשפ\"ז) ran 19 January 2026 to 8 February 2026; the local authority sets the specific registration days within that window.",
+      "source_url": "https://apps.education.gov.il/Mankal/Hodaa.aspx?siduri=361",
+      "raw_snippet": "הרישום לגני ילדים ולבתי ספר יסודיים ייערך מיום שני , א' בשבט תשפ\" ו (19 בינואר 2026) עד יום שני , כ\"א בשבט תשפ\" ו (8 בפברואר 2026) ועד בכלל.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "source_label": "משרד החינוך, הודעת מנכ\"ל - הרישום לגני ילדים ולבתי ספר יסודיים לשנת תשפ\"ז"
+    },
+    {
+      "claim_id": "daycare-registration-service-page",
+      "source_url": "https://www.gov.il/he/service/daycare-registration",
+      "source_label": "משרד העבודה - רישום למעונות יום ומשפחתונים (שירות מקוון)",
+      "raw_snippet": "שלבים לרישום למעון יום שלב ראשון: זיהוי משתמש",
+      "fetched_at": "2026-08-11",
+      "claim": "Registration for a ma'on yom is done through the gov.il online daycare-registration service, which begins with user identification via the national personal area."
+    },
+    {
+      "claim_id": "daycare-lower-income-floor-scope",
+      "claim": "The lower minimum-income threshold of 2,778 NIS for a daycare subsidy rating applies to single parents AND to parents of three children, not to single parents alone. The standard threshold is 3,333 NIS per parent.",
+      "source_url": "https://www.gov.il/he/pages/daycare-subsidie",
+      "raw_snippet": "תנאי סף נמוך יותר מיועד להורים יחידים והורים עם שלושה ילדים במעונות יום/משפחתונים. הורים אלה נדרשים להציג הכנסה חודשית ממוצעת נמוכה יותר, בגובה 2,778 ש\"ח לפחות.",
+      "fetched_at": "2026-08-11",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}
