@@ -40,14 +40,16 @@
     },
     {
       "claim_id": "run-ai-nvidia-acquisition",
-      "claim": "Nvidia acquired Run:ai in 2024; the company continues operating in Israel under Nvidia",
-      "source_url": "https://www.calcalistech.com/ctechnews",
-      "raw_snippet": "Nvidia Run:ai",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "claim": "Nvidia acquired Run:ai in 2024; the company continues operating in Israel under Nvidia. Also covers https://www.calcalistech.com/ctechnews.",
+      "source_url": "https://techcrunch.com/2024/12/30/nvidia-completes-acquisition-of-ai-infrastructure-startup-runai/",
+      "raw_snippet": "Nvidia completes acquisition of AI infrastructure startup Run:ai | TechCrunch –:–:–:– 🚨 Flash Sale 🚨 Get $100 off your Disrupt 2026 ticket Save $300 on your Disrupt 2026 ticket: REGISTER NOW.",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "source fetched; snippet copied from it",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "miluim-defense-service-law",

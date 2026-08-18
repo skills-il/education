@@ -93,13 +93,15 @@
       "claim_id": "jewishgen-burial-infofile",
       "claim": "JewishGen 'Locating Burial Records in Israel' InfoFile is a guide to which Israeli cemetery is indexed where.",
       "source_url": "https://www.jewishgen.org/infofiles/il-burial_records.htm",
-      "raw_snippet": "This InfoFile is 'directed to those researching for burial records in Israel' and helps people 'understand what information is required before you begin your search.'",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "The local clerk here will not necessarily be able to suggest solutions for you. (Remember, Israeli Jews come from many different backgrounds and a clerk of Moroccan heritage may have no idea about how Polish Jews spell unusual names.) Society here has different notions of public service and the public's right to information, than in some other countries. The burial societies are generally better than most government offices, but these things are relative.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 17 of 21 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"israeli\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "billiongraves",
