@@ -66,12 +66,14 @@
       "claim_id": "ai-engineering-default-2026",
       "claim": "AI engineering literacy (LLM integration, RAG, vector DBs, evals) is increasingly expected at Israeli tech companies in 2026, including for non-ML roles. This is an observed market pattern, not a figure published by a primary source.",
       "source_url": "https://www.calcalistech.com/ctechnews",
-      "raw_snippet": "CTech - Israeli Tech and Start up News",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "raw_snippet": "S SHOPPING ABOUT Terms Of Use Privacy Policy NEWSLETTER SEARCH CONTACT US ACCESSIBILITY “We still have a lot to improve”: Irregular on AI models escaping cyber simulations Irregular co-founder Omer Nevo spoke to Calcalist about the incident.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-glassdoor",
@@ -176,11 +178,13 @@
       "claim_id": "script-incidental-3-percent",
       "claim": "Incidental code-level percentage formatting in interview-question-generator.py (not a regulatory or factual claim about Israeli tech)",
       "source_url": "https://github.com/skills-il/education/tree/master/israeli-tech-interview-prep",
-      "raw_snippet": "3 %",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "raw_snippet": "education/israeli-tech-interview-prep at master · skills-il/education · GitHub",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "scripts/interview-question-generator.py"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "ref-themarker-tech",

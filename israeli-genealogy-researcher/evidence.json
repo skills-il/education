@@ -203,11 +203,13 @@
       "claim_id": "myheritage",
       "claim": "MyHeritage is an Israeli-founded family-history platform with a large records database.",
       "source_url": "https://www.myheritage.com/",
-      "raw_snippet": "MyHeritage (https://www.myheritage.com/ redirects to https://www.myheritage.co.il/ for Israeli visitors) lets users 'create online family trees, search billions of records, and discover automatic matches.'",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "MyHeritage: אילן יוחסין בחינם, גנאלוגיה והיסטוריה משפחתית",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "geni-com",
