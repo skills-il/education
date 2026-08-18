@@ -7,14 +7,16 @@
       "claim_id": "milgo-tiers",
       "claim": "MilGo (Ministry of Education socioeconomic scholarship via the Milgapo platform) has 4 tiers for the current cycle: Tier A NIS 12,480, Tier B NIS 10,000, Tier C NIS 7,500, Tier D NIS 5,000. The cycle opens in December.",
       "source_url": "https://milgapo.co.il/?milga=_edu.gov",
-      "raw_snippet": "מלגת משרד החינום (מילגו) - 4 מדרגות: א 12,480 ש\"ח, ב 10,000 ש\"ח, ג 7,500 ש\"ח, ד 5,000 ש\"ח; המחזור נפתח בדצמבר.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "המלגה לשנת תשפ\"ו הסתיימה והמלגה לשנת תשפ\"ז תפתח להגשה ככל הנראה במהלך דצמבר 2026. הזוכים במלגה יקבלו מלגה ללא התנדבות בשווי של עד 12,480 שקלים - וההגשה מוענקת אוטומטית עם סיוע אישי במסמכים דרך מלגהפה פרימיום! לחצו לקבלת רשימת מלגות אישית מתי להגיש דצמבר - ינואר סכום המלגה 5,000 - 12,480 למי מיועדת סטודנטים בלימודי תואר ראשון, מכינה או הנדסאים בשנת תשפ\"ז שעות התנדבות מלגת מיל-GO היא מלגה ללא התנדבות!",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
         "scripts/match_scholarships.py"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"12,480\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "malag-baseline-tuition",

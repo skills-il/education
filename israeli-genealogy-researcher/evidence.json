@@ -103,13 +103,15 @@
       "claim_id": "billiongraves",
       "claim": "BillionGraves is a crowd-sourced GPS-tagged headstone photo and transcription database with growing Israeli coverage.",
       "source_url": "https://billiongraves.com/",
-      "raw_snippet": "BillionGraves is 'the world's largest GPS-linked cemetery database, built entirely through crowdsourcing.'",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "Featured Explore featured gravesites and cemeteries around the world. WHAT IS BILLIONGRAVES? BillionGraves is the world's largest GPS-linked cemetery database, built entirely through crowdsourcing. Why Use BillionGraves? Discover the benefits of the world's largest GPS-linked cemetery database. WHY USE CEMETERY RECORDS? Proof of Names and Dates Headstones confirm the vital information that anchors every family tree, and they often fill gaps where other records are missing or inconsistent.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "nli-root",
@@ -209,11 +211,13 @@
       "claim_id": "geni-com",
       "claim": "Geni is a collaborative family-tree platform.",
       "source_url": "https://www.geni.com/",
-      "raw_snippet": "Geni combines 'all research into a single, collaborative tree' and features over 210 million connected profiles.",
-      "fetched_at": "2026-06-26T00:06:00Z",
+      "raw_snippet": "לאילן המשפחה העולמי יש כיום יותר מ-210 מיליון פרופילים והוא גדל במהירות. באופן מסורתי, גנאלוגים פתחו במחקרים אינדיבידואליים של תולדות משפחתם בתקווה לשמר אותה לדורות הבאים. על ידי שילוב כל המחקרים לאילן משפחה אחד ושיתופי, ניתן להתמקד בגילוי מידע חדש ולחפש אחר כיוונים חדשים ומרגשים במקום לבזבז זמן על חזרה על מה שאחרים כבר מצאו.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"210\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "yad-vashem-names-db",
