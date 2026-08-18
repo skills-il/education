@@ -179,15 +179,17 @@
     },
     {
       "claim_id": "central-zionist-archives",
-      "claim": "The Central Zionist Archives holds Jewish Agency files, aliyah records, and kibbutz records with a free online catalog. The site is served over HTTP only; the HTTPS port resets the TLS handshake, so the URL is kept as http://.",
+      "claim": "The Central Zionist Archives holds Jewish Agency files, aliyah records, and kibbutz records with a free online catalog. The site is served over HTTP only; the HTTPS port resets the TLS handshake, so the URL is kept as http://. Covers these references: http://www.zionistarchives.org.il http://www.zionistarchives.org.il/Pages/Default.aspx).",
       "source_url": "http://www.zionistarchives.org.il",
-      "raw_snippet": "http://www.zionistarchives.org.il returns HTTP 200 (final: http://www.zionistarchives.org.il/Pages/Default.aspx). Port 443 accepts the TCP connection but the server sends an unexpected EOF during the TLS handshake (no certificate, no HTTPS response), so HTTPS is not available and the link must remain http://.",
-      "fetched_at": "2026-06-26T00:07:00Z",
+      "raw_snippet": "אתר הארכיון הציוני המרכזי בירושלים - הארכיון הציוני",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "familysearch-root",

@@ -108,16 +108,18 @@
     },
     {
       "claim_id": "reference-urls",
-      "claim": "Authoritative and reference URLs used by this skill (Ministry of Education, NITE, Council for Higher Education, and the six universities).",
+      "claim": "Authoritative and reference URLs used by this skill (Ministry of Education, NITE, Council for Higher Education, and the six universities). Covers these references: https://edu.gov.il https://edu.gov.il/mazkirut_pedagogit/BagrutExams https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx https://www.nite.org.il https://www.nite.org.il/en https://www.nite.org.il/practice-tests/ https://www.nite.org.il/practice-tests/?lang=en https://www.nite.org.il/other-tests/amir-amiram/ https://www.nite.org.il/other-tests/amir-amiram/?lang=en https://che.org.il https://che.org.il/en/ https://new.huji.ac.il https://www.tau.ac.il https://www.technion.ac.il https://www.bgu.ac.il https://www.biu.ac.il https://www.haifa.ac.il https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
       "source_url": "https://www.nite.org.il/en",
-      "raw_snippet": "Reference URLs: https://edu.gov.il https://edu.gov.il/mazkirut_pedagogit/BagrutExams https://edu.gov.il/mazkirut_pedagogit/BagrutExams/Pages/bagrut-exams.aspx https://www.nite.org.il https://www.nite.org.il/en https://www.nite.org.il/practice-tests/ https://www.nite.org.il/practice-tests/?lang=en https://www.nite.org.il/other-tests/amir-amiram/ https://www.nite.org.il/other-tests/amir-amiram/?lang=en https://che.org.il https://che.org.il/en/ https://new.huji.ac.il https://www.tau.ac.il https://www.technion.ac.il https://www.bgu.ac.il https://www.biu.ac.il https://www.haifa.ac.il https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf",
-      "fetched_at": "2026-05-28T00:00:00Z",
+      "raw_snippet": "חינות של מאל\"ו במכון מופ\"ת, תל אביב --> עברית العربية English דף הבית מרכז ארצי לבחינות ולהערכה > בחינות אחרות > בחינת אמירנט בחינת הידע באנגלית (אמירנט) אמירנט היא בחינת ידע באנגלית הניתנת באמצעות מחשב ומשמשת כלי מיון במוסדות לימוד אקדמיים.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bagrut-subjects-and-units.md",
         "references/university-admission-guide.md"
-      ]
+      ],
+      "verified_via": "reference-coverage entry; snippet is a contiguous sentence from its source page",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "pet-writing-task-weight",
