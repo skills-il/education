@@ -89,23 +89,57 @@ def match_universal(profile: StudentProfile) -> List[ScholarshipMatch]:
             deadline_window="תשפ\"ז cycle: opens September, first-come-first-served until ~November",
             notes="NOT in May-September cluster; commitments are audited",
         ))
-    if profile.degree_level in ("BA",) and profile.socioeconomic_score is not None and profile.socioeconomic_score <= 6:
+    if profile.degree_level in ("BA", "mechina", "hendesai", "handsai", "hendesai_student"):
+        # MilGo is open to ANY BA / hand-engineer / mechina student. The
+        # socioeconomic score selects the TIER, it is not an eligibility gate.
+        # Gating on score <= 6 told students scoring 7-10 that nothing existed,
+        # when they are in fact offered Tier C or D.
+        tier = milgo_tier(profile.socioeconomic_score)
         matches.append(ScholarshipMatch(
             name="MilGo (MoE socioeconomic)",
             track="Ministry of Education needs-based, 4-tier",
-            typical_grant="Tier A NIS 12,480 / B NIS 10,000 / C NIS 7,500 / D NIS 5,000",
-            deadline_window="Cycle opens December (Milgapo)",
-            notes="Replaced the older 'SHEFI' branding (which is actually a counseling service)",
+            typical_grant=tier,
+            deadline_window="תשפ\"ז expected to open December 2026 via Milgapo, submit December-January (platform hedges)",
+            notes="Replaced the older 'SHEFI' branding (which is actually a counseling service). "
+                  "Every BA student should apply; the score sets the tier, not eligibility.",
         ))
-    if profile.is_incoming_freshman and profile.bagrut_average is not None and profile.bagrut_average >= 100:
+    # Merit thresholds are set per institution and are NOT a universal >=100
+    # bagrut floor. A 95 average is competitive at many institutions, so surface
+    # the track for every incoming freshman and let the institution decide.
+    if profile.is_incoming_freshman:
         matches.append(ScholarshipMatch(
             name=f"{profile.institution} merit at admission",
             track="Institutional merit",
             typical_grant="One-time grant per institution; HUJI/TAU/Technion vary",
             deadline_window="Automatic at registration",
-            notes="Baseline NIS 12,017 tuition (תשפ\"ו); humanities <100%, medicine/law/MBA >100%",
+            notes="Thresholds VARY BY INSTITUTION; there is no universal bagrut cutoff. "
+                  "Check the specific institution rather than assuming a floor. "
+                  "Baseline NIS 12,017 tuition (תשפ\"ו); humanities <100%, medicine/law/MBA >100%",
         ))
     return matches
+
+
+LADDER = ("A NIS 12,480 / B NIS 10,000 / C NIS 7,500 / D NIS 5,000")
+
+
+def milgo_tier(score: int | None) -> str:
+    """Describe the MilGo tier ladder for a student.
+
+    The socioeconomic score selects the tier; it NEVER disqualifies, which is
+    the whole point of this helper. It deliberately does NOT return a single
+    tier as a determination: the ministry assigns the tier from a composite of
+    income, household composition, priority-area residence and military
+    service, and it does not publish the band edges. A student's own 1-10
+    self-estimate is not the ministry's score, so quoting one shekel figure
+    back to them would be invented precision, and a student told "NIS 5,000"
+    who is in fact placed in Tier C would under-budget their year.
+    """
+    ladder = f"Tiers: {LADDER}. The ministry assigns the tier from a composite score it computes; band edges are not published."
+    if score is None:
+        return ladder + " Apply so the ministry scores you."
+    if score <= 4:
+        return ladder + " A lower self-reported score usually lands in a higher tier, but treat that as a hint, not a figure."
+    return ladder + " A higher self-reported score usually lands in a lower tier, but you are still eligible; apply."
 
 
 def match_post_service(profile: StudentProfile) -> List[ScholarshipMatch]:
@@ -122,7 +156,7 @@ def match_post_service(profile: StudentProfile) -> List[ScholarshipMatch]:
             matches.append(ScholarshipMatch(
                 name="MoD periphery scholarship",
                 track="Periphery (אזורי עדיפות לאומית)",
-                typical_grant="Up to 100% first-year BA tuition (~NIS 11,653, taf-shin-peh-heh/2025)",
+                typical_grant="Up to 100% first-year BA tuition, capped at NIS 12,017 (תשפ\"ו/2026 per the MoD page)",
                 deadline_window="Annual; check hachvana.mod.gov.il",
                 notes="EXCLUSIVE, cannot stack with other periphery scholarships. Post-discharge window: 5 years standard, 10 years for active reservists / lone soldiers",
             ))
@@ -130,8 +164,8 @@ def match_post_service(profile: StudentProfile) -> List[ScholarshipMatch]:
         matches.append(ScholarshipMatch(
             name="Mimadim LiLimudim",
             track="Combat-veteran cohort + special populations",
-            typical_grant="GRADUATED: 85% Years 1-2, top-up to 100% in final year, capped NIS 10,214.45/year",
-            deadline_window="תשפ\"ו: opens 3.11.2025, closes 31.7.2026, documents by 30.8.2026",
+            typical_grant="GRADUATED: up to 85% in EVERY year except the last, top-up to 100% of tuition actually paid in the FINAL year, capped NIS 10,214.45/year",
+            deadline_window="New תשפ\"ו applications CLOSED 31.7.2026. Document upload for ALREADY-ACCEPTED applicants is OPEN until 31.8.2026. תשפ\"ז dates not yet published as of 19.8.2026",
             notes="Year 1 student pays ~15% out of pocket up front, recovered at graduation. Cannot stack with Iron Swords same year.",
         ))
     return matches
@@ -230,7 +264,7 @@ def match_olim(profile: StudentProfile) -> List[ScholarshipMatch]:
             name="Student Authority (Minhal HaStudentim)",
             track="Olim BA tuition benefit (post-army window: 5 years regular / 7 years career)",
             typical_grant="Partial/full tuition",
-            deadline_window="תשפ\"ו: 31.7.2026; documents by 30.8.2026",
+            deadline_window="FIXED RECURRING dates, NOT the MoD cycle: semester A new students 10 November, continuing students 1 October, semester B 1 April, summer 15 August, every year",
             notes="Apply via gov.il Student Authority portal",
         ))
     if profile.aliyah_years_ago is not None and profile.aliyah_years_ago <= 3:
@@ -250,7 +284,7 @@ def match_foundations(profile: StudentProfile) -> List[ScholarshipMatch]:
         matches.append(ScholarshipMatch(
             name="Rashi Foundation Katzir",
             track="Periphery + socioeconomic",
-            typical_grant="NIS 5,000-18,000/year, multi-year",
+            typical_grant="Amount NOT published by the foundation; multi-year. Ask Rashi directly rather than budgeting a figure.",
             deadline_window="Annual",
             notes="Largest privately-funded scholarship by reach",
         ))
@@ -258,17 +292,26 @@ def match_foundations(profile: StudentProfile) -> List[ScholarshipMatch]:
         matches.append(ScholarshipMatch(
             name="Rashi Foundation single-mother track",
             track="Single-parent",
-            typical_grant="~NIS 16,000",
+            typical_grant="Amount NOT published by the foundation. Ask Rashi directly rather than budgeting a figure.",
             deadline_window="Annual",
             notes="Stacks with Katzir if eligible for both",
         ))
-    if profile.bagrut_average is not None and profile.bagrut_average >= 100 and (profile.socioeconomic_score is None or profile.socioeconomic_score <= 6):
+    # ISEF weighs socioeconomic and first-generation background alongside
+    # academic strength; it does not publish a bagrut floor. Screening on
+    # >= 100 filtered out exactly the underserved profile ISEF exists to serve.
+    # Heuristic SURFACING filter, not an eligibility rule: ISEF publishes no
+    # numeric cutoff. Erring wide is correct here, since the cost of surfacing
+    # a track the student turns out not to fit is far lower than the cost of
+    # hiding one they do.
+    if profile.is_periphery_resident_5_of_6 or profile.is_single_parent or (
+            profile.socioeconomic_score is not None and profile.socioeconomic_score <= 8):
         matches.append(ScholarshipMatch(
             name="ISEF Foundation",
             track="Underserved-background, strong academics",
-            typical_grant="Over 400 active fellows across 20 campuses; multi-year mentorship + leadership",
+            typical_grant="Roughly 400-500 scholarships a year across 20 campuses; multi-year mentorship + leadership",
             deadline_window="Annual",
-            notes="Common match for first-generation + Mizrahi/Sephardi profiles",
+            notes="Weighs background alongside academics; no published bagrut cutoff. "
+                  "Common match for first-generation + Mizrahi/Sephardi profiles",
         ))
     return matches
 

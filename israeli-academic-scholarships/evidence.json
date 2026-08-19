@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-academic-scholarships",
-  "generated_at": "2026-06-07T00:00:00Z",
+  "generated_at": "2026-08-19T03:40:34.626221+00:00",
   "claims": [
     {
       "claim_id": "milgo-tiers",
@@ -219,6 +219,71 @@
       "appears_in": [
         "SKILL.md"
       ]
+    },
+    {
+      "claim_id": "mimadim-tashpav-closed-tashpaz-unpublished",
+      "claim": "The Mimadim LiLimudim (MoD) תשפ\"ו cycle opened 3.11.2025, closed for applications 31.7.2026, with document upload to 31.8.2026. As of 19.8.2026 the MoD scholarship page still displays this closed תשפ\"ו cycle and NO תשפ\"ז dates have been published.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "מועד פתיחת ההרשמה לשנת תשפ\"ו (אוקטובר 2025/מרץ 2026)‏: 3.11.25 • מועד אחרון להרשמה: 31.7.26 •‏ מועד אחרון להעלאת מסמכים: 31‏.8.26",
+      "fetched_at": "2026-08-19T03:39:37.918823+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T03:39:37.918823+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "note": "Read verbatim from the official MoD page 19.8.2026. This settles a contradiction: the document-upload deadline is 31.8.26, so the 30.8.2026 previously carried in references/scholarship-table.md and scripts/match_scholarships.py was wrong and has been corrected. It also establishes that the absence of תשפ\"ז dates is real, not an oversight."
+    },
+    {
+      "claim_id": "mod-periphery-cap-tashpav",
+      "claim": "The MoD periphery scholarship (גרים בפריפריה 45) covers up to 100% of first-year BA tuition, capped at NIS 12,017 for תשפ\"ו/2026. This supersedes the ~NIS 11,653 תשפ\"ה/2025 figure the skill previously carried.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "גובה המלגה - סכום המלגה לא יעלה על 12,017 ₪ (נכון לשנת תשפ\"ו - 2026)",
+      "fetched_at": "2026-08-19T03:39:37.918823+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T03:39:37.918823+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "note": "Read verbatim 19.8.2026. Distinct from the ~NIS 11,653 Order-8 reservist grant, which is a different track and keeps its own figure."
+    },
+    {
+      "claim_id": "milgo-tashpaz-window",
+      "claim": "The MilGo תשפ\"ז cycle is expected to open during December 2026, with a submission window of roughly December to January. This is the only MoE-track תשפ\"ז signal published as of 19.8.2026, and the platform itself hedges it ('ככל הנראה').",
+      "source_url": "https://milgapo.co.il/scholarships/milgo",
+      "raw_snippet": "המלגה לשנת תשפ\"ו הסתיימה והמלגה לשנת תשפ\"ז תפתח להגשה ככל הנראה במהלך דצמבר 2026",
+      "fetched_at": "2026-08-19T03:40:34.626221+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T03:40:34.626221+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "note": "Corrected 19.8.2026 BEFORE shipping. An earlier draft took 'November 2026, to about March 2027' off the Milgapo HOMEPAGE, but that sentence describes the מרכז ליברלי scholarship, not MilGo. The MilGo-specific page gives December 2026 with a December-January submission window. Homepage text is not a source for a specific programme."
+    },
+    {
+      "claim_id": "milgo-tiers-not-a-gate",
+      "claim": "MilGo is open to students in a BA, mechina, or hendesai (practical-engineering) programme; the household socioeconomic score selects the TIER (NIS 5,000 / 7,500 / 10,000 / 12,480), it is not an eligibility gate.",
+      "source_url": "https://milgapo.co.il/scholarships/milgo",
+      "raw_snippet": "סטודנטים בלימודי תואר ראשון, מכינה או הנדסאים בשנת תשפ\"ז",
+      "fetched_at": "2026-08-19T03:40:34.626221+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T03:40:34.626221+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/match_scholarships.py"
+      ],
+      "note": "Supports the script fix: match_scholarships.py previously gated MilGo on socioeconomic_score <= 6, which told students scoring 7-10 that no scholarship existed when they qualify for Tier C or D."
     }
   ]
 }

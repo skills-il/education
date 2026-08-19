@@ -15,8 +15,8 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 | Scholarship | Profile filter | Typical grant | Application timing |
 |---|---|---|---|
 | Pikadon Hayashi | Discharged soldier or Sherut Leumi alum, within post-discharge window (5 years for most; verify current window for active reservists/lone soldiers) | The user's own deposit | Anytime within window |
-| MoD periphery scholarship | Lived in priority-area yishuv 5 of 6 years before studies, within the post-discharge window (5 years standard, 10 years for active reservists / lone soldiers) | Up to 100% first-year BA tuition (~NIS 11,653, תשפ"ה/2025) | Annual; cannot stack with other periphery |
-| Mimadim LiLimudim | Combat veterans + special populations (large annual cohort) | **GRADUATED**: 85% Years 1-2, top-up to 100% in final year, capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | תשפ"ו: opens 3.11.2025, closes 31.7.2026, document submission by 30.8.2026 |
+| MoD periphery scholarship | Lived in priority-area yishuv 5 of 6 years before studies, within the post-discharge window (5 years standard, 10 years for active reservists / lone soldiers) | Up to 100% first-year BA tuition, capped at NIS 12,017 (תשפ"ו/2026) | Annual; cannot stack with other periphery |
+| Mimadim LiLimudim | Combat veterans + special populations (large annual cohort) | **GRADUATED**: up to 85% in EVERY year except the last (so Years 1-3 of a 4-year degree, 1-5 of a 6-year one), with a top-up to 100% of tuition actually paid in the FINAL year; capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | New תשפ"ו applications CLOSED 31.7.2026 (opened 3.11.2025). Document upload for ALREADY-ACCEPTED applicants OPEN until 31.8.2026. תשפ"ז dates not yet published as of 19.8.2026 |
 | Atid Foundation | Combat veterans (foundation track) | Per-track grant | Check current cycle |
 | IMPACT! (FIDF) | Former combat / combat-support soldiers from low-income backgrounds | USD 4,000/year for up to 4 years; ~130 community-service hours/year + 2 donor letters/year | Annual; apply via FIDF |
 
@@ -43,7 +43,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 
 | Scholarship | Profile filter | Typical grant | Application timing |
 |---|---|---|---|
-| Student Authority (Minhal HaStudentim) | Oleh Chadash; post-army eligibility window now 5 years regular / 7 years career service | Partial/full tuition | תשפ"ו deadline: 31.7.2026; documents 30.8.2026 |
+| Student Authority (Minhal HaStudentim) | Oleh Chadash | Partial/full tuition | FIXED RECURRING dates, NOT the MoD cycle: semester A new students 10 November, continuing 1 October, semester B 1 April, summer 15 August, every year. Do NOT apply the MoD Mimadim dates here. |
 | Repatriate "Masa Harhava" | Within 3 years of aliyah | Up to ~90% tuition discount | Annual |
 
 ## Foundation grants

@@ -1,14 +1,73 @@
 ---
 name: israeli-academic-scholarships
-description: "Match an Israeli higher-education student to scholarships they qualify for, ranked by deadline and grant size. Covers PEREACH, MoD periphery, Mimadim LiLimudim (graduated 85% each year + final-year top-up, capped ~NIS 10,214/year, NOT flat 100%), Pikadon, Student Authority for olim, MilGo (4-tier), Rashi, ISEF, university merit, Adams Fellowship for PhDs in exact/math/life sciences only, Rothschild postdoc, PBC/MALAG, the Iron Swords (חרבות ברזל) reservist framework via CHE + MoD, statutory tracks for bereaved families / wounded soldiers, and evacuee (מפונים) scholarships. Use when a student asks מלגה, פר\"ח, מלגת פריפריה, פיקדון, מלגת אדמס, מלגת רוטשילד, מלגת מילואים, חרבות ברזל, or how to fund tuition. Prevents missed deadlines, over-budgeting Mimadim, and humanities PhDs wasting an Adams application. Do NOT use for K-12, Bituach Leumi welfare (israeli-bituach-leumi), loans, MFA inbound-student scholarships, yeshiva stipends, or general post-army benefits (israeli-miluim-manager)."
+description: "Not a determination of eligibility and not a submitted application. Match an Israeli higher-education student to scholarships they qualify for, ranked by deadline and grant size. Covers PEREACH, MoD periphery, Mimadim LiLimudim (graduated, NOT flat 100%), Pikadon, Student Authority for olim, MilGo (4-tier), Rashi, ISEF, university merit, Adams Fellowship for PhDs in exact/math/life sciences only, Rothschild postdoc, PBC/MALAG, the Iron Swords (חרבות ברזל) reservist framework via CHE + MoD, statutory tracks for bereaved families / wounded soldiers, and evacuee (מפונים) scholarships. Use when a student asks מלגה, פר\"ח, מלגת פריפריה, פיקדון, מלגת אדמס, מלגת רוטשילד, מלגת מילואים, חרבות ברזל, or how to fund tuition. Prevents missed deadlines, over-budgeting Mimadim, and humanities PhDs wasting an Adams application. Do NOT use for K-12, Bituach Leumi welfare (israeli-bituach-leumi), loans, MFA inbound-student scholarships, yeshiva stipends, or general post-army benefits (israeli-miluim-manager)."
 license: MIT
 ---
 
 # Israeli Academic Scholarships
 
+## Legal notice
+
+This skill provides general information about published scholarship programmes.
+It is not a determination of your eligibility and it is not an application that
+has been submitted. Every scholarship listed here is awarded by its own body
+(the Ministry of Defense, the Ministry of Education, a university, or a private
+foundation) under criteria that body sets and can change, and only that body
+decides who receives a grant. Amounts, tiers, caps and dates are those published
+for the cycle stated beside them, and cycles reopen with different terms. Nothing
+here is a promise of funding, and no output of this skill should be relied on in
+place of the official programme page or the institution's scholarship office.
+Verify eligibility, the current cycle's amounts and every deadline against the
+official source before you apply or decline to apply.
+
+
 ## Problem
 
 Israeli higher-education students leave money on the table every year because Israel's scholarship landscape is fragmented across the Ministry of Defense, the Ministry of Education, the Council for Higher Education (המל"ג), Nefesh B'Nefesh, the Rashi Foundation, ISEF, individual universities, and dozens of smaller foundations, each with its own eligibility filters, branding, deadlines, and application portals. Since October 2023 the picture changed materially: an entire war-economy scholarship framework now sits on top of the historical landscape and is the single largest active funding pool, but it is invisible to users who only know the pre-war scholarship names. A typical Israeli student is eligible for 3-5 distinct scholarships but knows about 1, and most application windows cluster in May-September with hard cutoffs that forfeit the year's grant if missed.
+
+## Cycle status (read this before quoting any date)
+
+**Checked 19.8.2026.** The Ministry of Defense תשפ"ו application (Mimadim
+LiLimudim) CLOSED on 31.7.2026.
+
+**Still open right now: document upload for already-accepted תשפ"ו Mimadim
+applicants runs until 31.8.2026.** That is 12 days from this check date and it
+is the single most valuable live action in this skill. An accepted combat
+veteran who misses it forfeits up to NIS 10,214.45 a year for the whole degree.
+Surface it before anything else to any student who says they were accepted.
+
+**The Student Authority (Minhal HaStudentim) is NOT on the MoD cycle and has
+not closed.** Its deadlines are fixed recurring dates every year, so an oleh
+asking today still has 1.10.2026 (continuing students) and 10.11.2026
+(semester A new students) ahead of them. See Step 6, and never apply the MoD
+dates to this track.
+
+**תשפ"ז dates are not published yet for the Ministry of Defense tracks.** As of
+19.8.2026 the MoD scholarship pages still display the closed תשפ"ו cycle. This
+is an absence of published information, not an oversight in this skill, and it
+is stated here so it cannot be mistaken for one. The only תשפ"ז signal
+available is for MilGo, which Milgapo expects to open during December 2026
+with a December-to-January submission window (the platform hedges this with
+"ככל הנראה"), and PEREACH, which opens in September on a
+first-come-first-served basis.
+
+**So: never quote a תשפ"ו date to a student as if it were live.** If a student
+asks today, tell them the תשפ"ו window has closed, give them the expected
+reopening month for the track they want, and send them to the official page to
+confirm. The historic pattern is that the MoD cycle opens in early November,
+so a student asking in August should be told to check back from October.
+Closed does not mean nothing is available: run the missed-deadline fallback in
+Troubleshooting before telling a student there is nothing for them this year.
+
+| Track | Status as of 19.8.2026 | Where the real date will appear |
+|---|---|---|
+| **Mimadim document upload** | **OPEN until 31.8.2026** for already-accepted תשפ"ו applicants | hachvana.mod.gov.il |
+| Mimadim LiLimudim (MoD), new applications | תשפ"ו closed 31.7.2026; תשפ"ז unpublished | hachvana.mod.gov.il |
+| MoD periphery | Amounts: תשפ"ו, cap NIS 12,017. Window: follows the MoD cycle, so תשפ"ו is closed and תשפ"ז is unpublished | hachvana.mod.gov.il |
+| Student Authority (olim) | NOT on the MoD cycle. Fixed recurring dates: next are 1.10.2026 and 10.11.2026 | gov.il Student Authority |
+| Iron Swords / Order 8 | The 2025 cohort window closed 30.9.2025; read the current cohort off the source | che.org.il/war/ |
+| MilGo | תשפ"ז expected December 2026, submit Dec-Jan (platform hedges) | milgapo.co.il/scholarships/milgo |
+| PEREACH | תשפ"ז opens September, first-come-first-served | milgapo.co.il |
 
 ## Instructions
 
@@ -30,7 +89,7 @@ Before recommending scholarships, gather the dimensions that determine eligibili
 | Evacuated household status (פינוי 7.10.2023 from עוטף עזה / north) | Unlocks evacuee tracks (Heznek La'Atid, university emergency funds) |
 | Bereaved-family / wounded-soldier status (יתום מערכות ישראל / נכה צה"ל) | Unlocks statutory tracks via Misrad HaBitachon Family & Commemoration Branch |
 | Bagrut average + psychometric score | University merit scholarships, Adams |
-| Household socioeconomic status | MilGo (Ministry of Education), Rashi, ISEF |
+| Household socioeconomic status | MilGo (Ministry of Education), Rashi, ISEF. The score sets the MilGo TIER, it never disqualifies; every BA student should apply. ISEF weighs background alongside academics and publishes no bagrut cutoff. |
 | Athletic status (national-team representative) | Mifal HaPais athlete track |
 
 ### Step 2: Run the universal-eligibility checks first
@@ -52,8 +111,8 @@ If the user served in the IDF or Sherut Leumi:
 | Track | Eligibility | What it pays |
 |---|---|---|
 | Pikadon Hayashi | Any discharged soldier or Sherut Leumi alum, within the post-discharge window (5 years for most; verify current window for active reservists/lone soldiers on hachvana.mod.gov.il, as windows have been extended in some tracks since Oct 2023) | Personal deposit (the user's own money), usable for tuition at MALAG-recognized institutions and for psychometric prep, mechina, vocational training, or ישיבה גבוהה |
-| MoD periphery scholarship (אזורי עדיפות לאומית) | Lived in a national-priority-area yishuv 5 of 6 years before studies, AND within the post-discharge window: 5 years standard, extended to 10 years for active reservists and lone soldiers | Up to 100% of first-year BA tuition (cap ~NIS 11,653, תשפ"ה/2025; refreshes for תשפ"ז). Cannot stack with other periphery scholarships. |
-| Mimadim LiLimudim | Combat-veteran cohort + special populations (a large annual cohort). Eligibility window: 5 years post-discharge (regular service), extended by 1 year (to 6) for bagrut completion / mechina / psychometric within those 5 years, by 2 years (to 7) for continuous career service of a year or more, and by 3 years (to 8) for both. תשפ"ו application: opens 3.11.2025, closes 31.7.2026, document upload by 31.8.2026. | NOT flat 100%. Graduated funding: up to 85% of university tuition in EACH year of study, with a top-up in the FINAL year of study bringing the total to 100% of tuition actually paid. Annual cap NIS 10,214.45 (less than the NIS 12,017 baseline). A first-year combat veteran will pay 15% of tuition out of pocket up front, recovered only at graduation. |
+| MoD periphery scholarship (אזורי עדיפות לאומית) | Lived in a national-priority-area yishuv 5 of 6 years before studies, AND within the post-discharge window: 5 years standard, extended to 10 years for active reservists and lone soldiers | Up to 100% of first-year BA tuition, capped at NIS 12,017 (תשפ"ו/2026, per the MoD page). Cannot stack with other periphery scholarships. |
+| Mimadim LiLimudim | Combat-veteran cohort + special populations (a large annual cohort). Eligibility window: 5 years post-discharge (regular service), extended by 1 year (to 6) for bagrut completion / mechina / psychometric within those 5 years, by 2 years (to 7) for continuous career service of a year or more, and by 3 years (to 8) for both. תשפ"ו application CLOSED on 31.7.2026 (opened 3.11.2025; document upload 31.8.2026). The תשפ"ז cycle dates are NOT yet published, see the cycle-status box above. | NOT flat 100%. Graduated funding: up to 85% of university tuition in EACH year of study, with a top-up in the FINAL year of study bringing the total to 100% of tuition actually paid. Annual cap NIS 10,214.45 (less than the NIS 12,017 baseline). A first-year combat veteran will pay 15% of tuition out of pocket up front, recovered only at graduation. |
 | Atid Foundation tracks | Combat veterans (foundation track, distinct from MoD) | Per-track grant; check current cycle |
 | IMPACT! (FIDF) | Former combat / combat-support soldiers from low-income backgrounds | USD 4,000/year for up to 4 years; requires ~130 community-service hours/year plus two donor thank-you letters/year. The best-known privately-funded combat-veteran academic fellowship. |
 
@@ -193,7 +252,7 @@ A few rules cut across multiple tracks. Surface them before the user applies:
 
 ## Gotchas
 
-1. **Mimadim LiLimudim is NOT flat 100% tuition.** It is graduated: up to 85% of actual courses in Years 1-2, then a final-year top-up to 100%, with an annual cap (NIS 10,214.45 in תשפ"ו) that is below the MALAG baseline tuition (NIS 12,017). A combat-veteran user budgeting Year 1 at full tuition will be short ~15% out of pocket. Always state the model explicitly when recommending Mimadim.
+1. **Mimadim LiLimudim is NOT flat 100% tuition.** It is graduated: up to 85% of actual courses in EVERY year except the last (three years of gap on a four-year degree, five on a six-year one), then a final-year top-up to 100% of tuition actually paid, with an annual cap (NIS 10,214.45 in תשפ"ו) that is below the MALAG baseline tuition (NIS 12,017). A combat-veteran user budgeting Year 1 at full tuition will be short ~15% out of pocket. Always state the model explicitly when recommending Mimadim.
 2. **Adams Fellowship excludes humanities and social sciences.** Despite the institution name "Israel Academy of Sciences and Humanities," the Adams call covers exact sciences, mathematics, and life sciences only. A philosophy or sociology PhD applying will be rejected. Route humanities/social-sciences PhDs to the Aharon Katzir postdoc track or field-specific fellowships.
 3. **Iron Swords scholarships and Mimadim LiLimudim are mutually exclusive in the same year.** A combat-veteran reservist must pick the higher payout for their cohort, not stack both. The Iron Swords NIS 1,100 floor and the NIS 2,000 child supplement DO stack with PEREACH, MilGo, and Pikadon, however.
 4. **PEREACH timing is NOT May-September.** The תשפ"ז cycle opens in September and runs first-come-first-served until ~November. A student told to apply in May for PEREACH will find no portal open; one told to wait until November may find the cohort full.
