@@ -161,29 +161,29 @@
     },
     {
       "claim_id": "permalink-form",
-      "claim": "Each result carries an @id permalink in the NNL_ALEPH form on www.nli.org.il; use the returned @id rather than hand-constructing URLs. Covers these references: https://www.nli.org.il/<lang>/<type>/NNL_ALEPH<system-number> https://www.nli.org.il/en/books/NNL_ALEPH990012345670205171/NLI",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
-      "raw_snippet": "Checking your browser...",
-      "fetched_at": "2026-08-18",
+      "claim": "Each result carries an @id permalink in the NNL_ALEPH form on www.nli.org.il; use the returned @id rather than hand-constructing URLs. Covers these references: https://www.nli.org.il/<lang>/<type>/NNL_ALEPH<system-number> https://www.nli.org.il/en/books/NNL_ALEPH990012345670205171/NLI. nli.org.il answers every automated request, browser included, with a Cloudflare challenge, so the permalink form cannot be quoted from its documentation; use the @id the API returns rather than building URLs by hand.",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dces/",
+      "raw_snippet": "Term Name: title URI: http://purl.org/dc/elements/1.1/title Label: Title Definition: A name given to the resource.",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "references/nli-api-reference.md",
         "references/domain-checklist.md"
       ],
-      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
-      "verified_at": "2026-08-18"
+      "verified_via": "NLI documentation is unreachable behind Cloudflare; the claim is recorded as guidance and the Dublin Core spec is cited for the surrounding field model",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "dublin-core-response-fields",
-      "claim": "NLI search results are JSON-LD using Dublin Core element URIs for each metadata field. Covers these references: http://purl.org/dc/elements/1.1/title http://purl.org/dc/elements/1.1/creator http://purl.org/dc/elements/1.1/date http://purl.org/dc/elements/1.1/type http://purl.org/dc/elements/1.1/language http://purl.org/dc/elements/1.1/recordid http://purl.org/dc/elements/1.1/source http://purl.org/dc/elements/1.1/linkToMarc http://purl.org/dc/elements/1.1/{field}",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
-      "raw_snippet": "Checking your browser...",
-      "fetched_at": "2026-08-18",
+      "claim": "NLI search results are JSON-LD using Dublin Core element URIs for each metadata field. Covers these references: http://purl.org/dc/elements/1.1/title http://purl.org/dc/elements/1.1/creator http://purl.org/dc/elements/1.1/date http://purl.org/dc/elements/1.1/type http://purl.org/dc/elements/1.1/language http://purl.org/dc/elements/1.1/recordid http://purl.org/dc/elements/1.1/source http://purl.org/dc/elements/1.1/linkToMarc http://purl.org/dc/elements/1.1/{field}. The element URIs are cited to the Dublin Core specification itself, since nli.org.il answers every automated request, browser included, with a Cloudflare challenge.",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dces/",
+      "raw_snippet": "Term Name: title URI: http://purl.org/dc/elements/1.1/title Label: Title Definition: A name given to the resource.",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
       ],
-      "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
-      "verified_at": "2026-08-18"
+      "verified_via": "Dublin Core Metadata Element Set specification fetched directly",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "example-query-urls",

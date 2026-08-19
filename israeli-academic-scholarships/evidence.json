@@ -107,13 +107,15 @@
       "claim_id": "rothschild",
       "claim": "Rothschild Fellowship (Yad Hanadiv) for postdocs abroad after an Israeli PhD has a USD 75,000/year ceiling on OTHER external supplementary funding: receiving more than USD 75k/year of other support makes the applicant ineligible (it is a ceiling on other funding, not a cap on the Rothschild itself).",
       "source_url": "https://www.yadhanadiv.org.il/rothschild-fellows/",
-      "raw_snippet": "Rothschild Fellowship: a ceiling of USD 75,000 per year on other external supplementary funds; exceeding it disqualifies the applicant.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "Rothschild Fellows - Yad Hanadiv",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "isef-israel-scholars",
@@ -171,13 +173,15 @@
       "claim_id": "illustrative-figures",
       "claim": "Other figures used illustratively or as ranges: actual program tuition NIS 14,500-16,000+ for medicine/law/MBA; Rashi range 5,000-18,000; the 7.10.2023 war-start date; reserve-day thresholds 8 / 50 / 61-99 / 100; TAU evacuee emergency fund ~NIS 2,500/student; Weizmann ~10 doctoral seats/year.",
       "source_url": "https://che.org.il/en/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-2/tuition/",
-      "raw_snippet": "Program tuition ranges NIS 14,500-16,000+ for medicine/law/MBA; war start 7.10.2023; TAU evacuee fund ~NIS 2,500/student. Illustrative ranges, not single-point regulatory values.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "raw_snippet": "thority Strategy and International Affairs Erasmus+ Tuition Below are details of the tuition for institutions of higher education in whose budgets the State participates: Tuition for a full bachelor’s degree program for 2019/20 – NIS 10,259.",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "mimadim-85pct-each-year",

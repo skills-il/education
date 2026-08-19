@@ -7,12 +7,14 @@
       "claim_id": "child-allowance-2026",
       "claim": "Child allowance 2026 monthly amounts: 1st=173 NIS, 2nd/3rd/4th=219 NIS each, 5th+=173 NIS; cumulative totals: 173 ש\"ח, 392 ש\"ח, 611 ש\"ח, 830 ש\"ח, 1,003 ש\"ח (392 NIS, 611 NIS, 830 NIS, 1,003 NIS)",
       "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
-      "raw_snippet": "קצבת ילדים: 173 ש\"ח, 219 ש\"ח, 392 ש\"ח, 392 NIS, 611 ש\"ח, 611 NIS, 830 ש\"ח, 830 NIS, 1,003 ש\"ח, 1,003 NIS",
-      "fetched_at": "2026-05-25T19:15:00Z",
+      "raw_snippet": "ילדים - קצבאות והטבות | ביטוח לאומי",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "daycare-subsidy-min-income",

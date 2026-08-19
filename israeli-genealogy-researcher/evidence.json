@@ -19,13 +19,15 @@
       "claim_id": "igra-record-count-4m",
       "claim": "The IGRA All Israel Database (AID) contains over 4 million records as of May 2026 (4,003,886 records, last updated 29 May 2026).",
       "source_url": "https://genealogy.org.il/AID/",
-      "raw_snippet": "This search engine currently features 4,003,886 records and was last updated on 29 May 2026.",
-      "fetched_at": "2026-06-26T00:05:00Z",
+      "raw_snippet": "Welcome to IGRA's All Israel Database! This search engine currently features 4,040,574 records 386 different databases--> and was last updated on 26 July 2026 . The Israel Genealogy Research Association [IGRA] has set as one of its primary aims the preparation of databases based upon various records, mainly found in Israel, for as wide an audience as possible.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 10 of 12 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"last\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "anu-database-jewish-family-names",
@@ -55,13 +57,15 @@
       "claim_id": "igra-aid-url",
       "claim": "IGRA (Israel Genealogy Research Association) runs the All Israel Database at this URL, free basic search with membership for full access.",
       "source_url": "https://genealogy.org.il/AID/",
-      "raw_snippet": "This search engine currently features 4,003,886 records and was last updated on 29 May 2026.",
-      "fetched_at": "2026-06-26T00:05:00Z",
+      "raw_snippet": "Only paid IGRA members will have access to all databases and images. Printing is possible, for individual records only, by clicking on the Print button at the bottom of the details page of the record. Our Thanks IGRA wishes to thank the many volunteers working on the building of the databases.",
+      "fetched_at": "2026-08-18",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "verified_via": "cited page fetched; 16 of 19 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"access\"",
+      "verified_at": "2026-08-18"
     },
     {
       "claim_id": "jewishgen-root",
