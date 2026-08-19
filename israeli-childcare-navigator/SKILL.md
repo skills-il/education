@@ -42,17 +42,59 @@ Daycare subsidies are handled by the **Ministry of Labor, Social Affairs and Soc
 - Enrolled in recognized studies 24+ hours/week (20 hours for single parents)
 - Registered as unemployed with the Employment Service
 
+**Registration is an annual window, not a rolling application.** Registration for a given
+school year runs for about a month in mid-February to mid-March of the preceding calendar
+year (for school year תשפ"ז it ran 15.02.2026 to 14.03.2026 and has closed). It is NOT
+first-come-first-served within the window. Parents rank up to two recognized ma'onot;
+where a ma'on is oversubscribed, acceptance committees between March and June apply the
+Ministry's priority rules. Tell a parent asking outside the window when the next one opens
+rather than sending them to an application they cannot submit.
+
 **Application process:**
 1. Verify the daycare is recognized by the Ministry (misrad haavoda registry)
-2. Apply via the Ministry's online service: https://www.gov.il/he/service/daycare-registration
+2. Register via the Ministry's online service: https://www.gov.il/he/service/daycare-registration
 3. Required documents: income verification, employment letter, identity documents
-4. Subsidy amount depends on income tier and family size (means-tested)
+4. The Ministry assigns the family a **דרגה (grade)**, which sets the subsidy. See below.
+
+**How much the subsidy is worth.** The state does not pay a percentage. It publishes a
+tariff table per school year in which each grade has a fixed **parent share** and **state
+share** in shekels. `references/maon-yom-tuition-tables.md` carries all six published
+tables in full; consult it whenever a parent asks what they will actually pay.
+
+**The tables govern a SCHOOL year (September to August), not a calendar year.** The
+published tables are for **תשפ"ו (September 2025 to August 2026)**. As of August 2026 the
+Ministry has **not yet published the תשפ"ז tables**. Always name the school year when
+quoting a figure, and never present a תשפ"ו figure as governing תשפ"ז.
+
+**There is no single ma'on table: there are four.** Which one applies depends on the
+specific ma'on's operator type (מלכ"ר or שאינו מלכ"ר) and staffing standard (תקינה
+בסיסית or תקינה מורחבת). At the 0-15-month band the full tariff ranges from 3,487 to
+4,310 across the four, so guessing misstates the bill by hundreds of shekels a month.
+**Ask the parent which operator type and staffing standard their ma'on has.** If they do
+not know, tell them to ask the ma'on or call *2969, and give a range across the four
+tables rather than one number. Mishpachtonim have a single table with no age dimension
+(full tariff 2,819).
+
+To orient a parent quickly, at the lowest grade (3) in a מלכ"ר תקינה בסיסית ma'on the
+parent pays 1,159 of a 3,487 tariff for a 0-15-month place; at grade 10 the parent pays
+2,438; at grades 11 and 12 there is no subsidy and the parent pays the full 3,487. Read
+the actual cell from the reference file before quoting.
+
+**Grades are set from per-capita income, with adjustments.** Per-capita income is the
+parents' combined gross divided by household size (parents plus children up to 18); for a
+single parent it is **half** their gross divided by (household size + 1). Two or more
+enrolled children drop the grade by one; a grade-3 family with 2 enrolled children becomes
+grade 14 and with 3 or more, grade 15. Some populations get a grade with no income test at
+all (olim and returning residents, Otef Aza and Lebanon-border towns), and 60+ days of
+miluim during 2024 drops the grade by one. Full rules and every income band are in the
+reference file.
 
 **Important notes:**
-- New immigrants (olim) receive up to 2 years of subsidy regardless of income
+- New immigrants (olim) and returning residents receive grade 3 regardless of income
 - Subsidy depends on space availability at recognized facilities
-- Apply early -- processing takes 4-8 weeks
 - Private (non-recognized) daycare centers do not qualify for subsidy
+- A grade a parent believes is wrong can be corrected, and a mid-year change of
+  circumstances must be reported to the Ministry
 
 ### Step 3: Preschool Registration (Gan) -- Ages 3-5
 
@@ -75,7 +117,7 @@ Municipal preschool registration is handled by the local **Education Department 
 1. First-time registration requires in-person visit to Agaf Chinuch
 2. Required documents: parents' ID copies showing child's name and address, proof of residency
 3. Choose religious orientation: Mamlachti (secular), Dati (religious), Torani, Charedi
-4. Pay annual fee: 300-700 NIS (varies by municipality) for enrichment and insurance
+4. Pay parent payments (tashlumei horim) for enrichment, insurance and similar. These are set per municipality and school, not nationally. The Ministry of Education publishes an updated list each year of compulsory and optional services and the MAXIMUM price chargeable for each. Ask the municipality for its figure and check it against that year's ceiling rather than quoting a national number.
 
 **Religious framework:** The municipality must honor your religious orientation choice but is not obligated to assign a specific gan.
 
@@ -105,6 +147,7 @@ Monthly amounts (2026):
 - Paid on the 20th of each month, automatically
 - No application needed (starts automatically after birth registration)
 - Amounts are CPI-adjusted each January, always confirm against the Bituach Leumi rates page for the current year
+- **Supplement for a parent on a subsistence benefit.** A parent receiving havtachat hachnasa, mezonot, an old-age pension with income supplement, or a survivors' pension with income supplement receives an extra **113 NIS** for the **third and fourth** child. This is easy to miss and lands on exactly the lowest-income families.
 
 **Child Savings Plan (Chisachon LeKol Yeled):**
 - Bituach Leumi deposits 58 NIS/month per child into a savings plan
@@ -117,7 +160,21 @@ Monthly amounts (2026):
 
 If a child has a recognized disability (developmental, physical, sensory, or psychiatric), the family is entitled to a separate disabled child allowance, distinct from regular kiztavat yeladim.
 
-- Amounts (2026): base levels range from 1,943 NIS/month (50% level) to 9,126 NIS/month (235% level), set by the assessed severity. Ventilator-dependent (monsham) children receive an additional 10,774 NIS/month supplement on top of the base level.
+- Amounts (from 01.01.2026): the allowance is a percentage of a full individual pension of 3,820 NIS. There are **five** entitlement levels, not a continuous range:
+
+| Level | Monthly amount |
+|-------|----------------|
+| 50% | 1,943 NIS |
+| 100% | 3,820 NIS |
+| 112% | 4,501 NIS |
+| 188% | 7,181 NIS |
+| 235% | 9,126 NIS |
+
+- A child with more than one qualifying medical condition is paid at the highest single qualifying level, not the sum.
+- **Ventilator-dependent (monsham) supplement: 10,774 NIS/month.** For a child assessed at 100%, 112% or 188% it is paid on top of that level. For a child assessed at 235% the supplement is paid but the base drops to the 188% level (7,181 instead of 9,126). Do not tell a family at 235% they will receive 9,126 plus the supplement.
+- **Two-caregiver supplement: 7,182 NIS/month**, where the Institute's physician has determined two carers are needed, a permit for two is held, and two are actually employed. It cannot be combined with the 235% level (the base is paid at 188% instead), and cannot be combined with the ventilator supplement.
+- **Two or more disabled children in one family:** each child's allowance is increased by 50% of their own assessed level. A family with one child at 100% and one at 50% is paid at 150% and 75% respectively. This is paid automatically. It continues even if the second child's allowance is not actually being paid because the child is in a residential or foster placement, or because payment stopped only on reaching age 18.
+- **Child in an institution:** 673 NIS/month at the 50% level, 1,347 NIS/month at 100% and above.
 - Eligibility is determined by a medical committee (Bituach Leumi) and depends on the disability type and severity, NOT means-tested on parental income.
 - Application: submit Bituach Leumi form 7821 with medical documentation. Initial decisions take 60-90 days.
 - The allowance is paid alongside the standard child allowance and the child savings plan continues.
@@ -126,16 +183,31 @@ If a child has a recognized disability (developmental, physical, sensory, or psy
 
 ### Step 5b: Income Tax Credit Points (Nekudot Zikui) for Parents
 
-Working parents receive additional tax credit points (nekudat zikui) per child. This is a tax benefit, not a direct payment, and reduces the parent's monthly income tax. Each credit point in 2026 is worth approximately 242 NIS/month.
+Working parents receive additional tax credit points (nekudat zikui) per child. This is a tax benefit, not a direct payment, and reduces the parent's monthly income tax. The Israel Tax Authority sets the credit point at 2,904 NIS for the 2025 tax year, about 242 NIS/month, and the value is unchanged for 2026. Confirm the current year's value before quoting a shekel saving.
 
-**Mother's credit points per child (typical structure):**
-- Child age 0 (year of birth): 1.5 points
-- Child ages 1-5: 2.5 points
-- Child ages 6-12: 1 point (resumes for working mother of children up to age 18 in some cases)
+Credit points run to age 18, not to age 5 or 12, and the bands are keyed to the **tax year in which the child reaches an age**, not to the child's age on a given date.
 
-**Father's credit points per child:** 1 point per child up to age 5 if both parents claim, or transferable in single-parent families.
+| Tax year | Mother | Father |
+|----------|--------|--------|
+| Year of birth | 2.5 | 2.5 |
+| Year after birth, through the year the child turns 2 | 4.5 | 4.5 |
+| Year the child turns 3 | 3.5 | 3.5 |
+| Years the child turns 4 and 5 | 2.5 | 2.5 |
+| Year the child turns 6, through the year before the child turns 18 | 2.0 | 1.0 |
+| Year the child turns 18 | 0.5 | none |
 
-Single parents (hore yachid) receive additional points beyond the standard split. Always verify the current point allocation and the per-point shekel value via the Israel Tax Authority (`https://www.gov.il/he/departments/israel_tax_authority`) before quoting an exact monthly tax saving.
+A single parent with the child in their custody receives one further credit point for being
+a single-parent family, on top of the per-child points. A parent living apart who bears part
+of the children's upkeep receives one point. Separate or divorced parents not running a
+joint household are each entitled to the disabled-child points where those apply.
+
+There are two additional child-linked credits worth flagging: two points per child who is
+paralysed, blind, or has an intellectual-developmental disability, a severe attention and
+concentration learning disability, or a serious illness causing developmental delay
+(Ordinance s.45); and, alternatively, a 35% credit on institutional-maintenance costs above
+12.5% of taxable income (s.44). A parent must choose one or the other per child, not both.
+
+Always verify the current point allocation and the per-point shekel value via the Israel Tax Authority (`https://www.gov.il/he/departments/israel_tax_authority`) before quoting an exact monthly tax saving.
 
 ### Step 6: Special Education (Chinuch Meyuchad) -- Ages 3-18
 
@@ -157,7 +229,7 @@ This is an external government body (not school-based) that determines:
 **Process timeline:**
 1. School-based intervention and identification (3-6 months)
 2. Referral to Va'ada with documentation
-3. Psychoeducational evaluation (2,500-4,500 NIS if done privately in 2026; price varies by region and depth)
+3. Psychoeducational evaluation. A private assessment is expensive and the price varies widely by institute, region, and how many sessions the assessment runs to. Do not quote a figure. Many local authorities operate learning-disability assessment and support centres that reduce or cover the cost, so tell the parent to ask their local authority first.
 4. Committee meeting (2-4 months after referral)
 5. Decision issued (2-4 weeks post-meeting)
 6. Service implementation (2-3 months)
@@ -225,7 +297,7 @@ Actions:
 2. Explain registration window (February-March) and that it's done at the municipal Agaf Chinuch
 3. List required documents (IDs, proof of residency)
 4. Explain religious orientation options (Mamlachti, Dati, Torani, Charedi)
-5. Note the annual fee (300-700 NIS) and tza'haronim option
+5. Note that parent payments apply (capped annually by the Ministry of Education) and mention the tza'haron option
 Result: Parent knows exactly when, where, and how to register.
 
 ### Example 3: Special Education Concerns
@@ -234,7 +306,7 @@ Actions:
 1. Explain the Va'adat Hashama process and timeline
 2. Clarify the placement continuum (inclusion in regular class is an option)
 3. Note parental rights (attend meeting, bring advocate, appeal)
-4. Advise on psychoeducational evaluation (can be done privately for 2,500-4,500 NIS in 2026 for faster results)
+4. Advise on psychoeducational evaluation: private assessment is faster but costly, and the local authority may run a subsidised assessment centre
 5. Emphasize: request in writing, keep copies of all documents
 Result: Parent understands the process, their rights, and how to prepare.
 
@@ -243,12 +315,15 @@ Result: Parent understands the process, their rights, and how to prepare.
 ### References
 - `references/childcare-timeline.md` -- Complete timeline of registrations, deadlines, and milestones from birth to age 12. Consult when creating a personalized plan for parents.
 - `references/special-education-rights.md` -- Detailed guide to the Va'ada process, parental rights, appeal procedures, and available services. Consult when advising on special education.
+- `references/maon-yom-tuition-tables.md` -- All six published תשפ"ו tuition and subsidy tables (four ma'on variants, mishpachtonim, extra hour), the income bands, and the grade-setting rules. Consult whenever a parent asks what daycare will actually cost them.
+- `references/domain-checklist.md` -- Coverage contract for this domain: what the skill must cover, what is deliberately out of scope, and why.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |--------|-----|---------------|
-| Ministry of Labor - Daycare Subsidy | https://www.gov.il/he/service/daycare-registration | Ma'on yom subsidy eligibility, recognized facilities, online application |
+| Ministry of Labor - Daycare Subsidy | https://www.gov.il/he/service/daycare-registration | Ma'on yom registration window, recognized facilities, online application |
+| Ministry of Labor - Tuition Tables | https://www.gov.il/he/pages/tuition-daycare-and-supervised-nurseries?chapterindex=3 | Published tariff and subsidy tables per school year, and whether the next year's tables are out yet |
 | Bituach Leumi - Child Allowance | https://www.btl.gov.il/benefits/children/Pages/default.aspx | Current monthly amounts, payment schedule, savings plan options |
 | Bituach Leumi - Disabled Child Allowance | https://www.btl.gov.il/benefits/Disabled_Child/Pages/default.aspx | Eligibility, amounts, form 7821 |
 | Israel Tax Authority - Credit Points | https://www.gov.il/he/departments/israel_tax_authority | Annual nekudat zikui value and per-child allocation |
@@ -267,11 +342,15 @@ Result: Parent understands the process, their rights, and how to prepare.
 
 4. **The committee was renamed in 2018.** Amendment 11 renamed "ועדת השמה" (Va'adat Hashama) to "ועדת זכאות ואפיון" (Va'adat Zakaut ve-Ipyun). Both names are used colloquially, but the legal name is the new one. Critically, Amendment 11 gave parents the right to choose the educational framework -- do not tell parents the committee decides placement. The committee decides eligibility and service basket; the parents choose where their child learns.
 
-5. **Free education does not mean zero cost.** While gan tuition is covered from age 3 (under Amendment 9, since school year 2015-16), municipalities charge for enrichment, insurance, and the parent committee (vaad horim). Real all-in cost for the basic line items runs ~500-1,200 NIS/year, and adding a tza'haron pushes the family bill to ~6,000-12,000 NIS/year. Agents should never tell parents "gan is completely free."
+5. **Free education does not mean zero cost.** While gan tuition is covered from age 3 (under Amendment 9, since school year 2015-16), municipalities charge parent payments for enrichment, insurance, and the parent committee (vaad horim), and a tza'haron is charged separately on top. Agents should never tell parents "gan is completely free." Nor should they invent a shekel figure: parent payments are set locally within an annual Ministry of Education price ceiling, so the honest answer is to name the components and send the parent to the municipality for the amount.
 
 6. **Major cities have moved gan registration online.** First-time municipal registration in Tel Aviv, Jerusalem, Haifa, Rishon LeZion, Petach Tikva and several others is digital-first since ~2023. In-person Agaf Chinuch visits are now exceptions for missing documents or special cases, not the default. Always ask which city; recommend the municipal portal first.
 
-7. **Disabled child allowance is a separate Bituach Leumi track.** If the Va'ada (Step 6) surfaces a developmental delay, parents must apply for kiztavat yeled nechet separately (Bituach Leumi form 7821). The Va'ada itself does not trigger this allowance. Missing this leaves up to thousands of shekels/month on the table for eligible families.
+7. **The daycare tariff is a school-year table, and four tables exist.** Two failure modes compound here. First, quoting a תשפ"ו figure without saying so lets it read as current indefinitely; the תשפ"ז tables were still unpublished in August 2026. Second, there is no single ma'on rate: the operator type and staffing standard select one of four tables that differ by hundreds of shekels a month. Ask which ma'on, and name the school year.
+
+8. **Ma'on registration closes.** Registration is a roughly one-month national window in February-March for the following school year, not a rolling application. An agent that tells a parent in June to "apply online" has sent them to a closed form.
+
+9. **Disabled child allowance is a separate Bituach Leumi track.** If the Va'ada (Step 6) surfaces a developmental delay, parents must apply for kiztavat yeled nechet separately (Bituach Leumi form 7821). The Va'ada itself does not trigger this allowance. Missing this leaves up to thousands of shekels/month on the table for eligible families.
 
 ## Troubleshooting
 

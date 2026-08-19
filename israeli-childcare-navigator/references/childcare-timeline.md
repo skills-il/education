@@ -25,7 +25,7 @@
 ### February-March
 - **Gan registration window** -- register at municipal Agaf Chinuch
 - Choose religious stream: Mamlachti, Dati, Torani, Charedi
-- Pay annual fee: 300-700 NIS
+- Pay parent payments (tashlumei horim) for enrichment, insurance and the parent committee. Set per municipality within the Ministry of Education's annual maximum-price list, so ask the municipality rather than assuming a national figure.
 
 ### September
 - Gan year begins

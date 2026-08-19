@@ -124,10 +124,12 @@ Tips for appeals:
 3. School psychologist initial assessment
 4. Referral to Va'ada if intervention insufficient
 
-### Private evaluation (2,000-5,000 NIS, faster)
+### Private evaluation (faster, but costly)
 1. Parent arranges private psychoeducational evaluation
 2. Report submitted directly to Va'ada
 3. Faster timeline but costs not covered by health funds for education purposes
+4. Price is not published as a national figure and varies by institute, region, and how many sessions the assessment runs to (typically one to three). Do not quote a figure to a parent.
+5. Many local authorities operate assessment and support centres for learning disabilities that reduce or cover the cost. Tell the parent to ask their local authority before paying privately.
 
 ### What a psychoeducational evaluation includes
 - Cognitive assessment (IQ testing)

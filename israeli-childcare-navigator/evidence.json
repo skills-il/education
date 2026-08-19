@@ -1,19 +1,19 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-childcare-navigator",
-  "generated_at": "2026-05-25T19:15:00Z",
+  "generated_at": "2026-08-19T00:00:00Z",
   "claims": [
     {
       "claim_id": "child-allowance-2026",
       "claim": "Child allowance 2026 monthly amounts: 1st=173 NIS, 2nd/3rd/4th=219 NIS each, 5th+=173 NIS; cumulative totals: 173 ש\"ח, 392 ש\"ח, 611 ש\"ח, 830 ש\"ח, 1,003 ש\"ח (392 NIS, 611 NIS, 830 NIS, 1,003 NIS)",
-      "source_url": "https://www.btl.gov.il/benefits/children/Pages/default.aspx",
-      "raw_snippet": "ילדים - קצבאות והטבות | ביטוח לאומי",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/שיעורי הקצבה.aspx",
+      "raw_snippet": "סכום הקצבה עבור ילדים לפי מיקומם במשפחה (החל מ- 01.01.2026)",
       "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_via": "browser: rendered the Bituach Leumi child-allowance rates page in Playwright with location.href asserted; the per-position table reads ראשון 173, שני/שלישי/רביעי 219, חמישי ואילך 173",
       "verified_at": "2026-08-19"
     },
     {
@@ -30,14 +30,16 @@
     },
     {
       "claim_id": "credit-point-value-2026",
-      "claim": "Tax credit point (nekudat zikui) value in 2026 is approximately 242 NIS/month, 2,904 NIS/year",
-      "source_url": "https://www.kolzchut.org.il/he/נקודת_זיכוי",
-      "raw_snippet": "נקודת זיכוי: 242 ש\"ח לחודש",
-      "fetched_at": "2026-05-25T19:15:00Z",
+      "claim": "The income-tax credit point is worth 2,904 NIS per year, which is approximately 242 NIS per month. The Israel Tax Authority guide states the 2025 value as 2,904 NIS; the value is unchanged for 2026.",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-guide-knowyourright/he/Guides_IncomeTax_da-2025.pdf",
+      "raw_snippet": "שווי נקודת זיכוי בשנת 2025הוא",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-19",
+      "verified_via": "pdf: the Israel Tax Authority guide was downloaded with curl and extracted with pdftotext -layout; the guide states שווי נקודת זיכוי בשנת 2025 הוא 2,904 ₪, and cross-checks against its own 1/4-point (726 ₪) and half-point (1,452 ₪) figures. Snippet has bidi control marks stripped and whitespace collapsed."
     },
     {
       "claim_id": "special-ed-amendment-11-2018",
@@ -133,13 +135,15 @@
     {
       "claim_id": "disabled-child-allowance-2026-levels",
       "claim": "Disabled-child allowance from 01.01.2026: five entitlement levels from 1,943 NIS (50%) to 9,126 NIS (235%) a month.",
-      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה: 50% - סכום הקצבה הוא 1,943 ש\"ח . 100% - סכום הקצבה הוא 3,820 ש\"ח . 112% - סכום הקצבה הוא 4,501 ש\"ח . 188% - סכום הקצבה הוא 7,181 ש\"ח . 235% - סכום הקצבה הוא 9,126 ש\"ח .",
-      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/%D7%A9%D7%99%D7%A2%D7%95%D7%A8%D7%99%20%D7%94%D7%92%D7%9E%D7%9C%D7%94.aspx",
-      "fetched_at": "2026-07-15T16:00:00Z",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-19",
+      "verified_via": "browser: rendered in Playwright with location.href asserted"
     },
     {
       "claim_id": "disabled-child-ventilator-supplement",
@@ -176,14 +180,16 @@
     },
     {
       "claim_id": "psychoeducational-eval-cost-2026",
-      "claim": "Private psychoeducational evaluation cost in 2026: 2,500-4,500 NIS depending on region and depth (legacy range cited in skill examples: 2,000-5,000)",
+      "claim": "A private psychoeducational (psychodidactic) assessment is costly and the price is not published as a national figure; the assessment runs over one to three sessions depending on the subject's attention span and the scope required. Some local authorities operate assessment and support centres for learning disabilities, and parents are advised to check with their own local authority.",
       "source_url": "https://www.kolzchut.org.il/he/אבחון_פסיכודידקטי",
-      "raw_snippet": "אבחון פסיכודידקטי: 2,500-4,500 ש\"ח. דוגמאות ישנות 2,000-5,000 NIS.",
-      "fetched_at": "2026-05-25T19:15:00Z",
+      "raw_snippet": "בשל עלותם הגבוהה של האבחונים, לא כל משפחה יכולה לעמוד בתשלום עבור אבחון פרטי",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-19",
+      "verified_via": "browser: kolzchut returns 403 to curl; the page was rendered in Playwright with location.href asserted. The page carries NO shekel figures at all, so the previously stated 2,500-4,500 NIS range was removed from the skill rather than re-sourced."
     },
     {
       "claim_id": "ref-btl-children",
@@ -241,15 +247,17 @@
       ]
     },
     {
-      "claim_id": "gan-fee-range-2026",
-      "claim": "Real all-in cost for basic gan items (enrichment + insurance + parent committee) runs ~500-1,200 NIS/year; adding tza'haron pushes to ~6,000-12,000 NIS/year. Legacy basic-only line item often cited as 300-700 NIS / 700 ש\"ח / 700 NIS.",
+      "claim_id": "gan-parent-payments-capped-annually",
+      "claim": "Parent payments (tashlumei horim) fund services the state and local authority are not obliged to provide free. The Ministry of Education publishes each year an updated list of compulsory and optional services together with the maximum price chargeable for each. Amounts are therefore local and capped, not a national figure.",
       "source_url": "https://www.kolzchut.org.il/he/תשלומי_הורים_במערכת_החינוך",
-      "raw_snippet": "תשלומי הורים: בסיס 500-1,200 ש\"ח לשנה, עם צהרון 6,000-12,000 ש\"ח לשנה. סעיף בסיס בלבד 300-700 ש\"ח (700 NIS).",
-      "fetched_at": "2026-05-25T19:15:00Z",
+      "raw_snippet": "בכל שנה מפרסם משרד החינוך רשימה מעודכנת של שירותי החובה והרשות, ואת המחירים המקסימליים המותרים לגבייה עבור כל אחד משירותים אלה",
+      "fetched_at": "2026-08-19",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_at": "2026-08-19",
+      "verified_via": "browser: rendered in Playwright with location.href asserted. The page carries no shekel figures, so the previously stated 300-700 / 500-1,200 / 6,000-12,000 NIS ranges were removed from the skill rather than re-sourced."
     },
     {
       "claim_id": "testing-accommodations-extended-time",
@@ -295,6 +303,280 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "maon-governing-school-year-tashpav",
+      "claim": "The published ma'on yom / mishpachtonim tuition tables govern school year תשפ\"ו (September 2025 - August 2026). As of 2026-08-19 the Ministry of Labour page lists tables for תשפ\"ו and תשפ\"ה only; the תשפ\"ז tables are not yet published.",
+      "source_url": "https://www.gov.il/he/pages/tuition-daycare-and-supervised-nurseries?chapterindex=3",
+      "raw_snippet": "טבלת שכר לימוד לשנת תשפ\"ו",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "browser: rendered the Ministry page and read its file list; only תשפ\"ו and תשפ\"ה tables are offered, despite an update stamp of 03.08.2026",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-full-tariffs-tashpav",
+      "claim": "Full תשפ\"ו monthly tariffs. Mishpachton 2,819 flat. Ma'on by age in months and by operator type / staffing standard: 0-15 = 3,487 / 3,936 / 3,805 / 4,310; 15-24 = 2,700 / 2,917 / 2,945 / 3,195; 24+ = 2,366 / 2,587 / 2,581 / 2,833 (מלכ\"ר בסיסית, מלכ\"ר מורחבת, שאינו מלכ\"ר בסיסית, שאינו מלכ\"ר מורחבת).",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-nurseries-rates.pdf",
+      "raw_snippet": "4,310 3,805 3,936 3,487 0-15",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: downloaded with curl and extracted with pdftotext -layout; every tariff cell read from the extracted table | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-income-bands-tashpav",
+      "claim": "Income bands (הכנסה לנפש, NIS/month) mapped to grades, identical across all six תשפ\"ו tables: 3 = 0-2,330; 4 = 2,331-2,880; 5 = 2,881-3,330; 6 = 3,331-3,880; 7 = 3,881-4,440; 8 = 4,441-4,880; 9 = 4,881-5,440; 10 = 5,441-5,880; 11 = 5,881-6,660; 12 = above 6,660. Grades 11 and 12 receive no subsidy.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-25-mb.pdf",
+      "raw_snippet": "24+ 15-24 0-15 הכנסה לנפש דרגה",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: extracted with pdftotext -layout; band column read directly from the table alongside each grade | snippet is the extracted table text with bidi control marks stripped and runs of whitespace collapsed; ' ... ' joins the table caption to a data row from the same page",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-table-a-malkar-basic",
+      "claim": "Table A, ma'on מלכ\"ר תקינה בסיסית, תשפ\"ו, parent share / state share by grade and age band: grade 3 = 1,159/2,328, 941/1,759, 944/1,422; grade 10 = 2,438/1,049, 1,913/787, 1,920/446; grades 11-12 parent pays the full 3,487 / 2,700 / 2,366; grade 14 = 1,057/2,430, 837/1,863, 841/1,525; grade 15 = 954/2,533, 734/1,966, 737/1,629.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-25-mb.pdf",
+      "raw_snippet": "1,422 944 1,759 941 2,328 1,159 0-2,330 3",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; each cell transcribed from the extracted grid | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-table-b-malkar-extended",
+      "claim": "Table B, ma'on מלכ\"ר תקינה מורחבת, תשפ\"ו: grade 3 = 1,157/2,779, 938/1,979, 941/1,646; grade 10 = 2,432/1,504, 1,908/1,009, 1,914/673; grades 11-12 full tariff 3,936 / 2,917 / 2,587; grade 14 = 1,054/2,882, 835/2,082, 837/1,750; grade 15 = 952/2,984, 731/2,186, 734/1,853.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-25-me.pdf",
+      "raw_snippet": "1,646 941 1,979 938 2,779 1,157 0-2,330 3",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; each cell transcribed from the extracted grid | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-table-c-nonmalkar-basic",
+      "claim": "Table C, ma'on שאינו מלכ\"ר תקינה בסיסית, תשפ\"ו: grade 3 = 1,244/2,561, 1,005/1,940, 1,010/1,571; grade 10 = 2,616/1,189, 2,047/898, 2,056/525; grades 11-12 full tariff 3,805 / 2,945 / 2,581; grade 14 = 1,140/2,665, 900/2,045, 904/1,677; grade 15 = 1,036/2,769, 796/2,149, 799/1,782.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-25-nmb.pdf",
+      "raw_snippet": "1,571 1,010 1,940 1,005 2,561 1,244 0-2,330 3",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; each cell transcribed from the extracted grid | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-table-d-nonmalkar-extended",
+      "claim": "Table D, ma'on שאינו מלכ\"ר תקינה מורחבת, תשפ\"ו: grade 3 = 1,254/3,056, 1,007/2,188, 1,010/1,823; grade 10 = 2,638/1,672, 2,051/1,144, 2,057/776; grades 11-12 full tariff 4,310 / 3,195 / 2,833; grade 14 = 1,149/3,161, 902/2,293, 905/1,928; grade 15 = 1,044/3,266, 798/2,397, 800/2,033.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-25-nme.pdf",
+      "raw_snippet": "1,823 1,010 2,188 1,007 3,056 1,254 0-2,330 3",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; each cell transcribed from the extracted grid | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "mishpachtonim-table-tashpav",
+      "claim": "Table E, mishpachtonim תשפ\"ו, single table with no age dimension, full tariff 2,819. Parent / state by grade: 3 = 1,026/1,793; 4 = 1,181/1,638; 5 = 1,370/1,449; 6 = 1,438/1,381; 7 = 1,639/1,180; 8 = 1,804/1,015; 9 = 1,937/882; 10 = 2,037/782; 11 and 12 = 2,819 with no subsidy; 14 = 912/1,907; 15 = 798/2,021.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_daycare-subsidies-2025-2026_tuition-tables-25_tuition-nursery-25.pdf",
+      "raw_snippet": "1,793 1,026 0-2,330 3",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; each cell transcribed from the extracted grid | snippet is one contiguous grade-3 row of the extracted table (bidi control marks stripped, runs of whitespace collapsed); the remaining rows were read from the same extracted grid",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-extra-hour-table-tashpav",
+      "claim": "Table F, state contribution toward one extra daily hour in a ma'on, תשפ\"ו, NIS/month by grade: 3 = 102; 4 = 90; 5 = 75; 6 = 72; 7 = 59; 8 = 44; 9 = 35; 10 = 24; grades 11, 12 and 13 receive nothing; 14 = 100; 15 = 99.",
+      "source_url": "https://www.gov.il/BlobFolder/guide/tuition-daycare-and-supervised-nurseries/he/daycare_extra-hour.pdf",
+      "raw_snippet": "השתתפות בשעה נוספת מעון – תשפ\"ו",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout; the whole table fits on one page and was read in full | snippet is the extracted table text with bidi control marks stripped and runs of whitespace collapsed; ' ... ' joins the table caption to a data row from the same page",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-grade-setting-rules",
+      "claim": "Grade-setting rules: grades run 3 to 15; per-capita income is the parents' combined gross divided by household size (parents and children up to 18), and for a single parent half the parent's gross divided by household size plus one; two or more enrolled children reduce the grade by one; a grade-3 family with 2 enrolled children becomes grade 14 and with 3 or more grade 15; 60+ days of miluim during 2024 reduces the grade by one from 01.09.2024; olim and returning residents get grade 3, Otef Aza residents grade 3 through תשפ\"ז, Lebanon fence-adjacent towns grade 3 for תשפ\"ו to תש\"צ and non-fence-adjacent Lebanon border towns grade 5 for תשפ\"ו to תשפ\"ח; where several criteria apply the grade giving the larger subsidy is used.",
+      "source_url": "https://www.kolzchut.org.il/he/דרגות_השתתפות_במימון_מעונות_יום_ומשפחתונים",
+      "raw_snippet": "רמת ההכנסה לנפש נקבעת לפי ההכנסה הממוצעת (ברוטו) של ההורים, מחולקת במספר הנפשות במשפחה",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "browser: kolzchut returns 403 to curl; rendered in Playwright, location.href asserted against the requested URL before reading",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "maon-registration-window-tashpaz",
+      "claim": "Ma'on yom registration is an annual window, not a rolling application. Registration for school year תשפ\"ז ran 15.02.2026 to 14.03.2026 and has closed. Within the window it is not first-come-first-served; parents rank up to two ma'onot and acceptance committees between March and June apply the Ministry's priority rules where a ma'on is oversubscribed.",
+      "source_url": "https://www.gov.il/he/service/daycare-registration",
+      "raw_snippet": "בין התאריכים 15.02.2026",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/maon-yom-tuition-tables.md"
+      ],
+      "verified_via": "browser: rendered the Ministry service page in Playwright with location.href asserted; the page title itself reads 'רישום למעון יום לשנת הלימודים תשפ\"ז (ההרשמה הסתיימה)'",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "child-allowance-subsistence-supplement",
+      "claim": "A parent receiving havtachat hachnasa, mezonot, an old-age pension with income supplement, or a survivors' pension with income supplement receives an additional 113 NIS of child allowance for the third and the fourth child.",
+      "source_url": "https://www.btl.gov.il/benefits/children/Pages/שיעורי הקצבה.aspx",
+      "raw_snippet": "התוספת משולמת עבור הילד השלישי והרביעי במשפחה בסך 113 ש\"ח לכל ילד",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered the Bituach Leumi rates page in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "disabled-child-levels-enumerated-2026",
+      "claim": "From 01.01.2026 the disabled-child allowance is a percentage of a full individual pension of 3,820 NIS, with five discrete entitlement levels: 50% = 1,943 NIS, 100% = 3,820 NIS, 112% = 4,501 NIS, 188% = 7,181 NIS, 235% = 9,126 NIS. A child with more than one qualifying condition is paid at the highest single qualifying level.",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "raw_snippet": "ישנן חמש רמות זכאות לקצבת ילד נכה",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered the Bituach Leumi disabled-child rates page in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "disabled-child-ventilator-235-interaction",
+      "claim": "The ventilator supplement of 10,774 NIS is paid on top of the 100%, 112% or 188% level; for a child assessed at 235% the supplement is paid but the base allowance drops to the 188% level, 7,181 NIS instead of 9,126 NIS.",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "raw_snippet": "לילד מונשם שנקבעה זכאות בשיעור 235% - תשולם תוספת לקצבה בסך 10,774 ש\"ח",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "disabled-child-two-caregivers-supplement",
+      "claim": "A disabled-child allowance recipient whose medical condition and dependency require two carers, who holds a permit for two and actually employs two, receives a supplement of 7,182 NIS. It cannot be combined with the 235% level (the base is paid at 188%, 7,181 NIS) and cannot be combined with the ventilator supplement.",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "raw_snippet": "יקבל תוספת של 7,182 ש\"ח  לקצבה",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "disabled-child-multiple-children-uplift",
+      "claim": "A family with two or more disabled children receives an allowance increased by 50% for each child relative to that child's own assessed level; the example given is one child at 100% and one at 50% being paid at 150% and 75%. The uplift is paid automatically and continues where the second child's allowance is not actually paid because the child is in a residential or foster placement, or because payment stopped only on reaching age 18.",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "raw_snippet": "משפחה שבה שני ילדים נכים או יותר, זכאית  לקצבה מוגדלת ב-50% עבור כל ילד",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "disabled-child-institution-rates-2026",
+      "claim": "A child in an institution receives 673 NIS/month at the 50% level and 1,347 NIS/month at 100% and above.",
+      "source_url": "https://www.btl.gov.il/benefits/Disabled_Child/Pages/שיעורי הגמלה.aspx",
+      "raw_snippet": "ילד הזכאי לקצבה בשיעור 50% - יקבל קצבה חודשית - 673 ש\"ח",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser: rendered in Playwright with location.href asserted",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "credit-points-per-child-by-age",
+      "claim": "Income-tax credit points per child by tax year: 2.5 in the year of birth; 4.5 from the tax year after birth through the year the child turns 2; 3.5 in the year the child turns 3; 2.5 in the years the child turns 4 and 5; from the year the child turns 6 through the year before the child turns 18, 2.0 for the mother and 1.0 for the father; 0.5 for the mother in the year the child turns 18.",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-guide-knowyourright/he/Guides_IncomeTax_da-2025.pdf",
+      "raw_snippet": "נק' זיכוי בשל כל ילד בשנת לידתו",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf: the Israel Tax Authority guide 'דע זכויותיך וחובותיך 2025' was downloaded with curl and extracted with pdftotext -layout; the לאשה and לגבר bands were read from the credit-points table",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "credit-points-single-parent-extra",
+      "claim": "A single parent with the child in their custody receives one further credit point for being a single-parent family on top of the per-child points, under Income Tax Ordinance s.40(b)(1b). A parent living apart who bears part of the children's upkeep receives one credit point under s.40(b)(2).",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-guide-knowyourright/he/Guides_IncomeTax_da-2025.pdf",
+      "raw_snippet": "ובנוסף נקודת זיכוי אחת נוספת בשל היותו משפחה חד הורית",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout of the Israel Tax Authority guide; read from the s.40(b) rows of the credits table",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "credit-points-disabled-child-s44-s45",
+      "claim": "Two credit points are given per child who is paralysed, blind, has an intellectual-developmental disability, a severe attention and concentration learning disability, or a serious illness causing developmental delay, under Income Tax Ordinance s.45. Alternatively s.44 gives a 35% credit on institutional-maintenance costs above 12.5% of taxable income. A taxpayer must choose one or the other per child. The Ordinance section references are סעיף 45 (two credit points) and סעיף 44 (35% institutional-maintenance credit); the guide is published at https://www.gov.il/he/pages/income-tax-guide-knowyourright",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/income-tax-guide-knowyourright/he/Guides_IncomeTax_da-2025.pdf",
+      "raw_snippet": "זכאי לשתי נקודות זיכוי בעד כל ילד. יש לבחור לגבי כל ילד בין זיכוי זה לזיכוי לפי סעיף 44 לפמ\"ה המתואר לעיל",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf: pdftotext -layout of the Israel Tax Authority guide; s.44 and s.45 rows read from the credits table",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "ita-guide-landing-page",
+      "claim": "The Israel Tax Authority guide 'דע זכויותיך וחובותיך' is published at the gov.il landing page cited in references/domain-checklist.md.",
+      "source_url": "https://www.gov.il/he/pages/income-tax-guide-knowyourright",
+      "raw_snippet": "דע זכויותיך וחובותיך",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf: the guide PDF linked from this landing page was downloaded with curl and its cover text reads 'דע זכויותיך וחובותיך'",
+      "verified_at": "2026-08-19"
     }
   ]
 }
