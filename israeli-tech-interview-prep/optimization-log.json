@@ -1,0 +1,23 @@
+{
+  "cycles": [
+    {
+      "version": "1.4.0",
+      "date": "2026-08-24",
+      "lessons": [
+        "Expert MAJOR deferred: notice period on resignation (חוק הודעה מוקדמת לפיטורים ולהתפטרות) is absent; it is the most common start-date failure at offer stage. Add next to the miluim start-date bullet next cycle.",
+        "Expert MAJOR deferred: non-compete and IP-assignment clauses not covered. Israeli courts narrowed non-compete enforcement heavily; a US-trained agent will over- or under-warn. Cover the shape of the question (claimed interest, geography, duration, paid garden leave) and route to an employment lawyer.",
+        "Expert MAJOR deferred: the miluim protection is now accurate but uncited. The suggested attribution is חוק חיילים משוחררים (החזרה לעבודה), התש\"ט-1949 s.41א. NOT ENCODED because the statute text could not be reached this cycle (nevo law_html/law01/315_001.htm serves the Petroleum Law, not this one). Verify at a reachable primary source before naming it.",
+        "Expert MAJOR deferred: Intel, Nvidia and Wiz are absent from the Tier 3 / Tier 1 company lists despite being the three largest employer stories in the market. Add with sourced status notes.",
+        "Expert MAJOR deferred: candidate-side statutory rights during hiring (חוק הודעה לעובד ולמועמד לעבודה: written progress notice every two months for employers with 25+ staff, rejection notice within 14 days) belong beside the what-an-employer-may-not-ask section.",
+        "Expert MAJOR deferred: remote/hybrid norms, reference checks, and the placement-agency (חברות השמה) channel including duplicate-submission disqualification are all absent from the funnel in Step 2.",
+        "Judge note carried: the approximate headcounts in references/israeli-tech-companies.md (Wix 5,000+, Check Point 7,000+, Mobileye 3,000+, Fiverr 1,000+, AppsFlyer 1,200+) are undated and uncited. Either date them or convert them to 'ask the recruiter', as was done for monday.com and CyberArk this cycle.",
+        "Fiverr carries no status note despite a reported large workforce reduction; verify and add, mirroring the monday.com treatment.",
+        "Research gap: no citable Ethosia or קהילת הייטק salary report could be retrieved this cycle, and levels.fyi Israel level-by-level figures were not obtainable. The skill therefore carries only the CBS sector average. Retry next cycle; a named band table with an as-of year would materially improve the negotiation guidance.",
+        "Research gap: no citable Israeli-specific source on AI-tool policy in live coding rounds, take-home prevalence, or remote/onsite mix in 2026. Step 6's universality statement is deliberately framed as market observation, not a sourced fact.",
+        "Discretionary edit deferred over the Phase 4.1 batch cap: replace the 'Israel has approximately 10 million people' framing in Step 4 with the real local system-design constraints (single-region cloud presence, latency to EU/US, Hebrew RTL and bidi handling).",
+        "Discretionary edit deferred: add last-checked dates to the Reference Links table rows, given the skill's own thesis that company facts rot fastest.",
+        "Tooling lesson: ethka.com returns HTTP 200 with a 1-character body (parked domain). A status code alone would have kept a dead source in the Reference Links table for another cycle; assert on extracted text length, not on status."
+      ]
+    }
+  ]
+}

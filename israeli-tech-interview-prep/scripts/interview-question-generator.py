@@ -332,7 +332,7 @@ CODING_QUESTIONS: Dict[str, List[dict]] = {
                 "Using too few virtual nodes (causes uneven distribution)",
                 "Not considering hash collisions"
             ],
-            "relevant_companies": ["appsflyer", "taboola", "outbrain", "google", "amazon"],
+            "relevant_companies": ["appsflyer", "taboola", "teads", "google", "amazon"],
             "tags": ["distributed-systems", "hashing", "design"]
         },
     ],
@@ -401,7 +401,7 @@ SYSTEM_DESIGN_QUESTIONS: List[dict] = [
             "How would you detect and prevent filter bubbles?",
             "How would you measure recommendation quality?"
         ],
-        "relevant_companies": ["taboola", "outbrain", "fiverr", "wix"],
+        "relevant_companies": ["taboola", "teads", "fiverr", "wix"],
         "tags": ["ML", "distributed-systems", "real-time"]
     },
     {
@@ -528,6 +528,14 @@ BEHAVIORAL_QUESTIONS: List[dict] = [
 ]
 
 # Company-specific focus areas
+# Renamed or acquired companies, so an old name a candidate still knows resolves
+# to the current entry instead of silently generating nothing.
+COMPANY_ALIASES: Dict[str, str] = {
+    "outbrain": "teads",
+    "paloalto": "cyberark",
+    "palo-alto": "cyberark",
+}
+
 COMPANY_FOCUS: Dict[str, Dict] = {
     "wix": {
         "name": "Wix",
@@ -548,10 +556,10 @@ COMPANY_FOCUS: Dict[str, Dict] = {
         "notes": "Focus on networking, security, and systems programming."
     },
     "cyberark": {
-        "name": "CyberArk",
+        "name": "CyberArk (a Palo Alto Networks company)",
         "coding_tags": ["string", "design", "hashing"],
         "design_tags": ["distributed-systems"],
-        "notes": "Focus on security, identity management, and Windows internals."
+        "notes": "Focus on security, identity management, and Windows internals. Palo Alto Networks completed its acquisition of CyberArk in February 2026, so expect a Palo Alto Networks hiring process and ask which entity the role sits in."
     },
     "mobileye": {
         "name": "Mobileye",
@@ -577,11 +585,11 @@ COMPANY_FOCUS: Dict[str, Dict] = {
         "design_tags": ["ML", "real-time", "distributed-systems"],
         "notes": "Focus on algorithms, recommendation systems, and large-scale ML."
     },
-    "outbrain": {
-        "name": "Outbrain",
+    "teads": {
+        "name": "Teads (formerly Outbrain)",
         "coding_tags": ["sorting", "hash-map", "arrays"],
         "design_tags": ["ML", "real-time", "distributed-systems"],
-        "notes": "Focus on content recommendation, real-time bidding, and data processing."
+        "notes": "Focus on content recommendation, real-time bidding, and data processing. The company now operates and recruits as Teads; the Outbrain brand was retired after the Teads acquisition."
     },
     "gong": {
         "name": "Gong",
@@ -631,6 +639,7 @@ def filter_questions(
     """Filter questions by criteria."""
     filtered = questions
 
+    company = COMPANY_ALIASES.get(company, company) if company else company
     if company and company in COMPANY_FOCUS:
         focus = COMPANY_FOCUS[company]
         tags = set(focus.get("coding_tags", []) + focus.get("design_tags", []))
@@ -791,6 +800,7 @@ Examples:
         print(json.dumps(output, indent=2))
     else:
         header = "\nINTERVIEW PRACTICE QUESTIONS"
+        args.company = COMPANY_ALIASES.get(args.company, args.company) if args.company else args.company
         if args.company and args.company in COMPANY_FOCUS:
             header += f" - {COMPANY_FOCUS[args.company]['name']}"
         if args.difficulty:

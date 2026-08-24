@@ -2,7 +2,9 @@
 
 Detailed interview processes for top Israeli tech companies. Includes typical rounds, question types, tech stacks, and cultural expectations.
 
-**Last updated**: Q2 2026
+**Last updated**: August 2026
+
+**Verify before use**: ownership, headquarters, and headcount in this file change faster than any other content in this skill. Confirm a company's current status on CTech (https://www.calcalistech.com/ctechnews) or Geektime (https://geektime.com) before building a prep plan around it.
 
 ---
 
@@ -25,10 +27,11 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
 
 ### Monday.com
 
+- **Status**: cut about 20% of its global workforce in July 2026, presented as a restructuring for the AI era rather than financial distress. Still hiring selectively. Ask which team survived the restructuring and what it is now accountable for.
 - **HQ**: Tel Aviv
 - **Focus**: Work OS / project management platform
 - **Tech stack**: React, Ruby on Rails, Node.js, PostgreSQL, Redis, GraphQL, Kubernetes
-- **Team size**: 1,800+ employees
+- **Team size**: not restated here; the July 2026 cut moved it materially. Ask the recruiter for the current team and company headcount.
 - **Interview process** (4 stages, 2-3 weeks):
   1. HR screen (20 min)
   2. Technical phone screen (45 min): Live coding on CoderPad, medium difficulty
@@ -52,12 +55,13 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
 - **What they look for**: Deep systems knowledge, security mindset, protocol understanding
 - **Tips**: Brush up on networking (TCP/IP, HTTP, TLS), Linux internals, and common attack vectors. Check Point interviews often test low-level knowledge that other companies skip.
 
-### CyberArk
+### CyberArk (a Palo Alto Networks company since February 2026)
 
+- **Status**: Palo Alto Networks completed its acquisition of CyberArk on 11 February 2026. CyberArk no longer trades independently (former ticker CYBR). Israeli sites continue to operate, but expect PANW hiring processes, PANW compensation structures, and integration-related team changes. Ask directly which entity the role sits in.
 - **HQ**: Petah Tikva
 - **Focus**: Privileged access management, identity security
 - **Tech stack**: C#/.NET, Java, Python, C++, Windows internals, Active Directory
-- **Team size**: 3,500+ employees
+- **Team size**: pre-acquisition figure, no longer restated here; ask the recruiter for current Israeli headcount under Palo Alto Networks
 - **Interview process** (4 stages, 2-3 weeks):
   1. HR screen (20 min)
   2. Technical phone screen (45 min): Coding + architecture basics
@@ -66,7 +70,7 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
 - **What they look for**: Security awareness, Windows/AD knowledge (for some roles), solid engineering fundamentals
 - **Tips**: If interviewing for a security-focused role, prepare for questions about authentication, authorization, privilege escalation, and identity management.
 
-### Mobileye (NASDAQ: MBLY, majority-owned by Intel)
+### Mobileye (NASDAQ: MBLY)
 
 - **HQ**: Jerusalem
 - **Focus**: Autonomous driving, ADAS, computer vision
@@ -127,7 +131,8 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
 
 ### Snyk
 
-- **HQ**: Tel Aviv (also London, US)
+- **HQ**: Boston, US. The company started in London and Tel Aviv and retains an Israeli development center, but it is not an Israeli-headquartered company and its Israeli headcount is small.
+- **Status**: ran a further layoff round in June 2026, notified to about 90 employees across Israel and the rest of the world, and reported as the company's fourth round of layoffs. Israeli headcount is small, so treat the Israeli site as a satellite rather than a growth center and ask about the Israel team's roadmap and headcount plan.
 - **Focus**: Developer security (SAST, SCA, container security)
 - **Tech stack**: TypeScript, Node.js, Go, Python, Kubernetes, AWS
 - **Interview process** (4-5 stages):
@@ -174,10 +179,11 @@ Detailed interview processes for top Israeli tech companies. Includes typical ro
   4. Hiring manager
 - **Tips**: Taboola's interviews lean heavily on algorithms and data structures. Prepare for optimization problems and large-scale data processing questions.
 
-### Outbrain
+### Outbrain / Teads
 
-- **HQ**: Tel Aviv
-- **Focus**: Content recommendation platform
+- **Status**: Outbrain and Teads are now one company, and public materials appear under both names (teads.com is the live operating brand). Do not assume which name the hiring entity uses. Confirm the current legal entity, brand, and ticker on the company's investor-relations site before an interview, and ask the recruiter which entity the role sits in.
+- **HQ**: Tel Aviv (Israeli R&D), global company
+- **Focus**: Content recommendation and native advertising platform
 - **Tech stack**: Java, Scala, React, Kafka, Hadoop, ML pipelines
 - **Interview process** (similar to Taboola):
   1. HR screen

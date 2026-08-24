@@ -1,44 +1,33 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-tech-interview-prep",
-  "generated_at": "2026-05-25T19:50:00Z",
+  "generated_at": "2026-08-24T20:47:34.737812+00:00",
   "claims": [
     {
-      "claim_id": "salary-bands-2026",
-      "claim": "2026 monthly gross NIS bands for Israeli software engineering: junior 22-32K, mid 32-50K, senior 50-75K, staff/principal 75-110K+",
-      "source_url": "https://www.levels.fyi/?country=105",
-      "raw_snippet": "Levels.fyi | Salaries & Tools to Level Up Your Career",
-      "fetched_at": "2026-08-19",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
-    },
-    {
       "claim_id": "pension-contribution-mandatory",
-      "claim": "Mandatory pension in Israel: employer 6.5% (default), employee 6%; severance reserve 6%",
+      "claim": "Mandatory pension in Israel from January 2017: total deposits 18.5% of determining salary, 6% employee and 12.5% employer (6.5% employer tagmulim + 6% employer severance component)",
       "source_url": "https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%91%D7%AA_%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99_%D7%9C%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D",
-      "raw_snippet": "שיעור ההפרשות הוא 18.5% מהשכר, מתוכם 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים).",
-      "fetched_at": "2026-08-13",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5% מהשכר, מתוכם 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים).",
+      "fetched_at": "2026-08-24T20:37:48.224112+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "browser-playwright (same-origin fetch)",
-      "verified_at": "2026-08-13"
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:37:48.224112+00:00"
     },
     {
       "claim_id": "keren-hishtalmut-contribution",
       "claim": "Keren Hishtalmut standard contribution: employer 7.5%, employee 2.5%",
       "source_url": "https://www.kolzchut.org.il/he/קרן_השתלמות",
-      "raw_snippet": "קרן השתלמות: מעסיק 7.5%, עובד 2.5%",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "raw_snippet": "הסכום המקסימלי שהפריש העובד אינו עולה על 2.5% מהשכר ולא יותר מ-4,713.6 ₪ לשנה (בממוצע 392.8 ₪ לחודש), והסכום המקסימלי שהפריש המעסיק אינו עולה על 7.5% מהשכר",
+      "fetched_at": "2026-08-24T20:26:11.653886+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:26:11.653886+00:00"
     },
     {
       "claim_id": "run-ai-nvidia-acquisition",
@@ -55,29 +44,16 @@
     },
     {
       "claim_id": "miluim-defense-service-law",
-      "claim": "Defense Service Law requires Israeli employers to accommodate reserve duty (miluim); particularly relevant since the Iron Swords war began October 2023",
+      "claim": "Israeli law bars dismissing a worker because of reserve service, call-up, expected service, or its length/frequency; bars dismissal for any reason during the service; and for service over two consecutive days extends the ban 30 days past its end, with dismissal in that window requiring Ministry of Defense employment-committee approval",
       "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D_%D7%95%D7%91%D7%A0%D7%99_%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA%D7%99%D7%94%D7%9D_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C_%D7%95%D7%94%D7%9E%D7%9C%D7%97%D7%9E%D7%94_%D7%9E%D7%95%D7%9C_%D7%90%D7%99%D7%A8%D7%90%D7%9F",
-      "raw_snippet": "מילואים, חוק שירות הביטחון",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "raw_snippet": "אסור לפטר עובד בשל שירותו במילואים, בשל קריאתו לשירות מילואים או בשל שירותו הצפוי בשירות מילואים. כמו כן אסור לפטר אותו בשל אורך שירות המילואים או תדירות השירות. בנוסף אוסר החוק לפטר עובד, מכל סיבה שהיא, בתקופת היותו במילואים.",
+      "fetched_at": "2026-08-24T20:37:48.224112+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "the cited page does not exist; this is the live Kol Zchut guide for reservists; successor located via the Kol Zchut search API and existence-confirmed",
-      "verified_at": "2026-08-15"
-    },
-    {
-      "claim_id": "ai-engineering-default-2026",
-      "claim": "AI engineering literacy (LLM integration, RAG, vector DBs, evals) is increasingly expected at Israeli tech companies in 2026, including for non-ML roles. This is an observed market pattern, not a figure published by a primary source.",
-      "source_url": "https://www.calcalistech.com/ctechnews",
-      "raw_snippet": "S SHOPPING ABOUT Terms Of Use Privacy Policy NEWSLETTER SEARCH CONTACT US ACCESSIBILITY “We still have a lot to improve”: Irregular on AI models escaping cyber simulations Irregular co-founder Omer Nevo spoke to Calcalist about the incident.",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ],
-      "verified_via": "cited page fetched; snippet is a contiguous sentence copied from it",
-      "verified_at": "2026-08-18"
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:37:48.224112+00:00"
     },
     {
       "claim_id": "ref-glassdoor",
@@ -106,7 +82,7 @@
       "claim": "levels.fyi publishes self-reported compensation data by company, job title, career level and location; the Israel view is at ?country=105.",
       "source_url": "https://www.levels.fyi/?country=105",
       "raw_snippet": "Levels.fyi | Salaries & Tools to Level Up Your Career Download App Change Login Sign Up All Data By Location By Company By Title Salary Calculator Chart Visualizations Verified Salaries Internships H-1B Salaries Negotiation Support Compare Benefits Who's Hiring 2025 Pay Report Top Paying Companies Integrate Blog Press Google Software Engineer Product Manager New York City Area Data Scientist Explore By Different Titles Levels FYI Logo Salaries",
-      "fetched_at": "2026-08-18",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -128,32 +104,10 @@
       "verified_at": "2026-08-19"
     },
     {
-      "claim_id": "ref-ethka",
-      "claim": "Ethka Israeli wage transparency",
-      "source_url": "https://www.ethka.com",
-      "raw_snippet": "Ethka",
-      "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
       "claim_id": "ref-alljobs",
       "claim": "AllJobs Hi-Tech listings",
       "source_url": "https://www.alljobs.co.il/hitech/",
       "raw_snippet": "AllJobs",
-      "fetched_at": "2026-05-25T19:50:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "ref-calcalist-tech",
-      "claim": "Calcalist Tech (Hebrew)",
-      "source_url": "https://www.calcalist.co.il/home/0,7340,L-3671,00.html",
-      "raw_snippet": "Calcalist",
       "fetched_at": "2026-05-25T19:50:00Z",
       "appears_in": [
         "SKILL.md",
@@ -174,9 +128,9 @@
     {
       "claim_id": "ref-geektime",
       "claim": "Geektime Israeli tech ecosystem",
-      "source_url": "https://www.geektime.com",
+      "source_url": "https://geektime.com",
       "raw_snippet": "Geektime",
-      "fetched_at": "2026-05-25T19:50:00Z",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
@@ -204,6 +158,165 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "cbs-avg-hitech-wage-mar-2026",
+      "claim": "Israel CBS: average hi-tech monthly wage NIS 38,467 in March 2026, up 4.3% from NIS 36,884 in March 2025",
+      "source_url": "https://www.ynetnews.com/business/article/h1wizrkbge",
+      "raw_snippet": "The average high-tech salary in Israel reached an all-time high in March, climbing to 38,467 shekels ($13,310), according to figures published Thursday by the Central Bureau of Statistics. The figure marks a 4.3% increase from March 2025, when the average high-tech salary stood at 36,884 shekels",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "cyberark-palo-alto-2026",
+      "claim": "Palo Alto Networks completed its acquisition of CyberArk on 11 February 2026; CyberArk no longer trades independently",
+      "source_url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-completes-acquisition-of-cyberark-to-secure-the-ai-era",
+      "raw_snippet": "Palo Alto Networks Completes Acquisition of CyberArk to Secure the AI Era Feb 11, 2026",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "snyk-hq-boston-layoffs-2026",
+      "claim": "Snyk notified about 90 employees across Israel and the rest of the world of layoffs in June 2026, reported as its fourth round",
+      "source_url": "https://en.globes.co.il/en/article-snyk-to-lay-off-90-employees-1001546903",
+      "raw_snippet": "An email was sent out this morning to about 90 of the company's employees in Israel and the rest of the world, explaining the need to cut personnel",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "monday-layoffs-2026",
+      "claim": "monday.com cut about 20% of its global workforce in July 2026, restructuring for the AI era",
+      "source_url": "https://www.calcalistech.com/ctechnews/article/udx1nmbdq",
+      "raw_snippet": "Monday.com cuts 20% of workforce as it restructures for the AI era",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "tabnine-tricentis-2026",
+      "claim": "Tricentis acquired Israeli AI coding startup Tabnine in July 2026; Tabnine is no longer an independent company",
+      "source_url": "https://www.calcalistech.com/ctechnews/article/1o1nf7vd3",
+      "raw_snippet": "Tricentis acquires Israeli AI startup Tabnine in deal estimated at tens of millions",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "outbrain-renamed-teads",
+      "claim": "Teads is a live operating advertising brand with its own corporate site, so a candidate may encounter the employer under the Teads name",
+      "source_url": "https://www.teads.com/",
+      "raw_snippet": "Teads - Elevated Outcomes",
+      "fetched_at": "2026-08-24T20:47:55.530516+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:47:55.530516+00:00"
+    },
+    {
+      "claim_id": "equal-opportunity-law-s2-grounds",
+      "claim": "Section 2 of the Equal Employment Opportunities Law, 1988 bars hiring discrimination on sex, sexual orientation, personal status, fertility treatment, pregnancy, parenthood, age, race, religion, nationality, country of origin, political outlook, place of residence, or reserve (miluim) service; a question on a protected ground shifts the burden of proof to the employer",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%90%D7%9C%D7%95%D7%AA_%D7%94%D7%A2%D7%A9%D7%95%D7%99%D7%95%D7%AA_%D7%9C%D7%94%D7%A6%D7%91%D7%99%D7%A2_%D7%A2%D7%9C_%D7%A9%D7%99%D7%A7%D7%95%D7%9C%D7%99%D7%9D_%D7%9E%D7%A4%D7%9C%D7%99%D7%9D_%D7%91%D7%A8%D7%90%D7%99%D7%95%D7%9F_%D7%A2%D7%91%D7%95%D7%93%D7%94",
+      "raw_snippet": "מחמת מינם, נטייתם המינית, מעמדם האישי, טיפולי פוריות, היריון, היותם הורים, גילם, גזעם, דתם, לאומיותם, ארץ מוצאם, השקפתם הפוליטית, מקום מגוריהם או שירותם במילואים",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "military-service-not-threshold-3863-09",
+      "claim": "Tel Aviv Regional Labour Court, בש\"א (ת\"א) 3863/09: setting a hiring condition not required by the nature of the position, which ex-service candidates meet almost automatically, raises a concern of prohibited discrimination",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%A6%D7%91%D7%90%D7%99_%D7%90%D7%99%D7%A0%D7%95_%D7%99%D7%9B%D7%95%D7%9C_%D7%9C%D7%94%D7%95%D7%95%D7%AA_%D7%AA%D7%A0%D7%90%D7%99_%D7%9E%D7%97%D7%99%D7%99%D7%91_%D7%91%D7%A7%D7%91%D7%9C%D7%94_%D7%9C%D7%A2%D7%91%D7%95%D7%93%D7%94",
+      "raw_snippet": "הצבת תנאי שאינו מתחייב מאופי התפקיד, שמועמדים יוצאי צבא עונים עליו באופן כמעט אוטומטי, מעלה חשש לאפליה פסולה",
+      "fetched_at": "2026-08-24T20:22:58.673252+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:22:58.673252+00:00"
+    },
+    {
+      "claim_id": "eeo-law-s2c-nature-of-position",
+      "claim": "Section 2(c) of the Equal Employment Opportunities Law, 1988: discrimination is not deemed such where it follows from the character or nature of the position",
+      "source_url": "https://www.nevo.co.il/law_html/law00/5016.htm",
+      "raw_snippet": "(ג) אין רואים הפליה לפי סעיף זה כאשר היא מתחייבת מאפיים או ממהותם של התפקיד או המשרה.",
+      "fetched_at": "2026-08-24T20:23:55.251762+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:23:55.251762+00:00"
+    },
+    {
+      "claim_id": "eeo-law-s2a-military-profile-ban",
+      "claim": "Section 2א of the Equal Employment Opportunities Law, 1988 prohibits an employer from demanding a job applicant's or employee's military profile (פרופיל צבאי) or making use of it",
+      "source_url": "https://www.nevo.co.il/law_html/law00/5016.htm",
+      "raw_snippet": "איסור דרישת פרופיל צבאי והשימוש בו 2א. (א) מעסיק לא ידרוש מדורש עבודה או מעובד את הפרופיל הצבאי שלו, ולא יעשה שימוש בפרופיל הצבאי שלו, אם הגיע לידיו, בכל ענין המנוי בסעיף 2(א)(1) עד (6).",
+      "fetched_at": "2026-08-24T20:23:55.251762+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:23:55.251762+00:00"
+    },
+    {
+      "claim_id": "severance-pay-law-section-14",
+      "claim": "Section 14 of the Severance Pay Law provides that the employer's monthly deposits to a severance or tagmulim fund stand in place of severance pay, and since 2008 it applies automatically to the deposits the employer must make under the pension extension order",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A1%D7%A2%D7%99%D7%A3_14_%D7%9C%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "סעיף 14 לחוק פיצויי פיטורים קובע שההפרשות החודשיות שמעסיק מפריש לקופת פיצויים או לקופת תגמולים הן במקום פיצויי הפיטורים וכי המעסיק פטור מהשלמת פיצויים בגין תוספות שכר במהלך תקופת העבודה",
+      "fetched_at": "2026-08-24T20:38:08.756261+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:38:08.756261+00:00"
+    },
+    {
+      "claim_id": "snyk-hq-boston",
+      "claim": "Snyk is headquartered in Boston; it started in London and Tel Aviv",
+      "source_url": "https://snyk.io/contact-us/",
+      "raw_snippet": "We started in London and Tel Aviv, are headquartered in Boston, and have Snykers located around the world.",
+      "fetched_at": "2026-08-24T20:47:34.737812+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "references/israeli-tech-companies.md"
+      ],
+      "verified_via": "fetch",
+      "verified_at": "2026-08-24T20:47:34.737812+00:00"
     }
   ]
 }
