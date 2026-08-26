@@ -5,7 +5,7 @@
   "claims": [
     {
       "claim_id": "privacy-70-year-vital-records",
-      "claim": "All personal Israeli vital records (birth, marriage, and death) are closed for 70 years; only first-degree relatives can request a record inside that window. The separate 50-year rule applies to IDF and defence-establishment records, not to marriages or deaths.",
+      "claim": "A 70-year limit applies to access to Israeli personal vital records, and only first-degree relatives can receive the information inside that window. No figure is asserted here for defence-establishment records: the skill deliberately quotes none.",
       "source_url": "https://www.familysearch.org/en/wiki/Israel_Civil_Registration",
       "raw_snippet": "Israel set a 70 year limit on access to records due to privacy. 'Only first degree relatives can receive the information.'",
       "fetched_at": "2026-06-26T00:05:00Z",

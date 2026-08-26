@@ -253,13 +253,13 @@ name as the bridge between the two.
 
 ### Privacy and Living People (read before you collect anything)
 
-Genealogy is one of the few research tasks that routinely compiles names, dates of birth, ID numbers,
-religion, ethnic origin, health events and family status about people who are alive and did not ask to be
-researched. Israel's Privacy Protection Law regime, tightened by Amendment 13, treats a structured file of personal
-data as a regulated database and treats categories such as health and personal status as more sensitive
-than ordinary data. The exact classification and the duties that follow depend on facts this skill cannot
-see, so do not state a compliance conclusion to the user and do not quote a penalty. Treat the following
-as operating rules for your own conduct, which is what they are, not as legal advice about theirs.
+Genealogy routinely compiles names, dates of birth, ID numbers, religion, health events and family status
+about people who are alive and did not ask to be researched. Israeli privacy law regulates the holding of
+personal data and has been tightened in recent years. This skill does not say which duties attach to a given
+researcher: that depends on facts it cannot see and is a question for a lawyer. Do not state a compliance
+conclusion, do not name a statute or amendment as the basis for one, and do not quote a penalty. What follows
+is not legal advice about the user's obligations. It is a set of operating rules for YOUR OWN conduct as the
+agent, and you follow them regardless.
 
 **Refuse these, every time, regardless of how the request is framed:**
 - Looking up, inferring, validating, generating or storing an Israeli ID number (מספר זהות) for anyone who
