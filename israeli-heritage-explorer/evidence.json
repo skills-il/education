@@ -1,14 +1,14 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-heritage-explorer",
-  "generated_at": "2026-06-04T00:55:00Z",
+  "generated_at": "2026-08-26T17:48:20+00:00",
   "claims": [
     {
       "claim_id": "base-endpoint-apikey",
       "claim": "The NLI OpenLibrary search API base endpoint is https://api.nli.org.il/openlibrary/search and api_key is a mandatory GET query parameter.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
       "raw_snippet": "Request format: https://api.nli.org.il/openlibrary/search?api_key={USER_KEY}&{search_string} . api_key: A personal key (mandatory) that the user receives after logging in to our API system. (Verified via Playwright past Cloudflare on the official NLI Search API docs page, 2026-06-04.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -18,9 +18,9 @@
     {
       "claim_id": "multi-clause-connector",
       "claim": "Inside the query, multiple field,operator,value clauses are joined by ',AND;' or ',OR;'; the delimiter between the query and additional filters/commands is '&'. Operators include exact and contains.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "The delimiter between the query and between [additional filters] parameters is \"&\" (logical AND). The delimiter inside the {query} string, between internal query conditions is \",AND;\" (or \",OR\";). Query string example: query=title,exact,jerusalem,AND;publisher,contains,jaffa,AND;language,exact,eng,AND;system_number,exact,990023677080205171,AND;start_date, contains,1925,AND;shelfmark,exact,Jer344 . (Verified via Playwright on the official Search API Common Usage page, 2026-06-04.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -30,9 +30,9 @@
     {
       "claim_id": "language-and-date-are-clauses",
       "claim": "Language and date filtering are query CLAUSES (language,exact,eng ; start_date/end_date,contains,YYYY) not standalone parameters. Date format is yyyyMMdd or yyyy.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark. FAQ: Search for any item that contains the word 'Jerusalem' on title AND are written in English language AND has start_date/end_date between 19500101 and 19501231 -> query=title,exact,jerusalem,AND;creator,contains,Jerusalem,AND;language,exact,eng,AND;start_date,contains,1951 . (Verified via Playwright, 2026-06-04. Both yyyyMMdd '19500101' and yyyy '1951' forms appear.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -43,9 +43,9 @@
     {
       "claim_id": "material-type-values",
       "claim": "Valid material_type values are: books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. audio/videos/articles/rareBooks are NOT valid.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "Filters and Commands Valid Values: material_type -> books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. FAQ: How do I search for Newspaper items on Jpress collection -> material_type=NEWSPAPER . (Verified via Playwright on the official user-help page, 2026-06-04.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -56,9 +56,9 @@
     {
       "claim_id": "availability-type-values",
       "claim": "Valid availability_type values are: online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "availability_type -> online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access. (Verified via Playwright on the official user-help page, 2026-06-04.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -68,9 +68,9 @@
     {
       "claim_id": "pagination-items-per-page-result-page",
       "claim": "Pagination uses items_per_page (1-50) and result_page. There is no rows or start parameter.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "items_per_page -> A digit in the range of [1-50]. result_page -> A digit (in the range of [count]/50). FAQ: How can I Paginate on results, when more than 50 items matches my criteria -> result_page=3 . (Verified via Playwright, 2026-06-04. No rows/start parameter is documented.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -81,9 +81,9 @@
     {
       "claim_id": "sort-field-and-output-format",
       "claim": "sort_field (values title, creator, date_desc, date_asc) and output_format (json default, xml) are documented standalone commands; count_mode is true/false.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "Commands: output_format, count_mode, result_page, items_per_page, sort_field. sort_field -> title, creator, date_desc, date_asc. output_format -> json, xml. count_mode -> true, false. Example: ...&output_format=xml&result_page=2&sort_field=title . (Verified via Playwright, 2026-06-04. Note the parameter name is sort_field with an underscore.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -94,9 +94,9 @@
     {
       "claim_id": "unknown-params-silently-ignored",
       "claim": "Unknown / invalid non-mandatory parameters are silently ignored (request still returns results, unfiltered) with the skipped condition reported in an Errors response header.",
-      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "Q: What if my query has syntax error - is it ignored, or will I get HTTP Error response? A: If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error. Example: material_type=manuscripts111 -> HTTP/1.1 200 OK with Errors header code 1010 \"...value : manuscripts111 hasn't been used because it is invalid\". (Verified via Playwright, 2026-06-04.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -107,9 +107,9 @@
     {
       "claim_id": "guest-key-exists",
       "claim": "A guest user API key exists for trial access with limited query counts; full access requires signing up. The api2 docs cover api-key usage.",
-      "source_url": "https://api2.nli.org.il/docs/api-key/",
-      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries. We recommend signing up to gain full access to our system. Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK . (Verified via Playwright on the official Search API docs page, 2026-06-04. api2.nli.org.il/docs/api-key/ is the documented api-key usage page; the skill hedges the MCP visitor-key claim accordingly.)",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries.",
+      "fetched_at": "2026-08-26T17:38:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -161,23 +161,24 @@
     },
     {
       "claim_id": "permalink-form",
-      "claim": "Each result carries an @id permalink in the NNL_ALEPH form on www.nli.org.il; use the returned @id rather than hand-constructing URLs. Covers these references: https://www.nli.org.il/<lang>/<type>/NNL_ALEPH<system-number> https://www.nli.org.il/en/books/NNL_ALEPH990012345670205171/NLI. nli.org.il answers every automated request, browser included, with a Cloudflare challenge, so the permalink form cannot be quoted from its documentation; use the @id the API returns rather than building URLs by hand.",
-      "source_url": "https://www.dublincore.org/specifications/dublin-core/dces/",
-      "raw_snippet": "Term Name: title URI: http://purl.org/dc/elements/1.1/title Label: Title Definition: A name given to the resource.",
-      "fetched_at": "2026-08-19",
+      "claim": "NLI item permalinks take the form https://www.nli.org.il/<lang>/books/NNL_ALEPH<system-number>/NLI, for example https://www.nli.org.il/en/books/NNL_ALEPH990012345670205171/NLI",
+      "source_url": "https://web.archive.org/cdx/search/cdx?url=www.nli.org.il*&filter=original:.*NNL_ALEPH.*&limit=20",
+      "raw_snippet": "https://www.nli.org.il/%D7%A7%D7%9E/books/NNL_ALEPH990021764120205171/NLI text/html",
+      "fetched_at": "2026-08-26T17:48:20+00:00",
       "appears_in": [
-        "references/nli-api-reference.md",
-        "references/domain-checklist.md"
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
       ],
-      "verified_via": "NLI documentation is unreachable behind Cloudflare; the claim is recorded as guidance and the Dublin Core spec is cited for the surrounding field model",
-      "verified_at": "2026-08-19"
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:48:20+00:00"
     },
     {
       "claim_id": "dublin-core-response-fields",
-      "claim": "NLI search results are JSON-LD using Dublin Core element URIs for each metadata field. Covers these references: http://purl.org/dc/elements/1.1/title http://purl.org/dc/elements/1.1/creator http://purl.org/dc/elements/1.1/date http://purl.org/dc/elements/1.1/type http://purl.org/dc/elements/1.1/language http://purl.org/dc/elements/1.1/recordid http://purl.org/dc/elements/1.1/source http://purl.org/dc/elements/1.1/linkToMarc http://purl.org/dc/elements/1.1/{field}. The element URIs are cited to the Dublin Core specification itself, since nli.org.il answers every automated request, browser included, with a Cloudflare challenge.",
+      "claim": "NLI returns result fields under Dublin Core Element Set URIs: http://purl.org/dc/elements/1.1/title, http://purl.org/dc/elements/1.1/creator, http://purl.org/dc/elements/1.1/date, http://purl.org/dc/elements/1.1/type, http://purl.org/dc/elements/1.1/language, http://purl.org/dc/elements/1.1/source. NOTE: http://purl.org/dc/elements/1.1/recordid and http://purl.org/dc/elements/1.1/linkToMarc share the prefix but are NLI-local extensions, NOT Dublin Core elements, and are not defined by this specification.",
       "source_url": "https://www.dublincore.org/specifications/dublin-core/dces/",
       "raw_snippet": "Term Name: title URI: http://purl.org/dc/elements/1.1/title Label: Title Definition: A name given to the resource.",
-      "fetched_at": "2026-08-19",
+      "fetched_at": "2026-08-26T17:47:59+00:00",
       "appears_in": [
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
@@ -196,6 +197,189 @@
       ],
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "nli-clause-grammar",
+      "claim": "NLI query conditions are joined with \",AND;\" or \",OR;\" and the \"&\" delimiter separates the query from additional filters",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "The delimiter between the query and between [additional filters] parameters is \"&\" (logical AND). The delimiter inside the {query} string, between internal query conditions is \",AND;\" (or \",OR\";)",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ]
+    },
+    {
+      "claim_id": "nli-filters-and-commands",
+      "claim": "availability_type and material_type are standalone filters; output_format, count_mode, result_page, items_per_page and sort_field are commands",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Filters : availability_type, material_type Commands : output_format, count_mode, result_page, items_per_page, sort_field",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ]
+    },
+    {
+      "claim_id": "nli-query-attributes",
+      "claim": "NLI documents the filterable attributes explicitly (start_date / end_date, language, system_number, shelfmark) and describes the text side only as 'one / few / all descriptive attributes', without publishing a closed list. `subject` appears in no worked example. It is therefore UNCONFIRMED rather than documented-absent.",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark.",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ]
+    },
+    {
+      "claim_id": "nli-errors-header",
+      "claim": "A syntax error in a non-mandatory attribute causes the condition to be IGNORED and reported in an \"Errors\" response header, so the request still returns unfiltered results",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error. For Mandatory condition, HTTP Error code with a message will be returned",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md",
+        "scripts/nli-search-example.py"
+      ]
+    },
+    {
+      "claim_id": "nli-three-char-minimum",
+      "claim": "Basic queries must include at least a three-character string over one of the search attributes",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Basic queries must include at least a three character string over one of the search attributes.",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ]
+    },
+    {
+      "claim_id": "nli-guest-key",
+      "claim": "NLI publishes a shared guest API key on its own Search API page, with limited permissions and a limited query allowance",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries.",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ]
+    },
+    {
+      "claim_id": "nli-guest-key-value",
+      "claim": "The published guest API key value is DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ]
+    },
+    {
+      "claim_id": "nli-sortfield-doc-conflict",
+      "claim": "NLI's own Search API page uses sortField in its worked example while the parameter table documents sort_field",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "&sortField=title&output_format=xml",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ]
+    },
+    {
+      "claim_id": "nli-403-key-invalid",
+      "claim": "The API answers an unrecognised key with HTTP 403 and a JSON body containing code API_KEY_INVALID",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "\"code\": \"API_KEY_INVALID\"",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:37:51+00:00"
+    },
+    {
+      "claim_id": "nli-403-key-missing",
+      "claim": "The API answers a request with no api_key with HTTP 403 and a JSON body containing code API_KEY_MISSING",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "\"code\": \"API_KEY_MISSING\"",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:37:51+00:00"
+    },
+    {
+      "claim_id": "nli-429-rate-limit",
+      "claim": "The shared guest key returns HTTP 429 with a JSON body containing code OVER_RATE_LIMIT; verified live on 2026-08-26",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "\"code\": \"OVER_RATE_LIMIT\"",
+      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:37:51+00:00"
+    },
+    {
+      "claim_id": "nli-cloudflare-user-agent",
+      "claim": "NLI's Cloudflare rule targets the curl User-Agent signature specifically. Verified by raw-socket probe on 2026-08-26 from one machine: UA 'curl/8.7.1' returns an HTML Cloudflare challenge, while UA 'python-urllib/3.11', 'NLI-Heritage-Explorer/1.0', and NO User-Agent header at all each return the API's structured JSON. The block is therefore not IP-based and not caused by a missing UA.",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "\"code\": \"API_KEY_MISSING\"",
+      "fetched_at": "2026-08-26T17:47:39+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/nli-search-example.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:47:39+00:00"
+    },
+    {
+      "claim_id": "nli-docs-user-help-live",
+      "claim": "NLI's Search API user-help page documents the filters and commands. The live page is behind Cloudflare and returns 403 to non-browser fetchers; read the archived capture.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Filters : availability_type, material_type Commands : output_format, count_mode, result_page, items_per_page, sort_field",
+      "fetched_at": "2026-08-26T17:39:16+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:39:16+00:00",
+      "archived_copy": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help"
+    },
+    {
+      "claim_id": "nli-docs-search-api-live",
+      "claim": "NLI's Search API page documents the key requirement, the three-character minimum and the guest key. The live page is behind Cloudflare and returns 403 to non-browser fetchers; read the archived capture.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Basic queries must include at least a three character string over one of the search attributes.",
+      "fetched_at": "2026-08-26T17:39:16+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nli-api-reference.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:39:16+00:00",
+      "archived_copy": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api"
     }
   ]
 }

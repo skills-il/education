@@ -6,6 +6,57 @@
       "lessons": [
         "Verify material_type / availability_type / publication_year_from params against a live residential-IP NLI call next cycle (NLI docs are Cloudflare-blocked from datacenter IPs)."
       ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-08-26",
+      "trigger": "Batch2 drift-type-C review: external-site dependency, link rot, and the lowest trust score in the batch (71).",
+      "changes": [
+        "CLOSED the carried lesson from 1.1.0. The NLI docs are Cloudflare-blocked live, but both pages are readable on web.archive.org. Verified the clause grammar, the filters/commands lists, the three-character minimum, the Errors-header behaviour and the documented attribute list against the captures, and repointed nine evidence rows from the 403ing live URLs to the captures so they now verify.",
+        "Added `shelfmark`, which is a documented query attribute the skill never listed.",
+        "NEW CARRY: `subject` appears in NO published NLI attribute list or example, yet it leads most of this skill's examples. Combined with silent condition-dropping, an unrecognised attribute returns UNFILTERED results that look like a successful topical search. Added a gotcha telling the agent to inspect the Errors header and fall back to title/creator.",
+        "CORRECTED gotcha 6. The Cloudflare block is triggered by the User-Agent, not by a datacenter IP: verified that the same request from the same machine gets an HTML challenge with no UA or curl's default, and structured JSON with any ordinary UA.",
+        "REPLACED the Troubleshooting 403 row. It asserted 'the key may be invalid or expired' for every 403, which is a guessed cause the agent quotes verbatim. Verified live that the API distinguishes API_KEY_MISSING, API_KEY_INVALID and OVER_RATE_LIMIT in the JSON body, and that a Cloudflare block is HTML. Replaced with a body-based decision table.",
+        "Added NLI's own published guest API key, which the skill previously deferred to a third-party MCP for, plus the honest caveat that it returns 429 OVER_RATE_LIMIT in practice.",
+        "FIXED THE EXECUTABILITY INVARIANT. metadata.json declares chatgpt, claude-ai, claude-desktop and manus; none can run the bundled script and three cannot run a local stdio MCP, so four of eleven declared hosts had NO data path. Added an explicit two-route table with a browser route via the public catalogue.",
+        "Added three coverage sections the skill was silent on: that NLI is not the right archive for state, Zionist-institutional, military or municipal records; how to actually cite an NLI item (shelfmark and system number, both already in the response); and that reuse rights differ item by item and must not be implied.",
+        "Made availability_type prominent: a catalogue record is not a scan, and this is the parameter that separates them.",
+        "Documented that `contains` on a date is a substring match, not a range, a defect inherited from NLI's own worked example.",
+        "REFRAMED references/historical-periods.md as an explicit search-term guide rather than a historical reference, and fixed the British Mandate 1917-1948 boundary (1917 is the Ottoman defeat and Balfour; civil Mandate administration began in 1920). Hedged the aliyah-wave ranges as conventions. Added Arabic and alternative-name search terms throughout, which is a RECALL fix before it is anything else: NLI holds Arabic-language material on the same events and a single-vocabulary term list cannot retrieve it.",
+        "Removed the unverifiable '30,000+ maps' figure for the Eran Laor collection and corrected the collection name. Replaced the 'Shapell Archive' row, which pointed at a digitisation project rather than a holding, with JPress, and added a caution about collection names generally.",
+        "Corrected the Schwadron and Manuscripts entries, and separated the Manuscripts Collection from the IMHM, which holds surrogates of manuscripts owned elsewhere.",
+        "scripts/nli-search-example.py: added error handling (it previously dumped a raw Python traceback on the single most common failure, a bad key), surfaced the Errors response header as a warning, handled a non-list response shape, added --guest, and gave an actionable empty-result message. All three error paths exercised live against the real API.",
+        "Expert/Judge round 2 fixes: corrected the Cloudflare claim again after the Judge falsified my own test (a bare `curl` with no -A still sends curl/x.y.z, so my 'no User-Agent' case was never tested; a raw-socket probe with the header genuinely absent reaches the API cleanly, so the rule targets the curl signature specifically).",
+        "Removed the script's --from-year/--to-year pair. It ANDed two substring clauses, asking for a date string containing BOTH years, which matches almost nothing, while the docstring advertised it as a range search. Replaced with a single --year and an explicit note that there is no range query.",
+        "Fixed references/historical-periods.md recommending material_type values `audio` and `videos`, which the skill's own gotcha 4 lists as invalid and silently dropped, so following the reference produced an UNFILTERED result set presented as a filtered one.",
+        "Propagated the Mandate 1917/1920 correction and the removal of an unsourced 'NLI holds Ottoman-era land records' claim into SKILL.md's period tips; both had landed only in the Hebrew file.",
+        "Added the null-result rule to both files: an empty result set does not prove absence, because the API searches catalogued records only. Added a required Search Limits section to the report template.",
+        "Reconciled the empty-result remedy with gotcha 7: recommending `subject,contains` as the fix for zero results was recommending the one attribute that may be silently dropped and return falsely full results.",
+        "Made the output templates and the script formatter actually emit the citation the new citation rule specifies (creator, holding institution, shelfmark, system number, permalink, access and rights).",
+        "Moved the availability_type prose out of the middle of the parameter table in both files, where it was breaking every table row after it.",
+        "Added --online-only, --page and --count to the script, so it can express availability_type, page past the first page, and report a total match count.",
+        "Softened the `subject` gotcha to UNCONFIRMED: the archived source names the filterable attributes but describes the text side as open-ended, so 'documented absent' over-read it.",
+        "Updated metadata.json display_description, which promised unconditional search on hosts that cannot search.",
+        "Hebrew quality pass on Expert findings (מסננים not פאסטים, סימן מדף not מספר המדף, and several English calques), and fixed a Hebrew example comment that labelled a 1917 substring match as 'the Mandate period', reintroducing the error the same file corrects.",
+        "Deleted a committed scripts/__pycache__ .pyc artifact."
+      ],
+      "deviations": [
+        "Could not verify the Merhav deep-link query-string form: merhav.nli.org.il serves a Cloudflare 'Just a moment...' challenge that a headless browser cannot clear. The browser route is therefore documented as 'drive it through the interface', with the host named but no deep link published as working.",
+        "Could not source a replacement figure for the Laor collection size, so no number is stated rather than swapping one unverified figure for another.",
+        "Could not test the `subject` attribute live: the shared guest key is rate-exhausted and I have no personal key."
+      ],
+      "lessons": [
+        "CARRY (was: verify params against a live call): now narrowed and still open. Test whether `subject` is a recognised attribute with a real keyed call, and inspect the Errors header. This is the only remaining correctness risk in the parameter tables and it affects most of the skill's examples.",
+        "CARRY: confirm the Merhav deep-link URL form from a real browser session so Route B can publish a working example query.",
+        "CARRY: verify the Eran Laor collection size and the current official collection names on nli.org.il.",
+        "METHOD, and this is the important one: the evidence gate extracts ZERO numeric facts from this skill. Every run reports '0 facts, N URLs' and exits clean. Bare years, the aliyah-wave ranges and the '30,000+ maps' figure were never checked by any gate, in either direction, across two cycles. For a skill whose factual surface is dates and collection sizes rather than currency amounts, the gate is decorative and the only real check is a human reading the sources. Do not treat a green gate on this skill as evidence of anything.",
+        "CARRY: the script still does not escape a comma inside a user-supplied value, so a creator string containing a comma is indistinguishable from a clause delimiter.",
+        "CARRY: --lang is unvalidated free text while --type and --sort are constrained, so a bad language code is exactly the silently-dropped-condition case.",
+        "CARRY: the IIIF Presentation (manifest) API is a Should-cover checklist item and is still only half covered; there is no procedure for reading canvases out of a manifest.",
+        "CARRY: Route B is executable by the USER in a browser, not by the assistant, on the four hosts it was written for. The text should say so plainly.",
+        "CARRY: historical-periods.md still gives intifada and Oslo dates as bare parentheticals under a banner telling the reader not to treat dates as fact.",
+        "METHOD: a reviewer falsified my own empirical claim this cycle and was right. `curl` without -A is not a request without a User-Agent. When testing what triggers a bot rule, control the header explicitly at the socket level rather than trusting a CLI's defaults."
+      ]
     }
   ]
 }

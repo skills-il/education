@@ -4,8 +4,8 @@
     "en": "Israeli Heritage Explorer"
   },
   "display_description": {
-    "he": "חיפוש במיליוני פריטים בארכיון הדיגיטלי של הספרייה הלאומית: כתבי יד עתיקים, תצלומים היסטוריים, מפות, תקליטים ועדויות בעל-פה. השתמשו כשאתם חוקרים היסטוריה ישראלית, מורשת יהודית, תקופת המנדט הבריטי, גלי עלייה או כל נושא תרבותי-היסטורי. הסקיל מייצר דוחות מחקר שמבוססים על מקורות ראשוניים, עם קישורים ישירים לפריטים בספרייה הלאומית. אל תשתמשו לחיפוש קורבנות שואה ביד ושם או למאמרים אקדמיים בתשלום.",
-    "en": "Search millions of items in the National Library of Israel's digital archives: ancient manuscripts, historical photographs, maps, recordings, and oral histories. Use when researching Israeli history, Jewish heritage, British Mandate documents, immigration waves, or any cultural-historical topic. Produces annotated research reports with primary source citations and direct links to NLI assets. Do NOT use for Yad Vashem Holocaust victim searches or paywalled academic articles."
+    "he": "חיפוש במיליוני פריטים בארכיון הדיגיטלי של הספרייה הלאומית: כתבי יד עתיקים, תצלומים היסטוריים, מפות, תקליטים ועדויות בעל-פה. השתמשו כשאתם חוקרים היסטוריה ישראלית, מורשת יהודית, תקופת המנדט הבריטי, גלי עלייה או כל נושא תרבותי-היסטורי. הסקיל מייצר דוחות מחקר שמבוססים על מקורות ראשוניים, עם ציטוט מלא (סימן מדף, מספר מערכת, מצב גישה וזכויות). נדרש מפתח API חינמי; במארחים שלא יכולים להריץ סקריפט או MCP מקומי הסקיל נותן למשתמש הנחיות לחיפוש בדפדפן במקום לחפש עבורו. אל תשתמשו לחדשות ואירועים עכשוויים, למאמרים אקדמיים בתשלום או לחיפוש קורבנות שואה ביד ושם.",
+    "en": "Search millions of items in the National Library of Israel's digital archives: ancient manuscripts, historical photographs, maps, recordings, and oral histories. Use when researching Israeli history, Jewish heritage, British Mandate documents, immigration waves, or any cultural-historical topic. Produces annotated research reports with full primary-source citations (shelfmark, system number, access status and rights). Needs a free NLI API key; on hosts that cannot run a script or a local MCP the skill gives the user browser steps instead of searching for them. Do NOT use for modern news or current events, paywalled academic articles, or Yad Vashem Holocaust victim searches."
   },
   "tags": {
     "he": [
@@ -30,7 +30,7 @@
     ]
   },
   "author": "skills-il",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "education",
   "supported_agents": [
     "claude-code",

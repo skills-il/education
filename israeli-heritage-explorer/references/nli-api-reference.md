@@ -90,6 +90,8 @@ The `@id` value is the item's permalink. The modern form is `https://www.nli.org
   "http://purl.org/dc/elements/1.1/type": [{"@value": "book"}],
   "http://purl.org/dc/elements/1.1/language": [{"@value": "heb"}],
   "http://purl.org/dc/elements/1.1/recordid": [{"@value": "997..."}],
+
+Note: `recordid` and `linkToMarc` are served under the `purl.org/dc/elements/1.1/` prefix but are NLI-local extensions, not Dublin Core Element Set terms. Do not expect them to be documented in the Dublin Core specification.
   "http://purl.org/dc/elements/1.1/source": [{"@value": "The National Library of Israel"}],
   "http://purl.org/dc/elements/1.1/linkToMarc": [{"@id": "https://iiif.nli.org.il/IIIFv21/marc/bib/997..."}]
 }

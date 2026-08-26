@@ -77,7 +77,10 @@ docs is marked [needs residential-IP confirm].
   https://www.nli.org.il/en/research-and-teach/open-library/search-api
 - NLI Search API common-usage / user-help (via index):
   https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help
-- NLI API key usage: https://api2.nli.org.il/docs/api-key/
+- NLI API signup: https://api2.nli.org.il/signup/
+- NLI Search API docs (live pages are behind Cloudflare and return 403 to fetchers; the readable captures are):
+  - user-help: http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help
+  - search-api: http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api
 - NLI Presentation (Manifest) API:
   https://www.nli.org.il/en/research-and-teach/open-library/presentation-api
 - Live IIIF resource (confirms host + linkToMarc form):
