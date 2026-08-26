@@ -33,19 +33,18 @@ NLI_API_BASE = "https://api.nli.org.il/openlibrary/search"
 # throttled (it commonly returns 429 OVER_RATE_LIMIT), so it is only good for
 # checking that a query parses. Set NLI_API_KEY to a personal key for real work.
 NLI_GUEST_KEY = "DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK"
-API_KEY_ENV = "NLI_API_KEY"
 
 
 def resolve_api_key(use_guest: bool) -> str:
     """Resolve the API key once, in one place.
 
-    The key is read here and passed explicitly to search_nli() rather than
-    held in a module-level global. Same behaviour, narrower credential
-    surface, and the flow from environment to request is obvious.
+    Reads exactly one named environment variable, NLI_API_KEY, and passes it
+    explicitly to search_nli() rather than holding it in a module-level
+    global. This is the only environment read in the script.
     """
     if use_guest:
         return NLI_GUEST_KEY
-    return os.environ.get(API_KEY_ENV, "")
+    return os.getenv("NLI_API_KEY", "")
 
 # NLI's Cloudflare rule targets the curl User-Agent signature specifically.
 # Any other UA gets through, and so does sending no UA header at all; only
@@ -238,7 +237,7 @@ def main():
               file=sys.stderr)
     api_key = resolve_api_key(args.guest)
     if not api_key:
-        print(f"Error: {API_KEY_ENV} environment variable not set.", file=sys.stderr)
+        print("Error: NLI_API_KEY environment variable not set.", file=sys.stderr)
         print("Get a free key at https://api2.nli.org.il/signup/", file=sys.stderr)
         print("Or pass --guest to try NLI's shared (throttled) guest key.",
               file=sys.stderr)
