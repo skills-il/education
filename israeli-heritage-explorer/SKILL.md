@@ -53,7 +53,7 @@ The query attributes (used as the `field` in a clause):
 |-----------|-------------|----------------|
 | `title` | Title of the work | `title,exact,jerusalem` |
 | `creator` | Author, photographer, artist | `creator,contains,Ben Gurion` |
-| `subject` | Subject heading (topical, geographic, personal) | `subject,contains,Zionism` |
+| ~~`subject`~~ | **NOT USED IN THIS SKILL.** Widely used in the wild, but absent from every published NLI attribute list and example, and we could not test it against a live keyed call. Because an unrecognised attribute is dropped SILENTLY and returns UNFILTERED results (gotcha 5), a `subject` clause that is not recognised produces a populated, plausible result set that ignored the user's topic, with nothing in the output to signal it. Use `title,contains` and `creator,contains` instead. If you use `subject` anyway, you MUST read the `Errors` response header and tell the user what it said. | n/a |
 | `publisher` | Publishing body | `publisher,contains,jaffa` |
 | `language` | Content language (filter as a clause) | `language,exact,eng` |
 | `start_date` / `end_date` | Date filter (format `yyyyMMdd` or `yyyy`) | `start_date,contains,1951` |
@@ -88,7 +88,11 @@ This skill's data path is the NLI API, and not every host can reach it the same 
 | Claude Desktop | **Route A** via the local `nli-search` MCP (it runs as a local process), not via the bundled script |
 | ChatGPT, Claude.ai, Manus, and any host with no shell and no local process | **Route B** below. You cannot run the bundled script and you cannot run a local stdio MCP |
 
-**Route B: the public catalogue in a browser.** NLI's public discovery layer is Merhav, at `merhav.nli.org.il` (the main site is `nli.org.il`). It needs no API key and no signup, which also makes it the correct fallback whenever the API is throttled or bot-blocked. It uses the same `field,operator,value` grammar as the API (`any,contains,...`, `title,contains,...`, `creator,contains,...`), so the search thinking below transfers directly. Drive it through the interface rather than hand-constructing deep links: NLI puts these pages behind bot protection and the exact query-string form has not been confirmed to work as a direct link from an automated client. Merhav also exposes facets the API does not surface as cleanly, notably **Usage Rights** and **Availability**, which is why it is worth using even when Route A is available.
+**Route B: the public catalogue, in the USER's browser.** NLI's public discovery layer is Merhav, at `merhav.nli.org.il` (the main site is `nli.org.il`). It needs no API key and no signup.
+
+**Be honest with the user about who does the searching here.** On these hosts you cannot run the search yourself. `merhav.nli.org.il` and `www.nli.org.il` sit behind a Cloudflare interstitial that an automated fetcher does not clear: in testing a headless browser was held at "Just a moment..." indefinitely, and even an interactive browser session took around twelve seconds to clear it. **Do not present a Merhav URL as an endpoint you can call, and do not promise the user results you have not seen.** Instead, hand them something they can execute: the search terms to type, which attributes to put them in, which filters to set, and what to look for. Then work from what they report back.
+
+The interface uses the same `field,operator,value` grammar as the API (`any,contains,...`, `title,contains,...`, `creator,contains,...`), so the search thinking below transfers directly. Merhav also exposes facets the API does not surface as cleanly, notably **Usage Rights** and **Availability**, which is why it is worth sending a user there even when Route A is available to you.
 
 ### Research Workflow
 
@@ -120,10 +124,10 @@ range query succeeded.
 
 ```
 # Photographs relating to Jaffa, with a 1917 date string (type as a filter)
-query=subject,contains,Jaffa,AND;start_date,contains,1917&material_type=images
+query=title,contains,Jaffa,AND;start_date,contains,1917&material_type=images
 
 # Hebrew manuscripts about Jerusalem (language as a clause)
-query=subject,contains,Jerusalem,AND;language,exact,heb&material_type=manuscripts
+query=title,contains,Jerusalem,AND;language,exact,heb&material_type=manuscripts
 
 # David Ben-Gurion's writings in Hebrew
 query=creator,contains,Ben Gurion,AND;language,exact,heb&material_type=books
@@ -231,7 +235,7 @@ Prefer the `linkToMarc` / `@id` value returned in each result rather than hand-b
 **British rule (search range 1917-1948):**
 - 1917 is the Ottoman military defeat and the Balfour Declaration, not the start of the Mandate. British military administration ran from 1917, and civil Mandate administration began in 1920. For 1917-1920 material, search the military administration, and do not tell a user researching Mandate government records that the Mandate began in 1917
 - Rich in English-language administrative documents
-- Search `subject,contains,Palestine` for Mandate-era materials
+- Search `title,contains,Palestine` for Mandate-era materials, and try `publisher,contains,` for government and institutional imprints
 - Major topics: immigration certificates, land purchases, urban planning, newspapers
 
 **Early statehood (search range 1948-1967):**
@@ -306,7 +310,7 @@ Then try:
 5. Check the `Errors` response header before concluding anything: if a condition was dropped, your "empty" or "full" result is not what you think it is
 6. Consider that the right institution may not be NLI at all (see the table above)
 
-Note on `subject`: earlier versions recommended switching to `subject,contains` here. Do that only with the `Errors` header check attached, because per gotcha 7 an unrecognised attribute is dropped and returns UNFILTERED results, which turns a zero-result search into a falsely full one.
+Note on `subject`: earlier versions of this skill recommended switching to `subject,contains` here. That recommendation has been REMOVED, and no example in this skill uses `subject` any more. `subject` is absent from every published NLI attribute list, and an unrecognised attribute is dropped silently and returns UNFILTERED results, so the recommendation could turn a zero-result search into a falsely full one with nothing in the output to signal it. Broaden with `title,contains` and `creator,contains`, or use the browser route and reuse the exact subject heading the catalogue itself shows.
 
 ### 403 or 429 response
 Do not guess the cause: the API distinguishes them clearly in the response BODY, and three different problems all surface as a non-200. Read the body before telling the user anything.

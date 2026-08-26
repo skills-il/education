@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-heritage-explorer",
-  "generated_at": "2026-08-26T17:48:20+00:00",
+  "generated_at": "2026-08-26T18:19:57+00:00",
   "claims": [
     {
       "claim_id": "base-endpoint-apikey",
@@ -188,10 +188,10 @@
     },
     {
       "claim_id": "example-query-urls",
-      "claim": "Worked example query URLs against the NLI search endpoint using clause-form filtering plus material_type/items_per_page/sort_field/output_format. Covers these references: https://api.nli.org.il/openlibrary/search https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Palestine,AND;start_date,contains,1920&material_type=images&items_per_page=10&output_format=json https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Kabbalah,AND;language,exact,heb&material_type=manuscripts&items_per_page=20&output_format=json https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Jerusalem&material_type=maps&items_per_page=10&sort_field=title&output_format=json",
+      "claim": "Illustrative reference query URLs against the documented endpoint, using documented attributes only (no subject clauses as of v1.2.1): https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Palestine,AND;start_date,contains,1920&material_type=images&items_per_page=10&output_format=json ; https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Kabbalah,AND;language,exact,heb&material_type=manuscripts&items_per_page=20&output_format=json ; https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Jerusalem&material_type=maps&items_per_page=10&sort_field=title&output_format=json",
       "source_url": "https://api.nli.org.il/openlibrary/search",
       "raw_snippet": "{ \"error\": { \"code\": \"API_KEY_MISSING\", \"message\": \"No api_key was supplied.",
-      "fetched_at": "2026-08-18",
+      "fetched_at": "2026-08-26T18:19:57+00:00",
       "appears_in": [
         "references/nli-api-reference.md"
       ],
@@ -224,10 +224,10 @@
     },
     {
       "claim_id": "nli-query-attributes",
-      "claim": "NLI documents the filterable attributes explicitly (start_date / end_date, language, system_number, shelfmark) and describes the text side only as 'one / few / all descriptive attributes', without publishing a closed list. `subject` appears in no worked example. It is therefore UNCONFIRMED rather than documented-absent.",
+      "claim": "NLI documents the filterable attributes explicitly (start_date / end_date, language, system_number, shelfmark) and describes the text side only as 'one / few / all descriptive attributes', without publishing a closed list. `subject` appears in no worked example and could not be tested against a live keyed call, so as of v1.2.1 this skill uses NO subject clauses anywhere.",
       "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
       "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark.",
-      "fetched_at": "2026-08-26T17:37:51+00:00",
+      "fetched_at": "2026-08-26T18:19:42+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",

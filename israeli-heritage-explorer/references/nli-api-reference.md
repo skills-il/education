@@ -117,13 +117,13 @@ Use lowercase `marc/bib`. Prefer the `linkToMarc` / `@id` value returned in each
 
 ```bash
 # British Mandate photographs (date as a clause, type as a filter)
-curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Palestine,AND;start_date,contains,1920&material_type=images&items_per_page=10&output_format=json"
+curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Palestine,AND;start_date,contains,1920&material_type=images&items_per_page=10&output_format=json"
 
 # Hebrew manuscripts about Kabbalah (language as a clause)
-curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Kabbalah,AND;language,exact,heb&material_type=manuscripts&items_per_page=20&output_format=json"
+curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Kabbalah,AND;language,exact,heb&material_type=manuscripts&items_per_page=20&output_format=json"
 
 # Maps of Jerusalem, sorted by title
-curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=subject,contains,Jerusalem&material_type=maps&items_per_page=10&sort_field=title&output_format=json"
+curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,contains,Jerusalem&material_type=maps&items_per_page=10&sort_field=title&output_format=json"
 ```
 
 ## Rate Limits

@@ -57,6 +57,23 @@
         "CARRY: historical-periods.md still gives intifada and Oslo dates as bare parentheticals under a banner telling the reader not to treat dates as fact.",
         "METHOD: a reviewer falsified my own empirical claim this cycle and was right. `curl` without -A is not a request without a User-Agent. When testing what triggers a bot rule, control the header explicitly at the socket level rather than trusting a CLI's defaults."
       ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-08-26",
+      "trigger": "Release blocker raised after v1.2.0 shipped: unverified `subject` attribute must not remain in worked examples.",
+      "changes": [
+        "REMOVED every `subject` clause from the skill. All worked examples, the collections-table recipes and the reference curl examples now use documented attributes (title, creator, publisher, language, start_date, shelfmark, system_number). The attribute-table row for `subject` is struck through and explains why.",
+        "Removed the Troubleshooting recommendation to fall back to `subject,contains` on empty results, which could convert a zero-result search into a falsely full one.",
+        "Downgraded Route B from an implied endpoint to explicit user-executed instructions: merhav.nli.org.il and www.nli.org.il sit behind a Cloudflare interstitial that a headless browser does not clear and that took about twelve seconds even in an interactive session. The skill now tells the agent to hand the user search terms and steps rather than presenting a URL it can call."
+      ],
+      "deviations": [
+        "Could not obtain an NLI API key to settle `subject` empirically. The shared guest key remains rate-exhausted (429 OVER_RATE_LIMIT on retry) and the signup form requires a real name, email address and acceptance of terms, which is not mine to submit. Per the release instruction the examples came out rather than shipping with a caveat, because the failure mode is invisible at the point of use."
+      ],
+      "lessons": [
+        "CARRY: settle `subject` with one live keyed call. If it IS supported, restore it as the primary topical attribute; if not, this removal is permanent. Highest-value open question on this skill.",
+        "METHOD: a caveat is not a mitigation when the failure is silent. An unrecognised attribute returns a populated result set that ignored the topic, so a warning in the docs cannot reach a user who never sees an error. Removing the construct was the only safe option while it was unverified."
+      ]
     }
   ]
 }
