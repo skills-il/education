@@ -1,29 +1,31 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-bagrut-psychometric",
-  "generated_at": "2026-05-28T00:00:00Z",
+  "generated_at": "2026-08-26T22:34:12+00:00",
   "claims": [
     {
       "claim_id": "bagrut-formula-and-pet-weights",
-      "claim": "Each Bagrut subject grade is 70% external exam + 30% magen (a 2026 wartime option allows 60% exam / 40% magen when it raises the grade). The Psychometric test weights Quantitative 40%, Verbal 40%, English 20% through autumn 2026; from December 2026 it becomes Quantitative 50% + Verbal 50% with the verbal writing task about 20%. Universities typically weight the sekhem about 40% Bagrut and 60% Psychometric (varies by program). The PET standard deviation is about 100, with roughly 68% of test-takers scoring between 430 and 630.",
-      "source_url": "https://cms.education.gov.il/EducationCMS/Units/HighSchool/IsraelOlaKita/Ekaron30_70.htm",
-      "raw_snippet": "במקצועות שבהם משקל הבחינה הוא 70% והמגן 30%, היחס ישתנה ל-60% בחינה ו-40% מגן במידה והדבר יעלה את הציון הסופי",
-      "fetched_at": "2026-05-28T00:00:00Z",
+      "claim": "Each Bagrut subject grade combines a school-set internal assessment weighted at 30% with the external national exam weighted at 70%.",
+      "source_url": "https://exams.education.gov.il/certificates/composition-of-certificate/",
+      "raw_snippet": "הציון שנקבע לכל מקצוע הוא שילוב של ממוצע הציונים של הבחינות שנערכו בבית הספר (הערכה פנימית המוערכת ב-30% מהציון הסופי בשאלון), עם ציון הבחינה הממלכתית-חיצונית (הערכה חיצונית המוערכת ב-70%).",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "notes": "Re-sourced 2026-08-27. The previous citation (cms.education.gov.il) is a DEAD DOMAIN (NXDOMAIN), and its claim text also carried a '40% bagrut / 60% psychometric' sekhem blend that the skill now repudiates as unsupported. The 70/30 fact survives on the live exams portal; the sekhem blend was removed from the skill, not re-sourced."
     },
     {
       "claim_id": "pet-dec-2026-reform-a",
-      "claim": "From the December 2026 winter session the English domain is separated out of the psychometric test, which then covers only verbal and quantitative reasoning; English is assessed solely by the AMIRNET test. English version of the same NITE page: https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
-      "source_url": "https://www.nite.org.il/two-domain-psychometric-test/general-information/",
-      "raw_snippet": "החל ממועד חורף (דצמבר) 2026 יופרד תחום האנגלית מהבחינה הפסיכומטרית, והבחינה הפסיכומטרית תכלול שני תחומים בלבד: חשיבה מילולית וחשיבה כמותית. רמת האנגלית של המועמדים תיבחן אך ורק בבחינת אמירנט.",
-      "fetched_at": "2026-05-28T00:00:00Z",
+      "claim": "From the December 2026 sitting the psychometric test is two-domain (quantitative and verbal); English is assessed separately via AMIRNET.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/faqs/",
+      "raw_snippet": "הציון הדו-תחומי הוא בטווח של 800-200. הציון מורכב מהציון בחשיבה כמותית (50%) ומהציון בחשיבה מילולית (50%).",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
-      ]
+      ],
+      "notes": "Re-sourced 2026-08-27. The old URL (two-domain-psychometric-test/general-information/) now redirects and no longer serves the quoted Hebrew sentence."
     },
     {
       "claim_id": "pet-dec-2026-reform-b",
@@ -48,17 +50,18 @@
       ]
     },
     {
-      "claim_id": "bagrut-passing-grade-55",
-      "claim": "The Bagrut passing grade is 55; a grade of 45-54 is failing. A full certificate requires at least 21 study units. Universities award flat per-subject 5-unit bonuses only when the subject grade is at least 60 (Technion: math +30, sciences +25, humanities/English +20; Tel Aviv University: math +35).",
+      "claim_id": "technion-bonus-min-grade-60",
+      "claim": "The Technion awards its bonus coefficient only for a subject grade of 60 or above.",
       "source_url": "https://admissions.technion.ac.il/calculation-of-the-median-grade/",
       "raw_snippet": "הטכניון מעניק את מקדם ההטבה לציון 60 ומעלה",
-      "fetched_at": "2026-05-28T00:00:00Z",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/bagrut-subjects-and-units.md",
         "scripts/bagrut-calculator.py"
-      ]
+      ],
+      "notes": "Narrowed 2026-08-27. The entry previously bundled the passing grade, the 45-54 band and the 21-unit minimum onto a Technion page that cannot support them (those are now on the education.gov.il eligibility entries), and asserted Technion English/humanities at +20, which the same page contradicts."
     },
     {
       "claim_id": "oleh-bagrut-bonus-points",
@@ -142,6 +145,271 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "pet-two-domain-weighting",
+      "claim": "From the December 2026 sitting the two-domain PET score is quantitative 50% and verbal 50%; within the verbal domain the writing task is 25% and the closed MC sections 75%. Scale 200-800, each domain 50-150.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/faqs/",
+      "raw_snippet": "הציון הדו-תחומי הוא בטווח של 800-200. הציון מורכב מהציון בחשיבה כמותית (50%) ומהציון בחשיבה מילולית (50%). הציון בחשיבה מילולית מורכב מהציון במטלת הכתיבה (25%) ומהציון בפרקי החשיבה המילולית הסגורים",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "pet-writing-weight-25",
+      "claim": "The writing task carries 25% of the verbal domain and the two MC sections 75%.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/faqs/",
+      "raw_snippet": "משקלה של מטלת הכתיבה הוא 25%, ומשקל שני פרקי שאלות הבררה (\"שאלות אמריקאיות\") הוא 75%.",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pet-five-languages",
+      "claim": "The PET is offered in FIVE languages: Hebrew, Arabic, Russian, French and the combined-English version. Spanish is not a test language. Non-Hebrew and non-Arabic versions are not offered at every sitting or in every region.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/test-languages/",
+      "raw_snippet": "תוכלו להיבחן באחת מחמש השפות האלה: עברית, ערבית, רוסית, צרפתית, ונוסח משולב-אנגלית",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "pet-languages-not-every-sitting",
+      "claim": "The test in languages other than Hebrew or Arabic is not held at every sitting and runs only in some test regions.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/test-languages/",
+      "raw_snippet": "הבחינה בשפות שאינן עברית או ערבית אינה נערכת בכל מועד",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pet-yael-free-after",
+      "claim": "A candidate sitting in a language other than Hebrew, the combined-English version included, may sit YAEL immediately afterwards at no extra charge; accommodated candidates get YAELNET. The score is reported separately and is never part of the PET score.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/test-languages/",
+      "raw_snippet": "בסיום הבחינה הפסיכומטרית יוכלו הנבחנים בשפה שאינה עברית (ובכלל זה הנבחנים בנוסח משולב/אנגלית) להיבחן ללא תשלום נוסף גם בבחינת ידע בעברית",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nite-tests-and-procedures.md"
+      ]
+    },
+    {
+      "claim_id": "pet-mean-550",
+      "claim": "The PET mean is 550; most departments require a score close to the mean and only a few, such as medicine and law, require an exceptionally high one.",
+      "source_url": "https://www.nite.org.il/psychometric-entrance-test/scores/significance/",
+      "raw_snippet": "כדאי לדעת שמרבית חוגי הלימוד דורשים ציון פסיכומטרי קרוב לממוצע (550), ורק מספר קטן של חוגים ופקולטות, כגון רפואה ומשפטים, דורשים ציון גבוה במיוחד",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-english5-not-moogbar",
+      "claim": "A 5-unit English does not satisfy the requirement of at least one 5-unit moogbar subject.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "אנגלית ברמת 5 יחידות לימוד אינו עונה לדרישה של מקצוע מוגבר אחד לפחות.",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-max-three-moogbarim",
+      "claim": "Eligibility requires at least one 5-unit subject (excluding English) and permits at most 3 subjects at 5 units, excluding English and Mathematics.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "קבלת בגרות מותנית בבחירה של מקצוע אחד לפחות ברמת 5 יחידות לימוד (למעט אנגלית), מקסימום 3 מקצועות ברמת 5 יחידות לימוד (למעט אנגלית ומתמטיקה).",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-one-failing-grade",
+      "claim": "A student is eligible for a certificate even with one failing grade of 45-54, provided it is not in the mother-tongue subject (Hebrew or Arabic) and not in social involvement. A grade of 01-04 is a blocking grade requiring a re-sit and is excluded from the final subject grade and from eligibility.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "תלמיד יהיה זכאי לתעודת בגרות, גם אם יופיע בה ציון נכשל אחד (בין 45-54 נקודות) ובלבד שהנכשל אינו במקצוע שפת אם (עברית או ערבית), ואינו ב\"מעורבות חברתית\" (מח1). קבלת ציון בין 01-04 נקודות (ציון \"חסם\") מחייב בחינה חוזרת",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-shipuy-thresholds",
+      "claim": "Under the compensation rule a final grade of 05-44 in one subject only still yields a certificate if it is not the mother-tongue subject and the sums of two subjects at 3, 4 or 5 units reach 140 (5+5), 144 (5+4), 146 (5+3), 146 (4+4), 148 (4+3) or 150 (3+3).",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "זכאות על-פי כלל השיפוי (קומפנסציה): נבחן יהיה זכאי לקבל תעודת בגרות אם ציונו הסופי במקצוע אחד בלבד הוא בין 05 ל-44 נקודות",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-internal-subjects",
+      "claim": "Eligibility is conditional on internal subjects assessed by the school: two general-education subjects of 30 hours each, an introduction to science of 90 hours (waived for two 5-unit sciences), physical education, and social involvement.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "עמידה בתנאי קבלת ציון במקצועות הפנימיים.",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-science-exemption",
+      "claim": "A student taking two 5-unit science subjects is exempt from the introduction-to-science internal requirement.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "במידה והתלמיד ניגש לשני מקצועות מדעיים ברמת 5 יחידות לימוד הוא פטור ממבוא למדעים.",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bagrut-21-units",
+      "claim": "A certificate requires at least one 5-unit moogbar subject and a minimum of 21 study units.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "היבחנות במקצוע מוגבר אחד לפחות, ברמה של 5 יחידות לימוד.",
+      "fetched_at": "2026-08-26T22:04:19+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amirnet-fees",
+      "claim": "AMIRNET costs 315 NIS to register and 142 NIS to change the test date.",
+      "source_url": "https://www.nite.org.il/other-tests/amirnet/",
+      "raw_snippet": "מחיר בחינת אמירנט הרשמה רגילה 315 ₪ שינוי מועד הבחינה 142 ₪",
+      "fetched_at": "2026-08-26T22:04:44+00:00",
+      "appears_in": [
+        "references/nite-tests-and-procedures.md"
+      ]
+    },
+    {
+      "claim_id": "pet-dates-fees-2026-27",
+      "claim": "PET sittings: 2-3.9.2026 (registration closes 8.7.2026, scores 18.10.2026, fee 665 NIS); 4 and 6.12.2026 (closes 14.10.2026, scores 20.1.2027, fee not yet published); 18-19.4.2027; 1.7.2027. The accommodations deadline equals the registration deadline.",
+      "source_url": "https://www.nite.org.il/test-dates-and-prices/",
+      "raw_snippet": "פסיכומטרית 2-3.9.2026 כ׳-כ״א אלול תשפ״ו אילת, דרום, ירושלים, מרכז, צפון עברית, ערבית 8.7.2026 8.7.2026 18.10.2026 ₪ 665 פסיכומטרית 4,6.12.2026 כ״ד, כ״ו כסלו תשפ״ז דרום, ירושלים, מרכז, צפון עברית, ערבית 14.10.2026 14.10.2026 20.1.2027",
+      "fetched_at": "2026-08-26T22:04:44+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/nite-tests-and-procedures.md"
+      ]
+    },
+    {
+      "claim_id": "technion-bonus-table",
+      "claim": "Technion 5-unit bonuses: mathematics +30; physics, chemistry, biology, recognised technology subjects and the group (literature, Bible, history, English, Arabic, Hebrew for Arabic speakers) +25; other subjects +20. In the science/technology bundle physics and chemistry rise to +30, biology stays 25 and technology subjects drop to 20. The published table has no 4-unit row.",
+      "source_url": "https://admissions.technion.ac.il/calculation-of-the-median-grade/",
+      "raw_snippet": "בונוס רגיל | 30+ | 25+ | 25+ | 25+ | 25+ | 25+ | 20+",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T22:20:35+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md"
+      ],
+      "notes": "Extracted from the page's HTML <table> on 2026-08-27. Column order: מתמטיקה | פיזיקה | כימיה | ביולוגיה | מקצועות טכנולוגיים מוכרים | (ספרות, תנך, היסטוריה, אנגלית, ערבית, לשון עברית לדוברי ערבית) | מקצועות נוספים. The bundle row reads 30+ | 30+ | 30+ | 25+ | 20+."
+    },
+    {
+      "claim_id": "tau-bonus-table",
+      "claim": "Tel Aviv University bonuses, for an exam or a recognised final paper: 5-unit mathematics +35; 5-unit English, physics, chemistry, biology, Arabic (Arabic certificate), literature, history and Bible +25; 4-unit English and mathematics +12.5; other bonus-eligible subjects +20 at 5 units and +10 at 4 units.",
+      "source_url": "https://go.tau.ac.il/he/ba/how-to-calculate",
+      "raw_snippet": "מקצועות מספר יחידות הלימוד בבחינה או בעבודת גמר בונוס מתמטיקה 5 35 אנגלית, פיזיקה, כימיה, ביולוגיה, ערבית (לבעלי תעודת בערבית), ספרות, היסטוריה, תנ\"ך 5 25 אנגלית ומתמטיקה 4 12.5 שאר המקצועות ברשימת המקצועות המזכים בבונוס* 5 20 4 10",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/bagrut-calculator.py"
+      ],
+      "notes": "Read 2026-08-27. Confirms both the 5-unit English value of 25 and the existence of 4-unit bonuses."
+    },
+    {
+      "claim_id": "tau-adaptation-formula",
+      "claim": "Tel Aviv University's ציון התאמה: multiply the adapted bagrut average by 9.62, subtract 349.9, add the psychometric score (the highest valid one), multiply the sum by 0.52 and subtract 43.10. The maximum bagrut average used is 117.",
+      "source_url": "https://go.tau.ac.il/he/ba/how-to-calculate",
+      "raw_snippet": "הכפל את ממוצע הבגרות המותאם* שלך ב- 9.62 וחסר מהמכפלה 349.9 הוסף לערך שקיבלת (לאחר עיגול למספר עם שתי ספרות אחרי הנקודה) את ציונך בבחינה הפסיכומטרית",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/university-admission-guide.md",
+        "scripts/bagrut-calculator.py"
+      ],
+      "notes": "Read 2026-08-27. The 117 cap is on the same page: \"השנה הוחלט שממוצע הבגרות המקסימלי יהיה 117\". The page also notes these values do not apply to medicine and management applicants."
+    },
+    {
+      "claim_id": "bagrut-units-range-2-5",
+      "claim": "Study-unit levels across subjects run from 2 to 5; one study unit is about 90 class hours and a 5-unit subject at least 450.",
+      "source_url": "https://exams.education.gov.il/certificates/composition-of-certificate/",
+      "raw_snippet": "טווח הרמות למקצועות השונים הוא בין 2 יחידות לימוד ל- ‏5 יחידות לימוד, בדרך כלל היקף הלימודים ליחידת לימוד אחת מוערך ב- 90 שעות לימוד בכיתה. מקצועות ברמה של ‏5 יחידות לימוד נלמדות בלפחות ‏450 שעות לימוד.",
+      "fetched_at": "2026-08-26T22:20:35+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md",
+        "scripts/bagrut-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "pet-three-domain-weighting",
+      "claim": "In the three-domain multi-domain (general) score, verbal and quantitative each carry double the weight of English, i.e. 40% / 40% / 20%. The quantitative-emphasis and verbal-emphasis scores give the emphasised domain three times the weight of each other domain.",
+      "source_url": "https://www.nite.org.il/psychometric-entrance-test/scores/calculation/",
+      "raw_snippet": "בציון הרב-תחומי משקל הציון בתחום החשיבה המילולית ומשקל הציון בתחום החשיבה הכמותית כפולים ממשקלו של הציון באנגלית. בציון בדגש כמותי משקלו של הציון בתחום החשיבה הכמותית הוא פי שלושה ממשקל כל אחד מן הציונים האחרים. בציון בדגש מילולי משקלו של הציון בתחום החשיבה המילולית הוא פי שלושה ממשקל כל אחד מן הציונים האחרים.",
+      "fetched_at": "2026-08-26T22:21:26+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "notes": "Weighting for sittings up to and including September 2026. Superseded by the 50/50 two-domain weighting from December 2026."
+    },
+    {
+      "claim_id": "nite-two-domain-en-page",
+      "claim": "NITE publishes an English-language page for the two-domain psychometric test.",
+      "source_url": "https://www.nite.org.il/two-domain-psychometric-entrance-test/faqs/?lang=en",
+      "raw_snippet": "two-domain",
+      "fetched_at": "2026-08-26T22:21:26+00:00",
+      "appears_in": [
+        "SKILL.md"
+      ],
+      "notes": "URL-coverage entry for the English Reference Links row; the substantive claims are carried by the Hebrew FAQ entries."
+    },
+    {
+      "claim_id": "bagrut-mandatory-core-units",
+      "claim": "In state education the mandatory core totals 16 study units: Tanakh 2, Literature 2, History 2, Hebrew 2, Civics 2, Mathematics 3, English 3. State-religious totals 20, Arab education 17, Druze education 17, and Haredi (independent) education 20.",
+      "source_url": "https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/",
+      "raw_snippet": "חינוך ממלכתי תנ\"ך - 2 יחידות לימוד ספרות - 2 יחידות לימוד היסטוריה - 2 יחידות לימוד עברית - 2 יחידות לימוד אזרחות - 2 יחידות לימוד מתמטיקה - 3 יחידות לימוד אנגלית - 3 יחידות לימוד סך הכל 16 יחידות לימוד",
+      "fetched_at": "2026-08-26T22:34:12+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/bagrut-subjects-and-units.md"
+      ],
+      "notes": "Read 2026-08-27. The other sector totals appear in the same block: חינוך ממלכתי דתי סך הכל 20, חינוך ערבי 17, חינוך דרוזי 17, חינוך עצמאי 20."
     }
   ]
 }

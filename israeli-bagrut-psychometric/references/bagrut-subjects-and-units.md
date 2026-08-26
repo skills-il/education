@@ -33,16 +33,9 @@ Every student must take the following core subjects to receive a Bagrut certific
 
 ## Bonus Points System
 
-University bonus points apply ONLY to subjects taken at the 5-unit level (and partially to 4-unit English and math). The bonus is a FLAT per-subject amount set by each university, NOT tiered by your score. It is awarded only if the subject grade is at least 60.
+**The authoritative bonus table for this skill is in SKILL.md, not here.** It carries the per-institution values read off the Technion's and Tel Aviv University's own published tables. Do not restate bonus values in this file; they drifted out of sync once already. What follows is background on how the mechanism works. The bonus is a FLAT per-subject amount set by each university, NOT tiered by your score. It is awarded only if the subject grade is at least 60.
 
-Representative 5-unit bonus values (always confirm on the target university's page):
-
-| Subject (5 units) | Typical Bonus |
-|-------------------|--------------|
-| Mathematics | +30 (Technion) to +35 (Tel Aviv University) |
-| Physics, Chemistry, Biology, Computer Science | +25 |
-| English | +20 to +25 (4-unit English: +12.5) |
-| History, Literature, Bible, foreign languages, other | +20 |
+See the per-institution table in SKILL.md. Two points that matter and are easy to miss: a subject must be on the institution's own bonus-eligible list (Hebrew and Civics are not on it), and the Technion publishes no 4-unit row at all, so no Technion 4-unit figure should be quoted.
 
 ### How Bonus Points Work
 
@@ -63,10 +56,13 @@ A student with the following 5-unit math grade, applying at the Technion (math b
 
 ## Minimum Requirements for Bagrut Certificate
 
-- At least 21 study units total
-- Passing grade (55) in all mandatory subjects
-- At least one subject at the 5-unit (moogbar) level (typically math, English, or a science)
-- Some schools require additional subjects based on their track (megama)
+- At least 21 study units total.
+- **In state education the mandatory core is 16 units**: Tanakh 2, Literature 2, History 2, Hebrew 2, Civics 2, Mathematics 3, English 3. So 16 plus a 5-unit moogbar is exactly 21, which is why the moogbar is a floor rather than a preference. State-religious (20 units), Arab (17), Druze (17) and Haredi (20) sectors differ; verify per sector on the Ministry page.
+- **At least one moogbar subject at 5 units. English at 5 units does NOT satisfy this**, and mathematics is counted within the core, so the moogbar is normally a third subject. This is the single most common planning error.
+- **At most 3 subjects at 5 units**, excluding English and Mathematics, which do not count against the cap.
+- **Internal subjects are a condition too**: two general-education subjects at 30 hours each, מבוא למדעים at 90 hours (waived for two 5-unit sciences), physical education, and מעורבות חברתית, where code 1 forfeits the certificate outright.
+- Passing grade is 55, but ONE failing grade of 45-54 is tolerated (not in the mother tongue, not in מעורבות חברתית), and כלל השיפוי reaches a 05-44 grade in one subject. See SKILL.md for the compensation thresholds.
+- Some schools require additional subjects based on their track (megama).
 
 ## Special Tracks (Megamot)
 
@@ -92,6 +88,6 @@ Students who made Aliyah receive the following accommodations:
 
 ## Sources
 
-- Ministry of Education: https://edu.gov.il
+- Ministry of Education exams portal: https://exams.education.gov.il/certificates/eligibility-for-matriculation-certificate/ (the old edu.gov.il/mazkirut_pedagogit/BagrutExams deep link now 302-redirects to a generic ministry landing page with no bagrut content, so do not cite it)
 - 5-Point Bagrut Handbook (February 2025): https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/5pointsbooklet2025.pdf
 - 3-Point Bagrut Handbook (February 2025): https://meyda.education.gov.il/files/pop/0files/english/Chativa-Elyona/Bagrut/updates/3pointsbooklet2025.pdf
