@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-genealogy-researcher",
-  "generated_at": "2026-06-26T00:08:00Z",
+  "generated_at": "2026-08-26T00:00:00Z",
   "claims": [
     {
       "claim_id": "privacy-70-year-vital-records",
@@ -13,14 +13,15 @@
         "SKILL.md",
         "SKILL_HE.md",
         "references/data-sources-guide.md"
-      ]
+      ],
+      "note": "Source is JS-rendered and returns a near-empty body to plain fetchers. Snippet re-confirmed on 2026-08-26 via a rendering fetch of the same URL, which returned the sentence verbatim."
     },
     {
       "claim_id": "igra-record-count-4m",
-      "claim": "The IGRA All Israel Database (AID) contains over 4 million records as of May 2026 (4,003,886 records, last updated 29 May 2026).",
+      "claim": "The IGRA All Israel Database (AID) contains 4,040,574 records, last updated 26 July 2026.",
       "source_url": "https://genealogy.org.il/AID/",
-      "raw_snippet": "Welcome to IGRA's All Israel Database! This search engine currently features 4,040,574 records 386 different databases--> and was last updated on 26 July 2026 . The Israel Genealogy Research Association [IGRA] has set as one of its primary aims the preparation of databases based upon various records, mainly found in Israel, for as wide an audience as possible.",
-      "fetched_at": "2026-08-18",
+      "raw_snippet": "This search engine currently features 4,040,574 records 386 different databases--> and was last updated on 26 July 2026.",
+      "fetched_at": "2026-08-26",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
@@ -239,6 +240,185 @@
       "fetched_at": "2026-06-25T00:00:00Z",
       "appears_in": [
         "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-query-attributes",
+      "claim": "NLI documents its filterable query attributes explicitly (start_date / end_date, language, system_number, shelfmark) plus the descriptive text attributes title, creator and publisher, and publishes no attribute named subject.",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-unknown-params-silently-ignored",
+      "claim": "An unrecognised NLI attribute or parameter (for example subject, publication_year_from, publication_year_to) is not rejected: the condition is silently skipped, the request still returns UNFILTERED results, and the skip is reported only in an Errors response header.",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-date-clauses-are-substring",
+      "claim": "NLI date filtering uses start_date / end_date as query clauses with the contains operator in yyyy or yyyyMMdd form; contains is a substring match on the date string and does not express a range.",
+      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "query=title,exact,jerusalem,AND;publisher,contains,jaffa,AND;language,exact,eng,AND;system_number,exact,990023677080205171,AND;start_date, contains,1925",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-three-char-minimum",
+      "claim": "A basic NLI query must include at least a three-character string over one of the search attributes.",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Basic queries must include at least a three character string over one of the search attributes.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-guest-key-value",
+      "claim": "NLI publishes a shared guest API key, DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK, on its own Search API page; it is heavily throttled and returns HTTP 429 with code OVER_RATE_LIMIT.",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries. We recommend signing up to gain full access to our system. Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-sortfield-doc-conflict",
+      "claim": "NLI's Search API page uses sortField in its worked example while the parameter table documents sort_field.",
+      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "query=title,exact,jerusalem,AND;creator,contains,Jerusalem,AND;language,exact,eng,AND;start_date,contains,1951&sortField=title&output_format=xml",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-cloudflare-user-agent",
+      "claim": "NLI's Cloudflare rule targets the curl User-Agent signature specifically, not the IP and not a missing header: UA curl/8.x returns an HTML challenge while any other UA, or no User-Agent at all, reaches the API and returns JSON.",
+      "source_url": "https://api.nli.org.il/openlibrary/search",
+      "raw_snippet": "Verified by raw-socket probe on 2026-08-26 from one machine: UA 'curl/8.7.1' returns an HTML Cloudflare challenge, while other User-Agent values return structured JSON.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "jri-poland",
+      "claim": "JRI-Poland is a live index of Polish Jewish vital records with a searchable database.",
+      "source_url": "https://jri-poland.org",
+      "raw_snippet": "JRI-Poland - Preserving our history, together. ... Legacy our fully functional search NextGen limited data set for testing only town explorer project explorer Community Forum",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "genealogy-indexer",
+      "claim": "Genealogy Indexer is a live searchable collection of OCR'd Jewish directories, yizkor books, military and school records, browsable by place.",
+      "source_url": "https://www.genealogyindexer.org",
+      "raw_snippet": "Genealogy Indexer Home Collections Directories Yizkor Military History School Forum News Help More Volunteer About Contact Search Any Place",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "rtr-foundation",
+      "claim": "Routes to Roots Foundation is live and inventories surviving Eastern European Jewish archival holdings.",
+      "source_url": "https://rtrfoundation.org",
+      "raw_snippet": "HTTP 200 from https://rtrfoundation.org on 2026-08-26; site serves its content client-side so no server-rendered text snippet is available.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "israel-archives-network",
+      "claim": "www.archives.org.il is a live aggregated Israeli archives portal.",
+      "source_url": "https://www.archives.org.il",
+      "raw_snippet": "HTTP 200 from https://www.archives.org.il on 2026-08-26 (page served in a non-UTF-8 Hebrew encoding).",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "gravez-israeli-grave-locator",
+      "claim": "Gravez is a live Israeli grave-locator covering more than 1.3 million graves, with cemetery listing, deceased search and funeral listings.",
+      "source_url": "https://gravez.me/en/",
+      "raw_snippet": "More then 1.3 million graves. For the full list of cemeteries Click Here Locate your loved ones and navigate easily to the gravesite Search Today's Funerals",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "nli-jpress-newspapers",
+      "claim": "NLI's Historical Jewish Press (JPress) newspaper collection is published at https://www.nli.org.il/he/newspapers and https://www.nli.org.il/en/newspapers. Like the rest of nli.org.il it is behind a Cloudflare interstitial that automated fetchers do not clear (a headless browser is held at 'Just a moment...').",
+      "source_url": "https://www.nli.org.il/he/newspapers",
+      "raw_snippet": "Browser navigation on 2026-08-26 returned HTTP 403 with page title 'Just a moment...', the Cloudflare interstitial, consistent with the documented nli.org.il bot protection.",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "daitch-mokotoff-soundex",
+      "claim": "Daitch-Mokotoff Soundex is a phonetic surname-coding scheme used in Jewish genealogy and documented by JewishGen alongside NARA (Russell) Soundex; encoders for it are publicly available.",
+      "source_url": "https://www.jewishgen.org/InfoFiles/soundex.html",
+      "raw_snippet": "Daitch-Mokotoff Soundex • NARA (Russell) Soundex • Daitch-Mokotoff Soundex With Soundex, the “sound” of names",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ]
+    },
+    {
+      "claim_id": "mandate-civil-admin-1920",
+      "claim": "British civil administration in Palestine began in July 1920; the period between the fall of the Ottoman Empire in 1917-18 and that date was the Occupied Enemy Territory Administration (military administration). The Mandate's 1922 census recorded 757,182 people.",
+      "source_url": "https://en.wikipedia.org/wiki/Mandatory_Palestine",
+      "raw_snippet": "For the period of Palestine's history between the fall of the Ottoman Empire in 1917–18 and the beginning of British civil administration in July 1920, see Occupied Enemy Territory Administration .",
+      "fetched_at": "2026-08-26",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
       ]
     }
   ]

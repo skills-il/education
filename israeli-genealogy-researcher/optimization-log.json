@@ -7,6 +7,24 @@
         "NLI + State Archives URLs 403 to curl but are live; if a future curl-only check flags them, re-verify via browser before removing.",
         "Deferred MINOR: add Yad Vashem direct pointer (yadvashem.org) and IGS record-scope note (~400k records)."
       ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "The flagship NLI recipe was `query=subject,contains,{town}&publication_year_to=1917`: `subject` is not a published NLI attribute and `publication_year_to` is not a current parameter. NLI drops unrecognised conditions SILENTLY and returns UNFILTERED results, so the recipe returned everything and looked successful. Replaced with documented attributes only, plus an Errors-header rule. Never ship a caveat where a wrong example can be removed instead: a caveat cannot reach a user who never sees an error.",
+        "Enriched DB drift: the FAQ on prod AND dev still carried the superseded '70 years (births) or 50 years (marriages/deaths)' privacy rule after SKILL.md had been corrected to 70 years for all vital records. Enriched columns are not touched by sync and must be re-read on every cycle.",
+        "Carried from 1.1.1 and still deferred (MINOR): Yad Vashem direct pointer (yadvashem.org) and IGS record-scope note (~400k records).",
+        "Carried from 1.1.1: NLI + State Archives URLs 403 to curl but are live; re-verify via browser before removing.",
+        "Judge round 2 caught a defect I introduced while fixing round 1: the new privacy section asserted the Privacy Protection Law / Amendment 13 sensitive-data classification and a defamation standing rule with no evidence entry, the same unsourced-statutory-assertion pattern round 1 flagged. Fixed by reframing them as operating rules for the AGENT's own conduct and dropping the classification claims. When you remediate an unsourced legal claim, check you have not written a new one in the fix.",
+        "The 50-year IDF/defence figure had no evidence behind it in any cycle. Removed the number entirely rather than substituting an unverified one; the skill now tells the user to get it from the defence archive. Same treatment for the statutory attribution of the 70-year window.",
+        "Adding the privacy content flipped the skill from 'clear' to 'regulated' in the legal gate, requiring a Legal notice section and a prepended description clause. Expect this whenever a skill starts stating legal obligations, even correct ones.",
+        "irgon-haganah.co.il no longer resolves (no DNS record). Removed. Haganah Historical Archives is named without a URL, routed via archives.org.il.",
+        "The shared Playwright MCP returned another agent's Bing search page under a requested jabotinsky.org URL. The location.href assertion caught it; nothing else would have. Do not read the DOM without asserting the URL first.",
+        "Evidence gate extracted 0 facts and 25 URLs on this content shape: it gates URLs only. Numerics here (record counts, year thresholds, calendar constants) must be hand-checked, and the hand-check found a stale example (a '1955 birth is under 70 years old' that stopped being true in 2025).",
+        "Still unsourced and carried forward: the Yiddish kinui/shem-kodesh standard pairs, the Palestine census content description, and the Hebrew-calendar conversion constants. These are stable methodology rather than drifting figures, but a future cycle should attach sources.",
+        "privacy-70-year-vital-records cites a JS-rendered FamilySearch page that returns an empty body to plain fetchers, so --check-sources cannot slice the snippet. Re-confirmed this cycle via a rendering fetch; a future cycle should find a server-rendered source."
+      ]
     }
   ]
 }
