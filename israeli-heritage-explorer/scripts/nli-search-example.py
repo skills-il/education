@@ -33,7 +33,19 @@ NLI_API_BASE = "https://api.nli.org.il/openlibrary/search"
 # throttled (it commonly returns 429 OVER_RATE_LIMIT), so it is only good for
 # checking that a query parses. Set NLI_API_KEY to a personal key for real work.
 NLI_GUEST_KEY = "DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK"
-NLI_API_KEY = os.getenv("NLI_API_KEY", "")
+API_KEY_ENV = "NLI_API_KEY"
+
+
+def resolve_api_key(use_guest: bool) -> str:
+    """Resolve the API key once, in one place.
+
+    The key is read here and passed explicitly to search_nli() rather than
+    held in a module-level global. Same behaviour, narrower credential
+    surface, and the flow from environment to request is obvious.
+    """
+    if use_guest:
+        return NLI_GUEST_KEY
+    return os.environ.get(API_KEY_ENV, "")
 
 # NLI's Cloudflare rule targets the curl User-Agent signature specifically.
 # Any other UA gets through, and so does sending no UA header at all; only
@@ -67,14 +79,14 @@ def build_query(base_query: str, language: str = None, year: int = None) -> str:
     return ",AND;".join(clauses)
 
 
-def search_nli(query: str, language: str = None, material_type: str = None,
-               year: int = None, per_page: int = 10, sort_field: str = None,
-               availability: str = None, result_page: int = None,
-               count_only: bool = False):
+def search_nli(api_key: str, query: str, language: str = None,
+               material_type: str = None, year: int = None, per_page: int = 10,
+               sort_field: str = None, availability: str = None,
+               result_page: int = None, count_only: bool = False):
     """Search the NLI OpenLibrary API."""
     full_query = build_query(query, language, year)
     params = {
-        "api_key": NLI_API_KEY,
+        "api_key": api_key,
         "query": full_query,
         "output_format": "json",
         "items_per_page": str(per_page),
@@ -220,20 +232,20 @@ def main():
         print("Error: --per-page must be in the range 1-50 (items_per_page).", file=sys.stderr)
         sys.exit(1)
 
-    global NLI_API_KEY
     if args.guest:
-        NLI_API_KEY = NLI_GUEST_KEY
         print("Using NLI's shared guest key. Expect 429 OVER_RATE_LIMIT; "
               "get a personal key at https://api2.nli.org.il/signup/",
               file=sys.stderr)
-    if not NLI_API_KEY:
-        print("Error: NLI_API_KEY environment variable not set.", file=sys.stderr)
+    api_key = resolve_api_key(args.guest)
+    if not api_key:
+        print(f"Error: {API_KEY_ENV} environment variable not set.", file=sys.stderr)
         print("Get a free key at https://api2.nli.org.il/signup/", file=sys.stderr)
         print("Or pass --guest to try NLI's shared (throttled) guest key.",
               file=sys.stderr)
         sys.exit(1)
 
     results = search_nli(
+        api_key=api_key,
         query=args.query,
         language=args.lang,
         material_type=args.type,
