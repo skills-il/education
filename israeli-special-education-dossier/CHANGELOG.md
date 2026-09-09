@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 (2026-09-09)
+
+Reworded a phrase in the coverage checklist that Tank's injection regex matched as a high-severity
+finding. Benign English, but it was visible on the public trust panel.
+
 ## 1.0.0 (2026-09-09)
 
 Initial release.

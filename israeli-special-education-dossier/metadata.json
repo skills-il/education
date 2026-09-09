@@ -1,10 +1,26 @@
 {
   "author": "skills-il",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "education",
   "tags": {
-    "he": ["חינוך-מיוחד", "ועדת-זכאות-ואפיון", "הורים", "סל-אישי", "השגה", "זכויות", "ישראל"],
-    "en": ["special-education", "entitlement-committee", "parents", "personal-basket", "appeal", "rights", "israel"]
+    "he": [
+      "חינוך-מיוחד",
+      "ועדת-זכאות-ואפיון",
+      "הורים",
+      "סל-אישי",
+      "השגה",
+      "זכויות",
+      "ישראל"
+    ],
+    "en": [
+      "special-education",
+      "entitlement-committee",
+      "parents",
+      "personal-basket",
+      "appeal",
+      "rights",
+      "israel"
+    ]
   },
   "display_name": {
     "he": "תיק הכנה לוועדת זכאות ואפיון",
@@ -15,16 +31,41 @@
     "en": "Not legal advice and not a diagnosis. Prepares parents for an Israeli special education entitlement and characterization committee: which body decides, whose diagnosis is admissible for the disability in question, what the committee must give you 14 days before the hearing, a written parent position paper, and the 21-day appeal clock. Includes what most pages online still get wrong since the 2018 amendment: the old appeal committee no longer exists, there are four function levels and not three, and parents hold a right to choose the setting, though not in every case. Use when a parent is preparing for the committee or disagrees with its decision. Do NOT use for bagrut exam accommodations or for which specific school a child is assigned to."
   },
   "supported_agents": [
-    "claude-code", "cursor", "github-copilot", "windsurf", "opencode", "codex",
-    "openclaw", "antigravity", "gemini-cli", "grok-build", "chatgpt", "claude-ai",
-    "claude-desktop", "manus", "gemini-spark", "grok"
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
   ],
   "openclaw": true,
   "volatility": "annual",
   "authoritative_sources": [
-    { "url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד", "type": "statute", "language": "he" },
-    { "url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385", "type": "regulator", "language": "he" },
-    { "url": "https://pob.education.gov.il/students/main-special-education/entitlement-committee/", "type": "regulator", "language": "he" }
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://pob.education.gov.il/students/main-special-education/entitlement-committee/",
+      "type": "regulator",
+      "language": "he"
+    }
   ],
   "domain_checklist_version": 1
 }
