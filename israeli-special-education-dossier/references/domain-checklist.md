@@ -62,9 +62,9 @@ Checklist version: 1. Generated 2026-09-09.
 
 ### After the decision
 - [ ] How a parent gets NEW evidence in front of a decision-maker when the dispute turns on a new
-      admissible opinion rather than on the existing record: send it to the objections-committee
-      chair in advance and ask on the record that it be placed before the committee, ask the chair
-      what the circular's objections-committee section permits, and keep the further-hearing route
+      admissible opinion rather than on the existing record: forward the opinion to the
+      objections-committee chair in advance and ask on the record that it be placed before the
+      committee, include it in the objection request itself, and keep the further-hearing route
       in view. Why core: filing an objection on exactly the record that produced the disputed level
       is the most common wasted appeal, and this is the operative question for a level dispute.
       The circular's objections-committee section expressly allows professional opinions and other
