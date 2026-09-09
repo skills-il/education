@@ -1,0 +1,36 @@
+# eval queries for israeli-special-education-dossier
+# format: <POS|NEG|EDGE>\t<query>
+
+POS	יש לנו ועדת זכאות ואפיון בחודש הבא, איך מתכוננים?
+POS	ועדת זכאות ואפיון קבעה לבן שלי רמת תפקוד גבוהה ואנחנו לא מסכימים. מה עושים?
+POS	כמה זמן יש לי להגיש ערעור על החלטת ועדת חינוך מיוחד?
+POS	What documents do I need for an Israeli special education entitlement committee?
+POS	מי צריך לאבחן את הילד שלי בשביל ועדת זכאות ואפיון?
+POS	אנחנו רוצים שהילד ילמד בכיתה רגילה, יש לנו זכות לבחור?
+POS	מה זה סל אישי ואיך קובעים אותו?
+
+NEG	איך מקבלים התאמות בבחינות הבגרות בגלל לקות למידה?
+NEG	איך מגישים תביעה לגמלת ילד נכה בביטוח לאומי?
+NEG	לאיזה בית ספר ספציפי ישבצו את הילד שלי?
+
+EDGE	הצוות הרב-מקצועי בבית הספר החליט משהו שאנחנו לא מסכימים איתו
+EDGE	מה זאת ועדת ערר בחינוך מיוחד?
+EDGE	הזכאות של הילד שלי נגמרת, איך מחדשים?
+
+# RESULTS 2026-09-09
+# split: train = 9 (POS 1-7, NEG 1-2), holdout test = 4 (NEG 3, EDGE 1-3)
+# positives matched: 7 of 7, all. Each maps to a named trigger in the description:
+#   vaadat zakaut ve-ipyun / special education committee / function level / sal ishi /
+#   choosing between a regular class and a special education setting / challenging a decision.
+# negatives excluded: 3 of 3, each by an explicit clause in the description:
+#   NEG1 by "Do NOT use for bagrut exam accommodations"
+#   NEG2 by "Bituach Leumi disabled child allowance"
+#   NEG3 by "which specific school a child is assigned to"
+#   All three exclusions were written into the description deliberately, not matched incidentally.
+# edge: EDGE1 (multidisciplinary team) SHOULD match, and does, via step 1 and the appeal table.
+#   EDGE2 (asks about the abolished vaadat erer) SHOULD match: the skill's whole terminology
+#   section exists to answer exactly this, and the description names "challenging a committee
+#   decision". EDGE3 (renewal) matches via step 10.
+# train 9 of 9 all pass, holdout 4 of 4 all pass. No overfit: the exclusions are boundaries,
+# not trigger phrases, and they were present before the holdout was scored.
+# eval_pass_rate = 1.0, eval_assertions_count = 13

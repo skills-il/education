@@ -1,0 +1,377 @@
+{
+  "skill_slug": "israeli-special-education-dossier",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-09",
+  "claims": [
+    {
+      "id": "committee-is-zakaut",
+      "claim": "ועדת זכאות ואפיון is the committee that decides entitlement to special education services, following תיקון 11 of 2018",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ועדת זכאות ואפיון תדון בענינו של מי שהופנה אליה בידי הורה, מוסד חינוך מוכר, רשות חינוך מקומית, ארגון ציבורי או מי שהשר, שר העבודה והרווחה או שר הבריאות הסמיך לכך.",
+      "confidence": "high"
+    },
+    {
+      "id": "who-may-refer",
+      "claim": "A parent, a recognised educational institution, a local education authority, a public organisation, or a person authorised by the Minister may refer a case to ועדת זכאות ואפיון, so a parent does not need the school's agreement",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ועדת זכאות ואפיון תדון בענינו של מי שהופנה אליה בידי הורה, מוסד חינוך מוכר, רשות חינוך מקומית, ארגון ציבורי או מי שהשר",
+      "confidence": "high"
+    },
+    {
+      "id": "docs-14-days-before",
+      "claim": "סעיף 9(ב)(3) requires the committee to invite the parents and the student, allow them or someone on their behalf to present arguments and submit documents and opinions, and to give them, no later than 14 days before the hearing, every document in its possession that it may use",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "הוועדה תזמין את הורי התלמיד ואת התלמיד ותאפשר להם או למי מטעמם להשמיע את טיעוניהם, ולהגיש מסמכים וחוות דעת מטעמם, וכן תמסור להם, לא יאוחר מ־14 ימים לפני הדיון בוועדה, כל מסמך הנמצא בידיה ועשוי לשמש אותה לשם דיוניה או קבלת החלטתה.",
+      "confidence": "high"
+    },
+    {
+      "id": "doctor-or-social-worker",
+      "claim": "סעיף 9(ב)(4) provides that if the student's parents ask, the committee shall invite a specialist doctor or a social worker",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ביקשו זאת הורי התלמיד שעניינו נדון בוועדה, תזמין הוועדה רופא מומחה או עובד סוציאלי כאמור.",
+      "confidence": "high"
+    },
+    {
+      "id": "protocol-14-days",
+      "claim": "סעיף 9(ג)(2) requires the protocol to be delivered to the parents as far as possible at the end of the hearing, and no later than 14 days from the end of the hearing or from delivery of the decision, whichever is earlier",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "הפרוטוקול יימסר להורי התלמיד, ככל האפשר עם תום הדיון בוועדה ולא יאוחר מ־14 ימים מתום הדיון או מהמועד שבו נמסרה להורים החלטת הוועדה, לפי המוקדם.",
+      "confidence": "high"
+    },
+    {
+      "id": "parents-choose-setting",
+      "claim": "סעיף 7(ב)(2) provides that the student's parents choose the educational setting from the listed options and notify the committee of their choice within 14 days of learning of the committee's determination",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "הורי התלמיד יבחרו את המסגרת החינוכית שבה ילמד ילדם מבין האפשרויות המנויות בפסקה (1)(א) עד (ג), ויודיעו על בחירתם לוועדת הזכאות והאפיון בתוך 14 ימים מיום שנודע להם על קביעת הוועדה כאמור בסעיף קטן (א).",
+      "confidence": "high"
+    },
+    {
+      "id": "override-needs-approval",
+      "claim": "סעיף 7(ב)(4)(ב) requires a committee decision overriding the parents' choice to be taken after giving the parents 14 days to state their position, and requires approval by the head of the special education division at the Ministry of Education or the deputy, with סעיף 13 applying to it",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "החלטת הוועדה כאמור בפסקת משנה (א) תינתן לאחר שנתנה להורי התלמיד הזדמנות להשמיע את עמדתם בתוך 14 ימים מיום קבלת הודעת ההורים על בחירתם לפי פסקה (2), היא טעונה אישור של מנהל האגף לחינוך מיוחד במשרד החינוך או סגנו",
+      "confidence": "high"
+    },
+    {
+      "id": "hasaga-21-days",
+      "claim": "סעיף 13(א) allows a student with special needs, a parent, or a representative of a public organisation to file an השגה with ועדת השגה within twenty one days of receiving the decision of ועדת זכאות ואפיון",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "על החלטת ועדת זכאות ואפיון רשאי תלמיד עם צרכים מיוחדים, הורה או נציג של ארגון ציבורי להגיש השגה לועדת השגה, תוך עשרים ואחד ימים מיום שקיבל את ההחלטה.",
+      "confidence": "high"
+    },
+    {
+      "id": "hasaga-powers",
+      "claim": "סעיף 13(ב) gives ועדת השגה three powers: to accept the השגה and vary the decision, to remit the matter for a further hearing with or without directions, or to reject the השגה",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "לקבל את ההשגה ולשנות את החלטת ועדת זכאות ואפיון;",
+      "confidence": "high"
+    },
+    {
+      "id": "hasaga-decision-21",
+      "claim": "סעיף 13(ג) requires ועדת השגה to give its decision within twenty one days of the השגה being filed, unless it extends the period for special reasons that are recorded",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ועדת השגה תתן החלטתה תוך עשרים ואחד ימים מיום שהוגשה ההשגה, זולת אם האריכה את המועד מטעמים מיוחדים שיירשמו.",
+      "confidence": "high"
+    },
+    {
+      "id": "hasaga-invites-parents",
+      "claim": "סעיף 13(א1) requires ועדת השגה to invite the parents and the student and to allow them or someone on their behalf to present their arguments",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ועדת השגה תזמין את הורי התלמיד עם הצרכים המיוחדים את התלמיד, ותאפשר להם או למי מטעמם, להשמיע את טיעוניהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "team-hasaga-21",
+      "claim": "סעיף 20ה(א) allows a student or parent to file an השגה against the multidisciplinary team's decision with ועדת זכאות ואפיון within 21 days of receiving the team's written decision, and סעיף 20ה(ב) requires a decision within 21 days of filing",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "על החלטת הצוות הרב־מקצועי רשאי תלמיד או הורה להגיש השגה לוועדת זכאות ואפיון, בתוך 21 ימים מיום שקיבל את החלטת הצוות בכתב;",
+      "confidence": "high"
+    },
+    {
+      "id": "duration-three-years",
+      "claim": "סעיף 10(א) requires the head of the educational institution to bring the student's case back for a further hearing before ועדת זכאות ואפיון once every three years",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "מנהל מוסד חינוך יביא, אחת לשלוש שנים, את ענינו של תלמיד עם צרכים מיוחדים הלומד במוסד, לדיון חוזר לפני ועדת זכאות ואפיון",
+      "confidence": "high"
+    },
+    {
+      "id": "earlier-review",
+      "claim": "סעיף 10(ב) allows an earlier further hearing on the initiative of the head of the institution, a parent or a public organisation, provided a year has passed since the decision, with one earlier occasion permitted before that year and further occasions with the approval of the district manager",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ובלבד שחלפה שנה ממועד ההחלטה בעניינו של תלמיד; ואולם כל אחד מהמנויים בסעיף קטן זה רשאי להביא את עניינו של תלמיד לדיון חוזר בוועדת זכאות ואפיון פעם אחת בטרם חלפה שנה כאמור",
+      "confidence": "high"
+    },
+    {
+      "id": "docs-only-limit",
+      "claim": "סעיף 10(ד) allows the committee at a further hearing to decide on documents alone, but in such a hearing it does not hold the power under סעיף 7(ב)(4) to override the parents' choice of setting",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "בדיון חוזר רשאית ועדת זכאות ואפיון להחליט על סמך מסמכים בלבד, ואולם בדיון כאמור לא תהיה נתונה לוועדה הסמכות לפי",
+      "confidence": "high"
+    },
+    {
+      "id": "quorum-four",
+      "claim": "סעיף 11(א) sets the quorum for ועדת זכאות ואפיון at four members, comprising the chair, the local education authority representative, the educational psychologist, and the general supervisor for special education or their representative",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "המניין החוקי לדיוני ועדת זכאות ואפיון ולהחלטותיה הוא ארבעה חברים, ובהם: יושב ראש הוועדה, נציג רשות החינוך המקומית, הפסיכולוג החינוכי והמפקח הכולל לחינוך מיוחד או נציגו.",
+      "confidence": "high"
+    },
+    {
+      "id": "casting-vote",
+      "claim": "סעיף 11(ב) provides that decisions are taken by a majority of the members participating in the hearing, and where the votes are tied the chair has an additional vote",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "החלטות ועדת זכאות ואפיון יתקבלו ברוב קולות של חבריה המשתתפים בדיון; היו הקולות שקולים, יהיה ליושב ראש הוועדה קול נוסף.",
+      "confidence": "high"
+    },
+    {
+      "id": "committee-may-order-docs",
+      "claim": "סעיף 9(א) empowers the committee to order any person to produce any document in their possession and any medical or psychological opinion concerning the student, and to refer the student for further examinations as needed",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "ועדת זכאות ואפיון רשאית לצוות על כל אדם להמציא לה כל מסמך שברשותו וכן חוות דעת רפואית או פסיכולוגית הנוגעים לתלמיד עם צרכים מיוחדים, ולהפנות את התלמיד לבדיקות נוספות, לפי הצורך",
+      "confidence": "high"
+    },
+    {
+      "id": "four-function-levels",
+      "claim": "The Ministry circular sets four function levels, labelled גבוהה (1), בינונית-גבוהה (2), בינונית-נמוכה (3) and נמוכה (4). There are four, not three.",
+      "claim_type": "threshold",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "בינונית-גבוהה (2)",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "no-choice-high-function",
+      "claim": "The circular's table records that for לקות למידה רב-בעייתית, עיכוב התפתחותי שפתי או תפקודי and הפרעות התנהגותיות ורגשיות at function level 1 or 2, and for הפרעה נפשית and משכל גבולי at function level 1, the entitlement is special education services from the inclusion basket in a regular class and there is NO parental choice of setting type",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "אין אפשרות בחירה באשר לסוג המסגרת החינוכית",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "choice-three-settings",
+      "claim": "Where the parents do have a choice, the circular states the three setting types as a regular kindergarten or class in a regular institution, a class in a regular institution where special education services are given, and a special education kindergarten or class, and that a student whose parents choose a regular class receives entitlement from a personal basket",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T16:00:00Z",
+      "raw_snippet": "להורים תהיה אפשרות לבחור את סוג המסגרת: גן/כיתה רגיל/ה במוסד חינוך רגיל, כיתה במוסד חינוך רגיל שבה ניתנים שירותי חינוך מיוחדים, גן/כיתה לחינוך מיוחד.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "ministry-portal",
+      "claim": "The Ministry of Education portal hosts the entitlement and characterization committee section, including the list of professionals whose diagnosis or opinion is admissible at the committee, and the committee's forms",
+      "claim_type": "url",
+      "source_url": "https://pob.education.gov.il/students/main-special-education/entitlement-committee/",
+      "source_fetched_at": "2026-09-09T16:30:00Z",
+      "raw_snippet": "גורמים שאבחנתם או חוות דעתם קבילה בוועדת זכאות ואפיון",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "kolzchut-page",
+      "claim": "Kol Zchut maintains a plain-language procedure page for the entitlement and characterization committee for special education services",
+      "claim_type": "url",
+      "source_url": "https://www.kolzchut.org.il/he/ועדת_זכאות_ואפיון_לשירותי_חינוך_מיוחדים",
+      "source_fetched_at": "2026-09-09T16:30:00Z",
+      "raw_snippet": "ועדת זכאות ואפיון לשירותי חינוך מיוחדים (הליך) – כל-זכות",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "protocol-inspection-professionals",
+      "claim": "סעיף 9(ד) provides that even where the committee decides not to give the parents its decision or reasons because the information could endanger the student or another person, a lawyer, educational psychologist, doctor or social worker acting on the parents' behalf is entitled in any case to inspect the whole protocol",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חינוך_מיוחד",
+      "source_fetched_at": "2026-09-09T17:00:00Z",
+      "raw_snippet": "ואולם עורך דין, פסיכולוג חינוכי, רופא או עובד סוציאלי מטעמם יהיה רשאי, בכל מקרה, לעיין בפרוטוקול כולו.",
+      "confidence": "high"
+    },
+    {
+      "id": "suspected-id-one-year",
+      "claim": "The Ministry circular records that every SUSPECTED intellectual developmental disability characterisation is valid for one year only. This covers suspected mild (code 65), suspected moderate (code 66) and suspected severe or profound (code 67). Code 65 is marked only where there is no reference from a committee for diagnosing intellectual developmental disability; codes 66 and 67 are marked until such a reference is received.",
+      "claim_type": "date",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T17:00:00Z",
+      "raw_snippet": "תקף לשנה אחת בלבד ויסומן רק אם אין אסמכתה של ועדה לאבחון מוגבלות שכלית התפתחותית",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09",
+      "source_note": "Instruction cell for code 65, חשד למוגבלות שכלית התפתחותית קלה."
+    },
+    {
+      "id": "rama-questionnaire",
+      "claim": "The educational institution submits a function-level questionnaire (ראמ\"ה) by age group through a computerised system in the cases listed in the circular, and a copy of the questionnaires is given to the parents",
+      "claim_type": "form-number",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T17:20:00Z",
+      "raw_snippet": "שאלון רמת תפקוד (ראמ\"ה) על פי שכבת הגיל (במערכת ממוחשבת) במקרים המפורטים בסעיף 3.8.3(ו)",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "rama-copy-to-parents",
+      "claim": "A copy of the referral and function-level questionnaires is delivered to the parents",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T17:20:00Z",
+      "raw_snippet": "מסירת עותק של השאלונים להורים",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "petition-45-days",
+      "claim": "Where no other period is prescribed, an administrative petition must be filed without delay and not later than forty five days from the day the decision was duly published, or from the day the petitioner received notice of it, or from the day the petitioner learned of it, whichever is earliest",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_בתי_משפט_לענינים_מינהליים_(סדרי_דין)",
+      "source_fetched_at": "2026-09-09T17:20:00Z",
+      "raw_snippet": "לא נקבע מועד כאמור, תוגש העתירה בלא שיהוי, לפי נסיבות הענין, ולא יאוחר מארבעים וחמישה ימים מיום שההחלטה פורסמה כדין, או מיום שהעותר קיבל הודעה עליה או מיום שנודע לעותר עליה, לפי המוקדם.",
+      "confidence": "high"
+    },
+    {
+      "id": "terminology-mapping",
+      "claim": "The Ministry circular carries a terminology mapping table recording that ועדת השמה becomes ועדת זכאות ואפיון, ועדת שילוב becomes צוות רב-מקצועי, ועדת ערר becomes ועדת השגה, and תקצוב דיפרנציאלי becomes סל אישי",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T17:40:00Z",
+      "raw_snippet": "ועדת שילוב צוות רב-מקצועי ועדת ערר ועדת השגה תקצוב דיפרנציאלי סל אישי",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09",
+      "source_note": "Table cells, adjacent in the page body in this order. Inter-cell whitespace normalised to single spaces; no characters added."
+    },
+    {
+      "id": "suspected-id-moderate-one-year",
+      "claim": "The circular records that suspected moderate intellectual developmental disability is valid for one year only and is marked until a reference from a committee for diagnosing intellectual developmental disability is received",
+      "claim_type": "date",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T17:55:00Z",
+      "raw_snippet": "תקף לשנה אחת בלבד ויסומן עד לקבלת אסמכתה של ועדה לאבחון מוגבלות שכלית התפתחותית",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09",
+      "source_note": "This is the instruction cell. The row it belongs to is code 66, חשד למוגבלות שכלית התפתחותית בינונית. Code 67, severe or profound, carries the identical instruction cell."
+    },
+    {
+      "id": "hasaga-bring-lawyer-interpreter",
+      "claim": "The circular provides that the student and parents may bring to the objections committee hearing experts or other people on their behalf, including a lawyer, to present their arguments, and an interpreter of their own, or may ask the chair to summon further parties, and the chair will arrange it",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "התלמיד וההורים רשאים להביא לדיון בוועדת ההשגה מומחים או אנשים אחרים מטעמם, לרבות עורך דין, כדי להשמיע את טיעוניהם, וכן מתורגמן מטעמם, או לבקש מיו\"ר הוועדה לזמן גורמים נוספים לדיון בוועדה, והוא ידאג לזמנם.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "hasaga-new-documents",
+      "claim": "The circular provides that the student and parents may bring before the objections committee professional opinions and other current documents concerning their child which they did not present at the entitlement committee, and that it is recommended to send them to the chair before the hearing",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "התלמיד והוריו רשאים להביא לפני הוועדה חוות דעת מקצועיות ומסמכים עדכניים אחרים הנוגעים לעניינו של ילדם ואשר לא הוצגו על ידם בוועדת הזכאות והאפיון. רצוי להעבירם ליו\"ר הוועדה לפני מועד הדיון.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "hasaga-request-contents",
+      "claim": "The objection request must include the details of the objection together with the documents the objector wishes to present that were not previously submitted to the entitlement committee, and the student and parents may bring those documents to the hearing without transmitting them in advance, plus any requests for accessibility, translation or mediation",
+      "claim_type": "form-number",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "פרטי ההשגה, בצירוף המסמכים שהמשיג מעוניין להציג ולא הוגשו קודם לכן בוועדת הזכאות והאפיון (התלמיד והוריו רשאים להביא עימם את המסמכים לדיון בלי להעבירם מבעוד מועד)",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "address-members-alone",
+      "claim": "At the objections committee (circular 4.7.2(d)), and in the same words at the school multidisciplinary team (2.10.5) and at the entitlement committee sitting as an appeal on a team decision (2.14.6(c)), the parents and the student are entitled to ASK to present their remarks in the presence of the members only, and the parents may appoint people on their behalf to speak instead of them or in addition to them. This is NOT the meaning of the same phrase at an ordinary entitlement hearing, where the vote is taken with committee members only and the parents are excluded.",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "ההורים והתלמיד זכאים לבקש להשמיע את דבריהם בנוכחות חברי הוועדה בלבד. כמו כן ההורים יכולים למנות גורמים מטעמם שידברו במקומם או בנוסף להם.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "equality-commission-representation",
+      "claim": "The circular records that parents have a right to representation with the assistance of the Commission for Equal Rights of Persons with Disabilities",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "להורים זכות לייצוג בסיוע נציבות שוויון זכויות לאנשים עם מוגבלויות.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "hasaga-requires-objector-present",
+      "claim": "The circular provides that an objections committee hearing may not be held without the presence and participation of the objecting party, whether the parent or guardian, the student, or a public organisation representative",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:10:00Z",
+      "raw_snippet": "אין לקיים דיון בוועדת ההשגה ללא נוכחותו והשתתפותו של הגורם המשיג",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    },
+    {
+      "id": "ordinary-hearing-vote-excludes-parents",
+      "claim": "At the ordinary entitlement committee hearing the vote and final decision are taken in the presence of the committee members only, unless the committee decides they be held with the parents present, and if any committee member asks that this part be held without the parents the request must be granted",
+      "claim_type": "law",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "source_fetched_at": "2026-09-09T18:40:00Z",
+      "raw_snippet": "אם מי מחברי הוועדה מבקש שחלק זה בדיון יתקיים ללא נוכחות ההורים, יש להיענות לבקשתו.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-09"
+    }
+  ]
+}
