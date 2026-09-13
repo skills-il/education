@@ -35,8 +35,8 @@
   an `Errors` response header. Read that header on every call.
 - **Three-character minimum:** a basic query must carry at least a three-character string over one of the
   search attributes.
-- **Guest key:** NLI publishes a shared key (`DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK`) on its Search API
-  page; it is heavily throttled and returned `429 OVER_RATE_LIMIT` in testing. Use a personal key for real
+- **Guest key:** NLI publishes a shared key on its Search API page
+  (https://www.nli.org.il/en/research-and-teach/open-library/search-api), copy it from there; it is heavily throttled and returned `429 OVER_RATE_LIMIT` in testing. Use a personal key for real
   work.
 - **Cloudflare blocks the `curl/*` User-Agent signature specifically.** Any other User-Agent (or none at
   all) reaches the API. An HTML body means Cloudflare answered; a JSON body means the API did.

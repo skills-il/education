@@ -25,6 +25,13 @@
         "Still unsourced and carried forward: the Yiddish kinui/shem-kodesh standard pairs, the Palestine census content description, and the Hebrew-calendar conversion constants. These are stable methodology rather than drifting figures, but a future cycle should attach sources.",
         "privacy-70-year-vital-records cites a JS-rendered FamilySearch page that returns an empty body to plain fetchers, so --check-sources cannot slice the snippet. Re-confirmed this cycle via a rendering fetch; a future cycle should find a server-rendered source."
       ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-14",
+      "lessons": [
+        "Security-scanner remediation only: removed the literal NLI guest key from all files (Snyk hardcoded-secret finding); users now copy it from NLI's Search API page."
+      ]
     }
   ]
 }

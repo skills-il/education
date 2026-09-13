@@ -2,6 +2,7 @@
 name: israeli-heritage-explorer
 description: "Research Israeli and Jewish cultural heritage using the National Library of Israel's digital archives. Use when a user asks about Israeli history, Jewish heritage, historical photographs, ancient manuscripts, British Mandate documents, immigration waves, or wants primary source citations from NLI. Produces annotated research reports with direct links to NLI assets including manuscripts, photographs, maps, government records, and oral histories. Prevents hours of manual archive browsing and missed primary sources by leveraging the NLI OpenLibrary API with structured field queries. Do NOT use for modern news, current events, academic journal articles behind paywalls, or Yad Vashem Holocaust victim searches (use dedicated Holocaust research tools)."
 license: MIT
+compatibility: Requires network access (HTTPS to api.nli.org.il) and an NLI_API_KEY environment variable for the bundled search script.
 ---
 
 # Israeli Heritage Explorer
@@ -35,7 +36,7 @@ https://api.nli.org.il/openlibrary/search
 
 **Authentication:** Every request needs an `api_key` query parameter. There are two ways to get one:
 - **Sign up for a free personal key** at https://api2.nli.org.il/signup/. This is the right answer for any real research session.
-- **Use NLI's published guest key** for a quick trial with no signup. NLI prints it on its own Search API page: `DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK`. It is shared and heavily throttled: in testing it returned `429 OVER_RATE_LIMIT` rather than results, so treat it as a way to check your query syntax, not as a working research key.
+- **Use NLI's published guest key** for a quick trial with no signup. NLI prints it on its own Search API page (https://www.nli.org.il/en/research-and-teach/open-library/search-api); copy it from there and set it as `NLI_API_KEY`. It is shared and heavily throttled: in testing it returned `429 OVER_RATE_LIMIT` rather than results, so treat it as a way to check your query syntax, not as a working research key.
 
 **Recommended MCP Server:** Install the `nli-search` MCP for direct AI-powered access to the NLI API with natural language queries, IIIF image retrieval, and media streaming.
 

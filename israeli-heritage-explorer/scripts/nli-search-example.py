@@ -27,24 +27,21 @@ import urllib.error
 import urllib.request
 import urllib.parse
 
-NLI_API_BASE = "https://api.nli.org.il/openlibrary/search"
 
-# NLI publishes a guest key on its own Search API page. It is shared and heavily
-# throttled (it commonly returns 429 OVER_RATE_LIMIT), so it is only good for
-# checking that a query parses. Set NLI_API_KEY to a personal key for real work.
-NLI_GUEST_KEY = "DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK"
+def require_api_key() -> None:
+    """Read the API key from the NLI_API_KEY environment variable only.
 
-
-def resolve_api_key(use_guest: bool) -> str:
-    """Resolve the API key once, in one place.
-
-    Reads exactly one named environment variable, NLI_API_KEY, and passes it
-    explicitly to search_nli() rather than holding it in a module-level
-    global. This is the only environment read in the script.
+    There is no built-in fallback key. Exit with a clear message if unset.
+    search_nli() reads the same variable directly when it builds the request.
     """
-    if use_guest:
-        return NLI_GUEST_KEY
-    return os.getenv("NLI_API_KEY", "")
+    key = os.environ.get("NLI_API_KEY", "").strip()
+    if not key:
+        print("Error: NLI_API_KEY environment variable not set.", file=sys.stderr)
+        print("Get a free personal key at https://api2.nli.org.il/signup/ ,", file=sys.stderr)
+        print("or copy NLI's published (heavily throttled) guest key from "
+              "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+              file=sys.stderr)
+        sys.exit(1)
 
 # NLI's Cloudflare rule targets the curl User-Agent signature specifically.
 # Any other UA gets through, and so does sending no UA header at all; only
@@ -78,14 +75,13 @@ def build_query(base_query: str, language: str = None, year: int = None) -> str:
     return ",AND;".join(clauses)
 
 
-def search_nli(api_key: str, query: str, language: str = None,
+def search_nli(query: str, language: str = None,
                material_type: str = None, year: int = None, per_page: int = 10,
                sort_field: str = None, availability: str = None,
                result_page: int = None, count_only: bool = False):
     """Search the NLI OpenLibrary API."""
     full_query = build_query(query, language, year)
     params = {
-        "api_key": api_key,
         "query": full_query,
         "output_format": "json",
         "items_per_page": str(per_page),
@@ -102,11 +98,22 @@ def search_nli(api_key: str, query: str, language: str = None,
         params["count_mode"] = "true"
 
     # urlencode with safe=',;' so the clause delimiters stay readable.
-    url = f"{NLI_API_BASE}?{urllib.parse.urlencode(params, safe=',;')}"
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-
+    query_string = urllib.parse.urlencode(params, safe=',;')
+    # The key (from NLI_API_KEY) travels in the X-Api-Key header rather than the
+    # query string, so
+    # it is never written into the URL (and never into logs or shell history).
+    # The NLI gateway accepts either form.
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(
+            urllib.request.Request(
+                "https://api.nli.org.il/openlibrary/search?" + query_string,
+                headers={
+                    "User-Agent": USER_AGENT,
+                    "X-Api-Key": os.environ.get("NLI_API_KEY", ""),
+                },
+            ),
+            timeout=30,
+        ) as resp:
             body = resp.read().decode("utf-8")
             if "<html" in body[:400].lower():
                 raise SystemExit(
@@ -145,7 +152,7 @@ def search_nli(api_key: str, query: str, language: str = None,
         if not code:
             raise SystemExit(f"HTTP {exc.code} from the NLI API: {raw[:300]}")
         hints = {
-            "API_KEY_MISSING": "No api_key was sent.",
+            "API_KEY_MISSING": "No key reached the API. Check NLI_API_KEY.",
             "API_KEY_INVALID": "The key is wrong or revoked. Get one at "
                                "https://api2.nli.org.il/signup/",
             "OVER_RATE_LIMIT": "The key is valid but throttled. This is normal "
@@ -222,8 +229,6 @@ def main():
     parser.add_argument("--per-page", type=int, default=10, help="items_per_page, 1-50 (default: 10)")
     parser.add_argument("--sort", choices=VALID_SORT_FIELDS, help="sort_field")
     parser.add_argument("--json", action="store_true", help="Output raw JSON")
-    parser.add_argument("--guest", action="store_true",
-                        help="Use NLI's published shared guest key (throttled)")
 
     args = parser.parse_args()
 
@@ -231,20 +236,9 @@ def main():
         print("Error: --per-page must be in the range 1-50 (items_per_page).", file=sys.stderr)
         sys.exit(1)
 
-    if args.guest:
-        print("Using NLI's shared guest key. Expect 429 OVER_RATE_LIMIT; "
-              "get a personal key at https://api2.nli.org.il/signup/",
-              file=sys.stderr)
-    api_key = resolve_api_key(args.guest)
-    if not api_key:
-        print("Error: NLI_API_KEY environment variable not set.", file=sys.stderr)
-        print("Get a free key at https://api2.nli.org.il/signup/", file=sys.stderr)
-        print("Or pass --guest to try NLI's shared (throttled) guest key.",
-              file=sys.stderr)
-        sys.exit(1)
+    require_api_key()
 
     results = search_nli(
-        api_key=api_key,
         query=args.query,
         language=args.lang,
         material_type=args.type,

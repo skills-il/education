@@ -74,6 +74,14 @@
         "CARRY: settle `subject` with one live keyed call. If it IS supported, restore it as the primary topical attribute; if not, this removal is permanent. Highest-value open question on this skill.",
         "METHOD: a caveat is not a mitigation when the failure is silent. An unrecognised attribute returns a populated result set that ignored the topic, so a warning in the docs cannot reach a user who never sees an error. Removing the construct was the only safe option while it was unverified."
       ]
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-09-14",
+      "lessons": [
+        "Security-scanner remediation only: removed the literal NLI guest key from all files (Snyk hardcoded-secret finding); users now copy it from NLI's Search API page.",
+        "Script reads NLI_API_KEY only, no guest fallback; network declared via SKILL.md compatibility field (Cisco TOOL_ABUSE_UNDECLARED_NETWORK)."
+      ]
     }
   ]
 }

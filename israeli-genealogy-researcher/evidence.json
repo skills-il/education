@@ -292,9 +292,9 @@
     },
     {
       "claim_id": "nli-guest-key-value",
-      "claim": "NLI publishes a shared guest API key, DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK, on its own Search API page; it is heavily throttled and returns HTTP 429 with code OVER_RATE_LIMIT.",
+      "claim": "NLI publishes a shared guest API key on its own Search API page; it is heavily throttled and returns HTTP 429 with code OVER_RATE_LIMIT.",
       "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
-      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries. We recommend signing up to gain full access to our system. Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries. We recommend signing up to gain full access to our system.",
       "fetched_at": "2026-08-26",
       "appears_in": [
         "SKILL.md",
@@ -420,6 +420,21 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
+    },
+    {
+      "claim_id": "nli-search-api-page-live",
+      "claim": "NLI's Search API page (live URL) is where NLI publishes its shared guest key; users copy it from there. The live page is behind Cloudflare and returns 403 to non-browser fetchers; read the archived capture.",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Guest user accounts have limited access permissions and can only perform a limited amount of queries.",
+      "fetched_at": "2026-09-14",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/data-sources-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T17:39:16+00:00",
+      "archived_copy": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api"
     }
   ]
 }

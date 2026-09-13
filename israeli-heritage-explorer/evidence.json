@@ -273,14 +273,13 @@
     },
     {
       "claim_id": "nli-guest-key-value",
-      "claim": "The published guest API key value is DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "claim": "NLI publishes a guest API key on its own Search API page",
       "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
-      "raw_snippet": "Guest user API Key: DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK",
+      "raw_snippet": "Guest user API Key:",
       "fetched_at": "2026-08-26T17:37:51+00:00",
       "appears_in": [
         "SKILL.md",
-        "SKILL_HE.md",
-        "scripts/nli-search-example.py"
+        "SKILL_HE.md"
       ]
     },
     {

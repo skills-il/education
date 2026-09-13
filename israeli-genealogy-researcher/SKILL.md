@@ -425,7 +425,8 @@ Almost always a silently dropped condition. Check in this order:
 
 **NLI API notes (read before your first call):**
 - **Get a key.** A free personal key is issued at https://api2.nli.org.il/signup/. NLI also publishes a
-  shared guest key on its own Search API page (`DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK`), but it is
+  shared guest key on its own Search API page
+  (https://www.nli.org.il/en/research-and-teach/open-library/search-api, copy it from there), but it is
   heavily throttled and in testing returned `429 OVER_RATE_LIMIT` rather than results. Treat the guest key
   as a way to check query syntax, not as a research key.
 - **Documented query attributes:** `title`, `creator`, `publisher`, `language`, `start_date` / `end_date`,

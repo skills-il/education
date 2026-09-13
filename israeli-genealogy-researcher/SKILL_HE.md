@@ -405,7 +405,8 @@ license: MIT
 
 **הערות על ה-API של הספרייה הלאומית (תקראו לפני הקריאה הראשונה):**
 - **תוציאו מפתח.** מפתח אישי חינמי מונפק בכתובת https://api2.nli.org.il/signup/. הספרייה הלאומית גם
-  מפרסמת מפתח אורח משותף בעמוד ה-Search API שלה (`DVQyidFLOAjp12ib92pNJPmflmB5IessOq1CJQDK`), אבל הוא
+  מפרסמת מפתח אורח משותף בעמוד ה-Search API שלה
+  (https://www.nli.org.il/en/research-and-teach/open-library/search-api, תעתיקו אותו משם), אבל הוא
   מוגבל מאוד ובבדיקה החזיר `429 OVER_RATE_LIMIT` במקום תוצאות. תתייחסו אליו כדרך לבדוק תחביר, לא כמפתח
   מחקר.
 - **מאפייני השאילתה המתועדים:** `title`, `creator`, `publisher`, `language`, `start_date`, `end_date`,
