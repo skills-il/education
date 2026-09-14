@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.2 - 2026-09-14
+
+Hygiene fix. The evidence entry for the Integration Law (Amendment 7 to the
+Special Education Law) quoted the Knesset PDF's raw text layer, which carries
+Unicode bidi embedding controls, a soft hyphen and mirrored parentheses. Tank
+flagged those controls as 6 findings. The quote now reads as the printed title,
+verified by eye against the rendered PDF page, and the claim's Hebrew year is
+corrected to התשס"ג. No change to the skill instructions.
+
 ## 1.3.0 - 2026-08-19
 
 Added the ma'on yom subsidy amounts. The skill previously stated eligibility

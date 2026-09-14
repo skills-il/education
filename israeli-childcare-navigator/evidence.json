@@ -57,15 +57,17 @@
     },
     {
       "claim_id": "integration-law-2002",
-      "claim": "The Integration Law (chok hashiluv) is Amendment 7 to the Special Education Law, enacted 2002 (התשס\"ב-2002); it weights inclusion of special-needs students in mainstream education",
+      "claim": "The Integration Law (chok hashiluv) is Amendment 7 to the Special Education Law, enacted 2002 (התשס\"ג-2002); it weights inclusion of special-needs students in mainstream education",
       "source_url": "https://fs.knesset.gov.il/15/law/15_lsr_300594.pdf",
-      "raw_snippet": "‫חוק חינוך מיוחד )תיקון מס' ‪ ,(7‬התשס\"ג­‪*2002‬‬",
+      "raw_snippet": "חוק חינוך מיוחד (תיקון מס' 7), התשס\"ג-2002",
       "fetched_at": "2026-07-15T16:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "verified_via": "gov.il content API (programmatic re-extraction)"
+      "verified_via": "pdf",
+      "verified_at": "2026-09-14",
+      "source_note": "Title read by eye from the rendered first page of the Knesset PDF (Sefer HaChukim 1876, 21.11.2002). The PDF text layer stores this line with bidi embedding controls, a soft hyphen and mirrored parentheses, so a clean quote cannot match it textually."
     },
     {
       "claim_id": "chisachon-lekol-yeled",
