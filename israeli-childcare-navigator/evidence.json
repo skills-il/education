@@ -43,15 +43,17 @@
     },
     {
       "claim_id": "special-ed-amendment-11-2018",
-      "claim": "Va'adat Zakaut ve-Ipyun is the committee constituted under Amendment 11 (July 2018) to the Special Education Law, 1988.",
-      "source_url": "https://pob.education.gov.il/students/main-special-education/entitlement-committee/",
-      "raw_snippet": "ועדת זכאות ואפיון היא ועדה מתוקף תיקון חוק החינוך המיוחד, תשמ\"ח-1988 (תיקון 11, יולי 2018).",
-      "fetched_at": "2026-08-11",
+      "claim": "Va'adat Zakaut ve-Ipyun is a statutory committee under the Special Education Law, reformed by Amendment 11 (2018).",
+      "source_url": "https://www.kolzchut.org.il/he/ועדת_זכאות_ואפיון_לשירותי_חינוך_מיוחדים",
+      "raw_snippet": "צו חינוך מיוחד (החלה הדרגתית של תיקון מספר 11 לחוק חינוך מיוחד), התשע\"ט-2018",
+      "fetched_at": "2026-09-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_label": "משרד החינוך - ועדת זכאות ואפיון"
+      "source_label": "כל-זכות - ועדת זכאות ואפיון לשירותי חינוך מיוחדים (הליך)",
+      "verified_via": "browser: the previously cited pob.education.gov.il page returns HTTP 500 to both curl and Playwright on 2026-09-14. kolzchut returns 403 to curl; the Kol Zchut page was rendered in Playwright with location.href asserted, and its legal-sources list reads the quoted order title plus 'ועדות מתוקף חוק: צוות רב-מקצועי, ועדת זכאות ואפיון'. The page does not give a month, so the claim no longer says July; the skill files only ever said 2018.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "integration-law-2002",
@@ -90,14 +92,16 @@
     {
       "claim_id": "ministry-labor-daycare-hotline",
       "claim": "The Ministry of Labor daycare call center is *2969 (or 073-2458356), Sunday to Thursday 08:00-16:00.",
-      "source_url": "https://www.gov.il/he/departments/Units/day-care-centers",
-      "raw_snippet": "פניה באמצעות המוקד הטלפוני: 2969* או 073-2458356 (בימים א' עד ה' בין השעות 08:00 עד 16:00)",
-      "fetched_at": "2026-08-11",
+      "source_url": "https://www.gov.il/he/service/daycare-registration",
+      "raw_snippet": "ניתן לפנות גם באמצעות המוקד הטלפוני: 2969* או 073-2458356 בשעות הפעילות בלבד בימים א' עד ה' בין השעות 08:00 עד 16:00",
+      "fetched_at": "2026-09-14",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
       ],
-      "source_label": "משרד העבודה - האגף למעונות יום ומשפחתונים, יצירת קשר"
+      "source_label": "משרד העבודה - רישום למעון יום, ליצירת קשר",
+      "verified_via": "browser: gov.il returns 403 to curl; rendered the Ministry service page in Playwright with location.href asserted on 2026-09-14 and read the contact block. The unit page previously cited (departments/Units/day-care-centers) no longer lists this number; it now lists WhatsApp and *3080.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "welfare-hotline-118",
@@ -229,17 +233,6 @@
       "claim": "Kol Zchut children and youth portal",
       "source_url": "https://www.kolzchut.org.il/he/ילדים_ונוער",
       "raw_snippet": "ילדים ונוער",
-      "fetched_at": "2026-05-25T19:15:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
-    },
-    {
-      "claim_id": "ref-welfare-ministry",
-      "claim": "Ministry of Welfare portal",
-      "source_url": "https://www.gov.il/he/departments/ministry-of-welfare-and-social-affairs",
-      "raw_snippet": "משרד הרווחה",
       "fetched_at": "2026-05-25T19:15:00Z",
       "appears_in": [
         "SKILL.md",

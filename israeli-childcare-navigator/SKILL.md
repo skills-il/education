@@ -275,7 +275,7 @@ When parents need to talk to a human or escalate, point them to these official e
 - **`118` (Ministry of Welfare general hotline):** 24/7 multilingual hotline for general social services, family welfare, and child protection questions that fall outside the daycare-subsidy track.
 - **`*6050` (Bituach Leumi):** for child allowance (kiztavat yeladim), Chisachon LeKol Yeled, and disabled child allowance (kiztavat nechut).
 - **`105` (MAOR):** national child-protection online hotline for online harm and abuse reports.
-- **Ministry of Welfare daycare portal:** `https://www.gov.il/he/service/daycare-registration` for subsidy eligibility, online applications, and the recognized facility lookup.
+- **Ministry of Labor daycare portal:** `https://www.gov.il/he/service/daycare-registration` for subsidy eligibility, online applications, and the recognized facility lookup.
 - **Kol Zchut (childcare entitlements portal):** `https://www.kolzchut.org.il/he/ילדים_ונוער` for plain-language summaries of every benefit, with appeal templates and recent updates.
 
 ## Examples
