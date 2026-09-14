@@ -18,8 +18,8 @@
       "claim_id": "pet-dec-2026-reform-b",
       "claim": "Scores from the current three-domain psychometric format stay valid after the change, for at least seven years.",
       "source_url": "https://www.nite.org.il/two-domain-psychometric-test/general-information/?lang=en",
-      "raw_snippet": "PET scores (before and after the change) are valid for at least seven years, notwithstanding which format was used.",
-      "fetched_at": "2026-05-28T00:00:00Z",
+      "raw_snippet": "There is no need to take the test again. The scores that were obtained for the three-domain PET are valid for at least seven years from the test date.",
+      "fetched_at": "2026-09-14T00:00:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md"
