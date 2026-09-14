@@ -10,7 +10,7 @@ https://api.nli.org.il/openlibrary/search
 
 All requests require an `api_key` query parameter.
 
-- Free signup: https://api2.nli.org.il/signup/
+- Signup: https://api2.nli.org.il/signup/
 - The `nli-search` MCP server may include a visitor key (verify with the MCP)
 
 ## Query Format
@@ -128,4 +128,4 @@ curl "https://api.nli.org.il/openlibrary/search?api_key=YOUR_KEY&query=title,con
 
 ## Rate Limits
 
-The API uses standard rate limiting. The free tier allows reasonable research usage. Heavy automated scraping may be throttled.
+The API uses standard rate limiting. Heavy automated scraping may be throttled.

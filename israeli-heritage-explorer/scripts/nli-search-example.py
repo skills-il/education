@@ -37,7 +37,7 @@ def require_api_key() -> None:
     key = os.environ.get("NLI_API_KEY", "").strip()
     if not key:
         print("Error: NLI_API_KEY environment variable not set.", file=sys.stderr)
-        print("Get a free personal key at https://api2.nli.org.il/signup/ ,", file=sys.stderr)
+        print("Get a personal key at https://api2.nli.org.il/signup/ ,", file=sys.stderr)
         print("or copy NLI's published (heavily throttled) guest key from "
               "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
               file=sys.stderr)

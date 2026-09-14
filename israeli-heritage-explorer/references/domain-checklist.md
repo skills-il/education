@@ -35,8 +35,8 @@ docs is marked [needs residential-IP confirm].
    returned `@id` rather than hand-constructing URLs. Cited: indexed manifest
    DocId `NNL_ALEPH11357291990005171`; live IIIF URL below.
 5. **Cloudflare / IP reality + key acquisition.** Datacenter IPs are blocked;
-   residential IP or a locally-running MCP is needed; a free key is obtained via
-   NLI signup. Cited: live 403 on the docs/IIIF hosts; signup host reachable.
+   residential IP or a locally-running MCP is needed; a personal key is issued on
+   signup at api2.nli.org.il/signup/. Cited: live 403 on the docs/IIIF hosts; signup host reachable.
 
 ## Should cover (completeness / quality, not correctness-breaking)
 

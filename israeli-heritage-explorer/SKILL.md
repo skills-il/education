@@ -28,14 +28,14 @@ This skill searches the National Library of Israel (NLI) digital archives via th
 
 ### API Access
 
-The NLI OpenLibrary API is free. The base endpoint is:
+A personal NLI API key is issued on signup at https://api2.nli.org.il/signup/. The base endpoint is:
 
 ```
 https://api.nli.org.il/openlibrary/search
 ```
 
 **Authentication:** Every request needs an `api_key` query parameter. There are two ways to get one:
-- **Sign up for a free personal key** at https://api2.nli.org.il/signup/. This is the right answer for any real research session.
+- **Sign up for a personal key** at https://api2.nli.org.il/signup/. This is the right answer for any real research session.
 - **Use NLI's published guest key** for a quick trial with no signup. NLI prints it on its own Search API page (https://www.nli.org.il/en/research-and-teach/open-library/search-api); copy it from there and set it as `NLI_API_KEY`. It is shared and heavily throttled: in testing it returned `429 OVER_RATE_LIMIT` rather than results, so treat it as a way to check your query syntax, not as a working research key.
 
 **Recommended MCP Server:** Install the `nli-search` MCP for direct AI-powered access to the NLI API with natural language queries, IIIF image retrieval, and media streaming.

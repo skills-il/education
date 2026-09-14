@@ -82,6 +82,26 @@
         "Security-scanner remediation only: removed the literal NLI guest key from all files (Snyk hardcoded-secret finding); users now copy it from NLI's Search API page.",
         "Script reads NLI_API_KEY only, no guest fallback; network declared via SKILL.md compatibility field (Cisco TOOL_ABUSE_UNDECLARED_NETWORK)."
       ]
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-09-14",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "see scratchpad eval-heritage.json holdout set (3 cases)"
+        ]
+      },
+      "lessons": [
+        "Citation refresh: 8 NLI docs snippets were stitched composites with editorial notes citing web.archive captures; replaced with verbatim live-page text (Playwright past Cloudflare).",
+        "Removed unsourced 'free' API-key claim everywhere (no NLI page states a price); revisit only if NLI publishes pricing/terms wording.",
+        "persistent_fail (full set, not holdout): a general Zionism essay query does not route here; pre-existing, not caused by this edit.",
+        "Overlap gate 0.769 SIMILAR vs israeli-genealogy-researcher (warn band); description has no 'Do NOT use for' clause naming it. Deferred: out of scope for a citation-only cycle."
+      ]
     }
   ]
 }

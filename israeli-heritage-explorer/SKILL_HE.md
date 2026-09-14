@@ -28,14 +28,14 @@ compatibility: Requires network access (HTTPS to api.nli.org.il) and an NLI_API_
 
 ### גישה ל-API
 
-ה-API של הספרייה הלאומית הוא חינמי. כתובת הבסיס:
+מפתח API אישי מקבלים בהרשמה ב-https://api2.nli.org.il/signup/. כתובת הבסיס:
 
 ```
 https://api.nli.org.il/openlibrary/search
 ```
 
 **אימות:** כל בקשה צריכה פרמטר `api_key`. יש שתי דרכים להשיג אחד:
-- מפתח אישי חינמי בהרשמה ב-https://api2.nli.org.il/signup/. זו התשובה הנכונה לכל מחקר אמיתי.
+- מפתח אישי בהרשמה ב-https://api2.nli.org.il/signup/. זו התשובה הנכונה לכל מחקר אמיתי.
 - מפתח האורח שהספרייה עצמה מפרסמת, לניסיון מהיר בלי הרשמה. הוא מופיע בדף ה-Search API של הספרייה (https://www.nli.org.il/en/research-and-teach/open-library/search-api), תעתיקו אותו משם ותגדירו אותו כ-`NLI_API_KEY`. הוא משותף ומוגבל מאוד: בבדיקה הוא החזיר `429 OVER_RATE_LIMIT` במקום תוצאות, אז תתייחסו אליו כדרך לבדוק תחביר שאילתה ולא כמפתח מחקר עובד.
 
 **שרת MCP מומלץ:** תתקינו את `nli-search` לגישה ישירה ל-API עם שאילתות בשפה טבעית, שליפת תמונות IIIF וסטרימינג מדיה.

@@ -6,103 +6,119 @@
     {
       "claim_id": "base-endpoint-apikey",
       "claim": "The NLI OpenLibrary search API base endpoint is https://api.nli.org.il/openlibrary/search and api_key is a mandatory GET query parameter.",
-      "source_url": "http://web.archive.org/web/20250523021247/https://www.nli.org.il/en/research-and-teach/open-library/search-api",
-      "raw_snippet": "Request format: https://api.nli.org.il/openlibrary/search?api_key={USER_KEY}&{search_string} . api_key: A personal key (mandatory) that the user receives after logging in to our API system. (Verified via Playwright past Cloudflare on the official NLI Search API docs page, 2026-06-04.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api",
+      "raw_snippet": "Request format: https://api.nli.org.il/openlibrary/search?api_key={USER_KEY}&{search_string} ... api_key A personal key (mandatory) that the user receives after logging in to our API system.",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "multi-clause-connector",
       "claim": "Inside the query, multiple field,operator,value clauses are joined by ',AND;' or ',OR;'; the delimiter between the query and additional filters/commands is '&'. Operators include exact and contains.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "The delimiter between the query and between [additional filters] parameters is \"&\" (logical AND). The delimiter inside the {query} string, between internal query conditions is \",AND;\" (or \",OR\";). Query string example: query=title,exact,jerusalem,AND;publisher,contains,jaffa,AND;language,exact,eng,AND;system_number,exact,990023677080205171,AND;start_date, contains,1925,AND;shelfmark,exact,Jer344 . (Verified via Playwright on the official Search API Common Usage page, 2026-06-04.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "The delimiter between the query and between [additional filters] parameters is \"&\" (logical AND). The delimiter inside the {query} string, between internal query conditions is \",AND;\" (or \",OR\";) ... query=title,exact,jerusalem,AND;publisher,contains,jaffa,AND;language,exact,eng,AND;system_number,exact,990023677080205171,AND;start_date, contains,1925,AND;shelfmark,exact,Jer344",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "language-and-date-are-clauses",
       "claim": "Language and date filtering are query CLAUSES (language,exact,eng ; start_date/end_date,contains,YYYY) not standalone parameters. Date format is yyyyMMdd or yyyy.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark. FAQ: Search for any item that contains the word 'Jerusalem' on title AND are written in English language AND has start_date/end_date between 19500101 and 19501231 -> query=title,exact,jerusalem,AND;creator,contains,Jerusalem,AND;language,exact,eng,AND;start_date,contains,1951 . (Verified via Playwright, 2026-06-04. Both yyyyMMdd '19500101' and yyyy '1951' forms appear.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "A query compares a text to one / few / all descriptive attributes, and can filter by start_date / end_date and/or language and/or system_number and/or shelfmark. ... has start_date/end_date between 19500101 and 19501231 ... language,exact,eng,AND;start_date,contains,1951",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "material-type-values",
       "claim": "Valid material_type values are: books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. audio/videos/articles/rareBooks are NOT valid.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "Filters and Commands Valid Values: material_type -> books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity. FAQ: How do I search for Newspaper items on Jpress collection -> material_type=NEWSPAPER . (Verified via Playwright on the official user-help page, 2026-06-04.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "material_type books, journals, images, audio_video, scores, maps, archives, sheets, dissertations, manuscripts, media, databases, NEWSPAPER, Identity",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "availability-type-values",
       "claim": "Valid availability_type values are: online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "availability_type -> online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access. (Verified via Playwright on the official user-help page, 2026-06-04.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "availability_type online_access, all_items, online_and_api_access, online_access_no_api, online_in_library_only, no_online_access",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "pagination-items-per-page-result-page",
       "claim": "Pagination uses items_per_page (1-50) and result_page. There is no rows or start parameter.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "items_per_page -> A digit in the range of [1-50]. result_page -> A digit (in the range of [count]/50). FAQ: How can I Paginate on results, when more than 50 items matches my criteria -> result_page=3 . (Verified via Playwright, 2026-06-04. No rows/start parameter is documented.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "items_per_page A digit in the range of [1-50] result_page A digit (in the range of [count]/50)",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "sort-field-and-output-format",
       "claim": "sort_field (values title, creator, date_desc, date_asc) and output_format (json default, xml) are documented standalone commands; count_mode is true/false.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "Commands: output_format, count_mode, result_page, items_per_page, sort_field. sort_field -> title, creator, date_desc, date_asc. output_format -> json, xml. count_mode -> true, false. Example: ...&output_format=xml&result_page=2&sort_field=title . (Verified via Playwright, 2026-06-04. Note the parameter name is sort_field with an underscore.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "Commands: output_format, count_mode, result_page, items_per_page, sort_field ... sort_field title, creator, date_desc, date_asc ... output_format json, xml ... count_mode true, false",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "unknown-params-silently-ignored",
       "claim": "Unknown / invalid non-mandatory parameters are silently ignored (request still returns results, unfiltered) with the skipped condition reported in an Errors response header.",
-      "source_url": "http://web.archive.org/web/20240912225154/https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
-      "raw_snippet": "Q: What if my query has syntax error - is it ignored, or will I get HTTP Error response? A: If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error. Example: material_type=manuscripts111 -> HTTP/1.1 200 OK with Errors header code 1010 \"...value : manuscripts111 hasn't been used because it is invalid\". (Verified via Playwright, 2026-06-04.)",
-      "fetched_at": "2026-08-26T17:38:44+00:00",
+      "source_url": "https://www.nli.org.il/en/research-and-teach/open-library/search-api/user-help",
+      "raw_snippet": "A: If the Search string has a syntax error in a non-mandatory attribute, the condition is ignored and an \"Errors\" Header will describe the error. ... < HTTP/1.1 200 OK",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "scripts/nli-search-example.py"
-      ]
+      ],
+      "verified_via": "browser: live page is behind a Cloudflare challenge (403 to curl); rendered in Playwright on 2026-09-14, waited past the challenge, asserted location.href equals the cited URL, and read document.body.innerText. Snippet fragments are verbatim from that text (table cells separated by tabs in the page, shown here as single spaces); ' ... ' joins passages from the same page.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "guest-key-exists",
@@ -119,16 +135,18 @@
     },
     {
       "claim_id": "signup-url",
-      "claim": "A free NLI API key is obtained at the signup URL.",
+      "claim": "An NLI API key is obtained at the signup URL.",
       "source_url": "https://api2.nli.org.il/signup/",
-      "raw_snippet": "National Library of Israel API site signup page. Free signup: https://api2.nli.org.il/signup/ (host reachable; account-creation page for a free api_key).",
-      "fetched_at": "2026-06-04T00:55:00Z",
+      "raw_snippet": "Sign up for an application programming interface (API) key to access and use web services available on the nli.org.il developer network.",
+      "fetched_at": "2026-09-14T13:28:44+00:00",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/nli-api-reference.md",
         "references/domain-checklist.md"
-      ]
+      ],
+      "verified_via": "browser: JS-rendered page (near-empty body to curl); rendered in Playwright on 2026-09-14 with location.href asserted, title 'National Library of Israel API site'; snippet copied verbatim from document.body.innerText. The page states no price, so 'free' is not supported by this source.",
+      "verified_at": "2026-09-14"
     },
     {
       "claim_id": "millions-of-items",
