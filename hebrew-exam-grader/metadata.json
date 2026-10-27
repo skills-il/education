@@ -1,0 +1,78 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "education",
+  "tags": {
+    "he": [
+      "בדיקת-מבחנים",
+      "מחוון",
+      "משוב",
+      "מורים",
+      "בגרות-בעברית",
+      "התאמות",
+      "פרטיות-תלמידים",
+      "ישראל"
+    ],
+    "en": [
+      "exam-grading",
+      "rubric",
+      "feedback",
+      "teachers",
+      "hebrew-bagrut",
+      "accommodations",
+      "student-privacy",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "בודק מבחנים בעברית למורים",
+    "en": "Hebrew Exam Grader for Teachers"
+  },
+  "display_description": {
+    "he": "עוזר למורים לבדוק מבחנים וחיבורים בעברית של כיתה שלמה לפי מחוון: קודם מחליפים שמות בקודים, אחר כך בונים מחוון (כולל תבניות לתרגול בגרות בעברית, לחיבור בתיכון ולכתיבה בכיתה ח'), מתחשבים בהתאמות בדרכי היבחנות של כל תלמיד, ומקבלים ציון מוצע לכל קריטריון עם ציטוט מהתשובה, משוב קצר לכל תלמיד, טיוטת גיליון ציונים וסיכום טעויות נפוצות לכיתה. תשובות בכתב יד מתומללות קודם, והמורה מאשר את התמלול לפני הבדיקה. המורה מאשר כל ציון בנפרד, כמו שמשרד החינוך מנחה, וזה לא ציון בגרות רשמי. תשתמשו כשיש ערימת מבחנים או חיבורים לבדוק ורוצים משוב עקבי והוגן בפחות זמן. אל תשתמשו כדי לכתוב חיבור במקום תלמיד, לערעור על ציון בגרות, או למבחנים במתמטיקה שנבדקים לפי תשובה סופית.",
+    "en": "Helps a teacher mark a whole class of Hebrew-language exams and essays against a rubric: names are replaced with codes first, then a rubric is built (with templates for Hebrew bagrut practice, high-school essays and grade-8 writing), each student's testing accommodations are respected, and each answer gets a suggested score per criterion with a quote from the answer, short feedback, a draft class grade sheet and a common-mistakes summary. Handwritten answers are transcribed first and the teacher confirms the transcription before marking. The teacher approves every grade row by row, as Ministry of Education guidance requires, and nothing here is an official bagrut grade. Use when you have a pile of exams or essays to mark and want consistent, fair feedback in less time. Do NOT use for writing a student's essay, appealing a bagrut grade, or math exams checked by final answer."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "annual",
+  "authoritative_sources": [
+    {
+      "url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/Guidelines.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

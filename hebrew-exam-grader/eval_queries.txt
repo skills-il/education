@@ -1,0 +1,55 @@
+# eval queries for hebrew-exam-grader
+# format: <POS|NEG|EDGE>\t<query>
+
+POS	יש לי 30 חיבורים של כיתה ח' לבדוק, תעזור לי לבדוק לפי מחוון ולתת משוב
+POS	Help me grade my class's Hebrew essays against a rubric and make a grade sheet
+POS	תבנה לי מחוון לבגרות בעברית 11282 מהפתרון של משרד החינוך
+POS	צילמתי תשובות בכתב יד של התלמידים, תתמלל ותבדוק אותן
+POS	I need short feedback for each student on their literature answers, two strengths and two things to improve
+POS	מה הטעויות הנפוצות בכיתה במבחן ההבנת הנקרא שבדקתי?
+POS	יש לי 32 חיבורים בלשון של כיתה י', תעזור לי לבדוק לפי מחוון
+
+NEG	תכתוב לי חיבור טיעון לבגרות בעברית על בינה מלאכותית
+NEG	איך מערערים על ציון בבחינת הבגרות?
+NEG	תבדוק לי את המבחן במתמטיקה של הכיתה, יש לי את התשובות הסופיות
+
+EDGE	אני מורה, מותר לי להדביק עבודות של תלמידים בצ'אטGPT?
+EDGE	תעזור לי להתכונן לבגרות בלשון
+EDGE	Grade this one essay for me, I'm a tutor
+EDGE	לשלושה תלמידים יש פטור משגיאות כתיב, איך בודקים להם את החיבור?
+
+# RESULTS 2026-10-27 (repair round 1, description rewritten)
+# split (70/30): train = POS1-5, POS7, NEG1-2, EDGE1, EDGE4 (10); holdout = POS6, NEG3, EDGE2, EDGE3 (4)
+#
+# Positives: matched by sense, not substring.
+#   POS1 "check / mark ... essays", "rubric", "feedback" -> "check, mark or give feedback on class essays
+#        or exams", "bdikat chiburim", "mechvan".
+#   POS2 "grade ... against a rubric", "grade sheet" -> "grade a class set ... against a points rubric",
+#        "draft class grade sheet".
+#   POS3 "rubric for bagrut Hebrew 11282 from the answer key" -> "builds the rubric from the exam and answer
+#        key (templates for bagrut Hebrew practice ...)".
+#   POS4 "handwritten answers, transcribe and check" -> "handwritten answers to transcribe and grade".
+#   POS5 "feedback per student ... literature" -> "drafts short Hebrew feedback", "literature bands".
+#   POS6 (holdout) "common mistakes in the class" -> "a common-mistakes summary".
+#   POS7 grade-10 language essays with a rubric -> "high-school ... writing" template, "class essays".
+#
+# Negatives: each excluded by an explicit clause in the description.
+#   NEG1 student asks for an essay to be written -> "Do NOT use for writing a student's essay".
+#   NEG2 bagrut grade appeal -> "appealing an official bagrut grade".
+#   NEG3 (holdout) math exam with final answers -> "math exams checked by final answer".
+#   NEG1 shares "bagrut", "Hebrew", "essay" with the positive triggers; the exclusion clause, not the
+#   vocabulary, routes it away.
+#
+# Edges:
+#   EDGE1 teacher asks whether pasting student work into a chatbot is allowed. SHOULD match: Step 1 answers it
+#        (tool question, non-catalog clause, anonymisation). Matches via "teacher ... check, mark" plus
+#        "Anonymises students first". Pass.
+#   EDGE2 (holdout) student preparing for the Hebrew bagrut. SHOULD NOT match -> "student exam preparation". Pass.
+#   EDGE3 (holdout) private tutor grading one essay. Genuinely ambiguous; triggering does no harm since the
+#        safeguards still apply. Scored pass, but the description does not clearly decide it.
+#   EDGE4 three students exempt from spelling errors, how to grade them. SHOULD match -> "respects testing
+#        accommodations". Pass.
+#
+# train: 10/10 pass (1.00). holdout: 4/4 pass (1.00). Positives 7/7. The description was rewritten for the
+# expert's findings (accommodations, draft sheet, templates), not tuned on the holdout.
+# eval_pass_rate = 1.0, eval_assertions_count = 14

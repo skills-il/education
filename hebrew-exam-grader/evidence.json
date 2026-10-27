@@ -1,0 +1,748 @@
+{
+  "skill_slug": "hebrew-exam-grader",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-10-27",
+  "claims": [
+    {
+      "id": "aiu-date",
+      "claim": "The Ministry of Education summary of AI-use guidelines was updated in January 2026 (Tevet 5786) and says it will keep being updated",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "המסמך ימשיך להתעדכן בהתאם להתנסות במערכת והנחיות הרגולציה.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-no-identifiable",
+      "claim": "Ministry rule: do not share any personal, sensitive or identifiable information about students, teachers or the school with AI systems, by text, images, audio or any file",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "אין לשתף או למסור כל מידע אישי או מידע רגיש או מידע מזוהה של תלמידים, מורים או בית הספר למערכות בינה מלאכותית, ובכלל זה באמצעות טקסט, קוד, תמונות, סרטונים, אודיו, או קובץ כלשהו.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-pseudonyms",
+      "claim": "The Ministry recommends pseudonyms and hypothetical scenarios",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מומלץ להשתמש בשמות בדויים ותרחישים היפותטיים.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-history-off",
+      "claim": "The Ministry recommends turning off chat-history saving in AI systems",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מומלץ לבטל שמירת היסטוריית שיחות במערכות הבינה המלאכותית.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-human-decision",
+      "claim": "The Ministry requires keeping human involvement in every decision process that involves AI tools",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לשמור על מעורבות אנושית בכל תהליך קבלת החלטות המערב כלי בינה מלאכותית.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-assessment",
+      "claim": "The Ministry says student work may include AI-written parts, so adapted assessment methods are recommended",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "בהערכת עבודות תלמידים יש לקחת בחשבון שהן עשויות לכלול חלקים שנכתבו בעזרת ב\"מ, על כן מומלץ לפתח דרכי הערכה מותאמות.",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-bias",
+      "claim": "The Ministry names bias, unequal representation, unfairness, false information and hallucinations as AI risks",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לאור הסיכונים של מערכות בינה מלאכותית לייצר הטיות וייצוג לא שוויוני, חוסר הוגנות, מידע כוזב והזיות (מידע מומצא).",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-trusted-account",
+      "claim": "The Ministry recommends logging in to generative AI with a cloud account issued by a trusted provider",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מומלץ להתחבר למערכות בינה מלאכותית יוצרת, באמצעות חשבון משתמש ענן המונפק על ידי ספק מהימן",
+      "confidence": "high"
+    },
+    {
+      "id": "aiu-jan-2026",
+      "claim": "The summary guidelines document was updated in January 2026, Tevet 5786",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "תאריך עדכון המסמך : ינואר | 2026 טבת תשפ\"ו",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-winter-2025",
+      "claim": "The 11282 paper cited is the winter 2025 (Tashpah) sitting",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "בגרות חורף תשפ\"ה 2025",
+      "confidence": "high"
+    },
+    {
+      "id": "tsh-9181-summer",
+      "claim": "The literature model-answer file is for questionnaire 9181, summer Tashpav",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit%5CSifrutMmd/TshuvonSummerTashpav.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מס' 9181, קיץ תשפ\"ו",
+      "confidence": "high"
+    },
+    {
+      "id": "gui-teacher-noncatalog",
+      "claim": "Binding Ministry guidelines: a teacher who independently uses a tool not in the approved catalog to prepare teaching materials must keep the ban on sharing personal information and must not present the tool in class",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ככל שייעשה שימוש על ידי מורה באופן עצמאי, לצורכי הכנת חומרי הוראה, בכלי שאינו כלול ברשימת הכלים המאושרים בקטלוג, יש להקפיד על איסור שיתוף מידע אישי ועל התנהלות לפי הכללים האתיים המופיעים בהנחיות אלה, ויש להימנע מהצגת כלי זה במסגרת הכיתה.",
+      "confidence": "high"
+    },
+    {
+      "id": "gui-no-identifying-details",
+      "claim": "Binding guidelines: avoid giving identifying details about people, places or organisations; use general descriptions or pseudonyms",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/Guidelines.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "הימנעו מלמסור פרטים מזהים על אנשים, מקומות או ארגונים: במקום זאת, השתמשו בתיאורים כלליים או בשמות בדויים.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-topic",
+      "claim": "A Ministry teacher-training session covered using AI to reduce marking load, give quality feedback and draw pedagogical insights from learning data",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "שימוש מושכל בבינה מלאכותית לצמצום עומס בדיקת עבודות, מתן משוב איכותי והפקת תובנות פדגוגיות מנתוני למידה.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-prompt-rubric",
+      "claim": "Ministry model prompt: analyse the student's work by a rubric (task understanding, content accuracy, organisation of ideas, creativity, wording and language)",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נתח את עבודת התלמיד המצורפת על פי המחוון הבא: הבנת המשימה, דיוק בתוכן, ארגון הרעיונות, יצירתיות, ניסוח ושפה.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-prompt-table",
+      "claim": "Ministry model prompt: a table with a suggested score per criterion, a short reason, two strengths, two points to improve, and summary feedback in the second person",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "צור טבלה הכוללת ציון מוצע לכל קריטריון, נימוק קצר, שתי נקודות חוזק, שתי נקודות לשיפור ומשוב מסכם בגוף שני בשפה מעודדת ומכבדת.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-prompt-noinvent",
+      "claim": "Ministry model prompt: do not invent information that is not in the work, and mark places that need the teacher's judgment",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "אל תמציא מידע שאינו מופיע בעבודה, וסמן מקומות שבהם נדרש שיקול דעת של המורה.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-tiers",
+      "claim": "The session distinguishes checking levels: full in-depth check, sample check, submission-only mark, focused feedback",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "להבחין בין סוגי בדיקה שונים: בדיקה מלאה ומעמיקה, בדיקה מדגמית, סימון הגשה בלבד ומתן משוב ממוקד.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-handwriting-topic",
+      "claim": "The session dealt with the challenge of checking Hebrew handwriting",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "חלק נוסף במפגש עסק באתגר של בדיקת כתב יד בעברית.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-handwriting-supervision",
+      "claim": "Any AI use on handwriting requires teacher supervision",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לכן, כל שימוש כזה מחייב פיקוח של המורה.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-handwriting-nofinal",
+      "claim": "Do not use the AI result on handwriting as a final grade without a teacher check",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לא להשתמש בתוצאה כציון סופי ללא בדיקת מורה.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-handwriting-formative",
+      "claim": "Prefer handwriting checking as a learning tool rather than automatic summative assessment",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "להעדיף שימוש ככלי למידה ושיפור כתיבה, ולא ככלי אוטומטי להערכה מסכמת.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-class-analytics",
+      "claim": "AI analysis can find questions most of the class got wrong",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "איתור שאלות שבהן רוב הכיתה טעתה, והסקת מסקנות על נושאים שלא הובנו היטב.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-anonymise",
+      "claim": "Anonymise student names before uploading exam data, e.g. with initials or codes; especially important for exams, grades and sensitive information",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש לבצע אנונימיזציה של שמות התלמידים, למשל באמצעות ראשי תיבות או קודים. ההמלצה חשובה במיוחד במבחנים, בציונים ובמידע רגיש.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-org-account",
+      "claim": "Prefer an organisational account for school materials",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש להעדיף עבודה בחשבון ארגוני כאשר מדובר בחומרים בית־ספריים.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-transparency",
+      "claim": "Transparency: explain to students when and how AI was used in checking or feedback",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "להסביר לתלמידים מתי ואיך נעשה שימוש בבינה מלאכותית בתהליך הבדיקה או המשוב.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-no-auto-approve",
+      "claim": "Teacher involvement: do not approve grades or feedback automatically",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לא לאשר ציונים או משובים באופן אוטומטי; לבדוק, לדייק ולהפעיל שיקול דעת מקצועי.",
+      "confidence": "high"
+    },
+    {
+      "id": "bin-rubric-upfront",
+      "claim": "Define criteria in advance so feedback is consistent and fair",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/bina_melachutit.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "להגדיר מראש קריטריונים כדי שהמשוב יהיה עקבי, הוגן ומותאם למטרות הלמידה.",
+      "confidence": "high"
+    },
+    {
+      "id": "pop-scale",
+      "claim": "The Ministry teaching-practice page uses a detailed 1-4 scoring scale per criterion",
+      "claim_type": "feature",
+      "source_url": "https://pop.education.gov.il/teaching-tools/teaching-practices/search-teaching-practices/evaluating-writing-products-using-ai/",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "סולם ניקוד מפורט (4-1) לכל קריטריון",
+      "confidence": "high"
+    },
+    {
+      "id": "pop-review",
+      "claim": "Check and update the AI feedback before passing it to the student",
+      "claim_type": "feature",
+      "source_url": "https://pop.education.gov.il/teaching-tools/teaching-practices/search-teaching-practices/evaluating-writing-products-using-ai/",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "חשוב לבדוק ולעדכן את המשוב של ה-AI לפני העברתו לתלמיד.",
+      "confidence": "high"
+    },
+    {
+      "id": "pop-privacy",
+      "claim": "Keep student privacy and do not upload any identifying details",
+      "claim_type": "feature",
+      "source_url": "https://pop.education.gov.il/teaching-tools/teaching-practices/search-teaching-practices/evaluating-writing-products-using-ai/",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש לשמור על פרטיות התלמידים, ולא להעלות פרטים מזהים כלשהם שלהם.",
+      "confidence": "high"
+    },
+    {
+      "id": "pop-teacher-notes",
+      "claim": "Add the teacher's personal comments to the feedback",
+      "claim_type": "feature",
+      "source_url": "https://pop.education.gov.il/teaching-tools/teaching-practices/search-teaching-practices/evaluating-writing-products-using-ai/",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "הוספת הערות אישיות של המורה",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-ch1",
+      "claim": "Hebrew bagrut 11282 chapter one is reading comprehension worth 60 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "פרק ראשון - הבנת הנקרא ( 60נקודות)",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-ch2",
+      "claim": "Hebrew bagrut 11282 chapter two is written expression worth 40 points; the essay is about 300 words",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "פרק שני - הבעה בכתב ( 40נקודות)",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-essay",
+      "claim": "The 11282 essay is about 300 words on one of two topics",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "וכתבו עליו מאמר בהיקף של כ־ 300מילים לפי ההוראות.",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-language",
+      "claim": "The paper instructs clear handwriting, correct spelling, grammar and logical punctuation",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "הקפידו על כתב ברור, על כתיב נכון, על כללי הדקדוק ועל פיסוק הגיוני.",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-anonymous",
+      "claim": "The bagrut notebook carries no name because the exam is graded anonymously",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "אין לכתוב שם בתוך המחברת משום שהבחינה נבדקת בעילום שם.",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-weights",
+      "claim": "Each 11282 item prints its own point weight next to it",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "הסבירו מהי הסכנה הבאה לידי ביטוי בתוצאות אלה 5( .נקודות)",
+      "confidence": "high"
+    },
+    {
+      "id": "g8-content",
+      "claim": "Grade-8 Hebrew writing rubric: content quality and text structure is worth 0-15 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "התוכן ומבנה הטקסט אינם הולמים את דרישות המשימה הציון (0-15 נק'):",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-open-close",
+      "claim": "Grade-8 rubric sub-item: opening and closing 0-2 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "האם יש בטקסט פתיחה וסיום? באיזו מידה הם איכותיים? (0-2 נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-position",
+      "claim": "Grade-8 rubric sub-item: a grounded, justified position 0-7 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "האם יש בטקסט עמדה מבוססת ומוצדקת? באיזו מידה רכיבי התוכן (עמדה, ביסוס, הצדקה) איכותיים? (0-7 נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-cohesion",
+      "claim": "Grade-8 rubric sub-item: cohesion 0-4 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "באיזו מידה הטקסט לכיד ומקושר? (0-4 נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-audience",
+      "claim": "Grade-8 rubric sub-item: independence and audience awareness 0-2 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "באיזו מידה הטקסט עצמאי וניכר שיש בו מודעות לנמען ולנסיבות השיח? (0-2 נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-syntax",
+      "claim": "Grade-8 rubric: syntax 0-5 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "התחביר (05- נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-register",
+      "claim": "Grade-8 rubric: language register and vocabulary 0-3 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "משלב הלשון ואוצר המילים (03- נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-spelling",
+      "claim": "Grade-8 rubric: spelling 0-2 points",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "הכתיב (02- נק')",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-total",
+      "claim": "Grade-8 rubric totals 25 points; multiply by 4 for the 0-100 grade",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "סכום הנקודות: (מתוך 25 נק') הציון הסופי בסולם של 0-100: (יש לכפול את סכום הנקודות ב-4.)",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "g8-feedback",
+      "claim": "Grade-8 rubric open feedback asks for strengths and points to strengthen",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_habaah_lashon/chativat_bynaym/mivhanim-mesimot/mehvan-internal-writing-assignment.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מה הן נקודות החוזק (מאפיינים בכתיבה שיש לשמר ולעודד)?",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "omer-title",
+      "claim": "Ministry rubric for assessing an answer in the state-religious literature bagrut",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/SifrutMmd/omermechvan.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מחוון להערכת תשובה לשאלת עמ\"ר בבחינת הבגרות בספרות ממ\"ד",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "omer-bands",
+      "claim": "The literature rubric has four bands 0-40, 40-60, 60-80, 80-100, first criterion is the question-answer link",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/SifrutMmd/omermechvan.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "0-40 40-60 60-80 80-100 קשר בין שאלה לתשובה",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "omer-c2",
+      "claim": "Literature rubric criterion: grounding and reasoning of the answer",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/SifrutMmd/omermechvan.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ביסוס והנמקה של התשובה הטענות שמופיעות בתשובה לא נכונות",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "omer-c3",
+      "claim": "Literature rubric criterion: reference to literary devices",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/SifrutMmd/omermechvan.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "התייחסות לאמצעי עיצוב לא קיימת התייחסות לאמצעי עיצוב בהתאם למה שנדרש.",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "omer-c4",
+      "claim": "Literature rubric criterion: personal-view (amar) components",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/SifrutMmd/omermechvan.docx",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "רכיבי עמ\"ר התשובה אינה מציגה את נקודת מבטו של התלמיד.",
+      "confidence": "high",
+      "verified_via": "docx",
+      "verified_at": "2026-10-27"
+    },
+    {
+      "id": "tsh-openness",
+      "claim": "Literature model-answer file: be open to examinees' answers; they may interpret differently, provided the reading rests on the work and is properly reasoned",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit%5CSifrutMmd/TshuvonSummerTashpav.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "חשוב מאוד להדגיש שיש לגלות פתיחות לתשובות של הנבחנים. הם רשאים לפרש את היצירות בדרך אחרת מזו שנלמדה בכיתה או מזו המוצעת כאן, ובלבד שהפירוש יסתמך על היצירה והתשובה תהיה מנומקת כהלכה.",
+      "confidence": "high"
+    },
+    {
+      "id": "tsh-possible-answers",
+      "claim": "The literature model-answer file presents its answers as possible answers to the exam questions (basis for crediting devices other than the key's)",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit%5CSifrutMmd/TshuvonSummerTashpav.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "בדגם שלהלן מוצעות תשובות אפשריות לשאלות שבמבחן",
+      "confidence": "high"
+    },
+    {
+      "id": "lit-short",
+      "claim": "Published literature answer rubrics are short main-point answers; the examinee is required to expand beyond them",
+      "claim_type": "feature",
+      "source_url": "https://pop.education.gov.il/tchumey_daat/literature-religious/high-school/pedagogy-literature-hemed/graduation-tests/",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מחוונים אלו הם תשובות בקצרה ובנקודות עיקריות. בבחינה התלמיד נדרש להרחבה ופירוט מעבר לכך.",
+      "confidence": "high"
+    },
+    {
+      "id": "pit-copyright",
+      "claim": "Ministry bagrut solution files carry a notice not to copy or publish without Ministry permission",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/sheeloney_bagrut/Pitronot_bagrut/2021/8/pitron-035581-00-HEB.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "אין להעתיק או לפרסם אלא ברשות משרד החינוך",
+      "confidence": "high"
+    },
+    {
+      "id": "pit-corrected",
+      "claim": "If a published solution has an error, a corrected version is published and is the binding one",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/sheeloney_bagrut/Pitronot_bagrut/2021/8/pitron-035581-00-HEB.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "והצעת הפתרון המתוקנת תהיה המחייבת.",
+      "confidence": "high"
+    },
+    {
+      "id": "pit-not-binding-wrong",
+      "claim": "Publishing a solution does not oblige examiners to accept a wrong answer",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/sheeloney_bagrut/Pitronot_bagrut/2021/8/pitron-035581-00-HEB.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ואין בו כדי לחייב קבלת תשובה שגויה בידי מעריכי",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-30-school",
+      "claim": "Per the Hebrew supervisor's circular for 2022-2023 (Tashpag), the Hebrew bagrut grade is weighted with the school-based assessment at 30% of the final grade",
+      "claim_type": "percentage",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ציון הבגרות במקצוע העברית ישוקלל מציון ההערכה הבית־ספרית ( 30%מהציון הסופי)",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-11283",
+      "claim": "General examinees report the school-based 30% grade under code 11283",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נבחנים כלליים סמל דיווח על הציון הבית־ספרי 30% 11283",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-11282-externals",
+      "claim": "Questionnaire 11282 (Hebrew: comprehension, expression, 30%) is for repeat examinees and external examinees",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נבחני משנה עברית :הבנה ,הבעה 30% 11282",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-70-external",
+      "claim": "The external bagrut questionnaire grade (weighted with the annual magen grade) is 70% of the student's Hebrew bagrut grade",
+      "claim_type": "percentage",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "התכנים הללו נכללים במפרט התכנים לשאלון הבגרות החיצוני ,והציון בו (בשקלול עם הציון השנתי \"המגן\") יהיה 70%מציון הבגרות של התלמיד.",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-30-varied",
+      "claim": "The 30% program covers comprehension and expression chapters plus selected chapters from syntax or morphology, assessed by varied methods, and its grade is 30% of the bagrut grade",
+      "claim_type": "percentage",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "השליטה בתכנים הללו תיבחן בדרכי הערכה שונות ,והציון יהיה 30%מציון הבגרות של התלמיד",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-30-syntax",
+      "claim": "The 30% program includes selected chapters from one language system: syntax or morphology",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ופרקים נבחרים מאחת המערכות הלשוניות :תחביר או צורות",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-grade10",
+      "claim": "During grade 10, content from both the 30% and the 70% programs is taught",
+      "claim_type": "percentage",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "עולה אפוא שבמהלך כיתה י נלמדים תכנים הכלולים בתוכנית 30%ובתוכנית",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-year",
+      "claim": "The circular is for school year Tashpag, updated November 2022",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "לשנה\"ל תשפ\"ג",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-olim",
+      "claim": "The circular lists a separate questionnaire for new-immigrant repeat examinees",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נבחני משנה לעולים חדשים 11272",
+      "confidence": "high"
+    },
+    {
+      "id": "hat25-date",
+      "claim": "A Ministry accommodations document dated Nisan 5785, April 2025 (ICT subject)",
+      "claim_type": "date",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/tikshuv/hatamot.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "ניסן תשפ\"ה אפריל 2025",
+      "confidence": "high"
+    },
+    {
+      "id": "hat25-annual",
+      "claim": "The document says to check the learning-disabilities division's procedures circular every year",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/tikshuv/hatamot.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש להתעדכן מדי שנה בחוזר הנהלים של אגף לקויות למידה",
+      "confidence": "high"
+    },
+    {
+      "id": "hat25-process",
+      "claim": "Accommodation requests are discussed in a school committee and, where needed, a district accommodations committee or the Melikuyot Lelemida program",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/tikshuv/hatamot.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "בקשות להתאמות ידונו בוועדה בית ספרית ובמידת הצורך במסגרת ועדת התאמות מחוזית או בתוכנית \"מלקויות ללמידה\".",
+      "confidence": "high"
+    },
+    {
+      "id": "hat25-teachers-first",
+      "claim": "Accommodation decisions rest first on the professional assessment of the school's teachers, supported by a diagnosis and not the other way round",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/tikshuv/hatamot.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נשענות בראש ובראשונה על חוות דעת מקצועית של מורי בית הספר ונתמכות על ידי אבחון ולא להיפך",
+      "confidence": "high"
+    },
+    {
+      "id": "hat25-types",
+      "claim": "For the ICT subject, accommodations changing presentation, response and content include playing the questionnaire aloud, typing answers on a computer, an adapted exam and an oral exam",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/tikshuv/hatamot.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "השמעת שאלון הבחינה ,הקלדת תשובות הבחינה על גבי מחשב ,מבחן מותאם ,בחינה בעל פה.",
+      "confidence": "high"
+    },
+    {
+      "id": "circ-11281",
+      "claim": "In the circular's table, general examinees take questionnaire 11281, Hebrew comprehension, expression and language, the 70% questionnaire",
+      "claim_type": "threshold",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmar2022_2023.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "נבחנים כלליים עברית :הבנה ,הבעה ולשון ,שאלון 70% 11281",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-id-field",
+      "claim": "The bagrut notebook cover has a field for the examinee's ID number",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "מס' תעודת הזהות",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-sticker",
+      "claim": "Bagrut notebooks carry examinee stickers printed with the candidate's personal details",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש לוודא כי במדבקות הנבחן שקיבלתם מודפסים פרטיכם האישיים.",
+      "confidence": "high"
+    },
+    {
+      "id": "b11282-sticker-noname",
+      "claim": "The examinee sticker area says the sticker carries no name",
+      "claim_type": "feature",
+      "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Chativa-Elyona/011282-K-01-25.pdf",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "יש להדביק כאן מדבקת נבחן (ללא שם)",
+      "confidence": "high"
+    },
+    {
+      "id": "penal-368d-educators",
+      "claim": "Penal Law סעיף 368ד(ב): an education worker who, through their work, has reasonable grounds to think an offence was committed against a minor by the person responsible for them must report it",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_העונשין",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "רופא, אחות, עובד חינוך, עובד סוציאלי, עובד שירותי רווחה, שוטר, פסיכולוג, קרימינולוג או עוסק במקצוע פרה־רפואי",
+      "confidence": "high"
+    },
+    {
+      "id": "penal-368d-title",
+      "claim": "Section 368D of the Penal Law is titled duty to report",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_העונשין",
+      "source_fetched_at": "2026-10-27T12:00:00Z",
+      "raw_snippet": "368ד. חובת דיווח",
+      "confidence": "high"
+    }
+  ]
+}
