@@ -100,7 +100,7 @@ Rows marked (structural) describe how to reason and carry no figure.
 - [ ] Checking levels: full, sample, submission-only, focused feedback (training summary). Lets
   the teacher choose the depth per task.
 - [ ] Student work may contain AI-written parts (Ministry assessment clause). The skill must not
-  act as an AI-text detector; it can only flag passages for the teacher.
+  work as an AI-text detector; it can only flag passages for the teacher.
 - [ ] Hebrew second-person feedback is gendered (structural). Ask the singular form per code only
   after all scores are frozen; plural as fallback; never infer gender; never stored in the sheet.
 - [ ] Verbatim transcription including spelling errors, or the spelling criterion is meaningless
