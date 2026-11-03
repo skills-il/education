@@ -16,6 +16,8 @@ NEG	לאיזה בית ספר ספציפי ישבצו את הילד שלי?
 EDGE	הצוות הרב-מקצועי בבית הספר החליט משהו שאנחנו לא מסכימים איתו
 EDGE	מה זאת ועדת ערר בחינוך מיוחד?
 EDGE	הזכאות של הילד שלי נגמרת, איך מחדשים?
+POS	הוועדה קבעה ב-2023 זכאות לשלוש שנים, היא הוארכה בגלל המלחמה או שצריך לחדש?
+POS	עד מתי צריך להפנות לוועדה לחידוש זכאות של חשד למוגבלות שכלית התפתחותית?
 
 # RESULTS 2026-09-09
 # split: train = 9 (POS 1-7, NEG 1-2), holdout test = 4 (NEG 3, EDGE 1-3)
@@ -34,3 +36,15 @@ EDGE	הזכאות של הילד שלי נגמרת, איך מחדשים?
 # train 9 of 9 all pass, holdout 4 of 4 all pass. No overfit: the exclusions are boundaries,
 # not trigger phrases, and they were present before the holdout was scored.
 # eval_pass_rate = 1.0, eval_assertions_count = 13
+
+# RESULTS 2026-11-03 (v1.1.0). Query set frozen above BEFORE scoring; two POS added for the new
+# renewal trigger (POS 8 wartime, POS 9 one-year renewal).
+# split: train = 10 (POS 1-8, NEG 1-2), holdout = 5 (NEG 3, EDGE 1-3, POS 9)
+# description change: removed the "Not legal advice" opener (house rule, owner decision
+# 2026-10-08/09) and added "renewal" to WHAT and to the Use-when triggers. No exclusion changed.
+# holdout_before (v1.0.1 description): NEG3 pass, EDGE1 pass, EDGE2 pass, EDGE3 pass,
+#   POS9 FAIL (no renewal trigger, the query names neither the committee nor a decision) = 4/5 = 0.80
+# holdout_after  (v1.1.0 description): 5/5 = 1.00. POS9 now matches "renewing an entitlement".
+# buckets: improved [POS9], regressed [], persistent_fail [], stable_success [NEG3, EDGE1-3]
+# train 10/10. Gate: no regression, after >= 0.90, after >= before. ACCEPT.
+# eval_pass_rate = 1.0, eval_assertions_count = 15

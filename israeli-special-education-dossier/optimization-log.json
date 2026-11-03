@@ -1,0 +1,32 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-11-03",
+      "holdout_before": 0.8,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "עד מתי צריך להפנות לוועדה לחידוש זכאות של חשד למוגבלות שכלית התפתחותית?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "NEG3",
+          "EDGE1",
+          "EDGE2",
+          "EDGE3"
+        ]
+      },
+      "lessons": [
+        "Expert MINOR deferred: optional parents' and student questionnaires (sub-appendices 6.3, 6.4) and presenting documents at the hearing without uploading them (3.7.1(ח)).",
+        "Expert MINOR deferred: team's own calendar (requests by 31 March, discussions 1 March to 15/31 May, basket by 15 June).",
+        "Expert MINOR deferred: wartime law s.1(ג) (finished studies excluded) and s.1(ד) (Ministry duty to notify parents of the extension).",
+        "Expert MINOR deferred: entitlement may not be conditioned on community therapies (3.10.5(ד)); parents may see the harmful-behaviour questionnaire in the override procedure.",
+        "Research MINOR deferred: IEP two-month clock (s.20ז / s.19), ועדת השגה quorum of three, doctor/social-worker request timing in 3.5.3(ד).",
+        "Value-add 2026-11-03: with=1.00 without=0.28 delta=+0.72 PASS (4 workflow cases).",
+        "Open: how the wartime fourth year applies to a one-year (suspected IDD) decision of 2020/21-2022/23 was not established; all such dates have passed."
+      ]
+    }
+  ]
+}

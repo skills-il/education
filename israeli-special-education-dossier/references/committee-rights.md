@@ -8,7 +8,7 @@ current cycle before relying on a date.
 | Right | What it requires | If it is not honoured |
 |---|---|---|
 | Advance disclosure | every document the committee holds and may use, no later than 14 days before the hearing | say so at the hearing and ask for it to be recorded in the protocol; consider asking for a postponement |
-| Invitation and participation | the parents AND the student are invited, and they or someone on their behalf may present arguments and submit documents and opinions | a hearing held without a proper invitation is treated at circular level as defective; raise it immediately |
+| Invitation and participation | the parents AND the student are invited, and they or someone on their behalf may present arguments and submit documents and opinions | the circular says that if the committee met without the parents being invited as required, its decisions are void unless the parent consented in writing to the hearing going ahead without them or accepted an alternative date (and at the objections committee, decisions taken without inviting them are not valid); raise it immediately |
 | A doctor or a social worker | if the parents ask, the committee shall invite a specialist doctor or a social worker | this is mandatory once asked, not discretionary; ask in writing so the request is on file |
 | The protocol | delivered as far as possible at the end of the hearing, and no later than 14 days from the end of the hearing or delivery of the decision, whichever is earlier | chase in writing; the protocol is the record you will need for an appeal |
 | A reasoned written decision | the committee notifies the parents of the decision and its reasons in writing | without reasons the appeal is much harder; ask for them |
@@ -23,13 +23,17 @@ Two limits worth stating honestly to parents:
 - **At the objections hearing** the circular expressly allows the student and parents to bring
   experts or other people on their behalf, including a lawyer, and an interpreter of their own, and
   to ask the chair to summon further parties.
-- **"Members only" is two different things.** At the multidisciplinary team, at the entitlement
-  committee sitting as an appeal on a team decision, and at the objections committee, parents and
-  the student may ASK to present their remarks with only the members present. At the ORDINARY
-  entitlement hearing the same words describe the vote, which is taken without the parents unless
-  the committee decides otherwise, and a member's request to exclude them must be granted.
-- **Representation support**: parents have a right to representation with the assistance of the
-  Commission for Equal Rights of Persons with Disabilities.
+- **Speaking to the members alone** is a right at every stage: at the ordinary entitlement hearing
+  the chair must tell the parents and the student of it; it also exists at the team (for the
+  parents), at the committee sitting on a team appeal, and at the objections committee. It is a
+  different thing from the VOTE at an ordinary hearing, which is taken with members only unless the
+  committee lets the parents stay; a member's request to exclude them for that part must be granted.
+- **Representation support**: where the parents object to a decision overriding their choice of
+  setting (approved by the head of the special education division), the circular gives them a right
+  to representation with the assistance of the Commission for Equal Rights of Persons with
+  Disabilities. It is stated for that case, not as a general right at every objection.
+- **Postponement**: a request by the student or a parent to change the objection hearing date must be
+  granted; the circular caps postponements at two.
 
 The committee may withhold a document or part of the protocol by a reasoned decision recorded in
 the protocol, where the information could endanger the student or another person, and the parents
@@ -39,19 +43,28 @@ must still receive the part of the protocol covering the hearing they attended.
 
 | Step | Decision under challenge | Body | Deadline to file | Body must decide within |
 |---|---|---|---|---|
-| 1 | the school's multidisciplinary team | ועדת זכאות ואפיון | 21 days from receiving the written decision | 21 days |
-| 2 | ועדת זכאות ואפיון | ועדת השגה | 21 days from receiving the decision | 21 days |
+| 1 | the school's multidisciplinary team | ועדת זכאות ואפיון | 21 days from receiving the written decision (circular: the protocol and the decision) | 21 days |
+| 2 | ועדת זכאות ואפיון, including its decision on a team objection | district ועדת השגה | 21 days from receiving the decision (circular: from receiving both the protocol and the reasoned decision in writing) | 21 days |
 | 3 | ועדת השגה | District Court sitting as a court for administrative affairs, by administrative petition | where no other period is set: without delay and not later than 45 days from publication, notice, or knowledge, whichever is earliest | n/a |
 
 Notes that matter in practice:
 
 - The recorded-reasons extension attaches to the deciding body's own 21 days to ANSWER. It does not
   extend the parents' 21 days to FILE. Treat the filing date as hard.
-- The appeal may be filed by the student, a parent, or a representative of a public organisation.
+- Against a committee decision the appeal may be filed by the student, a parent, or a
+  representative of a public organisation. Against a team decision the statute names only the
+  student or a parent.
+- The day of receipt is not counted. A period ending on Shabbat or a statutory holiday carries to
+  the next day (Interpretation Law s.10(c)); file before it anyway.
 - ועדת השגה may accept and vary, remit for a further hearing with or without directions, or reject.
 - Its decision is called final in the statute. That closes the administrative ladder only.
 - Placement is frozen while an appeal is pending. The student stays put.
-- Step 3 is a lawyer's work. Name the route and the fact that legal aid may be available, and stop.
+- At step 3 the court may extend the 45 days, and may dismiss for delay even inside them.
+- Step 3 is a lawyer's work. Name the route and stop.
+- On a team objection the committee hears only the issues raised (others only at the parents'
+  request or with consent), rests on the team's documents and protocol plus documents the parents
+  add, and no team member may sit. If the letter's contact details fail, the objection may be filed
+  in a sealed envelope at the school, the מתי"א or the local authority.
 
 ## Position-paper skeleton
 

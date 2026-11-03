@@ -1,6 +1,6 @@
 ---
 name: israeli-special-education-dossier
-description: "Not legal advice, not a psychological or medical diagnosis, and not a substitute for the professional opinions the committee requires. Prepares an Israeli parent for a special education entitlement and characterization committee (vaadat zakaut ve-ipyun): works out which body decides, which professional's diagnosis is admissible for the disability in question, what the committee must give you before the hearing, a written parent position paper, and the appeal clock. Use when a parent asks about vaadat zakaut ve-ipyun, a special education committee, a sal ishi personal basket, a function level, choosing between a regular class and a special education setting, or challenging a committee decision. Do NOT use for bagrut exam accommodations, Bituach Leumi disabled child allowance, or which specific school a child is assigned to."
+description: "Not a psychological or medical diagnosis, and not a substitute for the professional opinions the committee requires. Prepares an Israeli parent for a special education entitlement and characterization committee (vaadat zakaut ve-ipyun): works out which body decides, which professional's diagnosis is admissible for the disability in question, what the committee must give you before the hearing, a written parent position paper, and the appeal and renewal dates. Use when a parent asks about vaadat zakaut ve-ipyun, a special education committee, a sal ishi personal basket, a function level, choosing between a regular class and a special education setting, renewing an entitlement, or challenging a committee decision. Do NOT use for bagrut exam accommodations, Bituach Leumi disabled child allowance, or which specific school a child is assigned to."
 license: MIT
 ---
 
@@ -38,17 +38,15 @@ annually. Confirm the current cycle's dates before relying on them.
 ## Problem
 
 The rules that decide whether an Israeli child gets special education support were rewritten in
-2018, and most of what a parent finds when they search is describing the system that existed
-before. The committee that decides is no longer called what the old pages call it, the appeal is
-no longer called what the old pages call it, and the parents now hold a right to choose the setting
-that the old pages say belongs to the committee. Parents arrive at a hearing without the one
+2018, and most of what a parent finds online describes the system before: the old names for the
+committee and the appeal, and a choice of setting the old pages give to the committee. Parents arrive at a hearing without the one
 document that makes their file decidable, discover the committee saw material they never got, and
 learn about the appeal clock after it has run.
 
 ## Instructions
 
 Steps 1 to 3 establish who decides and what makes the file decidable. Steps 4 to 6 are the
-preparation itself. Steps 7 to 9 are what happens after the decision.
+preparation itself. Steps 7 to 10 are what happens after the decision.
 
 Terminology first, because it is the most common source of confusion. Since the 2018 amendment:
 
@@ -68,14 +66,20 @@ Two different bodies, and going to the wrong one wastes a cycle.
 - **ועדת זכאות ואפיון** handles everything else, and it is the body that determines a function
   level and an entitlement to special education services.
 
-Each has its own appeal, and the deadlines differ in what they attach to. See step 9.
+Each has its own appeal, and the deadlines differ in what they attach to. See step 9. For a child
+already entitled by the committee who learns in a regular class (autism, for example), the team
+only sets the composition of the basket and the individual programme, and there the parents sit
+as members with one vote. The school must tell parents they may go to the committee regardless of
+the team.
 
 Anyone in this list may refer a case: a parent, a recognised educational institution, a local
 education authority, a public organisation, or a person authorised by the relevant Minister. A
 parent therefore does **not** need the school's agreement to bring the case. Say so explicitly,
 because parents are frequently told otherwise.
 
-The committee sits at the local authority where the student is registered.
+The committee sits at the local authority where the student and parents live. Where separated
+parents live in different authorities and disagree, a court decision governs; failing that, the
+authority where one parent lives and the school is; failing that, where the mother lives.
 
 ### Step 2: Put the annual cycle on a calendar
 
@@ -85,8 +89,10 @@ The cycle is fixed and unforgiving, and a missed referral date usually costs a f
 |---|---|
 | Referral to the committee | by 31 March |
 | Multidisciplinary team discussions open | 1 March |
+| Committee hearings open | early November; November to January is available for renewals |
 | Committee discussions conclude, school students | by 15 May |
-| Committee discussions conclude, kindergarten and incoming first grade | by 31 May |
+| Committee discussions conclude, kindergarten children | by 31 May |
+| Parents may still change their choice of setting type | until 25 June |
 | Decision takes effect | the FOLLOWING school year, except in listed exceptional cases |
 
 Two ways to move within the cycle:
@@ -97,10 +103,19 @@ Two ways to move within the cycle:
 - **Off-cycle committee.** Available in defined situations including discharge from hospital,
   leaving a boarding school, arrival as a new immigrant or returning resident after the referral
   date, accident or trauma, and exceptional emergency circumstances on a social worker's opinion.
+  A district committee may also approve one for listed disabilities (autism among them) on an
+  exceptional deterioration in functioning, or a first year arriving from a private setting.
   An updated or new diagnosis on its own is **not** an exceptional circumstance. A refusal must be
   reasoned.
 
-Confirm the current year's dates against the Ministry circular. They are re-issued annually.
+The law covers ages 3 to 21. A child who turns 3 by 31 December (inclusive) may start in a
+recognised special education kindergarten that school year, if the committee found the child
+entitled and the parents chose a special education setting. Parents of a 2-year-old therefore work
+to the same 31 March referral date.
+
+The dates above come from the standing circular and recur every year: for the cycle now running
+they are referral by 31 March 2027 and hearings by 15 May 2027 (31 May for kindergarten). Confirm
+against the Ministry circular before relying on them.
 
 ### Step 3: Get the admissible diagnosis, from the admissible professional
 
@@ -114,20 +129,27 @@ excellent report from the wrong profession is the most common reason a file cann
 | מוגבלות שכלית-התפתחותית | the statutory diagnostic committee, plus another professional where needed |
 | חשד למוגבלות שכלית-התפתחותית | educational, developmental or clinical psychologist |
 | הפרעות התנהגותיות ורגשיות | educational, developmental or clinical psychologist, or a child and adolescent psychiatrist |
-| מוגבלות על רצף האוטיזם | child and adolescent psychiatrist, an experienced paediatrician at a child development institute, or a child neurology and development specialist; plus, at the first diagnosis, a psychologist qualified in the field |
+| מוגבלות על רצף האוטיזם | child and adolescent psychiatrist, a paediatrician with at least three years' experience at a child development institute, or a child neurology and development specialist; PLUS, at the first diagnosis, a clinical psychologist specialising in the child clinical field, a developmental psychologist, or a rehabilitation or educational psychologist with proven training in autism. A psychologist outside that list does not complete the file |
 | הפרעות נפשיות | child and adolescent psychiatrist |
 | לקות למידה רב-בעייתית | educational psychologist, a specialist psychologist trained in learning disabilities, or a specialist psychologist together with a didactic assessor |
-| AD(H)D | specialist psychologist, child neurology and development specialist, child and adolescent psychiatrist, or an experienced paediatrician at a recognised child development institute |
-| מוגבלות פיזית | experienced paediatrician at a recognised child development institute, or a child neurology and development specialist |
+| AD(H)D | specialist psychologist, child neurology and development specialist, child and adolescent psychiatrist, or a paediatrician with at least three years' experience at a recognised child development institute |
+| מוגבלות פיזית | paediatrician with at least three years' experience at a recognised child development institute, or a child neurology and development specialist |
 | מוגבלות שמיעה | speech and language clinician qualified in audiology |
 | מוגבלות ראייה | low vision institute or an ophthalmologist |
 | עיכוב התפתחותי בתחום התפקודי | child neurology and development specialist, or an educational or developmental psychologist, together with a speech clinician or occupational therapist |
 | עיכוב התפתחותי בתחום השפתי | speech and language clinician at a child development institute |
-| מחלות ותסמונות נדירות | experienced paediatrician at a recognised child development institute, or a child neurology and development specialist |
+| מחלות ותסמונות נדירות | paediatrician with at least three years' experience at a recognised child development institute, or a child neurology and development specialist |
 
 Check the parent's existing reports against this table first, and name the gap plainly if there is
 one. Vision and hearing tests are separately required for a first referral, and current tests are
 required at every hearing for a student with a hearing or vision disability.
+
+The document's AGE matters as much as its author for two groups. For **הפרעות נפשיות**, every
+hearing needs a document from the admissible professional updated after the previous committee, and
+at a first referral the document must have been written within one year before the committee
+convenes. For **suspected intellectual developmental disability**, the one-year characterisation
+(step 10) needs an updated admissible document at renewal. Other renewing students may reuse the
+admissible document from an earlier committee.
 
 The parents must sign a confidentiality waiver for documents to reach the committee. Where the
 parents are separated or divorced, **both** signatures are needed.
@@ -152,20 +174,17 @@ These are statutory and they are routinely not exercised.
   no later than 14 days from the end of the hearing or from delivery of the decision, whichever is
   earlier.
 
-- **Know what "members only" means, because it means two opposite things.** At the school's
-  multidisciplinary team, at the entitlement committee sitting as an appeal on a team decision, and
-  at the objections committee, parents and the student are entitled to ASK to present their remarks
-  in the presence of the members only, without the other participants, and may appoint people to
-  speak for them or alongside them. That is a parent-side right and almost nobody uses it. At the
-  ORDINARY entitlement hearing the same words describe something else entirely: the vote and final
-  decision are taken with the committee members only. The committee may allow the parents to stay,
-  but if any member asks for that part to be held without them, the request must be granted. Do not
-  ask for a "members only" session at an ordinary entitlement hearing; there it is the mechanism
-  that puts you out of the room, not a right you hold. The documentation of that stage still goes
-  into the protocol delivered to you.
+- **Speaking to the members alone is a right at every stage.** At the ordinary entitlement hearing
+  the chair must tell the parents and the student of their right to speak before the committee
+  members only, without the other invitees; the same right exists at the team (for the parents),
+  at the committee sitting on a team appeal, and at the objections committee. Use it when the
+  school's people in the room make candour hard. Do not confuse it with the VOTE: at an ordinary
+  hearing the vote and final decision are taken with members only, the committee may let you stay,
+  and a member's request that you leave for that part must be granted. The vote stage is still
+  documented in the protocol you receive.
 
-Do not tell parents they may record the hearing. No such right was found in the statute or the
-circular. What exists is the written protocol and the duty to deliver it.
+Do not tell parents they may record the hearing; no such right was found. The record is the
+written protocol.
 
 ### Step 5: Build the parent position paper
 
@@ -197,7 +216,12 @@ the part most summaries get wrong by stating a flat "the parents choose".
 | Situation | Entitlement | Parents' choice of setting type |
 |---|---|---|
 | לקות למידה רב-בעייתית (which the Second Schedule groups together with AD(H)D), עיכוב התפתחותי שפתי or תפקודי, הפרעות התנהגותיות ורגשיות at level 1 or 2; הפרעה נפשית or משכל גבולי at level 1 | services from the inclusion basket in a regular class | **none** |
-| the same disabilities at level 3 or 4; הפרעה נפשית or משכל גבולי at levels 2 to 4; and מוגבלות שכלית-התפתחותית, autism, physical, hearing, vision and rare diseases at any level | entitlement to special education services | **yes**, from the three setting types |
+| the same disabilities at level 3 or 4; הפרעה נפשית or משכל גבולי at levels 2 to 4; and מוגבלות שכלית-התפתחותית, SUSPECTED מוגבלות שכלית-התפתחותית, autism, physical, hearing, vision and rare diseases at any level | entitlement to special education services | **yes**, from the three setting types |
+
+The "none" row comes from s.7(b)(5): where the decision is an individual or group answer only, the
+student learns in a regular class. The Second Schedule gives suspected intellectual developmental
+disability at least 16 aide hours a week at every level, so it is never in the "none" row, whatever
+a secondary summary says.
 
 Where the choice exists the three types are a regular kindergarten or class, a class in a regular
 institution where special education services are given, and a special education kindergarten or
@@ -227,20 +251,26 @@ hearing is a route as well as an objection, subject to the timing rules in step 
 Where the parents have a choice, they must notify the committee **within 14 days** of learning of
 the determination. Diarise this the day the decision arrives. If the parents miss it, the committee
 may decide the setting itself, and when it does it must give priority to integration in a regular
-school.
+school. The 14 days are for the first notice: the circular lets parents CHANGE the chosen setting
+type until 25 June (after an off-cycle committee, within 14 days of their notice), and not after.
 
 The committee may override the parents' choice only on a narrow path: a real fear of substantial
-harm to the student or others based on treatment-provider opinions, after giving the parents 14 days
-to state their position, and with the approval of the head of the special education division at the
-Ministry or the deputy. That override decision is itself appealable.
+harm to the student or others based on treatment-provider opinions, after giving the parents an
+opportunity to state their position within 14 days of the committee receiving their choice, and
+with the approval of the head of the special education division at the Ministry or the deputy. The
+circular adds a second committee hearing within 14 days of the parents' position, where parents and
+school both speak; the division head may approve the override or reject it and adopt the parents'
+choice. That override decision is itself appealable, and in that case the circular gives the
+parents a right to representation with the assistance of the Commission for Equal Rights of
+Persons with Disabilities.
 
 At a re-hearing decided on documents alone, the committee does **not** hold this override power.
 
 ### Step 8: Placement is a separate stage, and it freezes during an appeal
 
 The committee does not decide which specific school or kindergarten the child attends. That is the
-local authority's placement team, and parents are not invited to it. The chair is supposed to say
-so at the hearing.
+local authority's placement team, not the committee, and the chair is supposed to say so at the
+hearing.
 
 Placement for a student with a pending השגה starts only after the ועדת השגה has decided, and in
 exceptional cases only after a court process. Until then the student stays where they are, or
@@ -251,14 +281,20 @@ their child is moved in the meantime.
 
 | Decision | Appeal to | Deadline | They must decide within |
 |---|---|---|---|
-| the school's multidisciplinary team | ועדת זכאות ואפיון | 21 days from receiving the written decision | 21 days from filing |
-| ועדת זכאות ואפיון | ועדת השגה | 21 days from receiving the decision | 21 days from filing |
+| the school's multidisciplinary team | ועדת זכאות ואפיון | 21 days from receiving the written decision (the circular: the protocol AND the decision) | 21 days from filing |
+| ועדת זכאות ואפיון, including when it sat on a team appeal | ועדת השגה | 21 days from receiving the decision (the circular: from receiving BOTH the protocol and the reasoned decision in writing) | 21 days from filing |
+
+Diarise from the day the decision letter arrived. If the protocol came later, the circular's clock
+starts later, but treat the earlier date as the deadline and use the later one only as an argument
+if you are already late. The day of receipt is not counted. If the last day falls on Shabbat or a
+statutory holiday, חוק הפרשנות s.10(ג) carries the deadline to the next day; do not plan on it.
 
 The extension for special recorded reasons attaches to the DECIDING BODY's 21 days to answer, not
 to the parents' 21 days to file. Nothing in the statute lets the filing window be extended, so treat
 the filing date as hard.
 
-The השגה may be filed by the student, a parent, or a representative of a public organisation.
+Against a COMMITTEE decision the השגה may be filed by the student, a parent, or a representative of
+a public organisation; against a TEAM decision the statute names only the student or a parent.
 ועדת השגה must invite the parents and the student and let them, or someone on their behalf, present
 their arguments. It may accept the השגה and vary the decision, remit the matter for a further
 hearing with or without directions, or reject it.
@@ -272,22 +308,21 @@ and recommends sending them to the chair before the hearing.
 
 So, concretely:
 
-- Put the new opinions in the objection request itself. The request is to include the details of
-  the objection together with the documents you wish to present that were not previously submitted,
-  and you may bring those documents to the hearing without sending them in advance. Sending them to
-  the chair ahead of time is recommended and is the safer course.
-- Use the same request to ask for **accessibility, translation or mediation** if you need any of
-  them. The request form provides for it.
-- **You may bring people.** The student and parents may bring experts or other people on their
-  behalf, expressly including a lawyer, to present their arguments, and an interpreter of their
-  own. You may also ask the chair to summon further parties, and the chair arranges it.
-- **You may ask to speak to the members alone at THIS stage.** Parents and the student are
-  entitled to ask to present their remarks in the presence of the committee members only, and may
-  appoint people to speak for them or alongside them. See the caution in step 4: at an ordinary
-  entitlement hearing the same phrase means the opposite.
-- **Representation support exists.** Parents have a right to representation with the assistance of
-  the Commission for Equal Rights of Persons with Disabilities.
+- Put the new opinions in the objection request itself, with the details of the objection. You may
+  also bring them to the hearing unsent, but sending them to the chair first is safer.
+- Use the same request to ask for **accessibility, translation or mediation**.
+- **You may bring people**: experts or others on your behalf, expressly including a lawyer, and your
+  own interpreter, and you may ask the chair to summon further parties.
+- **You may ask to speak to the members alone**, and appoint people to speak for you (step 4).
+- **You may ask to move the date.** A request by the student or a parent to change the objection
+  hearing date must be granted, and the circular caps postponements at two.
 - The hearing cannot be held without the objecting party present and participating.
+
+**On a TEAM decision** the committee hears only the issues you raised (others only at your request
+or with your consent), it rests on the team's documents and protocol plus the documents you add,
+and no member of the team may sit. If the contact details in the letter fail, the circular lets you
+file in a sealed envelope at the school, the מתי"א or the local authority. The committee's decision
+on that objection can itself go to the district ועדת השגה.
 
 A further hearing (דיון חוזר) before the deciding committee remains an alternative route, subject
 to the timing rules in step 10. But filing an objection on exactly the record that produced the
@@ -296,30 +331,49 @@ appeal in this area.
 
 The statute calls the ועדת השגה decision final. That ends the administrative ladder, not the matter:
 an administrative petition lies to the District Court sitting as a court for administrative
-affairs, and legal aid may be available. Where no other period is prescribed, the court rules
+affairs (education decisions are in the First Schedule to the Administrative Courts Law). Where no other period is prescribed, the court rules
 require the petition without delay and not later than 45 days from the day the decision was duly
 published, from the day the petitioner received notice of it, or from the day they learned of it,
-whichever is EARLIEST. Confirm that date with a lawyer immediately, because it runs from the
+whichever is EARLIEST. The court may extend the period, and may also dismiss a petition for delay
+even inside the 45 days. Confirm the date with a lawyer immediately, because it runs from the
 earliest of three events. Say the route exists and stop there. Do not draft the petition.
 
 ### Step 10: Duration and renewal
 
 Entitlement generally runs for three years, and the head of the institution must bring the case back
-once every three years under the statute. **Every SUSPECTED intellectual developmental disability
-characterisation is different: it is recorded as valid for ONE year only.** That covers suspected
-mild, suspected moderate, and suspected severe or profound. The mild code is marked only where there
-is no reference from a committee for diagnosing intellectual developmental disability; the moderate
-and severe codes are marked until such a reference is received. Suspected intellectual developmental
-disability appears in the step 3 table, so check the characterisation before telling any parent they
-have three years. Getting this wrong means the family does not diarise a renewal that falls due two
-years early.
+once every three years under the statute. **Count it in SCHOOL YEARS, not from the decision date.**
+A decision in the spring cycle takes effect the following September, and a renewal is an ordinary
+hearing inside the fixed cycle, so it must be REFERRED by 31 March of the last school year the
+entitlement covers. A three-year entitlement decided in May 2026 covers 2026/27 to 2028/29: refer by
+31 March 2029.
+
+**Every SUSPECTED intellectual developmental disability characterisation (mild, moderate, severe
+or profound) is valid for ONE year only**, so check the characterisation before telling any parent
+they have three years. A one-year characterisation decided in May 2026 covers 2026/27 only, so the
+renewal referral is due by 31 March 2027, not "a year after the hearing" in May 2027, which is past
+both the referral date and the 15 May close.
+
+**Wartime extension.** חוק חינוך מיוחד (הוראת שעה – חרבות ברזל) (הארכת זכאות), התשפ"ד-2023 adds
+one school year to every entitlement decided by a ועדת זכאות ואפיון or ועדת השגה in school years
+2020/21 to 2022/23: the period is treated as four years and the head of the institution is exempt
+from the re-hearing. It does NOT apply to a student whose first entitlement year was 2022/23 or
+2023/24, for whom three years have passed since the previous decision, and who next year moves from
+compulsory kindergarten to primary, primary to middle school, primary to upper secondary, or middle
+to upper secondary. A spring 2023 decision for a child staying in the same stage therefore runs to
+2026/27, with renewal in the spring 2027 cycle. An early re-hearing under s.10(b) remains available.
+
+**Renewal without attending.** Where the student and parents want the same type of setting and the
+same basket, the circular allows the renewal to be held with committee members only, if the parents
+consent by signing the form in sub-appendix 6.5 after a meeting at the school. Signing waives your
+attendance. Refuse it if you want to argue for anything different.
 
 An earlier re-hearing may be initiated by the head of the institution, a parent, or a public
 organisation, provided a year has passed since the decision. One earlier occasion is permitted
-before that year has passed, and further occasions with district manager approval.
+before that year has passed, and further occasions with district manager approval (the circular
+says two more).
 
 On moving between age stages or institutions, the existing programme's goals and supports continue
-at the same scope until the receiving setting holds its own discussion.
+at the same scope until the receiving setting holds its own discussion, by the end of October at the latest.
 
 ## Recommended MCP Servers
 
@@ -337,6 +391,10 @@ at the same scope until the receiving setting holds its own discussion.
   telling a parent they may choose.
 - **Saying three function levels.** There are four.
 - **Quoting 30 days for the appeal.** It is 21 days, at both stages.
+- **Counting renewal from the decision date.** Entitlement runs by school year and the renewal must
+  be referred by 31 March of its last year. "One year after the hearing" lands after the cycle closed.
+- **Missing the wartime extension.** Entitlements decided in 2020/21 to 2022/23 carry a fourth year,
+  except for the stage-transition carve-out. Telling such a parent the entitlement expired is wrong.
 - **Bringing the wrong professional's report.** The admissible professional is fixed per disability
   by the First Schedule. A superb report from the wrong discipline does not make the file decidable.
 - **Telling a parent the hearing may be recorded.** No such right was found. The protocol is the
@@ -349,13 +407,16 @@ at the same scope until the receiving setting holds its own discussion.
 - `references/committee-rights.md`: the pre-hearing rights, the appeal ladder with deadlines, and
   the position-paper skeleton.
 - `scripts/deadline_calc.py`: given a decision date and the decision type, prints the appeal
-  deadline, the setting-choice deadline and the renewal window. Pure date arithmetic, no network.
+  deadline, the setting-choice deadlines, and the renewal referral date counted by school year
+  (including the wartime fourth year). Flags a deadline that lands on a Saturday. Pure date
+  arithmetic, no network.
 
 ## Reference Links
 
 | Source | URL | What to Check |
 |---|---|---|
 | חוק חינוך מיוחד | https://he.wikisource.org/wiki/חוק_חינוך_מיוחד | ss. 7, 8, 9, 10, 11, 13, 20ה and the First and Second Schedules |
+| Wartime extension law, 2023 | https://he.wikisource.org/wiki/חוק_חינוך_מיוחד_(הוראת_שעה_–_חרבות_ברזל)_(הארכת_זכאות) | which decision years get a fourth year, and the stage-transition carve-out |
 | Ministry of Education circular | https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385 | the current cycle's dates, function levels and the choice table |
 | Ministry portal, entitlement committee | https://pob.education.gov.il/students/main-special-education/entitlement-committee/ | forms and the current procedure |
 | Kol Zchut, entitlement and characterization committee | https://www.kolzchut.org.il/he/ועדת_זכאות_ואפיון_לשירותי_חינוך_מיוחדים | plain-language summary and adjacent rights |
@@ -369,4 +430,5 @@ at the same scope until the receiving setting holds its own discussion.
 | The parents never saw material the committee relied on | the 14-day pre-hearing disclosure duty was not met | raise it at the hearing and have it recorded in the protocol |
 | The parents were told they cannot choose the setting | may be correct, depending on disability and function level | check the table in step 6 before challenging |
 | The appeal was rejected as late | the window is 21 days, not 30, and it is hard | the recorded-reasons extension applies to the body's time to ANSWER, not to your time to file; do not promise it as a remedy |
+| A parent was told the entitlement ended in June 2026, but it was decided in 2022/23 | the wartime law added a fourth school year | check the stage-transition carve-out in step 10; if it does not apply, the renewal belongs to the spring 2027 cycle |
 | A parent asks what to do after the ועדת השגה | an administrative petition lies to the District Court | say the route exists, with its deadlines, and refer to a lawyer |

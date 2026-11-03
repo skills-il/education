@@ -4,7 +4,7 @@ The coverage contract. A future update run reads this and flags any Must-cover i
 SKILL.md. The full research checklist, with every source URL and the verbatim statute quotations,
 is held outside the published skill folder; citations live in evidence.json.
 
-Checklist version: 1. Generated 2026-09-09.
+Checklist version: 2. Generated 2026-09-09, revised 2026-11-03 (v1.1.0 cycle).
 
 ## Must cover (core)
 
@@ -74,7 +74,8 @@ Checklist version: 1. Generated 2026-09-09.
       including the priority to integration.
 - [ ] The narrow override path, its three cumulative conditions, and that it is itself appealable.
 - [ ] That a documents-only re-hearing carries no override power.
-- [ ] That placement is a separate stage at the local authority which parents do not attend.
+- [ ] That placement is a separate stage, decided by the local authority's placement team, not the
+      committee.
 - [ ] That placement is frozen while an appeal is pending and the student stays put. Why core:
       parents believe the opposite and it changes whether they appeal at all.
 - [ ] Both appeal deadlines and both decision deadlines, with the recorded-reasons extension.
@@ -86,6 +87,21 @@ Checklist version: 1. Generated 2026-09-09.
       severe or profound alike, is valid for one year only rather than three. Why core: a family
       told three years does not diarise a renewal that falls due two years early.
 - [ ] Continuity of goals and supports across a transition between stages or institutions.
+- [ ] That entitlement is counted in SCHOOL YEARS and a renewal must be REFERRED by 31 March of the
+      last covered school year, not "decision date plus N". Why core: a one-year characterisation
+      decided in May renewed "a year later" misses the cycle and loses a school year.
+- [ ] The wartime extension law (התשפ"ד-2023): decisions of 2020/21 to 2022/23 carry a fourth
+      school year, with the stage-transition carve-out. Why core: live in the 2027 cycle; parents
+      are told the entitlement expired when it did not, or the reverse.
+- [ ] That the parents may CHANGE their setting choice until 25 June (off-cycle: 14 days from
+      their notice), not only the 14-day first notice.
+- [ ] The renewal hearing held with committee members only on parental consent (sub-appendix 6.5),
+      and that signing waives attendance.
+- [ ] Document-age rules: הפרעות נפשיות need an updated admissible document at every hearing and
+      one under a year old at first referral; suspected intellectual developmental disability
+      needs an updated document at renewal.
+- [ ] The age range 3 to 21, and the 31 December cut-off for starting special education
+      kindergarten at age 3.
 
 ## Should cover
 - [ ] The individual educational programme as the instrument that carries accommodations.
@@ -93,22 +109,29 @@ Checklist version: 1. Generated 2026-09-09.
 - [ ] Arrangements where parents are separated or divorced, including venue and separate hearings.
 - [ ] The parents' membership of the multidisciplinary team when the service basket and the
       individual programme are set.
-- [ ] That "in the presence of the members only" means TWO OPPOSITE things. It is a parent-side
-      right to ask for at the multidisciplinary team, at the entitlement committee sitting as an
-      appeal on a team decision, and at the objections committee. At the ORDINARY entitlement
-      hearing it is the vote stage, taken without the parents unless the committee decides
-      otherwise, and a member's request to exclude them must be granted. Why core: telling a parent
-      to ask for it at the ordinary hearing asks them to request their own removal from the room.
+- [ ] That the right to speak before the members only exists at EVERY stage, including the ordinary
+      entitlement hearing (the chair must inform the parents and student of it), and is distinct from
+      the members-only VOTE at an ordinary hearing. Corrected 2026-11-03: v1.0.x told parents not to
+      ask for it at the ordinary hearing, contrary to the circular.
+- [ ] The venue: the authority where the student and parents live, with the separated-parents rule.
+- [ ] The second objection tier on the TEAM path: the committee's decision on a team objection goes
+      to the district ועדת השגה; the team-objection hearing is limited to the issues raised, admits
+      new parent documents, and excludes team members.
 - [ ] The right at the objections hearing to bring experts and other people on your behalf,
       expressly including a lawyer, and your own interpreter, and to ask the chair to summon others.
 - [ ] The representation support available through the Commission for Equal Rights of Persons with
       Disabilities.
 - [ ] That the objections hearing cannot be held without the objecting party present.
 - [ ] The referral and function-level questionnaires, and that a copy is delivered to the parents.
+- [ ] The objection-hearing postponement right (granted on request, at most two postponements).
+- [ ] That the circular dates the objection clock from receipt of the protocol AND the reasoned
+      decision, while the safe deadline is from the decision letter.
+- [ ] A deadline ending on a statutory rest day carries to the next day (Interpretation Law
+      s.10(c)), flagged but not relied on.
 
 ## Out of scope (explicit, with rationale)
-- Which specific institution the child attends. Decided by the local authority's placement team,
-  which the parents do not attend. Cover the handoff and the freeze rule only.
+- Which specific institution the child attends. Decided by the local authority's placement team.
+  Cover the handoff and the freeze rule only.
 - Bagrut examination accommodations. A different circular and decision-maker.
 - Bituach Leumi disabled child allowance, rehabilitative day care funding, and transport rates.
   Separate statutes and separate eligibility bodies.
@@ -116,6 +139,11 @@ Checklist version: 1. Generated 2026-09-09.
 - Private diagnostic providers, their pricing and waiting lists. Commercial and non-statutory.
 - Legal advice on a specific child's case, and drafting a court petition. Regulated-profession
   exposure. The skill produces preparation materials, not a pleading.
+
+Re-litigated 2026-11-03: every row above was re-checked. A parent may plausibly ask about the
+specific school and about transport; both remain out of scope because separate bodies decide them,
+and the skill names the handoff. Bagrut accommodations and the BTL allowance have their own skills
+and statutes. None of the rows became capturable from a primary source in this cycle.
 
 ## Open items, do not invent these
 - The phased-commencement order for the amendment. Its own wording was not read, so no clause
@@ -125,4 +153,7 @@ Checklist version: 1. Generated 2026-09-09.
   them to the circular and they were not extracted row by row.
 - Any appeal route against a placement-team decision. Not established from a primary source.
 
-- Year-specific wartime renewal guidance. Tell the parent to check the current year.
+- Whether the wartime fourth year applies to a ONE-YEAR (suspected intellectual developmental
+  disability) decision of 2020/21 to 2022/23. The statute speaks of the period "treated as four
+  years"; how the Ministry applied it to one-year decisions was not established. All such decisions
+  have in any case run out by now.
