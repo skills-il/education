@@ -113,7 +113,7 @@ def renewal_lines(decision_date, years, same_year, today):
 
 
 def report(decision_date, source, has_choice=False, hearing_date=None, one_year=False,
-           same_year=False, today=None, off_cycle=False):
+           same_year=False, today=None, off_cycle=False, notified_on=None):
     today = today or date.today()
     out = []
     decided_by, appeal_to = BODY[source]
@@ -153,11 +153,20 @@ def report(decision_date, source, has_choice=False, hearing_date=None, one_year=
             change = date(school_year_end(decision_date), *CHOICE_CHANGE_UNTIL)
             if is_off_cycle(decision_date, same_year, off_cycle):
                 out.append("  Off-cycle committee: you may CHANGE the chosen setting type only within 14 days")
-                out.append("  of the day you deliver your choice, so at the latest: %s"
-                           % fmt(cd + timedelta(days=CHOICE_DAYS), statutory=False))
+                out.append("  of the date you delivered your choice to the committee.")
+                if notified_on:
+                    out.append("  You delivered it on %s, so change by: %s"
+                               % (notified_on.isoformat(),
+                                  fmt(notified_on + timedelta(days=CHOICE_DAYS), statutory=False)))
+                else:
+                    out.append("  If you deliver it on %s (the last day), that is %s; earlier delivery means an"
+                               % (cd.isoformat(), (cd + timedelta(days=CHOICE_DAYS)).isoformat()))
+                    out.append("  earlier limit. Pass --notified-on YYYY-MM-DD for your exact date.")
             elif decision_date > change:
                 out.append("  The 25 June change date for this cycle has passed: no change of setting type is")
                 out.append("  possible after your notice, so decide before you notify.")
+                out.append("  If this was an off-cycle decision (ועדה חריגה), re-run with --off-cycle: you may")
+                out.append("  still have 14 days from delivering your choice to change it.")
             else:
                 out.append("  You may CHANGE the chosen setting type until: %s  (circular date)"
                            % fmt(change, statutory=False))
@@ -238,8 +247,9 @@ def report(decision_date, source, has_choice=False, hearing_date=None, one_year=
         out.append("  The circular allows a further objection to the district ועדת השגה, filed per the")
         out.append("  details in the decision letter. Diarise 21 days from receiving that decision, as for")
         out.append("  any entitlement-committee decision (s.13(a)), the day of receipt not counted. A team")
-        out.append("  objection carries no setting choice; this tool does not compute choice or renewal")
-        out.append("  dates for a decision on a team objection.")
+        out.append("  objection carries no setting choice. A team entitlement still runs three years and")
+        out.append("  then needs a renewal discussion (circular 2.10.14); this tool does not compute that")
+        out.append("  date for a team decision, so diarise it from the team's own decision.")
     return out
 
 
@@ -257,6 +267,8 @@ def main():
                    help="off-cycle decision implemented in the current school year")
     p.add_argument("--off-cycle", action="store_true",
                    help="decision of an off-cycle committee (ועדה חריגה), whenever implemented")
+    p.add_argument("--notified-on",
+                   help="with --off-cycle: the date you delivered your choice, as YYYY-MM-DD")
     p.add_argument("--hearing-date", help="optional hearing date, to check the disclosure deadline")
     p.add_argument("--today", help="override today's date (YYYY-MM-DD), for testing")
     p.add_argument("--example", action="store_true")
@@ -272,8 +284,9 @@ def main():
     if not a.decision_date:
         p.error("--decision-date is required (or use --example)")
     hearing = parse_date(a.hearing_date, "--hearing-date") if a.hearing_date else None
+    notified = parse_date(a.notified_on, "--notified-on") if a.notified_on else None
     for line in report(parse_date(a.decision_date, "--decision-date"), a.source, a.has_choice,
-                       hearing, a.one_year, a.same_year, today, a.off_cycle):
+                       hearing, a.one_year, a.same_year, today, a.off_cycle, notified):
         print(line)
 
 

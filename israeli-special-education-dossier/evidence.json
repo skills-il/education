@@ -1216,6 +1216,18 @@
       ],
       "claim_type": "law",
       "confidence": "high"
+    },
+    {
+      "claim_id": "team-entitlement-three-years",
+      "claim": "A team entitlement is set for three years, with an earlier discussion on a material change or at the parents' request",
+      "source_url": "https://apps.education.gov.il/Mankal/Horaa.aspx?siduri=385",
+      "raw_snippet": "הזכאות לשירותי חינוך מיוחדים נקבעת לשלוש שנים, אלא אם יעריך הצוות הרב-מקצועי כי חל שינוי מהותי בצורכי התלמיד או בתפקודו או אם התלמיד או הוריו ביקשו לקיים דיון נוסף",
+      "fetched_at": "2026-11-03T18:00:00Z",
+      "appears_in": [
+        "scripts/deadline_calc.py"
+      ],
+      "claim_type": "law",
+      "confidence": "high"
     }
   ]
 }

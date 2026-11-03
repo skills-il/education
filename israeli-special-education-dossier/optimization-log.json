@@ -1,7 +1,7 @@
 {
   "cycles": [
     {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "date": "2026-11-03",
       "holdout_before": 0.8,
       "holdout_after": 1.0,
@@ -25,7 +25,8 @@
         "Expert MINOR deferred: entitlement may not be conditioned on community therapies (3.10.5(ד)); parents may see the harmful-behaviour questionnaire in the override procedure.",
         "Research MINOR deferred: IEP two-month clock (s.20ז / s.19), ועדת השגה quorum of three, doctor/social-worker request timing in 3.5.3(ד).",
         "Value-add 2026-11-03: with=1.00 without=0.28 delta=+0.72 PASS (4 workflow cases).",
-        "Open: how the wartime fourth year applies to a one-year (suspected IDD) decision of 2020/21-2022/23 was not established; all such dates have passed."
+        "Open: how the wartime fourth year applies to a one-year (suspected IDD) decision of 2020/21-2022/23 was not established; all such dates have passed.",
+        "Expert r3 MINOR applied in 1.1.1: off-cycle change limit now keyed to the actual delivery date (--notified-on)."
       ]
     }
   ]

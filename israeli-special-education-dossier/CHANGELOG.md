@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.1.1 (2026-11-03)
+
+Script wording, from the final review round.
+
+- Off-cycle choice changes: the script printed one "at the latest" date that assumed the choice was
+  delivered on the last notice day. It now states the rule (14 days from delivering the choice),
+  shows that date as the last-day case only, and accepts --notified-on for the exact date.
+- "25 June has passed" now adds that an off-cycle decision may still allow 14 days (--off-cycle).
+- Team branch no longer reads as "no renewal": a team entitlement also runs three years and then
+  needs a renewal discussion (circular 2.10.14).
+
 ## 1.1.0 (2026-11-03)
 
 First full review since publication.
