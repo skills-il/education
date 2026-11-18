@@ -26,7 +26,7 @@ reviewed rather than whatever is newest:
 from transformers import AutoModel, AutoTokenizer
 
 REPO = "dicta-il/dictabert-large-char-menaked"
-REV = "4dfc20b94565d7868e1c8c00bf039d38c071a062"  # the revision this skill was tested with
+REV = "<full hash of commit 4dfc20b>"  # copy it from the model's Commits page; the revision this skill was tested with
 
 tokenizer = AutoTokenizer.from_pretrained(REPO, revision=REV)
 model = AutoModel.from_pretrained(REPO, revision=REV, trust_remote_code=True)

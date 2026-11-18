@@ -54,6 +54,15 @@ SIZES = {"a5": (148, 210), "square": (210, 210)}
 NIQQUD = [chr(c) for c in range(0x05B0, 0x05BD)] + ["ׁ", "ׂ", "ׇ"]
 
 
+def safe_path(base_dir, rel):
+    """Resolve a path from story.json and refuse anything outside the story's folder."""
+    base = os.path.realpath(base_dir)
+    full = os.path.realpath(os.path.join(base, rel))
+    if os.path.commonpath([base, full]) != base:
+        sys.exit(f"ERROR: {rel} is outside the story folder. Put pictures and fonts next to story.json.")
+    return full
+
+
 def esc(s):
     return html.escape(s or "", quote=True)
 
@@ -68,7 +77,7 @@ def image_src(path, base_dir, embed):
         return None
     if path.startswith(("http://", "https://")):
         sys.exit(f"ERROR: image {path} is a web address. Download it next to the story file first.")
-    full = os.path.join(base_dir, path)
+    full = safe_path(base_dir, path)
     if not os.path.exists(full):
         print(f"WARNING: image not found: {full} (the page will show an empty frame)", file=sys.stderr)
         return None
@@ -101,7 +110,7 @@ def font_css(story, base_dir):
     family = story.get("font") or "Noto Sans Hebrew"
     ff = story.get("font_file")
     if ff:
-        full = os.path.join(base_dir, ff)
+        full = safe_path(base_dir, ff)
         with open(full, "rb") as f:
             data = base64.b64encode(f.read()).decode("ascii")
         fmt = "opentype" if full.lower().endswith(".otf") else "truetype"
@@ -246,7 +255,7 @@ def main():
             print(f"WARNING: page {n} has {words} words, more than the {max_words} this text size fits well. "
                   "Split the page or use a smaller text_size.", file=sys.stderr)
     if story.get("font_file"):
-        check_font_file(os.path.join(base_dir, story["font_file"]), all_text)
+        check_font_file(safe_path(base_dir, story["font_file"]), all_text)
     if not any(ch in all_text for ch in NIQQUD):
         print("NOTE: the text has no niqqud. Fine for a read-aloud book; a first reader needs it.", file=sys.stderr)
 
