@@ -1,0 +1,411 @@
+{
+  "skill_slug": "hebrew-kids-story-maker",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-11-17",
+  "claims": [
+    {
+      "id": "moe-principle-a",
+      "claim": "Ministry of Education guideline: textbook niqqud decreases by grade, and uncommon names and foreign words get full or supporting niqqud",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "ספרי הלימוד ינוקדו על פי העיקרון של ניקוד מסייע הולך ופוחת - מניקוד מרובה בכיתות היסוד, דרך ניקוד חלקי המסייע בכיתות הביניים ועד לניקוד נקודתי פרגמטי בכיתות הגבוהות של בית הספר היסודי.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-principle-b",
+      "claim": "Ministry of Education guideline: textbook niqqud decreases by grade, and uncommon names and foreign words get full or supporting niqqud",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "שמות שאינם שכיחים ומילים זרות ינוקדו בניקוד מלא או מסייע.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-grade1",
+      "claim": "Grade 1: nearly full niqqud; omit strong dagesh and mappiq; do not mark the shin dot",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "בכיתות א' – ניקוד מרובה. הטקסטים ינוקדו כמעט במלואם. כדאי להשמיט סימנים שאינם תומכים בפענוח המדויק של המילה, כמו דגשים חזקים ומפיק. מומלץ לא לנקד ש' ימנית.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-grade2",
+      "claim": "Grade 2: heavy niqqud, with vowel letters (matres lectionis) alongside the niqqud, e.g. בּוּבָּה rather than בֻּבָּה and כִּיתָּה rather than כִּתָּה",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "בכיתות ב' – בדרך כלל ניקוד מרובה עם חשיפה לכתיב חסר הניקוד. בכיתה ב' מומלץ להסתייע באימות הקריאה לצד הניקוד. למשל: נעדיף בּוּבָּה על פני בֻּבָּה, כיתָּה על פני כִּתָּה",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-grade3-a",
+      "claim": "Grade 3: stories are always fully vocalized",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "בכיתות ג' – ניקוד מסייע, אך הולך ופוחת.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-grade3-b",
+      "claim": "Grade 3: stories are always fully vocalized",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "כלומר: סיפורים, שירים וטקסטים מן המקורות ינוקדו תמיד בניקוד מלא.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-grade4-6",
+      "claim": "Grades 4 to 6: little supporting niqqud, on complex, uncommon, homograph words and names",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "בכיתות ד'-ו' – ניקוד מסייע מועט. יש להפעיל שיקול דעת ולהוסיף ניקוד במילים מורכבות שאינן שכיחות, במונחים, בשמות, במילים הומוגרפיות.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "moe-mid-grade2",
+      "claim": "Mid grade 2 is treated as the transition from decoding-based reading",
+      "claim_type": "law",
+      "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "נוהגים להתייחס לאמצע כיתה ב' כשלב מעבר מקריאה המבוססת בעיקרה על תהליכי קידוד פונולוגיים לקריאה התופסת את המילים כיחידות אורתוגרפיות שלמות.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "dicta-model-license",
+      "claim": "Dicta's niqqud model dictabert-large-char-menaked is licensed CC BY 4.0",
+      "claim_type": "law",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "This work is licensed under a Creative Commons Attribution 4.0 International License",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-model-purpose",
+      "claim": "The model adds niqqud to modern Hebrew text and was trained on texts vocalized by linguistic experts",
+      "claim_type": "feature",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "This model is a fine-tuned version of DictaBERT-large-char, dedicated to the task of adding nikud (diacritics) to Hebrew text.",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-model-matres",
+      "claim": "By default the model removes the vowel letters (matres lectionis); mark_matres_lectionis='*' keeps them, marked with an asterisk",
+      "claim_type": "api-field",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "As can be seen, the predict method automatically removed all the matres-lectionis (אימות קריאה). If you wish to keep them in, you can specify that to the predict function: print(model.predict([sentence], tokenizer, mark_matres_lectionis = '*'))",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-model-poetry",
+      "claim": "The model is not intended for poetic texts or earlier layers of Hebrew",
+      "claim_type": "feature",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "However, it is not intended for earlier layers of Hebrew (e.g. Biblical, Rabbinic, Premodern), nor for poetic texts.",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-model-onnx",
+      "claim": "dicta-onnx is a third-party project, not affiliated with Dicta",
+      "claim_type": "company",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "A third-party project, dicta-onnx, offers a lightweight ONNX-based tool built on top of our model for adding Hebrew diacritics. We're not affiliated",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-model-revision",
+      "claim": "The model revision tested on 2026-11-17 is commit 4dfc20b (Sync modeling code, Sep 15)",
+      "claim_type": "api-field",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked/commits/main",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Sep 15 21:45 Sync modeling code from FinetuningBert@ebbd87d466c6 ChuckLind Verified signature 4dfc20b",
+      "confidence": "high"
+    },
+    {
+      "id": "dicta-tos-cc",
+      "claim": "Use of Dicta's services is under CC BY-NC-SA 4.0",
+      "claim_type": "law",
+      "source_url": "https://dicta.org.il/tos",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Any use of our Services will be in accordance to Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons license.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "dicta-tos-interface",
+      "claim": "Dicta's terms forbid accessing the services by any method other than the interface and instructions it provides (no scripting the website)",
+      "claim_type": "law",
+      "source_url": "https://nakdan.dicta.org.il/terms-and-services",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Do not misuse our Services, for example, do not interfere with our Services or try to access them using a method other than the interface and the instructions that we provide.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "dicta-tos-upload",
+      "claim": "Text submitted to Dicta's services is licensed to Dicta for operating and improving them",
+      "claim_type": "law",
+      "source_url": "https://dicta.org.il/tos",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "When you upload, submit, store, send or receive content to or through our Services, you give Dicta (and those we work with) a worldwide licence to use, host, store, reproduce, modify",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "dicta-developers-no-api",
+      "claim": "Dicta's developers page lists its open models (DictaLM, DictaBERT) and documents no public Nakdan API",
+      "claim_type": "feature",
+      "source_url": "https://dicta.org.il/developers",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "DictaBERT: חבילת BERT חדישה לעברית מודרנית",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "nakdan-site",
+      "claim": "The Nakdan web tool is at nakdan.dicta.org.il (הנקדן המהיר)",
+      "claim_type": "url",
+      "source_url": "https://nakdan.dicta.org.il/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "הנקדן המהיר",
+      "confidence": "high"
+    },
+    {
+      "id": "cc-nc",
+      "claim": "CC BY-NC-SA: no commercial use",
+      "claim_type": "law",
+      "source_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "NonCommercial — You may not use the material for commercial purposes",
+      "confidence": "high"
+    },
+    {
+      "id": "cc-by",
+      "claim": "CC BY: give credit and link the licence",
+      "claim_type": "law",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Attribution — You must give appropriate credit , provide a link to the license, and indicate if changes were made",
+      "confidence": "high"
+    },
+    {
+      "id": "ofl-print",
+      "claim": "OFL fonts may be used for a book or other print publication without extra permission",
+      "claim_type": "law",
+      "source_url": "https://openfontlicense.org/ofl-faq/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "1.1 Can I use the fonts for a book or other print publication, to create logos or other graphics or even to manufacture objects based on their outlines? Yes. You are very welcome to do so.",
+      "confidence": "high"
+    },
+    {
+      "id": "ofl-embed-a",
+      "claim": "OFL fonts may be embedded in a document, and embedding does not change the document's licence",
+      "claim_type": "law",
+      "source_url": "https://openfontlicense.org/ofl-faq/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "1.12 So can I embed OFL fonts in my document? Yes, either in full or a subset.",
+      "confidence": "high"
+    },
+    {
+      "id": "ofl-embed-b",
+      "claim": "OFL fonts may be embedded in a document, and embedding does not change the document's licence",
+      "claim_type": "law",
+      "source_url": "https://openfontlicense.org/ofl-faq/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Referencing or embedding an OFL font in any document does not change the license of the document itself.",
+      "confidence": "high"
+    },
+    {
+      "id": "font-fredoka",
+      "claim": "Fredoka is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/fredoka/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"Fredoka\" designer: \"Milena Brandão, Hafontia\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "font-notosanshebrew",
+      "claim": "Noto Sans Hebrew is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanshebrew/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"Noto Sans Hebrew\" designer: \"Google\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "font-frankruhllibre",
+      "claim": "Frank Ruhl Libre is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/frankruhllibre/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"Frank Ruhl Libre\" designer: \"Yanek Iontef\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "font-assistant",
+      "claim": "Assistant is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/assistant/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"Assistant\" designer: \"Adobe Systems Inc., Ben Nathan\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "font-varelaround",
+      "claim": "Varela Round is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/varelaround/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"Varela Round\" designer: \"Joe Prince\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "font-davidlibre",
+      "claim": "David Libre is licensed under the SIL Open Font License (OFL) on Google Fonts",
+      "claim_type": "law",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/davidlibre/METADATA.pb",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "name: \"David Libre\" designer: \"Monotype Imaging Inc., SIL International, Meir Sadan\" license: \"OFL\"",
+      "confidence": "high"
+    },
+    {
+      "id": "gfonts-css2",
+      "claim": "Google Fonts CSS2 API link format",
+      "claim_type": "url",
+      "source_url": "https://developers.google.com/fonts/docs/css2",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Crimson+Pro\">",
+      "confidence": "high"
+    },
+    {
+      "id": "css-a5",
+      "claim": "CSS @page size A5 is 148mm x 210mm and custom sizes are allowed",
+      "claim_type": "api-field",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page/size",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "A5 This matches the standard, ISO dimensions: 148mm x 210mm. A4 This matches the standard, ISO dimensions: 210mm x 297mm.",
+      "confidence": "high"
+    },
+    {
+      "id": "usco-prompts",
+      "claim": "US Copyright Office: prompts alone do not make the user the author of AI-generated output",
+      "claim_type": "law",
+      "source_url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "The Office concludes that, given current generally available technology, prompts alone do not provide sufficient human control to make users of an AI system the authors of the output.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "openai-output-a",
+      "claim": "OpenAI's terms assign the output to the user, and outputs may not be unique",
+      "claim_type": "law",
+      "source_url": "https://openai.com/policies/row-terms-of-use/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "As between you and OpenAI, and to the extent permitted by applicable law, you (a) retain your ownership rights in Input and (b) own the Output. We hereby assign to you all our right, title, and interest, if any, in and to Output.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "openai-output-b",
+      "claim": "OpenAI's terms assign the output to the user, and outputs may not be unique",
+      "claim_type": "law",
+      "source_url": "https://openai.com/policies/row-terms-of-use/",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "output may not be unique and other users may receive similar output from our Services.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "aacap-signs",
+      "claim": "AACAP signs that a younger child may need professional help",
+      "claim_type": "feature",
+      "source_url": "https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Guide/When-To-Seek-Help-For-Your-Child-024.aspx",
+      "source_fetched_at": "2026-11-17T14:00:00Z",
+      "raw_snippet": "Severe worry or anxiety, as shown by regular refusal to go to school, go to sleep or take part in activities that are normal for the child's age",
+      "confidence": "high"
+    },
+    {
+      "id": "gfonts-noto-hebrew-css",
+      "claim": "The Google Fonts CSS link for Noto Sans Hebrew used in the template serves the font",
+      "claim_type": "url",
+      "source_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;700&display=block",
+      "source_fetched_at": "2026-11-17T14:20:00Z",
+      "raw_snippet": "font-family: 'Noto Sans Hebrew';",
+      "confidence": "high"
+    },
+    {
+      "id": "eran-1201",
+      "claim": "ERAN (emotional first aid) hotline is 1201",
+      "claim_type": "threshold",
+      "source_url": "https://www.eran.org.il/about-us/contact-us/",
+      "source_fetched_at": "2026-11-17T15:00:00Z",
+      "raw_snippet": "לשיחה אנונימית עם מתנדבי ער״ן התקשרו 1201 עזרה נפשית אונליין",
+      "confidence": "high"
+    },
+    {
+      "id": "nakdan-web-output-test",
+      "claim": "In a test through its own interface (date in verified_at) the Nakdan website returned bare vavs beside the vowel (נֹועָה, הַבֻּובָּה, לִישֹׁון), a plain qamats in כָּל, and masculine past forms (מָצָאתָ, רָאִיתָ, הָלַכְתָּ) for a girl's text containing אַתְּ יַלְדָּה",
+      "claim_type": "feature",
+      "source_url": "https://nakdan.dicta.org.il/",
+      "source_fetched_at": "2026-11-17T15:20:00Z",
+      "raw_snippet": "נֹועָה מְשַׂחֶקֶת עִם הַבֻּובָּה בַּכִּיתָּה. זֶה לָךְ, כִּי אַתְּ יַלְדָּה אַמִּיצָה. כָּל הַכָּבוֹד, מָצָאתָ אֶת הַכַּדּוּר! רָאִיתָ? אַחַר כָּךְ הָלַכְתָּ לִישֹׁון.",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17",
+      "note": "Output of the website for the input 'נועה משחקת עם הבובה בכיתה. זה לך, כי את ילדה אמיצה. כל הכבוד, מצאת את הכדור! ראית? אחר כך הלכת לישון.' typed into its interface."
+    },
+    {
+      "id": "nakdan-web-setting",
+      "claim": "The Nakdan website offers a defective/full spelling setting for vocalization",
+      "claim_type": "feature",
+      "source_url": "https://nakdan.dicta.org.il/",
+      "source_fetched_at": "2026-11-17T15:20:00Z",
+      "raw_snippet": "כתיב חסר / מלא ניקוד בכתיב חסר ניקוד בכתיב מלא",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-11-17"
+    },
+    {
+      "id": "dicta-model-qatan",
+      "claim": "Dicta's open model writes qamats qatan with its own sign (U+05C7), as in הָאׇמָּנוּת",
+      "claim_type": "feature",
+      "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "source_fetched_at": "2026-11-17T15:20:00Z",
+      "raw_snippet": "וּבְתוֹלְדוֹת הָאׇמָּנוּת וְהֵחֵל לְפַרְסֵם",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "education",
+  "tags": {
+    "he": [
+      "ספר-ילדים",
+      "סיפור-לפני-השינה",
+      "ניקוד",
+      "קריאה-ראשונה",
+      "איורים",
+      "הדפסה",
+      "הורים",
+      "ישראל"
+    ],
+    "en": [
+      "childrens-book",
+      "bedtime-story",
+      "niqqud",
+      "early-reading",
+      "illustration",
+      "printable",
+      "parents",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ספר ילדים אישי בעברית",
+    "en": "Hebrew Kids Story Maker"
+  },
+  "display_description": {
+    "he": "יוצרים ספר ילדים מאויר בעברית שהילד שלכם הוא הגיבור שלו, מוכן להדפסה. הסקיל כותב סיפור שמתאים לגיל ולשלב הקריאה, עם פנייה נכונה לבן או לבת, מקבל ניקוד מהנקדן של דיקטה ובודק אותו מילה במילה, בונה דף דמות כדי שהילד ייראה אותו דבר בכל איור, כותב פרומפטים לאיורים בלי טקסט בתוכם, ומעמד ספר מימין לשמאל להדפסה (A5, ריבועי או חוברת מקופלת). הוא גם בודק ניקוד שחזר מדיקטה והופך אותו לספר הסופי. מתאים לסיפור לפני השינה, לספר קריאה מנוקד לכיתה א', או לספר שמכין ילד לאח חדש, להתחלת גן או למעבר דירה. ככה לא מקבלים ניקוד שבור, פנייה בלשון הלא נכונה, אותיות משובשות בתוך התמונות או חוברת שהעמודים שלה הפוכים. לא מיועד לעימוד כתב יד קיים (בשביל זה יש את hebrew-book-typesetter), למסמכים אחרים, לבדיקת מבחנים או לחומרי לימוד.",
+    "en": "Create an illustrated Hebrew children's book starring your own child, ready to print. Writes an age-appropriate story for the child's reading stage with the right gender forms, gets niqqud from Dicta's Nakdan and checks it word by word, builds a character sheet so the child looks the same in every picture, writes text-free illustration prompts, and lays out a right-to-left printable book (A5, square, or a folded home booklet). Also checks niqqud that came back from Dicta and turns it into the final book. For a bedtime story, a first-reader book with niqqud fitted to grade 1, or a book that prepares a child for a new sibling, starting gan or moving home. Prevents broken niqqud, the wrong gender forms, garbled letters inside pictures and booklets printed in the wrong order. Do NOT use for typesetting an existing manuscript (use hebrew-book-typesetter), other documents, grading tests or curriculum material."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "stable",
+  "authoritative_sources": [
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+      "type": "vendor-docs",
+      "language": "en"
+    },
+    {
+      "url": "https://dicta.org.il/tos",
+      "type": "vendor-docs",
+      "language": "en"
+    }
+  ],
+  "domain_checklist_version": 1
+}
