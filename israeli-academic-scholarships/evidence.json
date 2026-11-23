@@ -221,23 +221,6 @@
       ]
     },
     {
-      "claim_id": "mimadim-tashpav-closed-tashpaz-unpublished",
-      "claim": "The Mimadim LiLimudim (MoD) תשפ\"ו cycle opened 3.11.2025, closed for applications 31.7.2026, with document upload to 31.8.2026. As of 19.8.2026 the MoD scholarship page still displays this closed תשפ\"ו cycle and NO תשפ\"ז dates have been published.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "מועד פתיחת ההרשמה לשנת תשפ\"ו (אוקטובר 2025/מרץ 2026)‏: 3.11.25 • מועד אחרון להרשמה: 31.7.26 •‏ מועד אחרון להעלאת מסמכים: 31‏.8.26",
-      "fetched_at": "2026-08-19T03:39:37.918823+00:00",
-      "verified_via": "browser",
-      "verified_at": "2026-08-19T03:39:37.918823+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
-      ],
-      "note": "Read verbatim from the official MoD page 19.8.2026. This settles a contradiction: the document-upload deadline is 31.8.26, so the 30.8.2026 previously carried in references/scholarship-table.md and scripts/match_scholarships.py was wrong and has been corrected. It also establishes that the absence of תשפ\"ז dates is real, not an oversight."
-    },
-    {
       "claim_id": "mod-periphery-cap-tashpav",
       "claim": "The MoD periphery scholarship (גרים בפריפריה 45) covers up to 100% of first-year BA tuition, capped at NIS 12,017 for תשפ\"ו/2026. This supersedes the ~NIS 11,653 תשפ\"ה/2025 figure the skill previously carried.",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
@@ -284,6 +267,198 @@
         "scripts/match_scholarships.py"
       ],
       "note": "Supports the script fix: match_scholarships.py previously gated MilGo on socioeconomic_score <= 6, which told students scoring 7-10 that no scholarship existed when they qualify for Tier C or D."
+    },
+    {
+      "claim_id": "mimadim-tashpaz-opens",
+      "claim": "Mimadim תשפ\"ז registration opened 8.11.2026.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "מועד פתיחת ההרשמה לשנת תשפ\"ז (אוקטובר 2026 - יוני 2027 - סמסטר קיץ): 8.11.26",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "mimadim-tashpaz-last",
+      "claim": "The last registration date for Mimadim תשפ\"ז is 31.8.2027.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "מועד אחרון להרשמה: 31.08.27",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-mimadim-first",
+      "claim": "A reservist entitled to Mimadim or a periphery scholarship must use it first.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "משרת הזכאי למלגת \"מדים ללימודים\" (או מלגת פריפריה) נדרש לממש אותה תחילה.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-pays-difference",
+      "claim": "If the government scholarship is below the grant, the Fund pays the difference up to the ceiling.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "אם סכום המלגה הממשלתית נמוך מגובה המענק לו זכאי המשרת מהקרן, הקרן תשלם את ההפרש (השלמה עד לתקרת הזכאות)",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "hub-do-not-cancel",
+      "claim": "Do not cancel Mimadim to apply for the Fund's tuition grant.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "אין לבטל את מלגת \"מדים ללימודים\" לצורך הגשת בקשה למענק שכר לימוד מקרן הסיוע.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "hub-fund-for-noneligible",
+      "claim": "The Fund's tuition grant is for those not entitled to Mimadim.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מענק שכר לימוד מקרן הסיוע מיועד אך ורק למי שאינו זכאי למלגת \"מדים ללימודים\".",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "hub-tuition-last-date",
+      "claim": "The last date for תשפ\"ד and תשפ\"ה tuition assistance is 31.12.2026.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מועד אחרון להגשת סיוע שכ\"ל לשנה\"ל תשפ\"ד, תשפ\"ה - 31/12/2026",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-entitlements-to-2025",
+      "claim": "Entitlements for 7.10.2023 to 31.12.2025, including private lessons in that period, may be claimed until 31.12.2026.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "עבור זכאויות הקשורות לתקופת 7.10.23 עד 31.12.25: ניתן להגיש את הבקשות עד לתאריך 31.12.26",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-entitlements-from-2026",
+      "claim": "Fund entitlements from 1.1.2026 with no specific published window must be claimed within one year of the event.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "עבור זכאויות שהחלו מה-1.1.26: עומדת לרשותכם שנה שלמה ממועד האירוע להגשת הבקשה.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-tashpav-window",
+      "claim": "The תשפ\"ו tuition-grant window is 1.8.2026 to 30.6.2027.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "ניתן להגיש בקשות בין התאריכים 01.08.2026 ועד 30.06.2027.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "fund-tashpav-mahat",
+      "claim": "Students at technological (MAHAT) colleges may apply from 1.11.2026 to 30.6.2027.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "עבור סטודנטים הלומדים במוסדות מה\"ט ניתן להגיש בקשות בין 01.11.2026 ועד 30.06.2027.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:00:00Z"
+    },
+    {
+      "claim_id": "mimadim-first-application",
+      "claim": "The Mimadim eligibility window limits the first application.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "תקופת הזכאות להגשת בקשה ראשונה למלגת 'ממדים ללימודים' היא עד 5 שנים מיום השחרור משירות חובה.",
+      "fetched_at": "2026-11-23T02:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/domain-checklist.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:00:00Z"
     }
   ]
 }

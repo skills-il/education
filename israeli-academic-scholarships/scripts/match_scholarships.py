@@ -79,6 +79,15 @@ class ScholarshipMatch:
     notes: str
 
 
+NOTICE = "This list is NOT complete and can miss tracks you may qualify for. Check the official pages."
+ORDER_NOTE = ("If you hold or may still apply for Mimadim, use it first and do not cancel it; the Fund pays only a "
+              "difference. If you are not entitled to Mimadim, go to the Reserve Aid Fund.")
+FUND_DEADLINES = ("Last claim date 31.12.2026 for תשפ\"ד and תשפ\"ה grants and for private lessons through 31.12.2025, "
+                  "including early תשפ\"ו, even while a Mimadim question is open. תשפ\"ו tuition grant: 1.8.2026 to 30.6.2027 "
+                  "(technological colleges from 1.11.2026). Other entitlements from 1.1.2026 with no specific published "
+                  "window: within one year of the event")
+
+
 def match_universal(profile: StudentProfile) -> List[ScholarshipMatch]:
     matches: List[ScholarshipMatch] = []
     if profile.degree_level == "BA" and profile.willing_to_tutor_perach:
@@ -165,8 +174,8 @@ def match_post_service(profile: StudentProfile) -> List[ScholarshipMatch]:
             name="Mimadim LiLimudim",
             track="Combat-veteran cohort + special populations",
             typical_grant="GRADUATED: up to 85% in EVERY year except the last, top-up to 100% of tuition actually paid in the FINAL year, capped NIS 10,214.45/year",
-            deadline_window="New תשפ\"ו applications CLOSED 31.7.2026. Document upload for ALREADY-ACCEPTED applicants is OPEN until 31.8.2026. תשפ\"ז dates not yet published as of 19.8.2026",
-            notes="Year 1 student pays ~15% out of pocket up front, recovered at graduation. Cannot stack with Iron Swords same year.",
+            deadline_window="תשפ\"ז open 8.11.2026 to 31.8.2027",
+            notes="Year 1 student pays ~15% out of pocket up front, recovered at graduation. If you hold or may still apply for it, use it first and do not cancel it for the reservist grant.",
         ))
     return matches
 
@@ -195,16 +204,16 @@ def match_iron_swords(profile: StudentProfile) -> List[ScholarshipMatch]:
             name="Iron Swords rear-service tuition assistance",
             track="50+ days under Order 8",
             typical_grant="One-time tuition assistance, percentage per current cohort",
-            deadline_window="Per CHE cycle",
-            notes="Check che.org.il/war/ for current cohort percentage. Cannot stack with Mimadim same year.",
+            deadline_window=FUND_DEADLINES,
+            notes="Check the Reserve Aid Fund page. " + ORDER_NOTE,
         ))
     if profile.is_iron_swords_combat_track:
         matches.append(ScholarshipMatch(
             name="Iron Swords combat-track tuition support",
             track="Combat reservists with extended service",
             typical_grant="Higher-tier tuition support, up to full tuition",
-            deadline_window="Per CHE cycle",
-            notes="Subject to current CHE framework terms. Cannot stack with Mimadim same year, pick the higher payout.",
+            deadline_window=FUND_DEADLINES,
+            notes="Subject to current terms. " + ORDER_NOTE,
         ))
     if profile.iron_swords_reserve_days >= 100:
         matches.append(ScholarshipMatch(
@@ -414,6 +423,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--example", action="store_true", help="Run a worked example")
     args = parser.parse_args()
+    print(NOTICE)
+    print("Reservists: " + FUND_DEADLINES + ". " + ORDER_NOTE)
 
     if args.example:
         profile = StudentProfile(
@@ -445,8 +456,7 @@ def main() -> int:
             print(f"  Deadline: {match.deadline_window}")
             print(f"  Notes:    {match.notes}")
         print("\n" + "=" * 80)
-        print("STACKING NOTE: Iron Swords combat-track and Mimadim LiLimudim cannot be received")
-        print("in the same academic year. Compare per-year value and pick the higher.")
+        print("ORDER NOTE: " + ORDER_NOTE)
         return 0
 
     parser.print_help()

@@ -16,7 +16,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 |---|---|---|---|
 | Pikadon Hayashi | Discharged soldier or Sherut Leumi alum, within post-discharge window (5 years for most; verify current window for active reservists/lone soldiers) | The user's own deposit | Anytime within window |
 | MoD periphery scholarship | Lived in priority-area yishuv 5 of 6 years before studies, within the post-discharge window (5 years standard, 10 years for active reservists / lone soldiers) | Up to 100% first-year BA tuition, capped at NIS 12,017 (תשפ"ו/2026) | Annual; cannot stack with other periphery |
-| Mimadim LiLimudim | Combat veterans + special populations (large annual cohort) | **GRADUATED**: up to 85% in EVERY year except the last (so Years 1-3 of a 4-year degree, 1-5 of a 6-year one), with a top-up to 100% of tuition actually paid in the FINAL year; capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | New תשפ"ו applications CLOSED 31.7.2026 (opened 3.11.2025). Document upload for ALREADY-ACCEPTED applicants OPEN until 31.8.2026. תשפ"ז dates not yet published as of 19.8.2026 |
+| Mimadim LiLimudim | Combat veterans + special populations (large annual cohort) | **GRADUATED**: up to 85% in EVERY year except the last (so Years 1-3 of a 4-year degree, 1-5 of a 6-year one), with a top-up to 100% of tuition actually paid in the FINAL year; capped NIS 10,214.45/year (below NIS 12,017 baseline tuition) | תשפ"ז open 8.11.2026 to 31.8.2027 |
 | Atid Foundation | Combat veterans (foundation track) | Per-track grant | Check current cycle |
 | IMPACT! (FIDF) | Former combat / combat-support soldiers from low-income backgrounds | USD 4,000/year for up to 4 years; ~130 community-service hours/year + 2 donor letters/year | Annual; apply via FIDF |
 
@@ -27,7 +27,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 | 8+ cumulative reserve days from 7.10.2023 | Any reservist student | NIS 1,100 one-time | Universal floor |
 | Reservist parent of children under 14 | Any reservist student with eligible children | NIS 2,000 one-time | Stacks on top of NIS 1,100 |
 | 50+ days reserve service under Order 8 | Reservist students (combat array) | One-time tuition grant up to ~NIS 11,653 (2025 cohort) | Check che.org.il/war/ for current cohort amount + window |
-| Combat-track extended reserve service | Combat reservists | Higher-tier tuition support, up to full tuition | Cannot stack with Mimadim LiLimudim same year |
+| Combat-track extended reserve service | Combat reservists | Higher-tier tuition support, up to full tuition | A student who holds or may still apply for Mimadim uses it first and does not cancel it. Anyone not entitled goes to the Fund |
 | 61-99 reserve days | Any reservist student | 8 credit-unit exemption (electives + general) | Academic accommodation |
 | 100+ reserve days | Any reservist student | 10 credit-unit exemption | Same |
 
@@ -79,7 +79,7 @@ A consolidated lookup for the major Israeli higher-education scholarships refere
 ## Stacking rules (cross-cutting)
 
 - MoD periphery scholarship: cannot stack with another periphery scholarship.
-- Iron Swords tuition support and Mimadim LiLimudim: cannot be received in the same academic year.
+- Reservist tuition grant and Mimadim LiLimudim: a student who holds or may still apply for Mimadim uses it first and does not cancel it. The Fund pays only a difference. Anyone not entitled goes to the Fund. Last claim date for תשפ"ד and תשפ"ה grants and for private lessons through 31.12.2025, including early תשפ"ו: 31.12.2026, even while a Mimadim question is open. תשפ"ו tuition grant: apply 1.8.2026 to 30.6.2027 (technological colleges from 1.11.2026). Other Fund entitlements from 1.1.2026 with no specific published window: within one year of the event.
 - Iron Swords NIS 1,100 + NIS 2,000 child supplement: stacks with PEREACH, MilGo, Pikadon, PEREACH miluim supplement.
 - Rothschild USD 75,000/year: ceiling on OTHER external funding (not the Rothschild itself).
 - Rashi / ISEF: must declare all received grants in application; under-declaration risks revocation.

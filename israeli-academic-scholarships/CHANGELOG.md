@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 - 2026-11-23
+
+- Corrective release. Removed the advice to pick the higher of Mimadim and the reservist grant. A student who holds or may still apply for Mimadim uses it first and does not cancel it. Anyone not entitled goes to the Reserve Aid Fund.
+- Added the live dates near the top: Mimadim תשפ"ז is open 8.11.2026 to 31.8.2027, the 31.12.2026 last claim date for past-year reservist grants and early תשפ"ו private lessons, the תשפ"ו tuition-grant window to 30.6.2027, and the one-year claim rule for other entitlements from 1.1.2026.
+- The script now prints that its list is not complete.
+
 ## 1.3.0 - 2026-08-19
 
 - Added a Cycle-status box to both language files. Every Mimadim / MoD date in

@@ -24,6 +24,14 @@
         "An old-value sweep must use the LOOSEST pattern, not the phrase you happen to remember. Grepping '85% בשנים' missed '85% מהקורסים בפועל בשנים א''-ב'' and left a contradiction in the Hebrew gotcha through two review rounds.",
         "De-gating a filter is only half the fix: MilGo's socioeconomic gate was removed while the degree gate still excluded mechina and hendesai students."
       ]
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-11-23",
+      "lessons": [
+        "Next cycle: the matcher hides post-service tracks when served_idf is unset and hides PEREACH from mechina students.",
+        "Next cycle: periphery tracks apply only at state-budgeted institutions, and the Student Authority pays only up to the government tariff. Neither is stated."
+      ]
     }
   ]
 }
