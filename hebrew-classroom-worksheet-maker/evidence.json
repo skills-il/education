@@ -1,0 +1,700 @@
+{
+ "skill_slug": "hebrew-classroom-worksheet-maker",
+ "schemaVersion": "1.0",
+ "generated_at": "2026-11-23",
+ "claims": [
+  {
+   "id": "nikod-g1",
+   "claim": "Grade 1 Ministry outline: heavy niqqud, omit strong dagesh and mappiq, do not point the shin dot",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "ניקוד מרובה. הטקסטים ינוקדו כמעט במלואם. כדאי להשמיט סימנים שאינם תומכים בפענוח המדויק של המילה, כמו דגשים חזקים ומפיק. מומלץ לא לנקד ש' ימנית.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g2",
+   "claim": "Grade 2: usually heavy niqqud with exposure to unpointed text",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "בדרך כלל ניקוד מרובה עם חשיפה לכתיב חסר הניקוד. בכיתה ב' מומלץ להסתייע באימות הקריאה לצד הניקוד.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g2-end",
+   "claim": "End of grade 2: partly pointed short texts and repeated instructions",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "לקראת סוף כיתה ב' חשוב להפגיש את התלמידים עם טקסטים מנוקדים חלקית, בעיקר בטקסטים קצרים ובהוראות החוזרות על עצמן.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g3",
+   "claim": "Grade 3: supportive niqqud, decreasing",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "ניקוד מסייע, אך הולך ופוחת.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g3-stories",
+   "claim": "Grade 3: stories, poems and source texts always fully pointed",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "סיפורים, שירים וטקסטים מן המקורות ינוקדו תמיד בניקוד מלא.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g3-instr",
+   "claim": "Grade 3: short informational texts and repeated instructions partly pointed or unpointed",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "טקסטים מידעיים קצרים, הוראות ומשימות מוכרות החוזרות על עצמן ינוקדו בניקוד מסייע חלקי או ללא ניקוד כלל.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g3-end",
+   "claim": "End of grade 3: basic pragmatic niqqud",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "לקראת סוף כיתה ג', כדאי להפחית בהדרגה את הניקוד לניקוד בסיסי, פרגמטי, ולהסתייע בכתיב המלא כחלופה לניקוד.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g46",
+   "claim": "Grades 4-6: sparse niqqud on rare words, terms, names and homographs",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "ניקוד מסייע מועט. יש להפעיל שיקול דעת ולהוסיף ניקוד במילים מורכבות שאינן שכיחות, במונחים, בשמות, במילים הומוגרפיות.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-sources",
+   "claim": "Poetry and biblical or prayer text keep their original full pointing at every grade",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "שירה וטקסטים מן המקורות, כגון מן המקרא או מן התפילה, ינוקדו במלואם באופן שבו הם מובאים במקור.",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-names",
+   "claim": "Uncommon names and foreign words get full or supporting niqqud",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "שמות שאינם שכיחים ומילים זרות ינוקדו בניקוד מלא או מסייע.",
+   "confidence": "high"
+  },
+  {
+   "id": "safa-order",
+   "claim": "2026 language curriculum: the order of teaching vowels varies between reading methods",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/tohnit-limudim-safa.pdf",
+   "source_fetched_at": "2026-11-23T17:57:53Z",
+   "raw_snippet": "במהלך כיתה א נלמדים סימני הניקוד זה אחר זה (סדר הוראת הסימנים משתנה לעיתים בין שיטות קריאה שונות)",
+   "confidence": "high"
+  },
+  {
+   "id": "perek4-writing",
+   "claim": "Kindergarten chapter (PDF dated 2013): formal teaching and practice of standard writing are not recommended",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/PreSchool/PereK4.pdf",
+   "source_fetched_at": "2026-11-23T17:58:01Z",
+   "raw_snippet": "הוראה פורמלית ותרגול של כתיבה תקנית בגן אינם מומלצים",
+   "confidence": "high"
+  },
+  {
+   "id": "perek4-hova",
+   "claim": "Kindergarten chapter (PDF dated 2013): letter formation belongs to gan hova",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/PreSchool/PereK4.pdf",
+   "source_fetched_at": "2026-11-23T17:58:01Z",
+   "raw_snippet": "בגן חובה יש לטפח עיצוב אותיות.",
+   "confidence": "high"
+  },
+  {
+   "id": "hozer-g1",
+   "claim": "Hebrew supervisor circular for the 5786 (תשפ\"ו) school year: aim to complete reading and writing acquisition by end of grade 1",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/hozermafmar2026_tashpav.pdf",
+   "source_fetched_at": "2026-11-23T17:57:52Z",
+   "raw_snippet": "יש לשאוף להשלים את תהליך רכישת הקריאה והכתיבה לכל המאוחר עד סוף כיתה א.",
+   "confidence": "high"
+  },
+  {
+   "id": "mafmar-rollout",
+   "claim": "In the 5787 (tashpaz) school year grades 1-3 learn the new math curriculum",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+   "source_fetched_at": "2026-11-23T17:57:50Z",
+   "raw_snippet": "בשנה זו, יצטרפו תלמידי כיתות ג' לתלמידי כיתות א' ו-ב' וילמדו על פיה.",
+   "confidence": "high"
+  },
+  {
+   "id": "mafmar-46",
+   "claim": "Grades 4-6 continue on the 2006 math program in tashpaz",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+   "source_fetched_at": "2026-11-23T17:57:50Z",
+   "raw_snippet": "תלמידי כיתות ד'-ו' ימשיכו בשנת הלימודים תשפ\"ז ללמוד על פי התוכנית משנת 2006.",
+   "confidence": "high",
+   "verified_via": "pdf",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "mafmar-levels",
+   "claim": "Math circular: combine tasks at different difficulty levels",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+   "source_fetched_at": "2026-11-23T17:57:50Z",
+   "raw_snippet": "יש לשלב משימות בדרגות קושי שונות",
+   "confidence": "high"
+  },
+  {
+   "id": "g1-range",
+   "claim": "Grade 1 math: natural numbers to 100 and zero",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+   "source_fetched_at": "2026-11-23T17:57:44Z",
+   "raw_snippet": "הכרת המספרים הטבעיים בתחום 100 וה-0",
+   "confidence": "high"
+  },
+  {
+   "id": "g1-stages",
+   "claim": "Grade 1: first within ten, then within twenty",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+   "source_fetched_at": "2026-11-23T17:57:44Z",
+   "raw_snippet": "תחילה פועלים בתחום העשר, ואחר כך בתחום העשרים.",
+   "confidence": "high"
+  },
+  {
+   "id": "g1-equals",
+   "claim": "Grade 1: include equations with the equals sign on the left, for example 10 = ___ + ___",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+   "source_fetched_at": "2026-11-23T17:57:44Z",
+   "raw_snippet": "יש לשלב משוואות, כולל כאלו שבהן סימן השוויון ממוקם משמאל לתרגיל",
+   "confidence": "high",
+   "verified_via": "pdf",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "g2-tables",
+   "claim": "Grade 2: by year end, multiples of 2, 4, 5 and 10",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade2.pdf",
+   "source_fetched_at": "2026-11-23T17:57:46Z",
+   "raw_snippet": "לוח הכפל יילמד בהדרגה כך שבסוף כיתה ב' ישלטו כל התלמידים בכפולות של 2, של 4, של 5 ושל 10",
+   "confidence": "high"
+  },
+  {
+   "id": "g3-table",
+   "claim": "Grade 3: completes the 10 x 10 multiplication table",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "source_fetched_at": "2026-11-23T17:57:48Z",
+   "raw_snippet": "השלמה וביסוס הכפולות בלוח הכפל של 10 × 10",
+   "confidence": "high",
+   "verified_via": "pdf",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "g3-gematria",
+   "claim": "Letter values appear in the grade 3 program",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "source_fetched_at": "2026-11-23T17:57:48Z",
+   "raw_snippet": "הכרת ערכי האותיות א-ת.",
+   "confidence": "high"
+  },
+  {
+   "id": "g3-remainder",
+   "claim": "Grade 3: remainder is written in one of two prescribed ways, for example 13 : 4 = 3 + (1 : 4)",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "source_fetched_at": "2026-11-23T17:57:48Z",
+   "raw_snippet": "כתיבת פתרונות של תרגילי חילוק עם שארית צריכה להיעשות באחת משתי הדרכים",
+   "confidence": "high"
+  },
+  {
+   "id": "g3-oldform",
+   "claim": "The older remainder form such as 17 : 7 = 2(3) may lead to a misconception",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "source_fetched_at": "2026-11-23T17:57:48Z",
+   "raw_snippet": "בצורה זו עלולה להוביל לתפיסה מוטעית",
+   "confidence": "high"
+  },
+  {
+   "id": "haredi-images",
+   "claim": "Haredi-sector textbook criteria (2017): pictures that stand for words must be clear and unambiguous. Used here as good practice for all streams, not as a rule binding them",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/haredi.pdf",
+   "source_fetched_at": "2026-11-23T17:57:41Z",
+   "raw_snippet": "יש להקפיד שהאיורים המייצגים מילים ומשמשים להקניית הצלילים יהיו אסתטיים, ברורים וחד-משמעיים.",
+   "confidence": "high"
+  },
+  {
+   "id": "haredi-instr",
+   "claim": "Haredi-sector textbook criteria (2017): instructions at a readable level, icons may help. Used here as good practice for all streams, not as a rule binding them",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/haredi.pdf",
+   "source_fetched_at": "2026-11-23T17:57:41Z",
+   "raw_snippet": "על הוראות הביצוע להיות מנוסחות ברמת קריאות מתאימה לתלמידים (אפשר להיעזר בסמלילים)",
+   "confidence": "high"
+  },
+  {
+   "id": "haredi-texts",
+   "claim": "Haredi stream: literary texts follow the stream list",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/haredi.pdf",
+   "source_fetched_at": "2026-11-23T17:57:41Z",
+   "raw_snippet": "בחירת הטקסטים הספרותיים תישען על רשימת יצירות הספרות למגזר החרדי",
+   "confidence": "high"
+  },
+  {
+   "id": "gender-plural",
+   "claim": "Ministry: plural address in learning contexts improves girls achievement without harming boys",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/shivyon-minim/right-to-know-new.pdf",
+   "source_fetched_at": "2026-11-23T17:57:58Z",
+   "raw_snippet": "מחקרים מעידים כי פנייה בלשון רבים בהקשרים לימודיים משפרת את הישגי התלמידות מבלי לפגוע בהישגי התלמידים",
+   "confidence": "high"
+  },
+  {
+   "id": "gender-pointing",
+   "claim": "Plural imperative and past look alike, so use helper niqqud",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/shivyon-minim/right-to-know-new.pdf",
+   "source_fetched_at": "2026-11-23T17:57:58Z",
+   "raw_snippet": "כדי למנוע כפל משמעות, מומלץ להשתמש בניקוד עזר",
+   "confidence": "high"
+  },
+  {
+   "id": "ai-noinfo",
+   "claim": "Ministry AI guidance: do not share personal or identifying student information with AI systems",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+   "source_fetched_at": "2026-11-23T17:57:56Z",
+   "raw_snippet": "אין לשתף או למסור כל מידע אישי או מידע רגיש או מידע מזוהה של תלמידים, מורים או בית הספר למערכות בינה מלאכותית",
+   "confidence": "high"
+  },
+  {
+   "id": "ai-pseudo",
+   "claim": "Ministry AI guidance: use invented names and hypothetical scenarios",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+   "source_fetched_at": "2026-11-23T17:57:56Z",
+   "raw_snippet": "מומלץ להשתמש בשמות בדויים ותרחישים היפותטיים.",
+   "confidence": "high"
+  },
+  {
+   "id": "ai-approved",
+   "claim": "Ministry AI guidance: school use only through approved tools",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+   "source_fetched_at": "2026-11-23T17:57:56Z",
+   "raw_snippet": "השימוש בכלי בינה מלאכותית במסגרת הבית ספרית יעשה רק באמצעות הכלים המאושרים על ידי משרד החינוך",
+   "confidence": "high"
+  },
+  {
+   "id": "ai-young",
+   "claim": "Ministry AI guidance for young grades: no generative AI for students",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+   "source_fetched_at": "2026-11-23T17:57:56Z",
+   "raw_snippet": "אין להשתמש בכלי בינה מלאכותית יוצרת.",
+   "confidence": "high"
+  },
+  {
+   "id": "access-layout",
+   "claim": "Special-education guidance on adapted materials: avoid visual load, with clean background and spacing",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/special/pedagogy/safa/principle-language-se.pdf",
+   "source_fetched_at": "2026-11-23T17:58:05Z",
+   "raw_snippet": "הימנעות מעומס חזותי, רקע נקי, ריווח",
+   "confidence": "high"
+  },
+  {
+   "id": "openu-one",
+   "claim": "Item writing: each question has exactly one correct option (higher-education checklist)",
+   "claim_type": "law",
+   "source_url": "https://www.openu.ac.il/Lists/MediaServer_Documents/Klalim_Hachanat_Mivhanim_matalot.pdf",
+   "source_fetched_at": "2026-11-23T17:58:08Z",
+   "raw_snippet": "לבדוק שלכל בסיס פריט (שאלה) יש רק מסיח (תשובה) אחד נכון.",
+   "confidence": "high"
+  },
+  {
+   "id": "openu-distract",
+   "claim": "Item writing: build distractors from typical mistakes",
+   "claim_type": "law",
+   "source_url": "https://www.openu.ac.il/Lists/MediaServer_Documents/Klalim_Hachanat_Mivhanim_matalot.pdf",
+   "source_fetched_at": "2026-11-23T17:58:08Z",
+   "raw_snippet": "להשתמש בטעויות טיפוסיות/מאפיינות בניסוח המסיחים",
+   "confidence": "high"
+  },
+  {
+   "id": "song-kipnis",
+   "claim": "Sevivon Sov Sov Sov: words by Levin Kipnis, folk melody",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/PreSchool/sevivon1.pdf",
+   "source_fetched_at": "2026-11-23T17:58:03Z",
+   "raw_snippet": "מילים: לוין קיפניס",
+   "confidence": "high"
+  },
+  {
+   "id": "kipnis-dates",
+   "claim": "Levin Kipnis lived 1894-1990, so his words stay protected through 31.12.2060 under the 70-year term",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/PreSchool/Eliezer.pdf",
+   "source_fetched_at": "2026-11-23T17:57:59Z",
+   "raw_snippet": "לוין קיפניס (1894-1990)",
+   "confidence": "high",
+   "verified_via": "pdf",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "cw-s19",
+   "claim": "Copyright Law Section 19 (סעיף 19): fair use purposes include teaching and examination by an educational institution. Read in the Wikisource consolidation",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "שימוש הוגן ביצירה מותר למטרות כגון אלה: לימוד עצמי, מחקר, ביקורת, סקירה, דיווח עיתונאי, הבאת מובאות, או הוראה ובחינה על ידי מוסד חינוך.",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s19-nevo",
+   "claim": "Section 19 (סעיף 19) wording confirmed in a Nevo-printed copy hosted by the Hebrew University",
+   "claim_type": "law",
+   "source_url": "https://openscholar.huji.ac.il/sites/default/files/mop/files/copyright_law.doc.pdf",
+   "source_fetched_at": "2026-11-23T17:58:07Z",
+   "raw_snippet": "שימוש הוגן ביצירה מותר למטרות כגון אלה: לימוד עצמי, מחקר, ביקורת, סקירה, דיווח עיתונאי, הבאת מובאות, או הוראה ובחינה על ידי מוסד חינוך.",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s29",
+   "claim": "Copyright Law Section 29 (סעיף 29) permits public performance in educational activity, not copying",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "ביצוע פומבי של יצירה מותר במהלך פעילותו החינוכית של מוסד חינוך מסוג שקבע השר",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s29-nevo",
+   "claim": "Section 29 (סעיף 29) wording confirmed in a Nevo-printed copy hosted by the Hebrew University",
+   "claim_type": "law",
+   "source_url": "https://openscholar.huji.ac.il/sites/default/files/mop/files/copyright_law.doc.pdf",
+   "source_fetched_at": "2026-11-23T17:58:07Z",
+   "raw_snippet": "ביצוע פומבי של יצירה מותר במהלך פעילותו החינוכית של מוסד חינוך מסוג שקבע השר",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s12",
+   "claim": "Copyright Law Section 12 (סעיף 12): copying means making a copy in any tangible form",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "עשיית עותק של היצירה בכל צורה מוחשית",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s38",
+   "claim": "Copyright Law Section 38 (סעיף 38): life of the author plus seventy years",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "למשך חייו של היוצר וכן שבעים שנים לאחר מותו",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s43",
+   "claim": "Copyright Law Section 43 (סעיף 43): the term ends on 31 December of the expiry year",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "תסתיים ב-31 בדצמבר של השנה שבמהלכה אמורה לפקוע הזכות",
+   "confidence": "high"
+  },
+  {
+   "id": "cw-s46",
+   "claim": "Copyright Law Section 46 (סעיף 46): moral right includes being named on the work",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "כי שמו ייקרא על יצירתו",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-license",
+   "claim": "Dicta's niqqud model dictabert-large-char-menaked is licensed CC BY 4.0",
+   "claim_type": "law",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T17:57:39Z",
+   "raw_snippet": "This work is licensed under a Creative Commons Attribution 4.0 International License",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-matres",
+   "claim": "By default the model removes the vowel letters (matres lectionis); mark_matres_lectionis='*' keeps them, marked with an asterisk",
+   "claim_type": "api-field",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T17:57:39Z",
+   "raw_snippet": "As can be seen, the predict method automatically removed all the matres-lectionis (אימות קריאה). If you wish to keep them in, you can specify that to the predict function: print(model.predict([sentence], tokenizer, mark_matres_lectionis = '*'))",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-poetry",
+   "claim": "The model is not intended for poetic texts or earlier layers of Hebrew",
+   "claim_type": "feature",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T17:57:39Z",
+   "raw_snippet": "However, it is not intended for earlier layers of Hebrew (e.g. Biblical, Rabbinic, Premodern), nor for poetic texts.",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-tos-cc",
+   "claim": "Use of Dicta's services is under CC BY-NC-SA 4.0",
+   "claim_type": "law",
+   "source_url": "https://dicta.org.il/tos",
+   "source_fetched_at": "2026-11-23T17:58:18Z",
+   "raw_snippet": "Any use of our Services will be in accordance to Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons license.",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-tos-interface",
+   "claim": "Dicta's terms forbid accessing the services by any method other than the interface and instructions it provides (no scripting the website)",
+   "claim_type": "law",
+   "source_url": "https://nakdan.dicta.org.il/terms-and-services",
+   "source_fetched_at": "2026-11-23T17:58:21Z",
+   "raw_snippet": "Do not misuse our Services, for example, do not interfere with our Services or try to access them using a method other than the interface and the instructions that we provide.",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-tos-upload",
+   "claim": "Text submitted to Dicta's services is licensed to Dicta for operating and improving them",
+   "claim_type": "law",
+   "source_url": "https://dicta.org.il/tos",
+   "source_fetched_at": "2026-11-23T17:58:18Z",
+   "raw_snippet": "When you upload, submit, store, send or receive content to or through our Services, you give Dicta (and those we work with) a worldwide licence to use, host, store, reproduce, modify",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "nakdan-site",
+   "claim": "The Nakdan web tool is at nakdan.dicta.org.il (הנקדן המהיר)",
+   "claim_type": "url",
+   "source_url": "https://nakdan.dicta.org.il/",
+   "source_fetched_at": "2026-11-23T17:58:14Z",
+   "raw_snippet": "הנקדן המהיר",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "cw-s29-amend",
+   "claim": "The Wikisource consolidation marks amended wording of the performance provisions as applying from 20.5.2027",
+   "claim_type": "date",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "source_fetched_at": "2026-11-23T17:57:37Z",
+   "raw_snippet": "(החל מיום 20.5.2027)",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-g2-matres",
+   "claim": "Grade 2 prefers a vowel letter with the niqqud (בּוּבָּה, כִּיתָּה), knowingly non-standard",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "אלו הן דוגמאות לניקוד שאינו מתיישב עם כללי הניקוד",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-homographs",
+   "claim": "Grades 4-6: let students work through some homographs",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "טוב יהיה לאפשר לתלמידים בכיתות הגבוהות (ד'-ו') להתלבט ולהתחבט בפענוח הומוגרפים",
+   "confidence": "high"
+  },
+  {
+   "id": "nikod-overload",
+   "claim": "Avoid overloading a text with ambiguous words",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "source_fetched_at": "2026-11-23T17:57:43Z",
+   "raw_snippet": "יש להימנע מהעמסת יתר של מצבים עמומים",
+   "confidence": "high"
+  },
+  {
+   "id": "safa-title",
+   "claim": "The current K-2 language curriculum document",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/tohnit-limudim-safa.pdf",
+   "source_fetched_at": "2026-11-23T17:57:53Z",
+   "raw_snippet": "תוכנית לימודים להוראת השפה והאוריינות בעברית",
+   "confidence": "high"
+  },
+  {
+   "id": "rights-s14",
+   "claim": "Student Rights Law Section 14 (סעיף 14): information about a student reached through a role under the law is confidential",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%94%D7%AA%D7%9C%D7%9E%D7%99%D7%93",
+   "source_fetched_at": "2026-11-23T17:57:35Z",
+   "raw_snippet": "מי שהגיע אליו מידע על תלמיד עקב מילוי תפקיד שהוטל עליו לפי חוק זה, חובה עליו לשמרו בסוד ואינו רשאי לגלותו אלא לצורך ביצוע תפקידו.",
+   "confidence": "high"
+  },
+  {
+   "id": "privacy-s2-9",
+   "claim": "Privacy Protection Law Section 2(9) (סעיף 2): using or passing on private information for another purpose",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA",
+   "source_fetched_at": "2026-11-23T17:57:33Z",
+   "raw_snippet": "שימוש בידיעה על עניניו הפרטיים של אדם או מסירתה לאחר, שלא למטרה שלשמה נמסרה",
+   "confidence": "high"
+  },
+  {
+   "id": "privacy-s2-11",
+   "claim": "Privacy Protection Law Section 2(11) (סעיף 2): publishing a matter about a person's private life",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA",
+   "source_fetched_at": "2026-11-23T17:57:33Z",
+   "raw_snippet": "פרסומו של ענין הנוגע לצנעת חייו האישיים של אדם",
+   "confidence": "high"
+  },
+  {
+   "id": "safa-phonetic",
+   "claim": "2026 curriculum: phonetic writing in grade 1 supports alphabetic knowledge",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/tohnit-limudim-safa.pdf",
+   "raw_snippet": "הכתיבה הפונטית בכיתה א היא דרך יעילה מאוד לביסוס הידע האלפביתי",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:53Z"
+  },
+  {
+   "id": "hozer-g23",
+   "claim": "Circular for תשפ\"ו: grades 2-3 are a key stage for reading fluency",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/hozermafmar2026_tashpav.pdf",
+   "raw_snippet": "זהו שלב משמעותי בתהליך התבססות שטף הקריאה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:52Z"
+  },
+  {
+   "id": "nikod-mid-g2",
+   "claim": "Mid grade 2 is treated as the move from phonological decoding to whole-word reading",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "נוהגים להתייחס לאמצע כיתה ב' כשלב מעבר מקריאה המבוססת בעיקרה על תהליכי קידוד פונולוגיים לקריאה התופסת את המילים כיחידות אורתוגרפיות שלמות.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:43Z"
+  },
+  {
+   "id": "g1-word",
+   "claim": "Grade 1 program includes suitable word problems",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+   "raw_snippet": "יש לשלב שאלות מילוליות מתאימות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:44Z"
+  },
+  {
+   "id": "g2-vertical",
+   "claim": "Grade 2 program covers vertical addition and subtraction",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade2.pdf",
+   "raw_snippet": "הוראת האלגוריתם של חיבור ושל חיסור במאונך תתבצע כסיכום",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:46Z"
+  },
+  {
+   "id": "g3-divisor",
+   "claim": "Grade 3 division with remainder uses a one-digit divisor",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "raw_snippet": "המחלק הוא חד-ספרתי",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:48Z"
+  },
+  {
+   "id": "mafmar-challenge",
+   "claim": "Math circular: expose students to challenging tasks",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+   "raw_snippet": "לחשוף תלמידים גם למשימות מאתגרות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:50Z"
+  },
+  {
+   "id": "mafmar-adapt",
+   "claim": "Math circular: the adaptation document currently covers natural numbers and their operations",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+   "raw_snippet": "נכון לעת זו, מסמך ההתאמות כולל התייחסות לנושא המספרים הטבעיים והפעולות בהם",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:50Z"
+  },
+  {
+   "id": "cw-s28a",
+   "claim": "Copyright Law Section 28א (סעיף 28א): a conditional permission to adapt a work for a person with a disability",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "raw_snippet": "עשיית פעולה ביצירה שאינה נגישה באופן הולם לאדם עם מוגבלות מחמת מוגבלותו",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:37Z"
+  },
+  {
+   "id": "cw-s29-limits",
+   "claim": "Section 29 (סעיף 29): performance by staff or students, before staff, students, their relatives or people directly connected with the institution",
+   "claim_type": "law",
+   "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%96%D7%9B%D7%95%D7%AA_%D7%99%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "raw_snippet": "על ידי העובדים במוסד החינוך או על ידי התלמידים הלומדים בו, ובלבד שהביצוע הפומבי הוא לפני ציבור הכולל את העובדים או את התלמידים כאמור, קרוביהם של התלמידים או אנשים אחרים הקשורים במישרין עם פעילותו של מוסד החינוך",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:37Z"
+  },
+  {
+   "id": "ai-credit",
+   "claim": "Ministry AI guidance: state AI use in every product",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+   "raw_snippet": "קרדיט - יש לציין שימוש בבינה מלאכותית בכל תוצר.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:57:56Z"
+  },
+  {
+   "id": "g3-table-scope",
+   "claim": "Grade 3 division with remainder is within the 10 by 10 table",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+   "source_fetched_at": "2026-11-23T17:57:48Z",
+   "raw_snippet": "חילוק עם שארית בתחום לוח הכפל של 10 × 10",
+   "confidence": "high",
+   "verified_via": "pdf",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "g1-no-signs",
+   "claim": "Grade 1 program: number comparison questions are asked without mathematical notation",
+   "claim_type": "law",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+   "source_fetched_at": "2026-11-23T17:57:44Z",
+   "raw_snippet": "מה גדול/קטן ממה? (ללא סימון מתמטי)",
+   "confidence": "high"
+  }
+ ]
+}

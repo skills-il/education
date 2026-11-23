@@ -1,0 +1,91 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "education",
+  "tags": {
+    "he": [
+      "חיפוש-אוצר",
+      "חדר-בריחה",
+      "חידות",
+      "הורים",
+      "חנוכה",
+      "יום-הולדת",
+      "ניקוד",
+      "בטיחות-ילדים",
+      "הדפסה",
+      "ישראל"
+    ],
+    "en": [
+      "treasure-hunt",
+      "escape-room",
+      "riddles",
+      "parents",
+      "hanukkah",
+      "birthday",
+      "niqqud",
+      "child-safety",
+      "printable",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "חיפוש אוצר אישי בעברית",
+    "en": "Hebrew Treasure Hunt Maker"
+  },
+  "display_description": {
+    "he": "מכינים לילדים חיפוש אוצר או חדר בריחה ביתי בעברית, אישי ומוכן להדפסה. מספרים על הילדים ועל הבית, ומקבלים חידות לפי רמת הקריאה של כל ילד ועם פנייה נכונה לבן או לבת, מסלול בחדרים שלכם, כרטיסי רמזים לגזירה, דף תשובות למארחים, סולם רמזים ותעודה. מקומות המחבוא והפרסים נבחרים מתפריטים קצרים וסגורים, לפי הילד הצעיר ביותר בבית, גם אם הוא רק אורח. הסקיל גם מתריע על חלק מהמילים המסוכנות בחידות ומתחשב בתאריכי חנוכה ובמגבלות שבת למשפחות ששומרות. מתאים כשהורה מבקש חיפוש אוצר או משחק חידות בבית: לחנוכה, ליום הולדת, לחיפוש אפיקומן או ליום גשום בבית. עוזר להימנע מרמזים במרפסת או במכשירי חשמל, מפרסים שיש בהם סכנת חנק ומסיכוני נרות. מבוגר קורא כל כרטיס, עובר על המסלול קודם ונשאר עם הילדים. לא מיועד לספר סיפור אישי (בשביל זה יש את hebrew-kids-story-maker), לדפי עבודה לכיתה, למשחקים לכיתה או לקבוצות מבית הספר, לחידות בודדות בלי משחק, לחיפוש מחוץ לבית, לעסקי הפעלות או לעזרה ראשונה וייעוץ רפואי.",
+    "en": "Make a personal Hebrew treasure hunt or home escape room for your kids, print-ready. Get riddles at each child's reading level and gender, a route through your rooms, cut-out clue cards, a host answer sheet, a hint ladder and a certificate. Hiding places and prizes come from short closed menus, set by the youngest child in the home, even a visiting toddler. Also flags some riddle wording and handles Hanukkah dates and Shabbat limits for families who keep them. Use when planning Hanukkah, a birthday, an afikoman hunt or a day at home. Helps avoid clues on balconies or in appliances, choking-hazard prizes and candle risks. An adult reads every card, walks the route first and stays with the children. Do NOT use for a personalized story book (use hebrew-kids-story-maker), classroom worksheets, classroom or school-group games, standalone riddles with no game, outdoor or public hunts, commercial party businesses, first aid or medical advice."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "seasonal",
+  "authoritative_sources": [
+    {
+      "url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+      "type": "foundation",
+      "language": "he"
+    },
+    {
+      "url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.oref.org.il/heb/articles/the-protected-space/main/1503",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.hebcal.com/holidays/chanukah-2026",
+      "type": "vendor-docs",
+      "language": "en"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/sharenting_for_parents1",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

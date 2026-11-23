@@ -1,0 +1,920 @@
+{
+ "skill_slug": "hebrew-treasure-hunt-maker",
+ "schemaVersion": "1.0",
+ "generated_at": "2026-11-23",
+ "claims": [
+  {
+   "id": "falls-furniture",
+   "claim": "Keep beds, dressers and chairs away from windows",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%A0%D7%A4%D7%99%D7%9C%D7%95%D7%AA/",
+   "raw_snippet": "מרחיקים מחלונות רהיטים כגון מיטות, שידות וכסאות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "design-no-heavy-furniture",
+   "claim": "Do not place puzzles where players must move heavy furniture",
+   "claim_type": "feature",
+   "source_url": "https://courses.fit.cvut.cz/NI-ESC/lectures/files/esc-room-design.pdf",
+   "raw_snippet": "Especially don't put clues and puzzles in inaccessible places requiring moving heavy furniture.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:33Z"
+  },
+  {
+   "id": "falls-leading",
+   "claim": "Falls are the main cause of child injury hospitalization",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA-%D7%91%D7%92%D7%99%D7%9C%D7%90%D7%99-%D7%A9%D7%A0%D7%94-%D7%A2%D7%93-5/",
+   "raw_snippet": "נפילות הן הגורם המרכזי לאשפוז ילדים מהיפגעות.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "balcony-supervised",
+   "claim": "Beterem: play on balconies and roofs with railings only under adult supervision",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%A0%D7%A4%D7%99%D7%9C%D7%95%D7%AA/",
+   "raw_snippet": "משחק במרפסות ועל גגות בעלי מעקות - בהשגחת מבוגר בלבד",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "appliance-victims",
+   "claim": "CPSC: most appliance entrapment victims were four to seven and doors could not be pushed open from inside",
+   "claim_type": "feature",
+   "source_url": "https://webarchive.library.unt.edu/web/20090826225046/http://www.cpsc.gov/cpscpub/pubs/5073.html",
+   "raw_snippet": "Most of the victims were four to seven years old. In all cases, the doors could not be easily pushed open from the inside.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:34:24Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "appliance-hide-seek",
+   "claim": "CPSC: children were frequently playing hide-and-seek when trapped in an appliance or chest",
+   "claim_type": "feature",
+   "source_url": "https://webarchive.library.unt.edu/web/20090826225046/http://www.cpsc.gov/cpscpub/pubs/5073.html",
+   "raw_snippet": "Frequently, the children were playing \"hide-and-seek\" and the appliance or chest provided a deceptively good place to hide.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:34:24Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "washing-machine-israel",
+   "claim": "An Israeli toddler died locked in a washing machine during hide-and-seek (2019)",
+   "claim_type": "feature",
+   "source_url": "https://www.jpost.com/Israel-News/Toddler-dies-after-being-locked-in-washing-machine-playing-hide-and-seek-608024",
+   "raw_snippet": "Toddler dies after being locked in washing machine playing hide-and-seek",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:19Z"
+  },
+  {
+   "id": "burns-kitchen",
+   "claim": "Most home burns of children happen in the kitchen",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%d7%9e%d7%9e%d7%94-%d7%a0%d7%a4%d7%92%d7%a2%d7%99%d7%9d-%d7%99%d7%9c%d7%93%d7%99%d7%9d/%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%9b%d7%95%d7%95%d7%99%d7%95%d7%aa/",
+   "raw_snippet": "מרבית מקרי הכוויות של ילדים בבית, מתרחשות במטבח.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "kettle-urn",
+   "claim": "Keep electric kettle and urn away from the counter edge",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%d7%9e%d7%9e%d7%94-%d7%a0%d7%a4%d7%92%d7%a2%d7%99%d7%9d-%d7%99%d7%9c%d7%93%d7%99%d7%9d/%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%9b%d7%95%d7%95%d7%99%d7%95%d7%aa/",
+   "raw_snippet": "קומקום חשמלי ומיחם מרחיקים מקצה השיש",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "shabbat-hotplate",
+   "claim": "Keep the Shabbat hotplate and its cord out of children's reach",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/burn-prevention/",
+   "raw_snippet": "מניחים את פלטת השבת ואת כבל החשמל שלה הרחק מהישג ידם של ילדים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "poison-storage",
+   "claim": "Cleaning products, pesticides and medicines belong in a locked or high cabinet",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%d7%9e%d7%9e%d7%94-%d7%a0%d7%a4%d7%92%d7%a2%d7%99%d7%9d-%d7%99%d7%9c%d7%93%d7%99%d7%9d/%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%94%d7%a8%d7%a2%d7%9c%d7%94/",
+   "raw_snippet": "חומרי ניקוי, חומרי הדברה ותרופות מאחסנים בארון נעול או גבוה, הרחק מהישג ידם של ילדים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "poison-tablets",
+   "claim": "Dishwasher and laundry tablets are kept away from babies",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%d7%9e%d7%9e%d7%94-%d7%a0%d7%a4%d7%92%d7%a2%d7%99%d7%9d-%d7%99%d7%9c%d7%93%d7%99%d7%9d/%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%94%d7%a8%d7%a2%d7%9c%d7%94/",
+   "raw_snippet": "טבליות ניקוי (למדיח, לכביסה וכו') מרחיקים מהישג ידם של תינוקות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "capsule-test",
+   "claim": "Anything that fits in the yellow surprise-egg capsule is unsuitable under age 3",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/safe-play/",
+   "raw_snippet": "אם חלק מהמשחק יכול להיכנס לתוך המעטפת הצהובה מהפלסטיק שיש בתוך ביצת הפתעה - הוא לא מתאים לילדים מתחת לגיל 3.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:07Z"
+  },
+  {
+   "id": "small-parts-after-3",
+   "claim": "After age 3, a child who still mouths objects should not get small toys",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "לאחר גיל 3, אם הילד נוטה עדיין להכניס חפצים לפה - אין לתת לו צעצועים קטנים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "big-kids-games",
+   "claim": "Older children's games must not contain small parts dangerous to children under 3",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%A9%D7%94%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%97%D7%94-%D7%91%D7%9E%D7%A8%D7%97%D7%91-%D7%94%D7%9E%D7%95%D7%92%D7%9F/",
+   "raw_snippet": "שימו לב שהמשחקים של הילדים הגדולים אינם מכילים חלקים קטנים שעלולים להוות סכנה לילדים מתחת לגיל 3.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:28Z"
+  },
+  {
+   "id": "magnets-under-5",
+   "claim": "Ministry of Health recommends keeping children up to age 5 from playing with magnets",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/risks-to-children/prevent-choking/choking-hazards",
+   "raw_snippet": "מומלץ למנוע מתינוקות וילדים עד גיל 5 שנים לשחק במגנטים",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:05Z"
+  },
+  {
+   "id": "battery-swallowed",
+   "claim": "Suspected battery swallowing requires immediate medical care",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "אם יש לכם חשש שהילד או הילדה בלעו את הבטרייה, חשוב לפנות מיידית לקבלת טיפול רפואי.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "cords",
+   "claim": "Keep laces, strings and curtains out of babies' reach",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "מרחיקים שרוכים, חוטים ווילונות מהישג ידם של תינוקות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "shallow-water",
+   "claim": "Children can drown in water only a few centimeters deep",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA-%D7%91%D7%92%D7%99%D7%9C%D7%90%D7%99-%D7%A9%D7%A0%D7%94-%D7%A2%D7%93-5/",
+   "raw_snippet": "ילדים עלולים לטבוע גם במים רדודים בעומק סנטימטרים בודדים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "bath-alone",
+   "claim": "Never leave toddlers alone in the bath",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%98%D7%91%D7%99%D7%A2%D7%94/",
+   "raw_snippet": "לא משאירים פעוטות לבד באמבטיה, אפילו לא לרגע!",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:28Z"
+  },
+  {
+   "id": "mamad-route-oref",
+   "claim": "Home Front Command: the way to the protected space must be free of obstacles",
+   "claim_type": "feature",
+   "source_url": "https://www.oref.org.il/heb/articles/the-protected-space/main/1503",
+   "raw_snippet": "יש לוודא שהדרך אל המרחב המוגן פנויה ממכשולים שעלולים להפריע לתנועה כדי להימנע מנפילות.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:16:33Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "mamad-breakables",
+   "claim": "Home Front Command: remove items that can shatter or ignite from the protected space",
+   "claim_type": "feature",
+   "source_url": "https://www.oref.org.il/heb/articles/the-protected-space/main/1503",
+   "raw_snippet": "יש להוציא מהמרחב המוגן פריטים וחפצים שעלולים להתנפץ או להתלקח כמו זכוכית וקרמיקה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:16:33Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "mamad-route-beterem",
+   "claim": "Beterem: clear the way to the protected space of large and small objects",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%A9%D7%94%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%97%D7%94-%D7%91%D7%9E%D7%A8%D7%97%D7%91-%D7%94%D7%9E%D7%95%D7%92%D7%9F/",
+   "raw_snippet": "את הדרך למרחב המוגן חשוב לפנות כדי שכל בני הבית יוכלו להגיע אליו במהרה ובאופן בטוח.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:28Z"
+  },
+  {
+   "id": "mamad-play-corner",
+   "claim": "Beterem suggests a play corner in the mamad",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%A9%D7%94%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%97%D7%94-%D7%91%D7%9E%D7%A8%D7%97%D7%91-%D7%94%D7%9E%D7%95%D7%92%D7%9F/",
+   "raw_snippet": "מכינים פינת משחקים בממ\"ד",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:28Z"
+  },
+  {
+   "id": "siren",
+   "claim": "On a siren, check stove and oven are off; in winter close heaters and on Hanukkah put out candles",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%A9%D7%94%D7%95%D7%AA-%D7%91%D7%98%D7%95%D7%97%D7%94-%D7%91%D7%9E%D7%A8%D7%97%D7%91-%D7%94%D7%9E%D7%95%D7%92%D7%9F/",
+   "raw_snippet": "בהישמע אזעקה, לפני ההליכה למרחב המוגן, זכרו לבדוק שהכיריים והתנור, כבויים. בחורף חשוב לסגור תנורי חימום ובחנוכה לכבות את הנרות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:28Z"
+  },
+  {
+   "id": "candles-supervised",
+   "claim": "Do not leave children near lit candles, or candles, unsupervised",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "אין להשאיר ילדים בסביבות נרות דולקים ללא השגחה ואין להשאיר נרות ללא השגחה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "hanukkiyah-surface",
+   "claim": "Light the hanukkiyah on a stable non-flammable surface away from flammable items",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "את החנוכייה מדליקים על משטח יציב ולא דליק ומרחיקים אותה מחפצים ורהיטים דליקים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "hanukkiyah-tablecloth",
+   "claim": "Do not put the hanukkiyah on a tablecloth",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "אין להניח את החנוכייה על מפה מחשש שפעוטות ימשכו אותה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "candles-age-9",
+   "claim": "Children up to age 9 light candles only with an adult",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "ילדים עד גיל 9 מדליקים נרות רק בעזרת מבוגר.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "homemade-hanukkiyah",
+   "claim": "Children's homemade hanukkiyot are not suitable for lighting",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "חנוכיות מעשה ידם של הילדים, יכולות לשמש כקישוט או להישמר כמזכרת, אבל הן לא מתאימות להדליק בהן נרות.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "frying",
+   "claim": "Keep children away from frying and let fried food cool",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "בזמן הטיגון, מרחיקים ילדים מאזור הטיגון מחשש לכוויה מהתזת השמן, לאחר הטיגון מחכים שהמאכל המטוגן יתקרר לפני שנותנים לילד לאכול.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "oil-water",
+   "claim": "Never splash water on boiling oil",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "בשום אופן אין להתיז מים על השמן הרותח",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "under-6-law",
+   "claim": "Israeli law forbids leaving a child under 6 without proper supervision",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/home-safety/leaving-children-alone-at-home/",
+   "raw_snippet": "החוק במדינת ישראל קובע כי אסור להשאיר ילד מתחת לגיל 6 ללא השגחה ראויה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:16Z"
+  },
+  {
+   "id": "phone-102",
+   "claim": "Fire emergency number is 102",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "יש לחייג ל-102",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "phone-poison",
+   "claim": "National poison information center, Rambam: 04-7771900",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%d7%9e%d7%9e%d7%94-%d7%a0%d7%a4%d7%92%d7%a2%d7%99%d7%9d-%d7%99%d7%9c%d7%93%d7%99%d7%9d/%d7%9e%d7%a0%d7%99%d7%a2%d7%aa-%d7%94%d7%a8%d7%a2%d7%9c%d7%94/",
+   "raw_snippet": "למרכז הארצי למידע בהרעלות, רמב\"ם, בטלפון 04-7771900",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:18Z"
+  },
+  {
+   "id": "phone-101",
+   "claim": "MDA emergency number is 101",
+   "claim_type": "feature",
+   "source_url": "https://www.maariv.co.il/news/health/Article-1057457",
+   "raw_snippet": "להזעיק את מד\"א בטלפון החירום 101",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:04Z"
+  },
+  {
+   "id": "food-under-5",
+   "claim": "Foods forbidden under 5: nuts, seeds, popcorn, lollipops, gum, marshmallow, toffee, jelly candy",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/risks-to-children/prevent-choking/safe-baby-feeding/",
+   "raw_snippet": "מזונות שאסור לתת מתחת לגיל 5: פיצוחים, אגוזים, שקדים, בוטנים וגרעינים, פופקורן, סוכריות על מקל, מסטיקים, מרשמלו, טופי, סוכריות ג'לי.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:32Z"
+  },
+  {
+   "id": "round-foods",
+   "claim": "Round, smooth or ring-cut foods can block the airway",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "מאכלים עגולים, חלקים או החתוכים לטבעות עלולים לחסום את קנה הנשימה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "safe-snacks",
+   "claim": "Beterem's food table lists these snacks with no age limit",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "אפרופו, צ'יריוס, חטיף צ'יפס, ביסקוויט, בייגלה, גלידה, ארטיק/קרטיב, קרמבו, וופלים, עוגה (ללא אגוזים), שוקולד (ללא אגוזים)",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "eat-moving",
+   "claim": "Eating while playing or moving is especially dangerous with these foods",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-tu-bishvat/",
+   "raw_snippet": "ילדים גם אוכלים לפעמים בזמן משחק או כשהם בתנועה וזה מסוכן במיוחד כשמדובר במזונות אלה",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:12Z"
+  },
+  {
+   "id": "eat-sitting",
+   "claim": "Toddlers eat only sitting and with an adult",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "פעוטות המסוגלים לשבת, אוכלים אך ורק בישיבה ובהשגחת מבוגר.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "coins-foil",
+   "claim": "Peel chocolate coin foil and bin it",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "אם מעניקים מטבעות שוקולד, יש להקפיד לקלף את העטיפות המוזהבות ולהשליכן לפח.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "coins-under-5",
+   "claim": "Keep coins away from children under 5",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "הרחיקו מטבעות מילדים וילדות מתחת לגיל 5",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "small-dreidel",
+   "claim": "A small dreidel that fits the surprise-egg box can cause choking",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "שימו לב שכל סביבון קטן, בגודל שיכול להיכנס לקופסה של ביצת הפתעה, עלול לגרום לחנק.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "dreidel-standard",
+   "claim": "Buy only dreidels with a standards mark",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "רכשו רק סביבונים שיש להם תו תקן שמעיד על בטיחותם.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "balloons-under-8",
+   "claim": "Up to age 8 uninflated balloons, balloon pieces and water balloons are a choking hazard",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%9E%D7%9E%D7%94-%D7%A0%D7%A4%D7%92%D7%A2%D7%99%D7%9D-%D7%99%D7%9C%D7%93%D7%99%D7%9D/%D7%9E%D7%A0%D7%99%D7%A2%D7%AA-%D7%97%D7%A0%D7%A7/",
+   "raw_snippet": "עד גיל 8 יש סכנת חנק מבלונים לא מנופחים, קרעי בלונים ובלוני מים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:23Z"
+  },
+  {
+   "id": "allergy-recognized",
+   "claim": "Ministry of Education recognizes pupils with food allergies at varying severity",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/briut/allergy/kinder.pdf",
+   "raw_snippet": "בגני הילדים לומדים תלמידים עם אלרגיה למוצרי מזון שונים בדרגות שונות.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:56Z"
+  },
+  {
+   "id": "niqqud-g1",
+   "claim": "Grade 1 texts are almost fully vocalized",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "הטקסטים ינוקדו כמעט במלואם",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-g1-dagesh",
+   "claim": "Grade 1: omit marks that do not support decoding, such as strong dagesh and mappiq",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "כדאי להשמיט סימנים שאינם תומכים בפענוח המדויק של המילה, כמו דגשים חזקים ומפיק.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-g1-shin",
+   "claim": "Grade 1: recommended not to mark the right-hand shin dot",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "מומלץ לא לנקד ש' ימנית",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-g2",
+   "claim": "Grade 2: mostly heavy niqqud with some exposure to unvocalized spelling",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "בדרך כלל ניקוד מרובה עם חשיפה לכתיב חסר הניקוד",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-g3",
+   "claim": "Grade 3: supportive niqqud that gradually decreases",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "ניקוד מסייע, אך הולך ופוחת",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-stories",
+   "claim": "In the guideline's grade 3 section: stories, poems and source texts are always fully vocalized",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "סיפורים, שירים וטקסטים מן המקורות ינוקדו תמיד בניקוד מלא",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-g46",
+   "claim": "Grades 4 to 6: little supporting niqqud",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "ניקוד מסייע מועט. יש להפעיל שיקול דעת ולהוסיף ניקוד במילים מורכבות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "niqqud-names",
+   "claim": "Uncommon names and foreign words get full or supporting niqqud",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+   "raw_snippet": "שמות שאינם שכיחים ומילים זרות ינוקדו בניקוד מלא או מסייע",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "gan-whole-words",
+   "claim": "Kindergarten children first recognize familiar whole words",
+   "claim_type": "feature",
+   "source_url": "https://pop.education.gov.il/kindergarten/topics/language-literacy/teaching-materials-language/concept-number/",
+   "raw_snippet": "תחילה יזהו הילדים מילים כתובות שלמות, כאלה השכיחות בסביבתם ושהשימוש בהן תדיר.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:51Z"
+  },
+  {
+   "id": "gan-no-formal",
+   "claim": "Formal teaching of reading and writing in kindergarten is not recommended",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/PreSchool/pitoah-safa-perek4.pdf",
+   "raw_snippet": "הוראה פורמלית של הקריאה והכתיבה בשנות הגן אינה מומלצת",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:57Z"
+  },
+  {
+   "id": "design-branching",
+   "claim": "Use branching to split players and keep all of them busy",
+   "claim_type": "feature",
+   "source_url": "https://courses.fit.cvut.cz/NI-ESC/lectures/files/esc-room-design.pdf",
+   "raw_snippet": "Use branching to split players and to make all of them busy.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:33Z"
+  },
+  {
+   "id": "hanukkah-2026",
+   "claim": "Hanukkah 5787 begins at sundown on Friday 4 December 2026 and ends at nightfall on Saturday 12 December 2026",
+   "claim_type": "feature",
+   "source_url": "https://www.hebcal.com/holidays/chanukah-2026",
+   "raw_snippet": "Chanukah for Hebrew Year 5787 begins at sundown on Friday, 4 December 2026 and ends at nightfall on Saturday, 12 December 2026.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:06Z"
+  },
+  {
+   "id": "friday-order",
+   "claim": "On Shabbat of Hanukkah, Hanukkah candles are lit before Shabbat candles",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/05-13-05/",
+   "raw_snippet": "ובשבת חנוכה צריך להדליק נרות חנוכה לפני הדלקת נרות שבת.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "saturday-order",
+   "claim": "On Saturday night, pray Maariv first and then light Hanukkah candles",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/05-13-05/",
+   "raw_snippet": "במוצאי שבת, מתפללים ערבית תחילה, ואח\"כ מדליקים נרות חנוכה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "havdalah-both",
+   "claim": "Both customs on Havdalah vs candles first have a place and each person may choose",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/05-13-05/",
+   "raw_snippet": "למעשה, לשני המנהגים יש מקום בהלכה (באו\"ה שם), וכל אדם רשאי לבחור בזה את מנהגו.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "shabbat-prize",
+   "claim": "Peninei Halakha: a game with a real money or food prize for the winner is a problem on Shabbat",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/01-24-07/",
+   "raw_snippet": "אבל במשחק שיש למנצח רווח ממשי של כסף או מאכל",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "shabbat-writing",
+   "claim": "Peninei Halakha: games with writing, gluing or cutting are forbidden on Shabbat; puzzles and joining letters are permitted to children",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/01-24-07/",
+   "raw_snippet": "כל משחק שכולל כתיבה או הדבקה או גזירה או קליעה אסור בשבת. אבל מותר לקטנים להרכיב פאזל או ליצור מילים על ידי חיבור אותיות זו לזו או על גבי לוח.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "gender-default",
+   "claim": "Masculine is usually the default for addressing a mixed group",
+   "claim_type": "feature",
+   "source_url": "https://meyda.education.gov.il/files/Pop/0files/shivyon-minim/right-to-know-new.pdf",
+   "raw_snippet": "לשון הזכר משמשת לרוב כברירת המחדל בפנייה לקבוצה מעורבת.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:06Z"
+  },
+  {
+   "id": "exit-always",
+   "claim": "Always provide a way to leave the room in an emergency",
+   "claim_type": "feature",
+   "source_url": "https://courses.fit.cvut.cz/NI-ESC/lectures/files/esc-room-design.pdf",
+   "raw_snippet": "Do always provide a mean to leave the room in case of emergency.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:33Z"
+  },
+  {
+   "id": "koszalin-locked",
+   "claim": "Koszalin: victims were locked in the room as part of birthday celebrations",
+   "claim_type": "feature",
+   "source_url": "https://www.irishtimes.com/news/world/europe/poland-shuts-down-13-escape-rooms-after-fire-kills-five-girls-1.3749319",
+   "raw_snippet": "They had been locked inside the room as part of birthday celebrations.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:31Z"
+  },
+  {
+   "id": "coins-dreidels-under-5",
+   "claim": "Ministry of Health: keep dreidels and coins away from children under 5",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-hanukkah/",
+   "raw_snippet": "ילדים וילדות מתחת לגיל 5: הרחיקו מהם סביבונים ומטבעות, כי בגיל הזה יש להם נטייה טבעית להכניס כל דבר לפה.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:30Z"
+  },
+  {
+   "id": "gelt-choking-mda",
+   "claim": "MDA reports choking from chocolate coins during Hanukkah",
+   "claim_type": "feature",
+   "source_url": "https://www.maariv.co.il/news/health/Article-1057457",
+   "raw_snippet": "שאיפת גופים זרים דוגמת סביבונים וחנק כתוצאה מאכילת מטבעות שוקולד וסופגניות",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:04Z"
+  },
+  {
+   "id": "shabbat-adults-stricter",
+   "claim": "Peninei Halakha: adults should be stricter on joining letters, while children may rely on the lenient view",
+   "claim_type": "feature",
+   "source_url": "https://ph.yhb.org.il/01-24-07/",
+   "raw_snippet": "ואף שמבוגרים צריכים להחמיר בזה, קטנים רשאים לסמוך על המקילים שסוברים שאין בזה איסור",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:29Z"
+  },
+  {
+   "id": "hfc-siren-first",
+   "claim": "Home Front Command: on an alert, enter the protected space according to the time available",
+   "claim_type": "feature",
+   "source_url": "https://www.oref.org.il/heb/articles/the-protected-space/main/1503",
+   "raw_snippet": "בעת קבלת התרעה (אזעקה), יש להיכנס למרחב מוגן מיטבי בהתאם לזמן ההתגוננות העומד לרשותנו.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:59:43Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "koszalin-five",
+   "claim": "Koszalin: five teenage girls were killed in a fire at an escape room",
+   "claim_type": "feature",
+   "source_url": "https://www.irishtimes.com/news/world/europe/poland-shuts-down-13-escape-rooms-after-fire-kills-five-girls-1.3749319",
+   "raw_snippet": "Polish officials have shut down 13 escape room sites over safety issues after five teenage girls were killed in a fire at one such venue.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:31Z"
+  },
+  {
+   "id": "koszalin-co",
+   "claim": "Koszalin postmortems found carbon monoxide inhalation",
+   "claim_type": "feature",
+   "source_url": "https://www.irishtimes.com/news/world/europe/poland-shuts-down-13-escape-rooms-after-fire-kills-five-girls-1.3749319",
+   "raw_snippet": "Postmortem examinations showed they died of carbon monoxide inhalation.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:31Z"
+  },
+  {
+   "id": "hint-early",
+   "claim": "Early hints ask basic questions that gently push the right way",
+   "claim_type": "feature",
+   "source_url": "https://roomescapeartist.com/2018/09/09/11-principles-of-tabletop-escape-game-design/",
+   "raw_snippet": "Early hints should ask me basic questions that gently push me in the right direction",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:55Z"
+  },
+  {
+   "id": "hint-late",
+   "claim": "Late hints give a foundation to finish the puzzle",
+   "claim_type": "feature",
+   "source_url": "https://roomescapeartist.com/2018/09/09/11-principles-of-tabletop-escape-game-design/",
+   "raw_snippet": "Late hints should provide me with a foundation to finish the puzzle",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:55Z"
+  },
+  {
+   "id": "hint-solution",
+   "claim": "Solutions are the last resort and explain how the puzzle worked",
+   "claim_type": "feature",
+   "source_url": "https://roomescapeartist.com/2018/09/09/11-principles-of-tabletop-escape-game-design/",
+   "raw_snippet": "Solutions should be the last resort. Solutions should explain how the puzzle was supposed to work.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:55Z"
+  },
+  {
+   "id": "fair-puzzles",
+   "claim": "Puzzles should be solvable using their clues",
+   "claim_type": "feature",
+   "source_url": "https://courses.fit.cvut.cz/NI-ESC/lectures/files/esc-room-design.pdf",
+   "raw_snippet": "Do make puzzles solvable using their clues, without any need for hints.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:33Z"
+  },
+  {
+   "id": "no-danger",
+   "claim": "Players should not do things dangerous in real life",
+   "claim_type": "feature",
+   "source_url": "https://courses.fit.cvut.cz/NI-ESC/lectures/files/esc-room-design.pdf",
+   "raw_snippet": "Players shouldn't do things that are dangerous in real life.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:08:33Z"
+  },
+  {
+   "id": "photos-others",
+   "claim": "Privacy Protection Authority: avoid publicly posting other people's children, certainly without at least their parents' consent",
+   "claim_type": "feature",
+   "source_url": "https://www.gov.il/BlobFolder/reports/sharenting_for_parents1/he/SharintingPost13Access.pdf",
+   "raw_snippet": "הימנעו מפרסום ברבים של מידע אישי על אודות ילדיהם של אחרים (לרבות תמונות וסרטונים בהם מופיעה דמותם), בוודאי אם לא התקבלה לכל הפחות הסכמת הוריהם.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:56Z"
+  },
+  {
+   "id": "identifying-details",
+   "claim": "Avoid publishing details usable for identification, such as birth city or school name",
+   "claim_type": "feature",
+   "source_url": "https://www.gov.il/BlobFolder/reports/sharenting_for_parents1/he/SharintingPost13Access.pdf",
+   "raw_snippet": "השתדלו להימנע מפרסום מידע העשוי לשמש להזדהות או לאימות זיהוי, כגון: עיר הולדתו של הילד; שם בית ספרו",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:56Z"
+  },
+  {
+   "id": "attention-5",
+   "claim": "CDC: by age 5 a child pays attention for 5 to 10 minutes during activities",
+   "claim_type": "feature",
+   "source_url": "https://www.cdc.gov/act-early/milestones/5-years.html",
+   "raw_snippet": "Pays attention for 5 to 10 minutes during activities.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:34:30Z",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "purim-fireworks",
+   "claim": "Purim: prevent children from playing with snaps and firecrackers",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-purim/",
+   "raw_snippet": "בחזיזים, זיקוקים, נפצים, קפצונים וחומרי נפץ מאולתרים אחרים, לכן, חשוב למנוע מהם לשחק איתם",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:10Z"
+  },
+  {
+   "id": "purim-masks",
+   "claim": "Purim: choose masks with ventilation for nose and mouth and eye openings",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-purim/",
+   "raw_snippet": "בחרו מסכות שיש להן פתחי אוורור לאף ולפה ופתחים שמתאימים לעיניים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:10Z"
+  },
+  {
+   "id": "tubishvat-nuts",
+   "claim": "Tu BiShvat: nuts and seeds are among the leading causes of choking",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-tu-bishvat/",
+   "raw_snippet": "פיצוחים כמו בוטנים, שקדים, אגוזים, גרעינים או פיסטוקים הם בין הגורמים המובילים לחנק",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:12Z"
+  },
+  {
+   "id": "afikoman-customs",
+   "claim": "Afikoman: in some families the father hides it, in others the children do",
+   "claim_type": "feature",
+   "source_url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1180067-0",
+   "raw_snippet": "בעוד שאצל משפחות אחדות נהוג שאב המשפחה מחביא את האפיקומן לצאצאים, ניתן למצוא גם בתי אב בהם ילדים הם אלה שאמונים על החבאת המצה",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:07:30Z"
+  },
+  {
+   "id": "passover-cleaning",
+   "claim": "Cleaning products are a poisoning hazard for children at any age",
+   "claim_type": "feature",
+   "source_url": "https://me.health.gov.il/parenting/raising-children/safe-environment/safety-during-the-holidays/safety-during-passover-cleaning/",
+   "raw_snippet": "חומרי ניקוי הם סכנת הרעלה עבור ילדים וילדות בכל גיל.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:06:14Z"
+  },
+  {
+   "id": "smoke-detector",
+   "claim": "A smoke detector is recommended",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "מומלץ להתקין גלאי עשן",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "hair-sleeves",
+   "claim": "Tie back long hair and wear fitted sleeves when lighting",
+   "claim_type": "feature",
+   "source_url": "https://beterem.org/%D7%91%D7%97%D7%A0%D7%95%D7%9B%D7%94-%D7%A0%D7%A8%D7%99-%D7%99%D7%90%D7%99%D7%A8-%D7%9B%D7%9A-%D7%AA%D7%A9%D7%9E%D7%A8%D7%95-%D7%A2%D7%9C-%D7%99%D7%9C%D7%93%D7%99%D7%9B%D7%9D-%D7%91%D7%97%D7%92/",
+   "raw_snippet": "בעת הדלקת נרות החנוכה מומלץ לאסוף שיער ארוך וללבוש בגדים עם שרוולים צמודים.",
+   "confidence": "high",
+   "source_fetched_at": "2026-11-23T17:04:27Z"
+  },
+  {
+   "id": "sharenting-publisher",
+   "claim": "The Privacy Protection Authority publishes the sharenting recommendations for parents",
+   "claim_type": "company",
+   "source_url": "https://www.gov.il/he/pages/sharenting_for_parents1",
+   "raw_snippet": "הרשות להגנת הפרטיות מפרסמת מסמך המלצות להורים בנושא חשיפה ושיתוף של מידע על אודות ילדיהם ברשת",
+   "source_fetched_at": "2026-11-23T17:16:18Z",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-model-license",
+   "claim": "Dicta's niqqud model dictabert-large-char-menaked is licensed CC BY 4.0",
+   "claim_type": "law",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T18:09:07Z",
+   "raw_snippet": "This work is licensed under a Creative Commons Attribution 4.0 International License",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-purpose",
+   "claim": "The model adds niqqud to modern Hebrew text and was trained on texts vocalized by linguistic experts",
+   "claim_type": "feature",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T18:09:07Z",
+   "raw_snippet": "This model is a fine-tuned version of DictaBERT-large-char, dedicated to the task of adding nikud (diacritics) to Hebrew text.",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-matres",
+   "claim": "By default the model removes the vowel letters (matres lectionis); mark_matres_lectionis='*' keeps them, marked with an asterisk",
+   "claim_type": "api-field",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T18:09:07Z",
+   "raw_snippet": "As can be seen, the predict method automatically removed all the matres-lectionis (אימות קריאה). If you wish to keep them in, you can specify that to the predict function: print(model.predict([sentence], tokenizer, mark_matres_lectionis = '*'))",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-poetry",
+   "claim": "The model is not intended for poetic texts or earlier layers of Hebrew",
+   "claim_type": "feature",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T18:09:07Z",
+   "raw_snippet": "However, it is not intended for earlier layers of Hebrew (e.g. Biblical, Rabbinic, Premodern), nor for poetic texts.",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-onnx",
+   "claim": "dicta-onnx is a third-party project, not affiliated with Dicta",
+   "claim_type": "company",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked",
+   "source_fetched_at": "2026-11-23T18:09:07Z",
+   "raw_snippet": "A third-party project, dicta-onnx, offers a lightweight ONNX-based tool built on top of our model for adding Hebrew diacritics. We're not affiliated",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-model-revision",
+   "claim": "The model revision tested on 2026-11-17 is commit 4dfc20b (Sync modeling code, Sep 15)",
+   "claim_type": "api-field",
+   "source_url": "https://huggingface.co/dicta-il/dictabert-large-char-menaked/commits/main",
+   "source_fetched_at": "2026-11-23T18:09:09Z",
+   "raw_snippet": "Sep 15 21:45 Sync modeling code from FinetuningBert@ebbd87d466c6 ChuckLind Verified signature 4dfc20b",
+   "confidence": "high"
+  },
+  {
+   "id": "dicta-tos-cc",
+   "claim": "Use of Dicta's services is under CC BY-NC-SA 4.0",
+   "claim_type": "law",
+   "source_url": "https://dicta.org.il/tos",
+   "source_fetched_at": "2026-11-23T17:34:42Z",
+   "raw_snippet": "Any use of our Services will be in accordance to Attribution-NonCommercial-ShareAlike 4.0 International Creative Commons license.",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-tos-interface",
+   "claim": "Dicta's terms forbid accessing the services by any method other than the interface and instructions it provides (no scripting the website)",
+   "claim_type": "law",
+   "source_url": "https://nakdan.dicta.org.il/terms-and-services",
+   "source_fetched_at": "2026-11-23T17:34:48Z",
+   "raw_snippet": "Do not misuse our Services, for example, do not interfere with our Services or try to access them using a method other than the interface and the instructions that we provide.",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-tos-upload",
+   "claim": "Text submitted to Dicta's services is licensed to Dicta for operating and improving them",
+   "claim_type": "law",
+   "source_url": "https://dicta.org.il/tos",
+   "source_fetched_at": "2026-11-23T17:34:42Z",
+   "raw_snippet": "When you upload, submit, store, send or receive content to or through our Services, you give Dicta (and those we work with) a worldwide licence to use, host, store, reproduce, modify",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  },
+  {
+   "id": "dicta-developers-no-api",
+   "claim": "Dicta's developers page lists its open models (DictaLM, DictaBERT) and documents no public Nakdan API",
+   "claim_type": "feature",
+   "source_url": "https://dicta.org.il/developers",
+   "source_fetched_at": "2026-11-23T17:34:53Z",
+   "raw_snippet": "DictaBERT: חבילת BERT חדישה לעברית מודרנית",
+   "confidence": "high",
+   "verified_via": "browser",
+   "verified_at": "2026-11-23"
+  }
+ ]
+}

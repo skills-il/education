@@ -1,0 +1,92 @@
+{
+  "author": "skills-il",
+  "version": "1.0.0",
+  "category": "education",
+  "tags": {
+    "he": [
+      "דפי-עבודה",
+      "הדפסה",
+      "כיתה-א",
+      "גננות",
+      "מורים",
+      "ניקוד",
+      "חגים",
+      "ישראל"
+    ],
+    "en": [
+      "worksheets",
+      "printable",
+      "grade-1",
+      "kindergarten",
+      "teachers",
+      "niqqud",
+      "holidays",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "דפי עבודה להדפסה בעברית",
+    "en": "Hebrew Classroom Worksheet Maker"
+  },
+  "display_description": {
+    "he": "מכינים דף עבודה בעברית לגן ולבית הספר היסודי, או דף חשבון מהגן עד כיתה ג, בקובץ A4 מוכן לצילום ועם דף תשובות נפרד. אפשר גם בוחן תרגול קצר בלי ציון. הסקיל שואל מה הכיתה כבר למדה, כותב רק באותיות ובתנועות שהילדים מכירים, מתאים את הניקוד לכיתה לפי הנחיות שפרסם משרד החינוך, ומחשב מחדש כל תשובה לפני שהדף יוצא. כשהאותיות שנלמדו לא מספיקות לסיפור, הוא מציע סיפור להקראה ומשימות קריאה קצרות. כשמבקשים חומר שמעבר לתוכנית של הכיתה, הוא מסביר בשורה אחת, מציע אתגר שנשאר בתוכנית, וההחלטה נשארת אצל המורה. הוא לא מבקש שמות תלמידים ומשאיר שורת שם ריקה. לא מיועד לכתיבת ספר סיפור (בשביל זה יש את hebrew-kids-story-maker), לציד אוצרות (בשביל זה יש את hebrew-treasure-hunt-maker), לבדיקת מבחנים (בשביל זה יש את hebrew-exam-grader), למבחנים עם ציון או למבחנים רשמיים, או לאבחון קשיי למידה.",
+    "en": "Make a printable Hebrew worksheet for kindergarten and primary school, or a math sheet from kindergarten to grade 3: an A4 file ready to photocopy, with a separate answer key. A short ungraded practice quiz works too. Asks what the class has learned, uses only the letters and vowels the children know, fits niqqud to the grade using published Ministry of Education guidance, and recomputes every answer before the sheet goes out. If the taught letters cannot carry a story, it offers a read-aloud passage and short decodable tasks. If a request goes beyond the grade's program, it says why, offers an in-program challenge, and leaves the decision to the teacher. It does not ask for student names and prints a blank name field. Do NOT use for writing a story book (use hebrew-kids-story-maker), treasure hunts (use hebrew-treasure-hunt-maker), grading tests (use hebrew-exam-grader), graded or formal exams, or diagnosing learning difficulties."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "annual",
+  "authoritative_sources": [
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/HebrewPrimary/learning-teaching/books/nikod.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Pop/0files/ivrit_hinuch_leshoni/Yesodi/tohnit-limudim-safa.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2025/mafmar_yesodi_tashpaz.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade1.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade2.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Mazkirut_Pedagogit/math/primary-school/math2023/Newprogramgrade3.pdf",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://meyda.education.gov.il/files/Pop/0files/lemida-metukshevet/AI/AI-Usage-Guidelines.pdf",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}
