@@ -15,13 +15,15 @@ Structured intake the skill should run before recommending. Ask in a single batc
    - Combat profile? (lochem yes/no)
    - Length of service? (sherut chova months + miluim days)
    - Discharge date? (anchors the 5-year Pikadon window)
+   - Discharge certificate type? (gold honorable discharge matters for Mimadim)
 6. **Did you serve in Sherut Leumi-Ezrachi or Sherut Leumi?** If yes, end-of-service date.
 7. **Did you receive a service exemption?** (some tracks treat exempt civilians differently)
 
 ## Background
 
-8. **Aliyah status** - born in Israel / oleh chadash within last 10 years / toshav chozer? If oleh, aliyah date and country of origin.
+8. **Aliyah status** - born in Israel / oleh / toshav chozer? If oleh: date status was received, age at the start of studies, and country of origin (Student Authority age and 36-month limits).
 9. **Residence history** - where did you live for most of the 6 years before starting your degree? Specifically, were you in a national-priority-area yishuv for 5 of those 6 years?
+9a. **Did you complete a pre-academic mechina funded by the MoD fund?** If yes, when did it start? (periphery track 46)
 10. **Household socioeconomic status** - single-parent / large family (4+ children) / working but below median income / first-generation in higher education / ultra-Orthodox / Arab-Israeli / Ethiopian-Israeli / Mizrahi / Bedouin / Druze / etc.
 
 ## Academic record
@@ -33,22 +35,24 @@ Structured intake the skill should run before recommending. Ask in a single batc
 
 ## Special factors
 
-15. **Are you a woman entering or pursuing STEM?** (HUJI free-tuition track, Weizmann pipeline)
+15. **Are you a woman entering or pursuing STEM?** (Weizmann pipeline)
 16. **Are you on an Israeli national-team athletic roster?** (Mifal HaPais athlete track)
-17. **Did you serve reserve duty during the current academic year?** (PEREACH miluim supplement)
-18. **Are you currently a single parent?** (Rashi single-mother track, MilGo factor)
+17. **Reserve duty since 7.10.2023:** days in each academic year (תשפ"ד, תשפ"ה, תשפ"ו, תשפ"ז), your unit's activity tier (מדרג), and any child under 14? (reservist tuition grants, PEREACH supplement)
+17a. **Was your household evacuated since 7.10.2023?** (evacuee tracks)
+17b. **Are you a bereaved family member or a recognized wounded veteran?** (statutory tracks through your case manager)
+18. **Are you a parent?** (ask the Welfare Ministry about Maskila; MilGo factor)
 
 ## Application willingness
 
-19. **Are you willing to commit ~114 hours of tutoring per academic year** for the PEREACH grant? (140 hours for higher tier)
-20. **Are you comfortable writing personal-statement essays** (foundation applications) or do you prefer auto-eligibility tracks only?
+19. **Are you willing to commit about 114 hours of tutoring per academic year** for the PEREACH grant? (130 hours on the enhanced track, in some cities)
+20. **Are you comfortable writing personal-statement essays** (foundation applications) or do you prefer tracks with no essay?
 
 ## Output
 
 After collecting these, the skill should:
 
 1. Build a profile vector
-2. Run each scholarship's eligibility filter against the vector
-3. Return the eligible scholarships ranked by deadline → grant size → effort
-4. Surface stacking conflicts (especially MoD periphery exclusivity)
+2. Compare each scholarship's published criteria with the vector, marking anything unsettled as "check"
+3. Return the possible matches ranked by deadline → grant size → effort
+4. Surface stacking conflicts (MoD periphery exclusivity, Mimadim before the reservist tuition grant)
 5. Generate a personalized application checklist with deadlines

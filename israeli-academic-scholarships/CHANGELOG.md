@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0 - 2026-11-23
+
+- Reservist benefits rebuilt from the IDF Reserve Aid Fund in `references/reservist-benefits.md`: grants by year and unit tier, places where official pages disagree, and credit relief.
+- Corrected funding facts: Mimadim NIS 10,372.55 on a NIS 12,203 ceiling and its funded years, IMPACT USD 5,000, MilGo levels and aid caps, the cancelled MilGo and Mimadim offset, Adams second-year stage and fields, and PEREACH hours.
+- Periphery tracks now state the state-budgeted institution limit and the yearly re-application for track 46. The Student Authority now states its age, timing and tariff limits.
+- Humanities PhDs now route to the Alix de Rothschild Fellowship. Maskila and Rakia now point to the Welfare Ministry. Removed claims that could not be confirmed.
+- The matcher now fails open: anything it cannot settle prints as CHECK instead of disappearing.
+
 ## 1.3.1 - 2026-11-23
 
 - Corrective release. Removed the advice to pick the higher of Mimadim and the reservist grant. A student who holds or may still apply for Mimadim uses it first and does not cancel it. Anyone not entitled goes to the Reserve Aid Fund.
@@ -32,7 +40,7 @@
   date); references and the script had 30.8.2026.
 - MoD periphery cap refreshed from ~NIS 11,653 (תשפ"ה/2025) to NIS 12,017
   (תשפ"ו/2026). The separate ~NIS 11,653 Order-8 reservist grant is unchanged.
-- Added the legal notice and description clause the repo's legal gate requires.
+- Added a legal notice and a description clause.
 
 ## 1.2.2 - 2026-08-11
 

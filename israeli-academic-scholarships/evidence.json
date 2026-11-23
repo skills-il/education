@@ -1,85 +1,8 @@
 {
   "schemaVersion": "1.0",
   "skill": "israeli-academic-scholarships",
-  "generated_at": "2026-08-19T03:40:34.626221+00:00",
+  "generated_at": "2026-11-23T04:30:00Z",
   "claims": [
-    {
-      "claim_id": "milgo-tiers",
-      "claim": "MilGo (Ministry of Education socioeconomic scholarship via the Milgapo platform) has 4 tiers for the current cycle: Tier A NIS 12,480, Tier B NIS 10,000, Tier C NIS 7,500, Tier D NIS 5,000. The cycle opens in December.",
-      "source_url": "https://milgapo.co.il/?milga=_edu.gov",
-      "raw_snippet": "המלגה לשנת תשפ\"ו הסתיימה והמלגה לשנת תשפ\"ז תפתח להגשה ככל הנראה במהלך דצמבר 2026. הזוכים במלגה יקבלו מלגה ללא התנדבות בשווי של עד 12,480 שקלים - וההגשה מוענקת אוטומטית עם סיוע אישי במסמכים דרך מלגהפה פרימיום! לחצו לקבלת רשימת מלגות אישית מתי להגיש דצמבר - ינואר סכום המלגה 5,000 - 12,480 למי מיועדת סטודנטים בלימודי תואר ראשון, מכינה או הנדסאים בשנת תשפ\"ז שעות התנדבות מלגת מיל-GO היא מלגה ללא התנדבות!",
-      "fetched_at": "2026-08-18",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md",
-        "scripts/match_scholarships.py"
-      ],
-      "verified_via": "cited page fetched and confirmed to contain \"12,480\"; snippet replaced with the page's own wording around it",
-      "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "malag-baseline-tuition",
-      "claim": "The MALAG-set university tuition ceiling used by the MoD Mimadim LiLimudim scholarship for תשפ\"ו is NIS 12,017; where a student's institution charges more than the ceiling, the scholarship covers only up to that ceiling.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "ועד לתקרת שכר הלימוד האוניברסיטאי (12,017 ₪)",
-      "fetched_at": "2026-08-11T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ]
-    },
-    {
-      "claim_id": "mimadim",
-      "claim": "Mimadim LiLimudim is graduated, not a flat 100% each year: in every year except the last the student is reimbursed up to 85% of tuition actually paid, capped at the university tuition ceiling (NIS 10,214.45 in תשפ\"ו), and in the final year the balance is topped up to 100% of tuition actually paid. The תשפ\"ו cycle opens 3.11.25, closes for registration 31.7.26, and documents must be uploaded by 31.8.26.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ו 10,214.45 ₪). •​ השלמת שכר לימוד - בשנת הלימודים האחרונה תבוצע השלמה ל-100% מימון משכר הלימוד האוניברסיטאי ששולם בפועל.",
-      "fetched_at": "2026-08-11T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ]
-    },
-    {
-      "claim_id": "mod-periphery",
-      "claim": "MoD periphery scholarship (national-priority-area): up to 100% of first-year BA tuition, cap ~NIS 11,653 for תשפ\"ה/2025. Eligibility requires living in a priority-area yishuv 5 of 6 years before studies AND being within the post-discharge window: 5 years standard, extended to 10 years for active reservists and lone soldiers. Cannot stack with other periphery scholarships.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
-      "raw_snippet": "מלגת אזורי עדיפות לאומית: עד 100% משכר לימוד שנה א', תקרה כ-11,653 ש\"ח (תשפ\"ה). חלון מהשחרור: 5 שנים, ומוארך ל-10 שנים למשרתי מילואים פעילים וחיילים בודדים.",
-      "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md",
-        "scripts/match_scholarships.py"
-      ]
-    },
-    {
-      "claim_id": "iron-swords",
-      "claim": "Iron Swords (חרבות ברזל) reservist framework (CHE + MoD, covering תשפ\"ה-תשפ\"ז, tens of thousands of reservist students): NIS 1,100 one-time grant for 8+ cumulative reserve days since 7.10.2023; additional NIS 2,000 one-time for a reservist parent of children under 14; a one-time tuition grant up to ~NIS 11,653 for 50+ Order-8 days (combat array, 2025 cohort window 27.10.2024-30.9.2025); an 8 credit-unit exemption for 61-99 days; a 10 credit-unit exemption for 100+ days. Iron Swords tuition support and Mimadim LiLimudim cannot be received in the same academic year.",
-      "source_url": "https://www.study.co.il/P47361/",
-      "raw_snippet": "מתווה חרבות ברזל: מענק 1,100 ש\"ח ל-8+ ימי מילואים; תוספת 2,000 ש\"ח להורה לילדים מתחת לגיל 14; מענק שכר לימוד עד ~11,653 ש\"ח ל-50+ ימי צו 8; פטור 8 נק\"ז ל-61-99 ימים, 10 נק\"ז ל-100+ ימים.",
-      "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ]
-    },
-    {
-      "claim_id": "pereach",
-      "claim": "PEREACH (פר\"ח) tutoring grant: ~NIS 7,000 for ~114 tutoring hours, ~NIS 10,000 for ~140 hours, per academic year. (A separate Mifal HaPais community-involvement scholarship pays ~NIS 10,000 for ~130 community-service hours; do not conflate it with PEREACH.) The תשפ\"ז cycle opens in September and runs first-come-first-served until ~November, NOT in the May-September cluster. Commitments are audited.",
-      "source_url": "https://www.study.co.il/%D7%A4%D7%A8%D7%97/",
-      "raw_snippet": "פר\"ח: מענק 7,000 ש\"ח לחונכות בסך 114 שעות ו-10,000 ש\"ח לחונכות בסך 140 שעות; הרשמה לתשפ\"ז נפתחת בספטמבר.",
-      "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md",
-        "scripts/match_scholarships.py"
-      ]
-    },
     {
       "claim_id": "student-authority",
       "claim": "The Student Authority (Ministry of Aliyah and Integration) oleh-student scholarship must be applied for online for every new school year, and its submission dates are fixed calendar dates that repeat every year: new first-semester students until 10 November, continuing students until 1 October, second-semester students until 1 April, and summer-semester students until 15 August.",
@@ -90,32 +13,6 @@
         "SKILL.md",
         "SKILL_HE.md"
       ]
-    },
-    {
-      "claim_id": "adams",
-      "claim": "Adams Fellowship (Israel Academy of Sciences and Humanities): for 2nd-year PhDs in exact sciences, mathematics, and life sciences ONLY (NOT humanities or social sciences). Full tuition + NIS 100,000/year stipend + USD 3,000/year travel; granted for 3 years, extendable by up to 1 (4 max). Application opens October-November, closes early January for the following academic year.",
-      "source_url": "https://adams.academy.ac.il/fellowships/",
-      "raw_snippet": "מלגת אדמס: דוקטורנטים שנה ב' במדעים מדויקים, מתמטיקה ומדעי החיים בלבד; מענק 100,000 ש\"ח לשנה + 3,000 דולר נסיעות; ל-3 שנים עם אפשרות הארכה בשנה.",
-      "fetched_at": "2026-06-07T00:00:00Z",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ]
-    },
-    {
-      "claim_id": "rothschild",
-      "claim": "Rothschild Fellowship (Yad Hanadiv) for postdocs abroad after an Israeli PhD has a USD 75,000/year ceiling on OTHER external supplementary funding: receiving more than USD 75k/year of other support makes the applicant ineligible (it is a ceiling on other funding, not a cap on the Rothschild itself).",
-      "source_url": "https://www.yadhanadiv.org.il/rothschild-fellows/",
-      "raw_snippet": "Rothschild Fellows - Yad Hanadiv",
-      "fetched_at": "2026-08-19",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
     },
     {
       "claim_id": "isef-israel-scholars",
@@ -131,7 +28,7 @@
     },
     {
       "claim_id": "rashi-katzir-tracks",
-      "claim": "The Rashi Foundation's Katzir program funds undergraduate scholarship tracks aimed at single mothers and boarding-school graduates without family support, combining a tuition scholarship with a living stipend. Rashi does not publish per-track amounts, so no amount is asserted.",
+      "claim": "Rashi's Katzir programme provides scholarships; Rashi does not publish per-track amounts.",
       "source_url": "https://www.rashi.org.il/programs/katzir/",
       "raw_snippet": "בנוסף למלגת שכר לימוד ומלגת קיום, הם זוכים לליווי אישי, לתמיכה לימודית, רגשית ואף חומרית לפי הצורך",
       "fetched_at": "2026-06-07T00:00:00Z",
@@ -143,19 +40,21 @@
     },
     {
       "claim_id": "impact-fidf",
-      "claim": "IMPACT! (Friends of the IDF / FIDF) is a privately-funded scholarship for former combat and combat-support soldiers from low-income backgrounds: USD 4,000/year for up to 4 years, conditional on ~130 community-service hours per year plus two donor thank-you letters per year.",
-      "source_url": "https://www.fidf.org/whats-the-impact/",
-      "raw_snippet": "IMPACT! provides a USD 4,000 annual scholarship for four years to former combat and combat-support soldiers from low-income families, who commit to about 130 hours of community service per year.",
-      "fetched_at": "2026-06-07T00:00:00Z",
+      "claim": "IMPACT! (FIDF) pays USD 5,000 per study year, funded by a personal donor, through the BA.",
+      "source_url": "https://fidfimpact.org/%d7%90%d7%95%d7%93%d7%95%d7%aa/",
+      "raw_snippet": "גובה המלגה הוא $5,000 לכל שנת לימוד, כאשר כל מלגאי ממומן ע”י תורם אישי , המלווה אותו לאורך כל לימודי התואר הראשון.",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md"
-      ]
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
       "claim_id": "reference-urls-and-artifacts",
-      "claim": "Documented source/reference URLs cited in the skill body and reference files, plus extraction artifacts. The amounts 10,000 NIS, 10,214 NIS, 12,480 NIS, 16,000 NIS, 18,000 NIS, 2,500 NIS, and ~NIS 30,000 (Mimadim cumulative over a degree) are covered by the milgo-tiers, mimadim, rashi-isef and illustrative-figures entries; they appear here too in both NIS-first and amount-first order so the verifier's order-sensitive matcher resolves them. The percentages 1%, 4%, 7%, 8%, 9%, 15%, 90%, 91%, 92%, 93%, 95%, 98%, 99% are phantom matches the verifier reads from percent-encoded byte pairs inside Hebrew-slug reference URLs (kolzchut, academy.ac.il), not factual claims. Covers these references: https://milgapo.co.il/?milga=_perach https://adams.academy.ac.il/ https://aminadav.org.il/ https://che.org.il/ https://che.org.il/en/scholarships-grants-students-faculty/pbc-scholarship-program-for-outstanding-doctoral-students/ https://che.org.il/en/scholarships-integration-outstanding-faculty/ https://elsc.huji.ac.il/he/ https://exact-sciences.tau.ac.il/physics-h/school_positions_scholarships https://fidfimpact.org/ https://go.tau.ac.il/he/ba/milgot https://heznek.org/ https://in.bgu.ac.il/welcome/Pages/Scholarship-athletes.aspx https://info.huji.ac.il/registration-process/prizes https://international.tau.ac.il/masa_scholarships https://main.knesset.gov.il/ https://meyda.education.gov.il/files/MadaTech/MadeayHatechnologia/2025/scholarships2025.pdf https://milgapo.co.il/ https://milgapo.co.il/?milga=_rashi-katzir https://milgapo.co.il/?milga=_rashi-rakia https://rbni.technion.ac.il/about https://womeninacademy.huji.ac.il/ https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1250 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=847 https://www.hachvana.mod.gov.il/ https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/education.aspx https://www.hachvana.mod.gov.il/luemi11/Pages/default.aspx https://www.isef.org.il/ https://www.kolzchut.org.il/ https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A1%D7%A4%D7%AA_%D7%9C%D7%9E%D7%9C%D7%92%D7%AA_%D7%A4%D7%A8%D7%97_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%91%D7%92%D7%99%D7%9F_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D https://www.masaisrael.org/funding/grants-scholarships/ https://www.mod.gov.il/Citizen_Service/Pages/family-commemoration.aspx https://www.mvhr.org.il/ https://www.nbn.org.il/ https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/student-authority-tuition-benefits/ https://www.nevo.co.il/ https://www.pais.co.il/info/collaborations.aspx https://www.perach.org.il/ https://www.weizmann.ac.il/women-in-science/resources/awards-scholarships/external-scholarships",
+      "claim": "Index of reference URLs cited in the skill body and reference files, including che.org.il/war/, hachvana.mod.gov.il, nbn.org.il, heznek.org and the Academy pages. It proves only that these pages are cited, not any figure. Also cited: https://aminadav.org.il/ https://che.org.il/en/scholarships-grants-students-faculty/pbc-scholarship-program-for-outstanding-doctoral-students/ https://che.org.il/en/scholarships-integration-outstanding-faculty/ https://elsc.huji.ac.il/he/ https://exact-sciences.tau.ac.il/physics-h/school_positions_scholarships https://go.tau.ac.il/he/ba/milgot https://heznek.org/ https://in.bgu.ac.il/welcome/Pages/Scholarship-athletes.aspx https://info.huji.ac.il/registration-process/prizes https://international.tau.ac.il/masa_scholarships https://main.knesset.gov.il/ https://meyda.education.gov.il/files/MadaTech/MadeayHatechnologia/2025/scholarships2025.pdf https://milgapo.co.il/?milga=_edu.gov https://milgapo.co.il/?milga=_rashi-katzir https://milgapo.co.il/?milga=_rashi-rakia https://rbni.technion.ac.il/about https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696 https://www.academy.ac.il/RichText/GeneralPage.aspx?nodeId=847 https://www.hachvana.mod.gov.il/GrantAndDeposit/DepositUpTo5/Pages/education.aspx https://www.hachvana.mod.gov.il/luemi11/Pages/default.aspx https://www.isef.org.il/ https://www.kolzchut.org.il/he/%D7%AA%D7%95%D7%A1%D7%A4%D7%AA_%D7%9C%D7%9E%D7%9C%D7%92%D7%AA_%D7%A4%D7%A8%D7%97_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%91%D7%92%D7%99%D7%9F_%D7%A9%D7%99%D7%A8%D7%95%D7%AA_%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D https://www.masaisrael.org/funding/grants-scholarships/ https://www.mod.gov.il/Citizen_Service/Pages/family-commemoration.aspx https://www.nbn.org.il/ https://www.nbn.org.il/life-in-israel/education/higher-education/scholarships-and-loans-for-university-and-college-students/ https://www.nbn.org.il/life-in-israel/government-services/rights-and-benefits/student-authority-tuition-benefits/ https://www.nevo.co.il/ https://www.pais.co.il/info/collaborations.aspx https://www.weizmann.ac.il/women-in-science/resources/awards-scholarships/external-scholarships",
       "source_url": "https://che.org.il/war/",
       "raw_snippet": "תמיכה במוסדות ובסטודנטים בצל מלחמת חרבות הברזל |",
       "fetched_at": "2026-08-18",
@@ -168,33 +67,6 @@
       ],
       "verified_via": "reference-coverage entry; the links it covers moved into the claim and the snippet is a quote from its own source page",
       "verified_at": "2026-08-18"
-    },
-    {
-      "claim_id": "illustrative-figures",
-      "claim": "Other figures used illustratively or as ranges: actual program tuition NIS 14,500-16,000+ for medicine/law/MBA; Rashi range 5,000-18,000; the 7.10.2023 war-start date; reserve-day thresholds 8 / 50 / 61-99 / 100; TAU evacuee emergency fund ~NIS 2,500/student; Weizmann ~10 doctoral seats/year.",
-      "source_url": "https://che.org.il/en/%D7%9E%D7%99%D7%93%D7%A2-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-2/tuition/",
-      "raw_snippet": "thority Strategy and International Affairs Erasmus+ Tuition Below are details of the tuition for institutions of higher education in whose budgets the State participates: Tuition for a full bachelor’s degree program for 2019/20 – NIS 10,259.",
-      "fetched_at": "2026-08-19",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md"
-      ],
-      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
-      "verified_at": "2026-08-19"
-    },
-    {
-      "claim_id": "mimadim-85pct-each-year",
-      "claim": "Mimadim LiLimudim pays up to 85% of university tuition in each year of study (10,214.45 NIS in תשפ\"ו), with a top-up in the FINAL year of study bringing the total to 100% of tuition actually paid. It is not limited to years 1-2.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ו 10,214.45 ₪).",
-      "fetched_at": "2026-08-11",
-      "verified_via": "curl",
-      "verified_at": "2026-08-11",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md"
-      ]
     },
     {
       "claim_id": "mimadim-window-up-to-8-years",
@@ -238,227 +110,2230 @@
       "note": "Read verbatim 19.8.2026. Distinct from the ~NIS 11,653 Order-8 reservist grant, which is a different track and keeps its own figure."
     },
     {
-      "claim_id": "milgo-tashpaz-window",
-      "claim": "The MilGo תשפ\"ז cycle is expected to open during December 2026, with a submission window of roughly December to January. This is the only MoE-track תשפ\"ז signal published as of 19.8.2026, and the platform itself hedges it ('ככל הנראה').",
-      "source_url": "https://milgapo.co.il/scholarships/milgo",
-      "raw_snippet": "המלגה לשנת תשפ\"ו הסתיימה והמלגה לשנת תשפ\"ז תפתח להגשה ככל הנראה במהלך דצמבר 2026",
-      "fetched_at": "2026-08-19T03:40:34.626221+00:00",
-      "verified_via": "browser",
-      "verified_at": "2026-08-19T03:40:34.626221+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "references/scholarship-table.md",
-        "scripts/match_scholarships.py"
-      ],
-      "note": "Corrected 19.8.2026 BEFORE shipping. An earlier draft took 'November 2026, to about March 2027' off the Milgapo HOMEPAGE, but that sentence describes the מרכז ליברלי scholarship, not MilGo. The MilGo-specific page gives December 2026 with a December-January submission window. Homepage text is not a source for a specific programme."
-    },
-    {
-      "claim_id": "milgo-tiers-not-a-gate",
-      "claim": "MilGo is open to students in a BA, mechina, or hendesai (practical-engineering) programme; the household socioeconomic score selects the TIER (NIS 5,000 / 7,500 / 10,000 / 12,480), it is not an eligibility gate.",
-      "source_url": "https://milgapo.co.il/scholarships/milgo",
-      "raw_snippet": "סטודנטים בלימודי תואר ראשון, מכינה או הנדסאים בשנת תשפ\"ז",
-      "fetched_at": "2026-08-19T03:40:34.626221+00:00",
-      "verified_via": "browser",
-      "verified_at": "2026-08-19T03:40:34.626221+00:00",
-      "appears_in": [
-        "SKILL.md",
-        "SKILL_HE.md",
-        "scripts/match_scholarships.py"
-      ],
-      "note": "Supports the script fix: match_scholarships.py previously gated MilGo on socioeconomic_score <= 6, which told students scoring 7-10 that no scholarship existed when they qualify for Tier C or D."
-    },
-    {
-      "claim_id": "mimadim-tashpaz-opens",
-      "claim": "Mimadim תשפ\"ז registration opened 8.11.2026.",
+      "claim_id": "mimadim",
+      "claim": "Mimadim LiLimudim תשפ\"ז refunds up to 85% of university tuition each year, NIS 10,372.55, with a final-year top-up to 100% of tuition actually paid.",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "מועד פתיחת ההרשמה לשנת תשפ\"ז (אוקטובר 2026 - יוני 2027 - סמסטר קיץ): 8.11.26",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "raw_snippet": "החזר כספי שנתי - עד 85% משכר הלימוד האוניברסיטאי בהתאם לכל שנה (בשנת תשפ\"ז 10,372.55 ₪). • השלמת שכר לימוד - בשנת הלימודים האחרונה תבוצע השלמה ל-100% מימון משכר הלימוד האוניברסיטאי ששולם בפועל.",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "curl",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "mimadim-tashpaz-last",
-      "claim": "The last registration date for Mimadim תשפ\"ז is 31.8.2027.",
+      "claim_id": "mimadim-85pct-each-year",
+      "claim": "In תשפ\"ז a student paying the full NIS 12,203 ceiling receives NIS 10,372.55 (85%), and the remaining NIS 1,830.45 at graduation.",
       "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "מועד אחרון להרשמה: 31.08.27",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "raw_snippet": "סטודנט ששילם שכר לימוד מלא (12,203 ₪) בשנה א', יקבל החזר של 10,372.55 ₪ (85%). את היתרה בסך 1,830.45 ₪ הוא יקבל החזר בסיום התואר.",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "curl",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-mimadim-first",
-      "claim": "A reservist entitled to Mimadim or a periphery scholarship must use it first.",
-      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "משרת הזכאי למלגת \"מדים ללימודים\" (או מלגת פריפריה) נדרש לממש אותה תחילה.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "malag-baseline-tuition",
+      "claim": "The university tuition ceiling used by Mimadim for תשפ\"ז is NIS 12,203.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "ועד לתקרת שכר הלימוד האוניברסיטאי (12,203 ₪)",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-pays-difference",
-      "claim": "If the government scholarship is below the grant, the Fund pays the difference up to the ceiling.",
-      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "אם סכום המלגה הממשלתית נמוך מגובה המענק לו זכאי המשרת מהקרן, הקרן תשלם את ההפרש (השלמה עד לתקרת הזכאות)",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "mimadim-funded-years",
+      "claim": "Mimadim funds 3 study years, or 4 for engineering, medicine (doctor) or architecture.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "ל - 3 שנות לימוד, או ל - 4 שנות לימוד לסטודנטים לתואר ראשון בהנדסה, לימודי רפואה (דוקטור) או אדריכלות",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
-      "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "hub-do-not-cancel",
+      "claim_id": "mimadim-tashpaz-open",
+      "claim": "Mimadim תשפ\"ז registration opened 8.11.2026; last day for registration and documents is 31.8.2027.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "מועד פתיחת ההרשמה לשנת תשפ\"ז (אוקטובר 2026 - יוני 2027 - סמסטר קיץ): 8.11.26 • מועד אחרון להרשמה: 31.08.27 • מועד אחרון להעלאת מסמכים: 31.08.27",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-eligible-populations",
+      "claim": "Mimadim is for gold honorable-discharge combat veterans and special populations.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "לוחמות ולוחמים - בעלי תעודת 'שחרור בכבוד-זהב'. • אוכלוסיות ייחודיות בעלי תעודת 'שחרור בכבוד'",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-periphery-combo",
+      "claim": "A first-year student eligible for track 44 and Mimadim uses Mimadim from year two. Track 45 combines with Mimadim, 85% to bank and 15% to the deposit.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "יוכלו לממש את מלגת 'ממדים ללימודים' החל משנת הלימודים השנייה בלבד. • מלגת גרים בפריפריה 45, ניתן לשלב. מגיע לכם החזר בגובה 85% מהמלגה שיעבור לחשבון הבנק שלכם, ואת ה 15% - הנותרים השלמה לחשבון הפיקדון האישי.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-other-scholarships",
+      "claim": "Private and volunteer scholarships stack with Mimadim with no need to report; other government scholarships reduce it.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "ניתן לקבל אותן בנוסף למלגת 'ממדים ללימודים' ואין צורך לדווח על קבלתן. שילוב מלגת 'ממדים ללימודים' עם מלגות ממשלתיות אם היקף המלגות שווה לשכר הלימוד ששילמתם בפועל, לא תינתן מלגת 'ממדים ללימודים'.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-45-window",
+      "claim": "Track 45 תשפ\"ו registration ran 3.8.2026 to 31.10.2026; documents until 31.1.2027.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "• מועד פתיחת ההרשמה: 03/08/2026. • מועד אחרון להרשמה: 31/10/2026. ההרשמה למלגה לשנת תשפ\"ו (אוקטובר 2025 - יוני 2026 - סמסטר קיץ) נסגרה • יש להעלות אישור לימודים וגיליון תשלומים (גיליון/כרטסת/דף חשבון) עבור שנת הלימודים תשפ\"ו באזור האישי – בגין השנה הראשונה של התואר הראשון בלבד עד לתאריך 31.1.2027.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-reservist-interaction",
+      "claim": "Combat reservists with 100% reserve funding are not eligible for track 45; those who received 30% are topped up to 100%.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "משרתי מילואים לוחמים הזכאים ל-100% מימון ממלגת מילואים לא יהיו זכאים למלגת 'גרים בפריפריה 45'. תומכי לחימה שקיבלו 30% מימון מהמילואים - האגף ישלים עבורם את היתרה ל-100% שכר לימוד אוניברסיטאי.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46",
+      "claim": "Track 46 is capped at NIS 6,008.5 for תשפ\"ו.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "סכום המלגה לא יעלה על 6,008.5 ₪ (נכון לשנת תשפ\"ו - 2026)",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-44",
+      "claim": "Track 44 needs no registration; the institution reports students, who sign a commitment. The תשפ\"ו window was 15.5.2026 to 15.8.2026.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "raw_snippet": "אין צורך להירשם למלגה מראש. מוסד הלימוד מעביר לאגף את שמות הסטודנטים שהתחילו ללמוד בשנה א'. לעומדים בתנאי הסף, תיפתח האפשרות לחתום על כתב התחייבות באזור האישי. ניתן לחתום על כתב ההתחייבות באזור האישי בין ה-15/05/2026 ועד ה-15/08/2026.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mashpim",
+      "claim": "Mashpim BeLimudim pays NIS 12,000 for 90 social-activity and 10 training hours, plus NIS 6,000 for 60+ frontline reserve days in 2027. Registration 3.11.2026 to 31.12.2026.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/mashpim.aspx",
+      "raw_snippet": "12,000 ₪ בעבור ביצוע 90 שעות עשייה חברתית ו- 10 שעות הכשרה והעשרה",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mashpim-dates",
+      "claim": "Mashpim registration dates.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/mashpim.aspx",
+      "raw_snippet": "מהם מועדי ההרשמה למלגה? 03.11.2026 – 31.12.2026",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-tashpav",
+      "claim": "The תשפ\"ו reservist tuition grant needs 50+ days from 23.10.2025 to 30.9.2026.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "ביצוע של 50 ימי שמ\"פ לפחות (בכל סוג שירות) בין התאריכים 23.10.2025 ועד 30.09.2026.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-tiers",
+      "claim": "תשפ\"ו tiers: A+ 100, A 85, B 65, C and D 30, E 22 percent.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "מדרג א'+: 100%. מדרג א': 85%. מדרג ב': 65%. מדרג ג' ו-ד': 30%. מדרג ה': 22%.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-window",
+      "claim": "Requests may be submitted 1.8.2026 to 30.6.2027, technological colleges from 1.11.2026.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "ניתן להגיש בקשות בין התאריכים 01.08.2026 ועד 30.06.2027. עבור סטודנטים הלומדים במוסדות מה\"ט ניתן להגיש בקשות בין 01.11.2026 ועד 30.06.2027.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-order-rule",
+      "claim": "Mimadim or periphery must be used first; the Fund pays the difference; no double state funding except excellence or volunteer scholarships.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "משרת הזכאי למלגת \"מדים ללימודים\" (או מלגת פריפריה) נדרש לממש אותה תחילה. אם סכום המלגה הממשלתית נמוך מגובה המענק לו זכאי המשרת מהקרן, הקרן תשלם את ההפרש (השלמה עד לתקרת הזכאות) לא יתאפשר כפל מלגות במימון המדינה, למעט מלגות הצטיינות או התנדבות.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-do-not-cancel",
       "claim": "Do not cancel Mimadim to apply for the Fund's tuition grant.",
       "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
       "raw_snippet": "אין לבטל את מלגת \"מדים ללימודים\" לצורך הגשת בקשה למענק שכר לימוד מקרן הסיוע.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "hub-fund-for-noneligible",
-      "claim": "The Fund's tuition grant is for those not entitled to Mimadim.",
-      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
-      "raw_snippet": "מענק שכר לימוד מקרן הסיוע מיועד אך ורק למי שאינו זכאי למלגת \"מדים ללימודים\".",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "reservist-grant-tashpah",
+      "claim": "תשפ\"ה: 50+ Order 8 days 27.10.2024 to 30.9.2025; combat 100% up to NIS 11,653, others 30% up to NIS 3,495.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A2%D7%A0%D7%A7%D7%99-%D7%A9%D7%9B%D7%A8-%D7%9C%D7%99%D7%9E%D7%95%D7%93-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D/",
+      "raw_snippet": "מערך לוחם - 100% משכר הלימוד השנתי (עד 11,653 ₪ ולא יותר מהתשלום בפועל). שאר היחידות - 30% משכר הלימוד השנתי (עד 3,495 ₪ ולא יותר מהתשלום בפועל).",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "hub-tuition-last-date",
-      "claim": "The last date for תשפ\"ד and תשפ\"ה tuition assistance is 31.12.2026.",
+      "claim_id": "reservist-grant-tashpah-days",
+      "claim": "תשפ\"ה service window.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A2%D7%A0%D7%A7%D7%99-%D7%A9%D7%9B%D7%A8-%D7%9C%D7%99%D7%9E%D7%95%D7%93-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D/",
+      "raw_snippet": "ושירתו לפחות 50 ימי שמ\"פ בצו 8, או בתע\"מ (לאחר פקיעת תוקף הצו), בין התאריכים 27.10.2024–30.9.2025.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-tashpad",
+      "claim": "תשפ\"ד: 60+ Order 8 days 7.10.2023 to 30.9.2024; combat 100% up to NIS 11,296, others 30% up to NIS 3,388.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A2%D7%A0%D7%A7%D7%99-%D7%A9%D7%9B%D7%A8-%D7%9C%D7%99%D7%9E%D7%95%D7%93-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D/",
+      "raw_snippet": "מערך לוחם - 100% משכר הלימוד השנתי (עד 11,296 ₪ ולא יותר מהתשלום בפועל). שאר היחידות - 30% משכר הלימוד השנתי (עד 3,388 ₪ ולא יותר מהתשלום בפועל).",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-grant-tashpad-days",
+      "claim": "תשפ\"ד service window.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%9E%D7%A2%D7%A0%D7%A7%D7%99-%D7%A9%D7%9B%D7%A8-%D7%9C%D7%99%D7%9E%D7%95%D7%93-%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D/",
+      "raw_snippet": "ושירתו לפחות 60 ימי שמ\"פ בצו 8 בין התאריכים 07.10.2023–30.09.2024.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-old-years-deadline",
+      "claim": "Last day to submit תשפ\"ד and תשפ\"ה tuition assistance is 31.12.2026.",
       "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
       "raw_snippet": "מועד אחרון להגשת סיוע שכ\"ל לשנה\"ל תשפ\"ד, תשפ\"ה - 31/12/2026",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-entitlements-to-2025",
-      "claim": "Entitlements for 7.10.2023 to 31.12.2025, including private lessons in that period, may be claimed until 31.12.2026.",
+      "claim_id": "reservist-fund-old-entitlements",
+      "claim": "Entitlements for 7.10.23 to 31.12.25 may be claimed until 31.12.26.",
       "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
       "raw_snippet": "עבור זכאויות הקשורות לתקופת 7.10.23 עד 31.12.25: ניתן להגיש את הבקשות עד לתאריך 31.12.26",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-entitlements-from-2026",
-      "claim": "Fund entitlements from 1.1.2026 with no specific published window must be claimed within one year of the event.",
+      "claim_id": "reservist-fund-whatsapp",
+      "claim": "The Reserve Aid Fund WhatsApp line is 052-3964584.",
       "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "עבור זכאויות שהחלו מה-1.1.26: עומדת לרשותכם שנה שלמה ממועד האירוע להגשת הבקשה.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "raw_snippet": "למוקד המילואים בנושאי קרן הסיוע ניתן לפנות דרך הוואטסאפ במספר: 052-3964584",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-tashpav-window",
-      "claim": "The תשפ\"ו tuition-grant window is 1.8.2026 to 30.6.2027.",
-      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "ניתן להגיש בקשות בין התאריכים 01.08.2026 ועד 30.06.2027.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "reservist-private-lessons",
+      "claim": "Private-lesson reimbursement for 21+ days: up to NIS 3,000 for tiers A+ and A.",
+      "source_url": "https://www.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "יהיו זכאים עד ל ₪ 3,000-בשנה קלנדרית.",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-private-lessons-b",
+      "claim": "Up to NIS 2,500 for tier B.",
+      "source_url": "https://www.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "ביחידות במדרג ב' בחפיפה לשנת הלימודים תשפ״ו ,יהיו זכאים עד ל ₪ 2,500-בשנה קלנדרית.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "reservist-private-lessons-c",
+      "claim": "Up to NIS 2,000 for tiers C to E.",
+      "source_url": "https://www.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "ביחידות במדרג ג׳-ה׳ בחפיפה לשנת הלימודים תשפ״ו ,יהיו זכאים עד ל ₪ 2,000-בשנה קלנדרית.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "perach-reserve-supplement",
+      "claim": "PEREACH reservist supplement NIS 2,600 for 10+ active days, plus NIS 900 for an active reservist, NIS 3,500 total.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "המלגה מקנה תוספת של ₪2,600 למלגת הפר\"ח הבסיסית. להטבה זכאים סטודנטים שלקחו חלק בתוכנית פר\"ח וביצעו 10 ימי שמ\"פ לפחות בשנה (לעניין זה בין יולי ליולי) סטודנט שעונה להגדרה משרת מילואים פעיל יהיה זכאי לתוספת של ₪900 נוספים ע\"י צה\"ל (סה\"כ ₪3,500)",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "fund-tashpav-mahat",
-      "claim": "Students at technological (MAHAT) colleges may apply from 1.11.2026 to 30.6.2027.",
-      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
-      "raw_snippet": "עבור סטודנטים הלומדים במוסדות מה\"ט ניתן להגיש בקשות בין 01.11.2026 ועד 30.06.2027.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "credit-relief-tashpad",
+      "claim": "תשפ\"ד credit relief: 30 to 60 days 6 points, 61 to 99 days 8, 100+ days 10.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מי ששירת במילואים תקופה של 61 עד 99 ימים: (1) פטור מ-8 נקודות זכות",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
-        "scripts/match_scholarships.py"
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
       ],
       "verified_via": "browser",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
     },
     {
-      "claim_id": "mimadim-first-application",
-      "claim": "The Mimadim eligibility window limits the first application.",
-      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
-      "raw_snippet": "תקופת הזכאות להגשת בקשה ראשונה למלגת 'ממדים ללימודים' היא עד 5 שנים מיום השחרור משירות חובה.",
-      "fetched_at": "2026-11-23T02:00:00Z",
+      "claim_id": "credit-relief-tashpad-10",
+      "claim": "100+ days: 10 points.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מי ששירת במילואים תקופה של 100 ימים לפחות: (1) פטור מ-10 נקודות זכות",
+      "fetched_at": "2026-11-23T02:30:00Z",
       "appears_in": [
         "SKILL.md",
         "SKILL_HE.md",
         "references/scholarship-table.md",
-        "references/domain-checklist.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "credit-relief-tashpad-6",
+      "claim": "30 to 60 days: 6 points.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מי ששירת במילואים תקופה של 30 עד 60 ימים: (1) פטור מ-6 נקודות זכות",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "credit-relief-tashpah",
+      "claim": "From תשפ\"ה: 21+ days a semester 6 points, MA 4, cumulative cap 10 BA and 4 MA.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "פטור מ-6 נ\"ז בתואר ראשון או 4 נ\"ז בתואר שני. בקורסי בחירה, בקורסים כלליים ובקורסים אחרים כפי שקבע המוסד, ולכל היותר 10 נ\"ז בתואר ראשון ו-4 נ\"ז בתואר שני, במצטבר בכל התואר כולל פטורים שניתנו בשנים קודמות.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "credit-relief-tashpah-35",
+      "claim": "From תשפ\"ה: 35+ days a semester 8 points.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "סטודנטים ששירתו 35 יום ומעלה במצטבר במהלך הסמסטר",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "personal-grant-1100",
+      "claim": "The personal-expenses grant for 7.10.2023 to 31.12.2025 is NIS 1,100, for 8+ days under Order 8.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%90%D7%99%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%9E%D7%99_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_%D7%A6%D7%95_8_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
+      "raw_snippet": "עבור מילואים שבוצעו במהלך תקופה שבין ה-07.10.2023 ועד 31.12.2025 מענק בסכום של 1,100 ₪.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "personal-grant-2026",
+      "claim": "2026 daily rates by tier: 46, 39, 31, 18, 11.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%90%D7%99%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%9E%D7%99_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_%D7%A6%D7%95_8_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
+      "raw_snippet": "46 ₪ - מדרג א'+ 39 ₪ - מדרג א' 31 ₪ - מדרגים ב' ו-ג' 18 ₪ - מדרג ד' 11 ₪ - מדרג ה'",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "personal-grant-2026-rule",
+      "claim": "2026: 40+ days, paid daily from day 41.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%90%D7%99%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%9E%D7%99_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_%D7%A6%D7%95_8_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
+      "raw_snippet": "המענק עבור מילואים שבוצעו בשנת 2026 ישולם באופן יומי החל מהיום ה-41 לשירות המילואים",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "family-grant",
+      "claim": "Reservists with a child under 14 receive a NIS 2,000 family grant during the war.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A2%D7%A0%D7%A7_%D7%94%D7%95%D7%A6%D7%90%D7%95%D7%AA_%D7%90%D7%99%D7%A9%D7%99%D7%95%D7%AA_%D7%9C%D7%9E%D7%99_%D7%A9%D7%A9%D7%99%D7%A8%D7%AA%D7%95_%D7%91%D7%9E%D7%A1%D7%92%D7%A8%D7%AA_%D7%A6%D7%95_8_%D7%91%D7%9E%D7%9C%D7%97%D7%9E%D7%AA_%D7%97%D7%A8%D7%91%D7%95%D7%AA_%D7%91%D7%A8%D7%96%D7%9C",
+      "raw_snippet": "משרתי מילואים שיש להם ילד מתחת לגיל 14, זכאים במהלך המלחמה גם למענק משפחה בסך 2,000 ₪.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach",
+      "claim": "PEREACH base track is about 114 hours (100 + 14 training).",
+      "source_url": "https://milgapo.co.il/?milga=_perach",
+      "raw_snippet": "כ-114 שעות במהלך שנת הלימוד, כלומר 100 שעות + 14 שעות של הכשרה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach-amount",
+      "claim": "PEREACH grant is NIS 7,000 as of תשפ\"ו.",
+      "source_url": "https://www.study.co.il/%D7%A4%D7%A8%D7%97/",
+      "raw_snippet": "נכון לשנת תשפ\"ו, סכום המלגה עומד על 7,000 שקלים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach-enhanced",
+      "claim": "The enhanced track pays NIS 10,000 for 130 hours with Mifal HaPais, in some cities only.",
+      "source_url": "https://www.study.co.il/%D7%A4%D7%A8%D7%97/",
+      "raw_snippet": "מלגה מורחבת: מתקיימת במסגרת שיתוף פעולה עם מפעל הפיס, בערים מסוימות בלבד ולא בכל המיקומים בארץ. גובה הסיוע 10,000 שקלים, קבלת הסכום מותנית בביצוע 130 שעות התנדבות.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach-window",
+      "claim": "PEREACH's official site says registration is open and ends toward the end of November.",
+      "source_url": "https://www.perach.org.il/",
+      "raw_snippet": "ההרשמה לפר\"ח פתוחה! סיום הרשמה לקראת סוף נובמבר",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "adams",
+      "claim": "Adams runs for a period of up to four consecutive years.",
+      "source_url": "https://adams.academy.ac.il/fellowships/",
+      "raw_snippet": "for a period of up to four consecutive years",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "adams-amounts",
+      "claim": "Adams amounts.",
+      "source_url": "https://adams.academy.ac.il/fellowships/",
+      "raw_snippet": "Fellows are fully exempt from tuition and receive fellowships of NIS 100,000/year. In addition, $3,000 are provided annually",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "adams-fields",
+      "claim": "Adams covers exact sciences, life sciences, mathematics, computer science, information science and engineering.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=847",
+      "raw_snippet": "outstanding Israeli doctoral students in the exact sciences, life sciences, mathematics, computer science, information science and engineering",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "adams-window",
+      "claim": "The 2027-28 Adams call opened 29.10.2026, through institutions, until 5.1.2027.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=847",
+      "raw_snippet": "for the 2027-2028 academic year is open as of October 29, 2026. Applications must be submitted exclusively through the offices of the Rectors or Vice Presidents of the academic research institutions where the candidates are completing their doctoral studies. Applications can be submitted by the institutions to the Israel Academy until January 5, 2027.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild",
+      "claim": "Rothschild candidates may hold up to USD 75,000/year in supplementary funding, excluding research grants, conference travel, health insurance and employee benefits.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "Candidates may receive supplementary funding of up to $75,000 per year.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-exceed",
+      "claim": "A Fellow exceeding USD 75,000 loses the primary award and keeps travel and family support.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "external funding exceeding $75,000 during the fellowship tenure, will lose eligibility for the primary fellowship award, though eligibility for travel and family support is retained.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-cutoff",
+      "claim": "Rothschild 2027-28: PhD awarded after November 2023.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "Candidates are eligible only if their doctoral degree was awarded after November 2023",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-timetable",
+      "claim": "University nominations for 2027-28 were due 1 November 2026.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "Deadline for receipt of university-nominated 1 November 2026",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-start",
+      "claim": "Fellowship starts between 1 June 2027 and 1 December 2027.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "between 1 June 2027 and 1 December 2027",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-rate",
+      "claim": "Track 46 pays up to 50% of university tuition for up to three years to funded-mechina graduates.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "מעניקה השתתפות במימון עד 50% משכר הלימוד האוניברסיטאי למשך עד שלוש שנים",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-page",
+      "claim": "Rothschild Fellows programme page, with eligibility and links to the current guidelines.",
+      "source_url": "https://www.yadhanadiv.org.il/rothschild-fellows/",
+      "raw_snippet": "Application Guidelines – Rothschild Fellows 2027-28 Application",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "impact-hours",
+      "claim": "IMPACT! fellows perform 130 community hours in each year the scholarship is granted.",
+      "source_url": "https://fidfimpact.org/impact-%d7%91%d7%a7%d7%94%d7%99%d7%9c%d7%94/",
+      "raw_snippet": "כל מלגאי בתכנית מתבקש לבצע 130 שעות נתינה למען הקהילה, בכל שנה בה מוענקת לו המלגה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach-milgapo-close",
+      "claim": "Milgapo lists PEREACH submission as 02.09.2026 to 29.11.2026.",
+      "source_url": "https://milgapo.co.il/?milga=_perach",
+      "raw_snippet": "מתי להגיש 02.09.2026 - 29.11.2026",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
         "scripts/match_scholarships.py"
       ],
       "verified_via": "curl",
-      "verified_at": "2026-11-23T02:00:00Z"
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "pereach-graduate",
+      "claim": "PEREACH is open to BA, MA, PhD and certificate students.",
+      "source_url": "https://milgapo.co.il/?milga=_perach",
+      "raw_snippet": "מתאימה ללומדים לימודי תואר ראשון, תואר שני, תואר שלישי או לימודי תעודה",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-amounts",
+      "claim": "MilGo pays NIS 5,000, 7,500, 10,000 or 12,480; expected December 2026.",
+      "source_url": "https://milgapo.co.il/scholarships/milgo",
+      "raw_snippet": "מלגת מילגו לשנת תשפ\"ז תפתח להגשה במהלך חודש דצמבר 2026",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-levels",
+      "claim": "MilGo levels by eligibility.",
+      "source_url": "https://milgapo.co.il/scholarships/milgo",
+      "raw_snippet": "סכום המלגה יכול לעמוד על 5,000 ש\"ח, 7,500 ש\"ח, 10,000 ש\"ח או 12,480 ש\"ח",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-che-date",
+      "claim": "CHE will publish the תשפ\"ז MilGo opening date.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "מועד פתיחת אפשרות הגשת הבקשות עבור שנת תשפ\"ז יתפרסם בהמשך על ידי המל\"ג.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-mimadim-offset",
+      "claim": "CHE and the MoD cancelled the MilGo and Mimadim offset on 18.5.2026.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "בתאריך 18/5/2026 הוחלט על ידי המועצה להשכלה גבוהה והאגף לחיילים משוחררים במשרד הביטחון על ביטול הקיזוז בין המלגות \"מיל-GO\" ומלגת ממדים ללימודים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-operator",
+      "claim": "MilGo is run by CHE and PEREACH, on criteria relative to that year's applicants.",
+      "source_url": "https://www.study.co.il/P47538/",
+      "raw_snippet": "מנוהלת כיום על ידי המל\"ג ופר\"ח",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mod-periphery-5of6",
+      "claim": "Track 45 requires a registered address in a priority area in five of the six years before studies.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "אשר כתובתם הרשומה בחמש מתוך שש השנים שקדמו לתחילת הלימודים היא באזורי עדיפות לאומית",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mod-periphery-window",
+      "claim": "Post-discharge window: 5 years, 10 for lone soldiers and active reservists.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "חיילים בודדים ומשרתי מילואים פעילים: החל מ-3 חודשים לפני השחרור ועד 10 שנים מיום סיום השירות הסדיר.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-no-mimadim",
+      "claim": "Track 46 cannot combine with Mimadim; 30% reservists are topped to 50%.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "שילוב עם מלגות \"פריפריה\" אחרות (44, 45) או \"ממדים ללימודים\": אין כפל מלגות.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-topup",
+      "claim": "Track 46 top-up to 50%.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "תומכי לחימה שקיבלו 30% מימון מהמילואים – האגף ישלים עבורם את היתרה ל-50% שכר לימוד אוניברסיטאי.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-44-conditions",
+      "claim": "Track 44 depends on completing the first year; 12-month national service gets up to 50%.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "raw_snippet": "הזכאות למלגה מותנית בהשלמת שנת הלימודים הראשונה במלואה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-44-half",
+      "claim": "Up to 50% for 12-month national service.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "raw_snippet": "למימון של עד 50% זכאים: מסיימות ומסיימי שירות לאומי-אזרחי, ששירתו 12 חודשים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-ma",
+      "claim": "The Mimadim page lists BA, MA and art certificate studies.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "המלגה עבור תואר ראשון, תואר שני או לימודי תעודה באומנות",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-documents",
+      "claim": "The final submission needs study approval and payment statement for every funded year; receipts are not accepted.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "גיליון תשלומים מפורט (לא קבלות)",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-documents-final",
+      "claim": "Final-year submission covers all funded years.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "יש להגיש אישור לימודים וגיליון תשלומים עבור כל שנת הלימודים עבורם קיבלו את המלגה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "alix",
+      "claim": "Alix de Rothschild is for doctoral students in humanities and social sciences; applications through institutions until 5.1.2027.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696",
+      "raw_snippet": "Applications can be submitted by the institutions to the Israel Academy until January 5, 2027",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "alix-scope",
+      "claim": "Alix de Rothschild scope.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696",
+      "raw_snippet": "granted annually to exceptional doctorate students in the humanities and social sciences at Israeli universities",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-33",
+      "claim": "The Fund page lists 33% for other units in תשפ\"ה and תשפ\"ד.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "מערך הלוחם: 100%. יתר המערכים: 33%.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-private-old",
+      "claim": "תשפ\"ד and תשפ\"ה private lessons: combat 100+ days up to NIS 3,000, 21+ days up to NIS 2,000, until 31.12.26.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "לוחמים (מערך לוחם) שביצעו 100 ימים ומעלה: זכאות של עד 3,000 ש״ח. כלל המשרתים שביצעו 21 ימים ומעלה (במצטבר): זכאות של עד 2,000 ש״ח. שימו לב, ההגשה עבור שנים אלו תהיה עד לתאריך 31.12.26",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-haimash",
+      "claim": "MAHAT students funded by Haimash get an extra 10%.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "יהיו זכאים לסיוע נוסף בגובה 10% משכר הלימוד",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-tier-rule",
+      "claim": "The determining tier is where most days were served.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "המדרג הקובע הוא המדרג בו בוצעו מרבית ימי המילואים",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-institutional",
+      "claim": "The regulations also name institutional scholarships.",
+      "source_url": "https://www.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "'מדים ללימודים' ומלגת פריפריה ,או מלגות מוסדיות",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "takanon-tashpad-date",
+      "claim": "The 2026 regulations print the תשפ\"ד window as ending 30/9/2025.",
+      "source_url": "https://www.miluim.idf.il/api/v1/Media/a5lkccg4/%D7%AA%D7%A7%D7%A0%D7%95%D7%9F-%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-plus-%D7%9E%D7%A1%D7%9E%D7%9A-%D7%9E%D7%A9%D7%9C%D7%99%D7%9D-plus-%D7%94%D7%95%D7%A8%D7%90%D7%AA-%D7%9E%D7%A2%D7%91%D7%A8-57.pdf",
+      "raw_snippet": "7/10/23ועד ,30/9/2025",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "credit-licensed-exception",
+      "claim": "Licensed-profession students with 100+ days get 8 credits.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "ההנדסה ומקצועות אשר חלה עליהם חובת רישוי מקצועי, למעט הוראה, יהיה זכאי לפטור מ-8 נקודות זכות",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "credit-tashpah-triggers",
+      "claim": "From תשפ\"ה the 6-credit tier also covers 35+ days a year and 60+ days starting in the 3 months before the year.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "סטודנטים ששירתו 21 יום ומעלה במצטבר במהלך הסמסטר / 35 יום ומעלה במצטבר בכל שנת הלימודים / 60 ימי מילואים ומעלה",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "impact-window",
+      "claim": "IMPACT registration is 1.3 to 31.5 each year.",
+      "source_url": "https://fidfimpact.org/%d7%90%d7%95%d7%93%d7%95%d7%aa/",
+      "raw_snippet": "ההרשמה למלגה פתוחה מדי שנה בתאריכים : 1.3 - 31.5",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "impact-age30",
+      "claim": "Up to age 30 with 180+ war reserve days to 31.12.25.",
+      "source_url": "https://fidfimpact.org/%d7%90%d7%95%d7%93%d7%95%d7%aa/",
+      "raw_snippet": "או עד גיל 30 (משנת לידה 1997 ואילך) – למי ששירת לפחות 180 ימי מילואים במלחמה (החל מ- 7.10.23 ועד ה-31.12.25).",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-age",
+      "claim": "Student Authority: BA, hand-engineer or certificate by age 27.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "לימודי תואר ראשון, הנדסאים או תעודה ניתן להתחיל עד גיל 27.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-age-ma",
+      "claim": "MA by age 30.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "לימודי תואר שני או הסבה לבעלי תואר ראשון ניתן להתחיל עד גיל 30.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-36",
+      "claim": "Studies must start within 36 months of status, excluding service.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "יש להתחיל את הלימודים בתוך 36 חודשים מקבלת המעמד",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-shachak",
+      "claim": "Funding requires community service.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "המימון ניתן לכל אחת משנות הלימוד ומותנה בביצוע שירות חברתי קהילתי (שח\"ק).",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-avg",
+      "claim": "A 60 average is required to continue.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "גיליון ציונים (להמשך הזכאות נדרש ממוצע 60 לפחות).",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rothschild-exception",
+      "claim": "PhD-date exceptions may be considered.",
+      "source_url": "https://www.yadhanadiv.org.il/wp-content/uploads/2026/08/Application-Guidelines-Rothschild-Fellows-2027-28.pdf",
+      "raw_snippet": "exceptions may be considered",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-phone",
+      "claim": "The MoD discharged-soldiers hotline is *5266.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "במספר 5266*",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-33-note",
+      "claim": "33% for other units.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "יתר המערכים: 33%.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-haimash-10",
+      "claim": "Extra 10% for Haimash-funded MAHAT reservists.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "בגובה 10% משכר הלימוד",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "alix-page",
+      "claim": "Alix de Rothschild Fellowship page.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696",
+      "raw_snippet": "The Alix De Rothschild Fellowship Program for Doctoral Students in Humanities and Social Sciences",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-rules-page",
+      "claim": "Kol Zchut page on tuition funding for olim students.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "סטודנטים חדשים שמתחילים ללמוד בסמסטר א' יגישו את הבקשה עד ל-10 בנובמבר.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-guide-page",
+      "claim": "study.co.il MilGo guide lists level A at NIS 12,480.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "מדרגה א' – 12,480 שקלים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/reservist-benefits.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-technical-levels",
+      "claim": "Hand-engineer and technician MilGo levels are NIS 8,600, 6,000, 4,500 and 3,000.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "מדרגה א' – 8,600 שקלים. מדרגה ב – 6,000 שקלים. מדרגה ג' – 4,500 שקלים. מדרגה ד' – 3,000 שקלים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-exclusions",
+      "claim": "MilGo excludes teacher-training tracks, MA students and Israeli branches of foreign institutions.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "המלגה לא מתאימה למשתתפי מסלולים להכשרה בהוראה, לתלמידי תואר שני או לתלמידי סניפים ישראליים של מוסדות אקדמיים מחו\"ל.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-prior-degree",
+      "claim": "MilGo requires no prior academic degree.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "אין תואר אקדמי קודם, זהו התואר הראשון אותו לומד הסטודנט.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-reuyim",
+      "claim": "Reuyim LeSiyua recipients cannot receive MilGo.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "סטודנטים המקבלים את מלגת \"ראויים לסיוע\" אינם יכולים לקבל מלגה זו!",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "alix-conditions",
+      "claim": "Alix is for Israeli citizens who need a fellowship and have an approved research proposal.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696",
+      "raw_snippet": "intended for students who are Israeli citizens pursuing a doctoral degree at Israel’s universities and research institutions and require a fellowship to complete their studies",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "alix-proposal-amount",
+      "claim": "Alix requires an approved proposal and pays USD 15,000.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=1696",
+      "raw_snippet": "who have received approval for their research proposal and whose research is especially promising and worthy of recognition. Each fellowship is $15,000",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-reapply",
+      "claim": "Track 46 is a one-time payment per year and must be applied for again every year.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "המלגה מועברת כסכום חד פעמי לחשבון הפיקדון האישי שלכם (יש להגיש בקשה בכל שנה מחדש).",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-mechina",
+      "claim": "Track 46 needs a funded mechina begun by the fourth year after discharge.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "מי שסיימו מכינה קדם אקדמית במימון הקרן, והחלו את לימודי המכינה עד השנה הרביעית מיום השחרור לכל היותר.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-44-full",
+      "claim": "Track 44 funds the first year in full after full service.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "raw_snippet": "למימון מלא של שכר הלימוד לשנה הראשונה זכאים: • חיילות וחיילים משוחררים, שהשלימו את כל תקופת השירות הנדרשת לפי החוק.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-rolling",
+      "claim": "Entitlements from 1.1.26 must be claimed within a year of the event.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "עבור זכאויות שהחלו מה-1.1.26: עומדת לרשותכם שנה שלמה ממועד האירוע להגשת הבקשה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-cap-funded",
+      "claim": "MilGo excludes other aid above NIS 8,400 at state-funded institutions, with listed exceptions.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "הלומדים במוסדות מתוקצבים על ידי המדינה המקבלים סיוע במימון בגובה מעל 8400 שקלים, למעט מלגות פרח",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-cap-unfunded",
+      "claim": "MilGo excludes other aid above NIS 16,800 elsewhere.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "לומדים במוסדות שלא מתוקצבים על ידי המדינה ומקבלים סיוע במימון מעל 16,800 שקלים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-min-tuition",
+      "claim": "MilGo excludes annual tuition under NIS 6,519.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "סטודנטים המחויבים בתשלום שכר לימוד שנתי שגובהו פחות מ - 6519 שקלים",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "milgo-funded-handasai",
+      "claim": "MilGo excludes hand-engineers fully funded by an employer.",
+      "source_url": "https://www.study.co.il/%D7%9E%D7%9C%D7%92%D7%95%D7%AA-%D7%9E%D7%A9%D7%A8%D7%93-%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A/",
+      "raw_snippet": "הנדסאים או טכנאים המקבלים מימון מלא לשכר הלימוד מטעם מקום עבודתם.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "adams-second-year",
+      "claim": "Adams is granted in the second year of doctoral studies.",
+      "source_url": "https://academy.ac.il/RichText/GeneralPage.aspx?nodeId=847",
+      "raw_snippet": "granted each year to research students in the second year of their doctoral studies",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "handasai-mod",
+      "claim": "The MoD funds 90% of technician and hand-engineer tuition at MAHAT colleges.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "raw_snippet": "מימון של 90% משכר הלימוד שנקבע ע\"י מה\"ט",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-service-exclusion",
+      "claim": "The 36 months exclude army service with up to one career year, national service and hesder.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "לא כולל את תקופת השירות בצבא (עם עד שנת קבע אחת), שירות לאומי ושירות בישיבת הסדר למשך 4 שנים.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "rashi-moved",
+      "claim": "Maskila and Rakia moved to the Welfare Ministry at the start of תשפ\"ד, operated by Pitchon Lev.",
+      "source_url": "https://www.rashi.org.il/programs/katzir/",
+      "raw_snippet": "שתי התכניות עברו בתחילת שנת הלימודים תשפ\"ד לאחריות מלאה של משרד הרווחה והביטחון החברתי, והן מופעלות באמצעות עמותת פתחון לב.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-no-retro",
+      "claim": "The Student Authority does not give retroactive aid.",
+      "source_url": "https://www.gov.il/BlobFolder/faq/students-eligibility-conditions/he/students-authority-guide-he.pdf",
+      "raw_snippet": "לא ניתן לקבל סיוע רטרואקטיבי.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-retro",
+      "claim": "The IDF hub says Mimadim is paid in stages and also retroactively while studies and the eligibility period are valid.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "המלגה משולמת באופן מדורג לאורך תקופת התואר, וגם רטרואקטיבית ככל שהלימודים ותקופת הזכאות בתוקף.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "impact-certificate",
+      "claim": "IMPACT also admits certificate studies of at least a year at recognized institutions.",
+      "source_url": "https://fidfimpact.org/%d7%90%d7%95%d7%93%d7%95%d7%aa/",
+      "raw_snippet": "או לימודי תעודה (של שנה לפחות) במוסד לימודים המוכר",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-45-budget",
+      "claim": "Track 45 applies at MALAG-recognized institutions whose budget the state participates in.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria45.aspx",
+      "raw_snippet": "במוסדות המוכרים על ידי המועצה להשכלה גבוהה (מל\"ג),ושהמדינה משתתפת בתקציבם.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-46-budget",
+      "claim": "Track 46 applies at institutions whose budget the state participates in.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria46.aspx",
+      "raw_snippet": "המלגה עבור תואר ראשון במוסדות המוכרים על ידי המועצה להשכלה גבוהה (מל\"ג), ושהמדינה משתתפת בתקציבם",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "periphery-44-budget",
+      "claim": "Track 44 applies at institutions whose budget the state participates in.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/Perypheria44.aspx",
+      "raw_snippet": "המלגה עבור שנה ראשונה לתואר ראשון במוסדות המוכרים על ידי המועצה להשכלה גבוהה (מל\"ג),ושהמדינה משתתפת בתקציבם",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "sa-tariff",
+      "claim": "The Student Authority funds tuition up to the government tariff.",
+      "source_url": "https://www.gov.il/BlobFolder/faq/students-eligibility-conditions/he/students-authority-guide-he.pdf",
+      "raw_snippet": "שכר לימוד עד לגובה התעריף הממשלתי",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "mimadim-first-application",
+      "claim": "The Mimadim window limits the first application.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "תקופת הזכאות להגשת בקשה ראשונה למלגת 'ממדים ללימודים' היא עד 5 שנים מיום השחרור משירות חובה.",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "fund-all-to-2025",
+      "claim": "All Fund entitlements for 7.10.2023 to 31.12.2025 may be claimed until 31.12.2026.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A7%D7%A8%D7%9F-%D7%94%D7%A1%D7%99%D7%95%D7%A2-%D7%9C%D7%9E%D7%A9%D7%A8%D7%AA%D7%99-%D7%94%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D",
+      "raw_snippet": "עבור זכאויות הקשורות לתקופת 7.10.23 עד 31.12.25: ניתן להגיש את הבקשות עד לתאריך 31.12.26",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "hub-frontline-spouse",
+      "claim": "From תשפ\"ו the spouse route covers parents whose spouse serves in a frontline role.",
+      "source_url": "https://www.miluim.idf.il/articles-list/%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D-%D7%91%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D/",
+      "raw_snippet": "מתווה תשפ\"ו חל על המשרתים בתפקיד ייעודי קדמי או בני/בנות זוג שהם סטודנטים בקבוצות 2+3 ושהם הורים",
+      "fetched_at": "2026-11-23T02:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "references/reservist-benefits.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T02:30:00Z"
+    },
+    {
+      "claim_id": "orphans-two-divisions",
+      "claim": "Discharged orphans receive benefits from both the discharged-soldiers division and the Family Branch.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/OrphenSoldiers/Pages/default.aspx",
+      "raw_snippet": "זכאים לקבל סיוע והטבות הניתנות הן על ידי האגף לחיילים משוחררים ומילואים והן על ידי אגף משפחות, הנצחה ומורשת.",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "orphans-same-field",
+      "claim": "An orphan cannot use benefits in the same field from both divisions.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/OrphenSoldiers/Pages/default.aspx",
+      "raw_snippet": "לא ניתן לממש הטבות באותו תחום משני האגפים.",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "wounded-two-divisions",
+      "claim": "Wounded veterans receive benefits from the discharged-soldiers division and the Rehabilitation Branch.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/IDFDisabled/Pages/default.aspx",
+      "raw_snippet": "זכאים לקבל סיוע והטבות הניתנות על ידי האגף לחיילים משוחררים ומילואים ועל ידי אגף שיקום נכים.",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "sa-ulpan",
+      "claim": "Students in a non-Hebrew program need a completed Hebrew ulpan by the start of the second year.",
+      "source_url": "https://www.gov.il/BlobFolder/faq/students-eligibility-conditions/he/students-authority-guide-he.pdf",
+      "raw_snippet": "סטודנטים הלומדים במסלול לימודים שאינו בעברית יידרשו להציג אישור על סיום אולפן בעברית עד תחילת שנת הלימודים השנייה.",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "sa-meeting",
+      "claim": "A one-on-one advisor meeting in the first year is required to continue receiving aid.",
+      "source_url": "https://www.gov.il/BlobFolder/faq/students-eligibility-conditions/he/students-authority-guide-he.pdf",
+      "raw_snippet": "פגישה זו היא תנאי הכרחי להמשך קבלת סיוע",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "sa-fees",
+      "claim": "Student Authority tuition funding excludes accompanying fees.",
+      "source_url": "https://www.gov.il/BlobFolder/faq/students-eligibility-conditions/he/students-authority-guide-he.pdf",
+      "raw_snippet": "מלגת שכר הלימוד אינה כוללת תשלומים נלווים",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "handasai-mechina",
+      "claim": "The MoD hand-engineer funding also covers pre-engineering mechinot.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "raw_snippet": "מכינות קדם הנדסאים",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "handasai-no-third",
+      "claim": "The MoD hand-engineer funding does not cover a third year.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/PracticalEngineer/Pages/PracticalEngScholarship.aspx",
+      "raw_snippet": "אין מימון עבור לימודי שנה ג'",
+      "fetched_at": "2026-11-23T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T03:30:00Z"
+    },
+    {
+      "claim_id": "adams-stage",
+      "claim": "Adams is for research students from the second year of the doctorate, by start date.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "המלגות מיועדות לתלמידי מחקר למן השנה השנייה ללימודיהם לתואר דוקטור",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-regular-dates",
+      "claim": "Regular track: PhD start after 1.10.2025 and by 1.10.2026.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "במסלול הרגיל (אחרי קבלת התואר השני) :אחרי 1באוקטובר 2025ולא יאוחר מ1 - באוקטובר 2026",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-direct-dates",
+      "claim": "Direct or combined track: PhD start after 1.10.2024 and by 1.10.2026.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "אחרי 1באוקטובר 2024ולא יאוחר מ 1 -באוקטובר 2026",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-adjust",
+      "claim": "Reserve duty or maternity leave can adjust the start date.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "שנעדר/ה מלימודי הדוקטורט עקב שירות מילואים ו /או חופשת לידה ,ועדת המלגות תתאים את מועד תחילת הלימודים",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-no-parallel",
+      "claim": "No parallel application to Clore, Azrieli, Edmond de Rothschild or CHE quantum and data-science programs.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "אין להגיש מועמדות לשתיים מהמלגות המוזכרות בו זמנית",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-no-stipend",
+      "claim": "Fellows may not hold another living stipend.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "המלגאים אינם רשאים לקבל בו בזמן מלגת קיום נוספת",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-ta",
+      "claim": "Paid work is limited to a teaching assistantship up to 50%.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "למעט משרה בתפקיד עוזר הוראה במוסד שבו המלגאי כותב את עבודת הדוקטור שלו בהיקף של עד 50%",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "adams-term",
+      "claim": "The term is up to three years, extendable to four.",
+      "source_url": "https://www.academy.ac.il/SystemFiles2015/02112026%20Adams%20Fellowships%20call%20for%20applications%202027-2028%20updated.pdf",
+      "raw_snippet": "עד שלוש שנים עם אפשרות להארכת תקופת המלגה לעד ארבעה שנים",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "orphans-pikadon",
+      "claim": "An orphan who chooses the Family Branch benefit cannot use the Pikadon for the same purpose.",
+      "source_url": "https://www.hachvana.mod.gov.il/ExtraBenefits/OrphenSoldiers/Pages/default.aspx",
+      "raw_snippet": "במידה ובחרתם להסתייע בהטבות של אגף משפחות, הנצחה ומורשת, לא ניתן לעשות שימוש למטרות אלה מכספי הפיקדון",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "sa-age-35",
+      "claim": "Some Student Authority academic programs can start up to age 35.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%99%D7%9E%D7%95%D7%9F_%D7%A9%D7%9B%D7%A8_%D7%9C%D7%99%D7%9E%D7%95%D7%93_%D7%9C%D7%A1%D7%98%D7%95%D7%93%D7%A0%D7%98%D7%99%D7%9D_%D7%A2%D7%95%D7%9C%D7%99%D7%9D",
+      "raw_snippet": "לימודים בתוכנית עלייה אקדמית ייחודית של מינהל הסטודנטים ניתן להתחיל עד גיל 35.",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-11-23T04:30:00Z"
+    },
+    {
+      "claim_id": "pikadon-after-5",
+      "claim": "The MoD has a separate page for the deposit after 5 years.",
+      "source_url": "https://www.hachvana.mod.gov.il/MainEducation/HachvanaScholarship/Pages/UniformToStudies.aspx",
+      "raw_snippet": "פיקדון אישי לאחר 5 שנים",
+      "fetched_at": "2026-11-23T04:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/scholarship-table.md",
+        "scripts/match_scholarships.py"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-11-23T04:30:00Z"
     }
   ]
 }

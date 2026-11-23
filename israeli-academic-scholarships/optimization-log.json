@@ -32,6 +32,15 @@
         "Next cycle: the matcher hides post-service tracks when served_idf is unset and hides PEREACH from mechina students.",
         "Next cycle: periphery tracks apply only at state-budgeted institutions, and the Student Authority pays only up to the government tariff. Neither is stated."
       ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-11-23",
+      "lessons": [
+        "A matcher should not hide what it cannot settle. Treat unknown as CHECK, and test row names exactly so one row cannot satisfy another row's assertion.",
+        "Limits that apply when studies start must not be tested against current age or years since aliyah.",
+        "Official IDF pages disagree on some past-year reservist terms. Disclose the conflict and send the student to the Fund before the deadline."
+      ]
     }
   ]
 }
