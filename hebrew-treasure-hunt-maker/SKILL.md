@@ -6,6 +6,12 @@ license: MIT
 
 # Hebrew Treasure Hunt Maker
 
+## Legal notice
+
+An adult reads every card, walks the route first and stays with the children.
+
+Use at your own risk. This tool is not a substitute for advice from a qualified professional.
+
 ## Problem
 
 Parents want a treasure hunt built around their own kids and home. AI assistants write charming riddles, but they also send a 6-year-old to the balcony, hide a card on top of the fridge, put the treasure by the lit hanukkiyah, print the answer inside the riddle, and fill the prize bag with things a visiting toddler can choke on. This skill limits places and prizes to short menus and checks the plan before anything is printed.
