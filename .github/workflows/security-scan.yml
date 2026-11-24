@@ -6,11 +6,13 @@ on:
     paths:
       - '**/SKILL.md'
       - '**/scripts/**'
+      - '**/references/**'
   push:
     branches: [master]
     paths:
       - '**/SKILL.md'
       - '**/scripts/**'
+      - '**/references/**'
   workflow_dispatch:
 
 permissions:
@@ -44,7 +46,7 @@ jobs:
             BASE="${{ github.event.before }}"
           fi
 
-          DIRS=$(git diff --name-only "$BASE" "${{ github.sha }}" -- '*/SKILL.md' '*/scripts/*' | \
+          DIRS=$(git diff --name-only "$BASE" "${{ github.sha }}" -- '*/SKILL.md' '*/scripts/*' '*/references/*' | \
             sed 's|/.*||' | sort -u | tr '\n' ' ')
 
           echo "dirs=$DIRS" >> "$GITHUB_OUTPUT"

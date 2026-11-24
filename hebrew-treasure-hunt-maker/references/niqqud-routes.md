@@ -18,7 +18,7 @@ Needs Python, PyTorch and `transformers` below version 5. The first run download
 # pip install torch "transformers<5"
 from transformers import AutoModel, AutoTokenizer
 REPO = "dicta-il/dictabert-large-char-menaked"
-REV = "4dfc20b94565d7868e1c8c00bf039d38c071a062"
+REV = "4dfc20b94565d7868e1c8c00bf039d38c071a062"  # pragma: allowlist secret (Hugging Face commit pin, not a credential)
 tokenizer = AutoTokenizer.from_pretrained(REPO, revision=REV)
 model = AutoModel.from_pretrained(REPO, revision=REV, trust_remote_code=True)
 model.eval()
